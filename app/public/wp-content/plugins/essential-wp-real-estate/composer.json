@@ -1,0 +1,14 @@
+{
+    "name": "essential-wp-real-estate",
+    "description": "One of the best and advanced property listing plugin. Which is a comprehensive solution to create professional looking property listing site of any kind.",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Essential\\Restate\\": "src/"
+        },
+        "files": [ "src/functions.php","src/Front/Purchase/Payments/functions.php","src/Front/Purchase/Payments/actions.php","src/Front/Purchase/Cart/functions.php","src/Front/Purchase/Gateways/scripts.php","src/Common/Emails/actions.php","src/Common/Emails/functions.php"]
+    }
+}

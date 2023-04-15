@@ -1,0 +1,37 @@
+/* Start custom CSS for section, class: .elementor-element-7b5782e6 */.property-inner {
+    border-radius: 15px;
+    background: #EBE9E9!important;
+    /*box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);*/
+}
+.ere-property:not(.property-list) .property-inner {
+}
+.ere-property .property-item-content .property-title a{
+    font-family: Source Serif Pro;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0A2546!important;
+}
+.ere-property .property-item-content .property-title a:hover{
+    color: #0A2546!important;
+}
+.ere-property.property-grid .property-heading ,
+.ere-property .property-element-inline{
+    padding-left: 27px;
+    padding-right: 27px;
+}
+.ere-property .property-image {
+    margin: -15px -15px 0 -15px!important;
+}
+.ere-property:not(.property-zigzac) .property-location{
+    margin-left: 27px;
+}
+.ere-property.property-grid .property-info{
+    background: #bbbbbb!important;
+}
+.ere-property .property-item-content .property-info .property-info-inner>div:not(.tooltip) .property-info-value,.fa-hotel:before,.fa-bath:before  {
+    color: #fb6a19;
+}
+.ere-property .property-item-content .property-info .property-info-inner>div:not(.tooltip) .property-info-value {
+    color: black!important;
+}/* End custom CSS */

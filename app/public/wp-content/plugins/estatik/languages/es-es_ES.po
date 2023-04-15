@@ -1,0 +1,5747 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Estatik PRO\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-18 14:23+0000\n"
+"PO-Revision-Date: 2023-01-14 06:08+0000\n"
+"Last-Translator: \n"
+"Language-Team: Spanish (Spain)\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.8; wp-5.9.1\n"
+"X-Domain: es"
+
+#: templates/front/property/partials/properties-navbar.php:16
+#, php-format
+msgid "%d result"
+msgid_plural "%d results"
+msgstr[0] "%d resultado"
+msgstr[1] "%d resultados"
+
+#: includes/property-functions.php:502
+#, php-format
+msgid "%s - %s of %s homes"
+msgstr "%s - %s de %s casas"
+
+#: includes/classes/pages/admin/class-entities-archive-page.php:133
+#, php-format
+msgid "%s - %s of %s properties"
+msgstr "%s - %s de %s propiedades"
+
+#: includes/classes/data-manager/class-labels-creator.php:25
+#: includes/classes/data-manager/class-terms-creator.php:72
+#, php-format
+msgid "(ID: %s)"
+msgstr ""
+
+#: includes/classes/pages/admin/class-demo-page.php:251
+msgid "1 Estatik Theme FREE to your choice"
+msgstr "1 Tema Estatik GRATIS a tu elección"
+
+#: includes/classes/pages/admin/class-demo-page.php:191
+msgid "1 year FREE support for 1 website"
+msgstr "1 año de soporte GRATIS para 1 sitio web"
+
+#: includes/classes/pages/admin/class-demo-page.php:247
+msgid "10+ advanced widgets"
+msgstr "Más de 10 widgets avanzados"
+
+#: includes/classes/class-settings-container.php:1233
+msgid "12-hour clock"
+msgstr "reloj de 12 horas"
+
+#: includes/classes/class-settings-container.php:1234
+msgid "24-hour clock"
+msgstr "Reloj de 24 horas"
+
+#: templates/admin/demo/start.php:29
+msgid "4-minute setup with explanations"
+msgstr "Configuración de 4 minutos con explicaciones"
+
+#: templates/admin/demo/start.php:18
+msgid "5% OFF"
+msgstr ""
+"\n"
+"6 letters translated\n"
+"14994 letters left today\n"
+"5% DE DESCUENTO"
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:173
+msgid "</p>"
+msgstr "</p>"
+
+#: templates/admin/property/tabs/location.php:14
+#, php-format
+msgid ""
+"<a href=\"%s\">Set up your Google Maps API Key</a> for adding property "
+"location and using Google maps on listing pages."
+msgstr ""
+"<a href=\"%s\">Configura tu clave API de Google Maps</a> para agregar la "
+"ubicación de la propiedad y usar los mapas de Google en las páginas de "
+"listados."
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:156
+msgid ""
+"<span class=\"es-icon es-icon_check-mark\"></span><h4>Thank you!</h4><p>"
+"We've sent along your message. The agent will follow up with you soon.</p>"
+msgstr ""
+"<span class=\"es-icon es-icon_check-mark\"></span><h4>¡Gracias!</h4><p> "
+"Hemos enviado su mensaje. El agente se comunicará con usted pronto.</p>"
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:168
+msgid ""
+"<span class=\"es-icon es-icon_close\"></span><h4>Error!</h4><p>Invalid "
+"reCAPTCHA. Please, reload the page and try again.</p>"
+msgstr ""
+"<span class=\"es-icon es-icon_close\"></span><h4>¡Error!</h4><p> ReCAPTCHA "
+"no válido. Por favor, recarga la página e inténtalo de nuevo.</p>"
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:164
+msgid ""
+"<span class=\"es-icon es-icon_close\"></span><h4>Error!</h4><p>Please, "
+"confirm terms & conditions</p>"
+msgstr ""
+"<span class=\"es-icon es-icon_close\"></span><h4>¡Error!</h4><p> Por favor, "
+"confirme los términos y condiciones</p>"
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:160
+msgid ""
+"<span class=\"es-icon es-icon_close\"></span><h4>Error!</h4><p>Your message "
+"wasn't sent. Please, contact support.</p>"
+msgstr ""
+"<span class=\"es-icon es-icon_close\"></span><h4>¡Error!</h4><p> Su mensaje "
+"no fue enviado. Por favor, póngase en contacto con soporte.</p>"
+
+#: includes/classes/class-auth-init.php:301
+#, php-format
+msgid ""
+"A reset link is on its way. Please check your email inbox for %s and click "
+"the link to reset your password."
+msgstr ""
+"Un enlace de reinicio está en camino. Por favor revise su bandeja de entrada "
+"de correo electrónico para %s y haga clic en el enlace para restablecer su "
+"contraseña."
+
+#. Description of the plugin
+#, fuzzy
+#| msgid "A premium version of Estatik Real Estate plugin for Wordpress."
+msgid "A simple version of Estatik Real Estate plugin for Wordpress."
+msgstr "Una versión PRO del plugin Estatik Real Estate para Wordpress."
+
+#: includes/classes/class-auth-init.php:232
+msgid "Account doesn't exist. Please, use sign up buttons instead."
+msgstr ""
+"La cuenta no existe. Por favor, use los botones de registro en su lugar."
+
+#: includes/classes/class-settings-container.php:217
+msgid "acres"
+msgstr "hectáreas"
+
+#: includes/classes/class-migrations.php:96
+msgid "Active"
+msgstr "Activo"
+
+#: includes/classes/framework/fields/class-fields-list-selector-field.php:65
+msgid "Add"
+msgstr "Agregar"
+
+#: templates/admin/property/tabs/location.php:21
+#: templates/admin/property/tabs/location.php:23
+msgid "Add address manually"
+msgstr "Añadir dirección manualmente"
+
+#: includes/classes/framework/class-estatik-framework.php:54
+#: includes/classes/framework/fields/class-images-field.php:47
+#: includes/classes/framework/fields/class-media-field.php:77
+#: includes/classes/framework/fields/class-media-field.php:108
+msgid "Add caption"
+msgstr ""
+"Añadir un subtitulo\n"
+
+#: includes/classes/class-admin-init.php:120
+#: templates/admin/fields-builder/partials/fields-tab.php:17
+msgid "Add field"
+msgstr "Agregue campo"
+
+#: includes/classes/entities/class-property.php:396
+msgid "Add labels"
+msgstr ""
+
+#: templates/admin/settings/tabs/map-tab.php:157
+msgid "Add map marker type"
+msgstr ""
+"Agregar tipo de marcador de mapa\n"
+
+#: includes/classes/framework/fields/class-repeater-field.php:111
+msgid "Add new"
+msgstr ""
+"Agregar nuevo\n"
+
+#: includes/classes/class-settings-container.php:1074
+#: includes/classes/class-settings-container.php:1083
+msgid "Add new comment"
+msgstr ""
+"Agregar nuevo comentario\n"
+
+#: includes/classes/class-admin-menu.php:61
+#: includes/classes/class-admin-menu.php:62
+#: templates/admin/properties-archive/header.php:7
+#: includes/classes/pages/admin/class-dashboard-page.php:222
+msgid "Add new property"
+msgstr "Agregar nueva propiedad"
+
+#: includes/classes/entities/class-property.php:328
+msgid "Add open house"
+msgstr ""
+"Añadir jornada de puertas abiertas\n"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:143
+msgid "Add option"
+msgstr "Añadir opción"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:83
+msgid "Add price list"
+msgstr ""
+"Agregar lista de precios\n"
+
+#: includes/helper-functions.php:458
+msgid "Add recommended page"
+msgstr ""
+"Añadir página recomendada\n"
+
+#: templates/admin/demo/steps/step3.php:2
+msgid "Add recommended pages"
+msgstr ""
+"Añadir páginas recomendadas\n"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:578
+msgid "Add section"
+msgstr "Agregar sección"
+
+#: includes/functions.php:42
+#, php-format
+msgid "Added %s ago"
+msgstr "Agregado hace %s"
+
+#: includes/classes/class-settings-container.php:1018
+#: includes/classes/entities/class-property.php:477
+#: includes/classes/pages/admin/class-properties-archive-page.php:404
+msgid "Address"
+msgstr ""
+"Dirección\n"
+
+#: templates/admin/fields-builder/forms/field-form.php:88
+msgid "Address component"
+msgstr ""
+"Componente de dirección\n"
+
+#: includes/classes/entities/class-property.php:658
+msgid "Address components"
+msgstr "Componentes de dirección"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:8
+msgid "Address field search placeholder"
+msgstr ""
+"Marcador de posición de búsqueda de campo de dirección\n"
+
+#: templates/admin/fields-builder/forms/field-form.php:87
+msgid "Address Types and Address Component Types"
+msgstr "Tipos de direcciones y tipos de componentes de direcciones"
+
+#: includes/classes/class-settings-container.php:239
+msgid "Address, City, ZIP"
+msgstr ""
+"Dirección, Ciudad, Código Postal\n"
+
+#: templates/admin/demo/start.php:28
+msgid "adjust plugin to your needs"
+msgstr ""
+"ajusta el complemento a tus necesidades\n"
+
+#: templates/front/partials/no-found-posts.php:3
+msgid "Adjust your search by changing filters."
+msgstr ""
+"Ajuste su búsqueda cambiando los filtros.\n"
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:25
+msgid "Admin"
+msgstr ""
+"Administración\n"
+
+#: includes/classes/emails/class-new-user-registered-admin-email.php:34
+msgid "Admin new user registered"
+msgstr ""
+"Administrador nuevo usuario registrado\n"
+
+#: templates/admin/fields-builder/forms/field-form.php:51
+msgid "Admin Tab"
+msgstr "Pestaña de administración"
+
+#: includes/classes/class-address-components.php:20
+#: templates/admin/fields-builder/forms/field-form.php:96
+msgid "administrative_area_level_1"
+msgstr ""
+
+#: includes/classes/class-address-components.php:21
+#: templates/admin/fields-builder/forms/field-form.php:97
+msgid "administrative_area_level_2"
+msgstr ""
+
+#: includes/classes/class-address-components.php:22
+#: templates/admin/fields-builder/forms/field-form.php:98
+msgid "administrative_area_level_3"
+msgstr ""
+
+#: includes/classes/class-address-components.php:23
+#: templates/admin/fields-builder/forms/field-form.php:99
+msgid "administrative_area_level_4"
+msgstr ""
+
+#: includes/classes/class-address-components.php:24
+#: templates/admin/fields-builder/forms/field-form.php:100
+msgid "administrative_area_level_5"
+msgstr ""
+
+#: includes/classes/class-settings-container.php:813
+msgid "AED - UAE Dirham"
+msgstr "AED - UAE Dirham"
+
+#: includes/classes/class-settings-container.php:665
+msgid "AFN - Afghani"
+msgstr "AFN - Afghani"
+
+#: templates/admin/data-manager/tabs/units-tab.php:44
+msgid "After 100$"
+msgstr "Después de 100$"
+
+#: templates/admin/data-manager/tabs/units-tab.php:46
+msgid "After with space 100 $"
+msgstr "Después con espacio 100$"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:239
+#: templates/admin/demo/steps/step3.php:66
+msgid "Agencies"
+msgstr ""
+"Agencias\n"
+
+#: templates/admin/demo/steps/step1.php:21
+msgid "Agency"
+msgstr ""
+"Agencia\n"
+
+#: templates/admin/demo/steps/step3.php:70
+#, fuzzy
+#| msgid "Agent logo"
+msgid "Agent page"
+msgstr ""
+"Logotipo del agente\n"
+
+#: templates/admin/settings/tabs/auth-tab.php:130
+msgid "Agent registration"
+msgstr ""
+"Registro de agente\n"
+
+#: templates/admin/settings/tabs/auth-tab.php:131
+msgid "Agent registration page"
+msgstr "Página de registro de agentes"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:232
+#: templates/admin/demo/steps/step3.php:62
+msgid "Agents"
+msgstr ""
+"Agentes\n"
+
+#: includes/classes/pages/admin/class-demo-page.php:243
+msgid "Agents & Agencies support"
+msgstr ""
+"Asistencia para agentes y agencias\n"
+
+#: includes/classes/class-migrations.php:185
+msgid "Air conditioning"
+msgstr ""
+"Aire acondicionado\n"
+
+#: includes/classes/entities/class-property.php:95
+msgid "All"
+msgstr "Todos"
+
+#: includes/classes/class-settings-container.php:666
+msgid "ALL - Albanian Lek"
+msgstr "ALL - Albanian Lek"
+
+#: includes/classes/entities/class-property.php:73
+msgid "All categories"
+msgstr ""
+"Todas las categorias\n"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:431
+#: includes/classes/pages/admin/class-fields-builder-page.php:462
+#: includes/classes/pages/admin/class-settings-page.php:134
+msgid "All changes saved."
+msgstr ""
+"Todos los cambios guardados.\n"
+
+#: includes/classes/entities/class-property.php:117
+msgid "All home types"
+msgstr ""
+"Todos los tipos de hogar\n"
+
+#: templates/front/shortcodes/authentication/login-form.php:13
+msgid "All log in options"
+msgstr "Todas las opciones de inicio de sesión"
+
+#: includes/classes/widgets/class-widget.php:119
+msgid "All pages"
+msgstr ""
+"Todas las páginas\n"
+
+#: templates/front/shortcodes/authentication/buyer-register-form.php:13
+msgid "All sign up options"
+msgstr "Todas las opciones de registro"
+
+#: includes/classes/entities/class-property.php:140
+msgid "All statuses"
+msgstr "Todos los estados"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:18
+msgid ""
+"Allow only comma separated numbers. Do not add decimal points, dashes, "
+"spaces, currency signs.Ex: 5000,7000"
+msgstr ""
+"Permitir solo números separados por comas. No agregue puntos decimales, "
+"guiones, espacios, signos de moneda.Ej: 5000,7000"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:19
+msgid "Allow only comma separated numbres."
+msgstr "Permitir solo números separados por comas."
+
+#: templates/front/shortcodes/authentication/buyer-register-form.php:70
+msgid ""
+"Already have an account? <a href=\"#\" class=\"js-es-auth-item__switcher\" "
+"data-auth-item=\"login-buttons\">Log in</a>"
+msgstr ""
+"¿Ya tienes una cuenta? <a href=\"#\" class=\"js-es-auth-item__switcher\" "
+"data-auth-item=\"login-buttons\">Iniciar sesión</a>\n"
+
+#: templates/front/shortcodes/authentication/buyer-register-buttons.php:36
+msgid ""
+"Already have an account? <a href=\"#\" data-auth-item=\"login-buttons\" "
+"class=\"js-es-auth-item__switcher\">Log in</a>"
+msgstr ""
+"¿Ya tienes una cuenta? <a href=\"#\" data-auth-item=\"login-buttons\" "
+"class=\"js-es-auth-item__switcher\">Iniciar sesión</a>"
+
+#: includes/hooks.php:955
+msgid "Alt Description"
+msgstr ""
+
+#: includes/classes/class-settings-container.php:671
+msgid "AMD - Armenian Dram"
+msgstr "AMD - Armenian Dram"
+
+#: includes/classes/class-taxonomies.php:168
+#: includes/classes/entities/class-property.php:746
+msgid "Amenities"
+msgstr ""
+"Comodidades\n"
+
+#: includes/functions.php:308
+#: includes/classes/pages/admin/class-data-manager-page.php:376
+#: templates/admin/data-manager/tabs/parameters-tab.php:26
+msgid "Amenities & Features"
+msgstr ""
+"Servicios y características\n"
+
+#: includes/classes/class-taxonomies.php:169
+msgid "Amenity"
+msgstr "Amenidad"
+
+#: includes/classes/class-settings-container.php:707
+msgid "ANG - Netherlands Antillean Guilder"
+msgstr "ANG - Netherlands Antillean Guilder"
+
+#: includes/hooks.php:172
+msgid "Any"
+msgstr "Cualquier"
+
+#: includes/classes/class-settings-container.php:668
+msgid "AOA - Kwanza"
+msgstr "AOA - Kwanza"
+
+#: includes/classes/class-migrations.php:89
+msgid "Apartments"
+msgstr "Apartamentos"
+
+#: templates/admin/settings/tabs/auth-tab.php:37
+msgid "App ID"
+msgstr ""
+"Identificación de la aplicación\n"
+
+#: templates/admin/settings/tabs/auth-tab.php:43
+msgid "App secret"
+msgstr ""
+"App secreta\n"
+
+#: includes/classes/widgets/class-widget.php:46
+msgid "Archive page"
+msgstr "Página de archivo"
+
+#: includes/classes/widgets/class-widget.php:49
+msgid "Archive Property Page"
+msgstr ""
+"Archivar página de propiedades\n"
+
+#: includes/classes/data-manager/class-terms-creator.php:180
+#, php-format
+msgid "Are you sure you want to delete %d Option(s)?"
+msgstr ""
+"¿Está seguro de que desea eliminar %d opción(es)?\n"
+
+#: includes/helper-functions.php:644
+#, php-format
+msgid "Are you sure you want to delete %s field?"
+msgstr ""
+"¿Está seguro de que desea eliminar el campo %s?\n"
+
+#: includes/helper-functions.php:645
+#, php-format
+msgid "Are you sure you want to delete %s section?"
+msgstr ""
+"¿Está seguro de que desea eliminar la sección %s?\n"
+
+#: includes/classes/data-manager/class-locations-creator.php:120
+#: includes/classes/data-manager/class-labels-creator.php:17
+#: includes/classes/data-manager/class-terms-creator.php:68
+#: includes/classes/data-manager/class-features-creator.php:24
+#, php-format
+msgid "Are you sure you want to delete <b>%s</b> Option?"
+msgstr "¿Está seguro de que desea eliminar la opción %s?"
+
+#: includes/classes/entities/class-property.php:259
+msgid "Area"
+msgstr ""
+"Área\n"
+
+#: templates/admin/settings/tabs/general-tab.php:24
+msgid "Area unit"
+msgstr ""
+"Unidad de área\n"
+
+#: includes/classes/pages/admin/class-data-manager-page.php:398
+#: templates/admin/data-manager/tabs/units-tab.php:6
+msgid "Area units"
+msgstr ""
+"Unidades de área\n"
+
+#: includes/classes/entities/class-property.php:259
+#, php-format
+msgid "Area, %s"
+msgstr "Área, %s"
+
+#: includes/classes/class-settings-container.php:670
+msgid "ARS - Argentine Peso"
+msgstr "ARS - Argentine Peso"
+
+#: includes/functions.php:314
+#: includes/classes/shortcodes/class-request-form-shortcode.php:52
+msgid "Ask an Agent About This Home"
+msgstr ""
+"Pregúntele a un agente sobre esta casa\n"
+
+#: includes/classes/class-migrations.php:117
+msgid "Asphalt"
+msgstr ""
+"Asfalto\n"
+
+#: templates/front/shortcodes/authentication/reset-form.php:35
+#: templates/front/shortcodes/authentication/buyer-register-form.php:61
+#: templates/front/shortcodes/profile/partials/change-password-form.php:22
+msgid "At least 8 characters"
+msgstr "Al menos 8 carácteres"
+
+#: includes/classes/class-polylang-init.php:109
+#, php-format
+msgid "Attachments successfully copied from %s (in %s)"
+msgstr ""
+
+#: includes/classes/class-settings-container.php:662
+msgid "AUD - Australian Dollar"
+msgstr "AUD - Australian Dollar"
+
+#: templates/front/shortcodes/authentication/reset-form.php:44
+#: templates/front/shortcodes/authentication/buyer-register-form.php:39
+#: templates/front/shortcodes/authentication/login-form.php:26
+msgctxt "authenticate form"
+msgid "Email"
+msgstr "Email"
+
+#: templates/front/shortcodes/authentication/buyer-register-form.php:47
+#: templates/front/shortcodes/authentication/login-form.php:33
+msgctxt "authenticate form"
+msgid "Password"
+msgstr "Contraseña"
+
+#: includes/classes/widgets/class-widget.php:52
+msgid "Author Page"
+msgstr ""
+"Página del autor\n"
+
+#: includes/classes/class-migrations.php:99
+msgid "Auto-draft"
+msgstr ""
+"Borrador automático\n"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:29
+msgid "Autocomplete will be done with data used on your database"
+msgstr ""
+"El autocompletado se realizará con los datos utilizados en su base de datos\n"
+
+#: includes/classes/widgets/elementor/class-elementor-properties-slider-widget.php:98
+msgid "Autoplay"
+msgstr ""
+"Auto-reproducción\n"
+
+#: includes/classes/widgets/elementor/class-elementor-properties-slider-widget.php:104
+msgid "Autoplay timeout"
+msgstr "Tiempo de espera de reproducción automática"
+
+#: includes/classes/class-settings-container.php:672
+msgid "AWG - Aruban Florin"
+msgstr "AWG - Aruban Florin"
+
+#: includes/classes/class-settings-container.php:673
+msgid "AZN - Azerbaijanian Manat"
+msgstr "AZN - Azerbaijanian Manat"
+
+#: templates/front/shortcodes/authentication/reset-form.php:54
+msgid "Back to login"
+msgstr ""
+"Atrás para iniciar sesión\n"
+
+#: includes/property-functions.php:770
+msgid "Back to Search Results"
+msgstr ""
+"Regresar a los resultados de búsqueda\n"
+
+#: includes/classes/widgets/class-search-form-widget.php:104
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:84
+#: includes/classes/widgets/elementor/class-elementor-request-form-widget.php:105
+msgid "Background color"
+msgstr "Color de fondo"
+
+#: includes/classes/class-migrations.php:189
+msgid "Balcony"
+msgstr "Balcón"
+
+#: includes/classes/class-settings-container.php:686
+msgid "BAM - Convertible Mark"
+msgstr "BAM - Convertible Mark"
+
+#: includes/classes/class-taxonomies.php:133
+#: includes/classes/class-taxonomies.php:134
+#: includes/classes/entities/class-property.php:793
+msgid "Basement"
+msgstr ""
+"Sótano\n"
+
+#: includes/classes/entities/class-property.php:170
+msgid "Basic facts"
+msgstr ""
+"Hechos básicos\n"
+
+#: includes/functions.php:252
+msgid "Basics"
+msgstr ""
+"Lo esencial\n"
+
+#: includes/functions.php:73 includes/classes/entities/class-property.php:183
+msgid "bath"
+msgid_plural "baths"
+msgstr[0] "baño"
+msgstr[1] "baños"
+
+#: includes/classes/class-settings-container.php:228
+#: includes/classes/entities/class-property.php:178
+msgid "Bathrooms"
+msgstr ""
+"Baños\n"
+
+#: includes/classes/pages/admin/class-properties-archive-page.php:383
+msgid "Baths"
+msgstr "Baños"
+
+#: includes/classes/entities/class-property.php:184
+msgid "baths"
+msgstr "baños"
+
+#: includes/classes/class-settings-container.php:677
+msgid "BBD - Barbados Dollar"
+msgstr "BBD - Barbados Dollar"
+
+#: includes/classes/class-settings-container.php:676
+msgid "BDT - Bangladesh taka"
+msgstr "BDT - Bangladesh taka"
+
+#: includes/functions.php:69 includes/classes/entities/class-property.php:161
+msgid "bed"
+msgid_plural "beds"
+msgstr[0] "cama"
+msgstr[1] "camas"
+
+#: includes/classes/class-settings-container.php:227
+#: includes/classes/entities/class-property.php:167
+msgid "Bedrooms"
+msgstr "Dormitorios"
+
+#: includes/classes/pages/admin/class-properties-archive-page.php:382
+msgid "Beds"
+msgstr "Camas"
+
+#: includes/classes/entities/class-property.php:162
+msgid "beds"
+msgstr "camas"
+
+#: templates/admin/data-manager/tabs/units-tab.php:43
+msgid "Before $100"
+msgstr ""
+"Antes de $100\n"
+
+#: templates/admin/data-manager/tabs/units-tab.php:45
+msgid "Before with space $ 100"
+msgstr "Antes con espacio $100"
+
+#: includes/classes/class-migrations.php:194
+msgid "Bellhop"
+msgstr "Botones"
+
+#: includes/classes/class-settings-container.php:663
+msgid "BGN - Bulgarian Lev"
+msgstr ""
+"BGN - Bulgarian Lev\n"
+
+#: includes/classes/class-settings-container.php:675
+msgid "BHD - Bahraini Dinar"
+msgstr ""
+"BHD - Bahraini Dinar\n"
+
+#: includes/classes/class-settings-container.php:691
+msgid "BIF - Burundi Franc"
+msgstr "BIF - Burundi Franc"
+
+#: includes/classes/class-settings-container.php:681
+msgid "BMD - Bermudian Dollar"
+msgstr ""
+"BMD - Bermudian Dollar\n"
+
+#: includes/classes/class-settings-container.php:690
+msgid "BND - Brunei Dollar"
+msgstr "BND - Brunei Dollar"
+
+#: includes/classes/class-settings-container.php:684
+msgid "BOB - Boliviano"
+msgstr "BOB - Boliviano"
+
+#: includes/classes/class-settings-container.php:685
+msgid "BOV - Mvdol"
+msgstr "BOV - Mvdol"
+
+#: includes/classes/class-migrations.php:126
+msgid "Brick"
+msgstr "Ladrillo"
+
+#: includes/classes/class-settings-container.php:689
+msgid "BRL - Brazilian Real"
+msgstr "BRL - Brazilian Real"
+
+#: includes/classes/class-settings-container.php:674
+msgid "BSD - Bahamian Dollar"
+msgstr "BSD - Bahamian Dollar"
+
+#: includes/classes/class-settings-container.php:682
+msgid "BTN - Ngultrum"
+msgstr "BTN - Ngultrum"
+
+#: includes/functions.php:284
+msgid "Building Details"
+msgstr "Detalles del edificio"
+
+#: templates/admin/data-manager/tabs/parameters-tab.php:58
+msgid "Building details"
+msgstr ""
+"Detalles del edificio\n"
+
+#: includes/classes/class-migrations.php:118
+msgid "Built-up"
+msgstr "Construida"
+
+#: includes/classes/widgets/elementor/class-elementor-authentication-widget.php:76
+msgid "Buyer register buttons"
+msgstr "Botones de registro de compradores"
+
+#: includes/classes/widgets/elementor/class-elementor-authentication-widget.php:75
+msgid "Buyer register form"
+msgstr ""
+"Formulario de registro de compradores\n"
+
+#: templates/admin/settings/tabs/auth-tab.php:103
+msgid "Buyer registration"
+msgstr ""
+"Registro de comprador\n"
+
+#: templates/admin/settings/tabs/auth-tab.php:104
+msgid "Buyer registration page"
+msgstr ""
+"Página de registro del comprador\n"
+
+#: includes/classes/pages/admin/class-migration-page.php:78
+msgid "Buyers migrated."
+msgstr "Los compradores migraron."
+
+#: includes/classes/class-settings-container.php:687
+msgid "BWP - Pula"
+msgstr "BWP - Pula"
+
+#: includes/classes/entities/class-property.php:314
+msgid "By appointment only"
+msgstr "Solo por cita"
+
+#: includes/hooks.php:305
+#, php-format
+msgid "By clicking the %s button you agree to the %s and %s"
+msgstr "Al hacer clic en el botón %s, acepta los %s y %s"
+
+#: templates/admin/settings/tabs/terms-tab.php:12
+msgid ""
+"By clicking the «BUTTON» button you agree to the Terms of Use and Privacy "
+"Policy"
+msgstr ""
+"Al hacer clic en el botón «BOTÓN», acepta los Términos de uso y la Política "
+"de privacidad"
+
+#: includes/classes/widgets/class-properties-filter-widget.php:53
+msgid "by filtering"
+msgstr ""
+"filtrando\n"
+
+#: includes/classes/widgets/class-properties-filter-widget.php:52
+msgid "by ID"
+msgstr "por identificación"
+
+#: includes/classes/class-settings-container.php:678
+msgid "BYN - Belarussian Ruble"
+msgstr "BYN - Belarussian Ruble"
+
+#: includes/classes/class-settings-container.php:679
+msgid "BZD - Belize Dollar"
+msgstr "BZD - Belize Dollar"
+
+#: includes/classes/class-migrations.php:212
+msgid "Cable TV"
+msgstr "Televisión por cable"
+
+#: includes/classes/class-settings-container.php:659
+msgid "CAD - Canadian Dollar"
+msgstr "CAD - Canadian Dollar"
+
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:81
+msgid "Calculate full width using JavaScript"
+msgstr ""
+"Calcular ancho completo usando JavaScript\n"
+
+#: includes/loop-functions.php:53
+#: includes/classes/entities/class-property.php:454
+#: templates/admin/properties-archive/quick-edit.php:137
+msgid "Call for price"
+msgstr "Llamar para preguntar el precio"
+
+#: templates/front/shortcodes/authentication/reset-form.php:34
+#: templates/front/shortcodes/authentication/buyer-register-form.php:60
+#: templates/front/shortcodes/profile/partials/change-password-form.php:21
+msgid "Can't contain the name or email address"
+msgstr "No puede contener el nombre o la dirección de correo electrónico."
+
+#: includes/classes/class-settings-container.php:245
+msgid "Canada"
+msgstr ""
+"Canadá\n"
+
+#: includes/helper-functions.php:642
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: includes/classes/class-migrations.php:193
+msgid "Carbon monoxide detector"
+msgstr "Detector de monóxido de carbono"
+
+#: includes/classes/class-migrations.php:143
+msgid "Carpet"
+msgstr ""
+"Alfombra\n"
+
+#: includes/classes/class-migrations.php:110
+msgid "Carport"
+msgstr ""
+"cochera\n"
+
+#: includes/classes/class-taxonomies.php:39
+#: includes/classes/pages/admin/class-data-manager-page.php:356
+#: includes/classes/widgets/elementor/class-elementor-query.php:47
+msgid "Categories"
+msgstr ""
+"Categorías\n"
+
+#: includes/classes/class-taxonomies.php:40
+#: includes/classes/entities/class-property.php:77
+#: templates/admin/properties-archive/quick-edit.php:41
+#: templates/admin/properties-archive/filter.php:30
+#: templates/admin/properties-archive/quick-edit-bulk.php:37
+#: includes/classes/pages/admin/class-properties-archive-page.php:410
+#: templates/admin/settings/tabs/listing-search-tab.php:86
+msgid "Category"
+msgstr "Categoría"
+
+#: includes/classes/widgets/class-widget.php:50
+msgid "Category Page"
+msgstr "Página de categoría"
+
+#: includes/classes/class-settings-container.php:701
+msgid "CDF - Congolese Franc"
+msgstr "CDF - Congolese Franc"
+
+#: includes/classes/class-migrations.php:127
+msgid "Cement/concrete"
+msgstr ""
+"Cemento/hormigón\n"
+
+#: templates/front/shortcodes/profile/tabs/profile-form.php:58
+msgid "Change Password"
+msgstr "Cambia la contraseña"
+
+#: templates/admin/dashboard/index.php:66
+msgid "Changelog"
+msgstr ""
+"Registro de cambios\n"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:104
+#: includes/classes/pages/admin/class-dashboard-page.php:121
+msgctxt "changelog"
+msgid ""
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:107
+msgctxt "changelog"
+msgid "Added min & max map zoom setting fields"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:128
+msgctxt "changelog"
+msgid "Agencies support added"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:148
+msgctxt "changelog"
+msgid "AJAX map search added"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:140
+msgctxt "changelog"
+msgid "Buyer's & agent's profiles upgraded"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:57
+msgctxt "changelog"
+msgid "Captcha issues fixed"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:136
+msgctxt "changelog"
+msgid "Compare feature added"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:156
+msgctxt "changelog"
+msgid "Data Manager improved"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:54
+msgctxt "changelog"
+msgid "December, 25, 2022"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:172
+msgctxt "changelog"
+msgid "Elementor Support improved"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:185
+msgctxt "changelog"
+msgid "Estatik settings php warning fixed (All versions)"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:61
+msgctxt "changelog"
+msgid "FB tab fields issues fixed"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:152
+msgctxt "changelog"
+msgid "Fields Builder considerably improved"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:124
+msgctxt "changelog"
+msgid "Front-and back-end interface design updated"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:86
+msgctxt "changelog"
+msgid "Google fonts GDPR issue fixed"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:82
+msgctxt "changelog"
+msgid "Lazy load for carousel images added"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:176
+msgctxt "changelog"
+msgid "Loads of minor fixes and improvements"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:193
+msgctxt "changelog"
+msgid "minor fixes"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:115
+msgctxt "changelog"
+msgid "MLS migration fix added"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:164
+msgctxt "changelog"
+msgid "New widgets added: agencies, locations, slideshow widget"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:79
+msgctxt "changelog"
+msgid "November, 30, 2022"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:132
+msgctxt "changelog"
+msgid "One-time payments added"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:189
+msgctxt "changelog"
+msgid "PDF library fixed (Pro & Premium)"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:111
+msgctxt "changelog"
+msgid "Polylang support added"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:90
+msgctxt "changelog"
+msgid "Request Info form (subject and from email issue fixed)"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:144
+msgctxt "changelog"
+msgid "Requests to profile added"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:98
+msgctxt "changelog"
+msgid "Responsive js refactored"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:94
+msgctxt "changelog"
+msgid "SEO issues fixed"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:168
+msgctxt "changelog"
+msgid "Share via email added"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:65
+msgctxt "changelog"
+msgid "Single property pages mobile layout fixed"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:73
+msgctxt "changelog"
+msgid "Translation for sorting fixed"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:160
+msgctxt "changelog"
+msgid "WP ALL Import support added"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:182
+msgctxt "changelog date"
+msgid "July, 26, 2022"
+msgstr ""
+
+#: includes/classes/framework/fields/class-field.php:18
+#: includes/classes/framework/fields/class-textarea-field.php:15
+msgid "characters remaining"
+msgstr "caracteres restantes"
+
+#: includes/classes/class-settings-container.php:799
+msgid "CHE - WIR Euro"
+msgstr "CHE - WIR Euro"
+
+#: includes/classes/class-settings-container.php:473
+msgid "Check marks"
+msgstr ""
+"Marcas de verificación\n"
+
+#: templates/admin/dashboard/index.php:101
+msgid "Check out other <br>Estatik Real Estate Web Solutions"
+msgstr ""
+
+#: includes/classes/class-settings-container.php:1065
+msgid "Checkbox"
+msgstr "Casilla de verificación"
+
+#: includes/classes/class-settings-container.php:751
+msgid "CHF - Swiss Franc"
+msgstr "CHF - Swiss Franc"
+
+#: templates/admin/properties-archive/quick-edit.php:44
+#: templates/admin/properties-archive/quick-edit-bulk.php:40
+#: includes/classes/widgets/elementor/class-elementor-query.php:50
+msgid "Choose category"
+msgstr ""
+"Elegir la categoría\n"
+
+#: includes/classes/entities/class-property.php:600
+#: includes/classes/entities/class-property.php:608
+msgid "Choose city"
+msgstr ""
+"Elige ciudad\n"
+
+#: includes/classes/entities/class-property.php:507
+#: includes/classes/entities/class-property.php:516
+msgid "Choose country"
+msgstr "Elige país"
+
+#: includes/classes/widgets/elementor/class-elementor-query.php:80
+msgid "Choose label"
+msgstr ""
+"Elegir etiqueta\n"
+
+#: templates/admin/settings/tabs/general-tab.php:15
+msgid "Choose language"
+msgstr ""
+"Elige lengua\n"
+
+#: includes/classes/widgets/class-search-form-widget.php:99
+msgid "Choose page"
+msgstr "Elegir página"
+
+#: includes/classes/entities/class-property.php:569
+#: includes/classes/entities/class-property.php:578
+msgid "Choose province"
+msgstr ""
+"Elige provincia\n"
+
+#: includes/classes/entities/class-property.php:538
+#: includes/classes/entities/class-property.php:547
+msgid "Choose state"
+msgstr ""
+"Elige estado\n"
+
+#: templates/admin/properties-archive/quick-edit.php:102
+#: templates/admin/properties-archive/quick-edit-bulk.php:90
+#: includes/classes/widgets/elementor/class-elementor-query.php:70
+msgid "Choose status"
+msgstr "Elegir estado"
+
+#: templates/admin/properties-archive/quick-edit.php:73
+#: templates/admin/properties-archive/quick-edit-bulk.php:65
+#: includes/classes/widgets/elementor/class-elementor-query.php:60
+msgid "Choose type"
+msgstr ""
+"Elegir tipo\n"
+
+#: includes/classes/fields-builder/class-fields-builder.php:137
+msgid "Choose value"
+msgstr ""
+"Elija valor\n"
+
+#: includes/classes/class-settings-container.php:800
+msgid "CHW - WIR Franc"
+msgstr "CHW - WIR Franc"
+
+#: includes/classes/pages/admin/class-data-manager-page.php:61
+msgid "Cities"
+msgstr "Ciudades"
+
+#: includes/classes/entities/class-property.php:590
+msgid "City / Department"
+msgstr "Ciudad / Departamento"
+
+#: templates/admin/settings/tabs/slugs-tab.php:25
+msgid "City slug"
+msgstr "Ciudad slug"
+
+#: includes/classes/class-settings-container.php:696
+msgid "CLF - Unidad de Fomento"
+msgstr "CLF - Unidad de Fomento"
+
+#: templates/admin/settings/tabs/auth-tab.php:65
+msgid "Client key"
+msgstr ""
+"Clave de cliente\n"
+
+#: templates/admin/settings/tabs/auth-tab.php:71
+msgid "Client secret"
+msgstr "Secreto del cliente"
+
+#: includes/helper-functions.php:636
+msgid "Close"
+msgstr "Cerrar"
+
+#: includes/classes/class-settings-container.php:697
+msgid "CLP - Chilean Peso"
+msgstr "CLP - Chilean Peso"
+
+#: includes/classes/class-settings-container.php:660
+msgid "CNY - Yuan Renminbi"
+msgstr "CNY - Yuan Renminbi"
+
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:143
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:164
+msgid "Collapsed fields"
+msgstr ""
+"Campos contraídos\n"
+
+#: includes/classes/widgets/class-search-form-widget.php:144
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:129
+msgid "Collapsed filters"
+msgstr ""
+"Filtros colapsados\n"
+
+#: includes/classes/class-address-components.php:25
+#: templates/admin/fields-builder/forms/field-form.php:101
+#, fuzzy
+#| msgid "Colloquial Area"
+msgid "colloquial_area"
+msgstr "Área coloquial"
+
+#: includes/classes/widgets/class-request-form-widget.php:109
+msgid "Comma separated emails"
+msgstr ""
+"Correos electrónicos separados por comas\n"
+
+#: includes/classes/widgets/elementor/class-elementor-query.php:40
+msgid "Comma separated properties IDs"
+msgstr ""
+"ID de propiedades separadas por comas\n"
+
+#: templates/admin/demo/start.php:35
+msgid "Compare and choose <br>your version of Estatik"
+msgstr ""
+"Compara y elige tu versión de Estatik\n"
+
+#: includes/classes/pages/admin/class-demo-page.php:215
+msgid "Compare feature"
+msgstr ""
+"Función de comparación\n"
+
+#: templates/admin/fields-builder/forms/field-form.php:143
+msgid "Compare support"
+msgstr ""
+
+#: includes/classes/class-migrations.php:119
+#: includes/classes/class-migrations.php:128
+msgid "Composition"
+msgstr "Composición"
+
+#: includes/classes/class-migrations.php:144
+msgid "Concrete"
+msgstr ""
+"Hormigón\n"
+
+#: includes/classes/class-migrations.php:91
+msgid "Condos"
+msgstr ""
+"Condominios\n"
+
+#: templates/front/shortcodes/profile/partials/change-password-form.php:28
+msgid "Confirm new password"
+msgstr ""
+"Confirmar nueva contraseña\n"
+
+#: templates/front/shortcodes/profile/tabs/profile-form.php:44
+msgid "Confirm with password"
+msgstr "Confirmar con contraseña"
+
+#: templates/front/shortcodes/authentication/reset-form.php:36
+#: templates/front/shortcodes/authentication/buyer-register-form.php:62
+#: templates/front/shortcodes/profile/partials/change-password-form.php:23
+msgid "Contains a number or symbol"
+msgstr "Contiene un número o símbolo."
+
+#: templates/admin/demo/steps/step3.php:76
+#: templates/admin/demo/steps/step2.php:13
+#: templates/admin/demo/steps/step1.php:53
+msgid "Continue"
+msgstr "Continuar"
+
+#: includes/classes/class-settings-container.php:698
+msgid "COP - Colombian Peso"
+msgstr "COP - Colombian Peso"
+
+#: templates/admin/properties-archive/quick-edit.php:155
+#: templates/admin/properties-archive/quick-edit-bulk.php:106
+msgid "Copy"
+msgstr "Copiar"
+
+#: templates/front/popup/share.php:17
+msgid "Copy this URL to share"
+msgstr "Copie esta URL para compartir"
+
+#: includes/classes/class-settings-container.php:699
+msgid "COU - Unidad de Valor Real"
+msgstr "COU - Unidad de Valor Real"
+
+#: includes/classes/pages/admin/class-data-manager-page.php:39
+msgid "Countries"
+msgstr ""
+"Los paises\n"
+
+#: includes/classes/data-manager/class-locations-creator.php:24
+msgid "Country"
+msgstr ""
+"País\n"
+
+#: includes/classes/class-address-components.php:19
+#: templates/admin/fields-builder/forms/field-form.php:95
+msgid "country"
+msgstr ""
+
+#: includes/classes/entities/class-property.php:497
+msgid "Country / Region"
+msgstr "País / Región"
+
+#: templates/admin/demo/start.php:19
+msgid "coupon code"
+msgstr "código promocional"
+
+#: includes/classes/class-settings-container.php:703
+msgid "CRC - Costa Rican Colon"
+msgstr "CRC - Costa Rican Colon"
+
+#: includes/classes/class-settings-container.php:421
+msgid "Create an agent account"
+msgstr "Crear una cuenta de agente"
+
+#: templates/admin/fields-builder/forms/field-form.php:14
+msgid "Create field"
+msgstr ""
+"Crear campo\n"
+
+#: includes/helper-functions.php:464
+msgid "Create page"
+msgstr ""
+"Crear página\n"
+
+#: templates/admin/fields-builder/forms/section-form.php:11
+msgid "Create section"
+msgstr "Crear sección"
+
+#: includes/classes/pages/admin/class-demo-page.php:219
+msgid "CSV import"
+msgstr "Importación CSV"
+
+#: includes/classes/class-settings-container.php:705
+msgid "CUC - Peso Convertible"
+msgstr "CUC - Peso Convertible"
+
+#: includes/classes/class-settings-container.php:706
+msgid "CUP - Cuban Peso"
+msgstr "CUP - Cuban Peso"
+
+#: includes/classes/pages/admin/class-data-manager-page.php:406
+msgid "Currencies"
+msgstr "Monedas"
+
+#: templates/admin/settings/tabs/general-tab.php:35
+msgid "Currency"
+msgstr ""
+"Divisa\n"
+
+#: templates/admin/data-manager/tabs/units-tab.php:25
+msgid "Currency code"
+msgstr ""
+"Código de moneda\n"
+
+#: templates/admin/data-manager/tabs/units-tab.php:19
+msgid "Currency settings"
+msgstr "Configuración de moneda"
+
+#: includes/classes/pages/front/class-profile-page.php:112
+msgid "Current password didn't match."
+msgstr ""
+"La contraseña actual no coincide.\n"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:309
+msgid "Custom Development"
+msgstr ""
+
+#: includes/classes/widgets/class-request-form-widget.php:107
+#: includes/classes/widgets/elementor/class-elementor-request-form-widget.php:136
+msgid "Custom emails"
+msgstr "Correos electrónicos personalizados"
+
+#: includes/classes/class-settings-container.php:692
+msgid "CVE - Cabo Verde Escudo"
+msgstr "CVE - Cabo Verde Escudo"
+
+#: includes/classes/class-settings-container.php:708
+msgid "CZK - Czech Koruna"
+msgstr "CZK - Czech Koruna"
+
+#: includes/classes/class-admin-menu.php:40
+#: includes/classes/class-admin-menu.php:41
+#: templates/admin/dashboard/index.php:13
+msgid "Dashboard"
+msgstr ""
+"Tablero\n"
+
+#: includes/classes/class-admin-menu.php:71
+#: includes/classes/class-admin-menu.php:72
+#: includes/classes/class-admin-init.php:105
+msgid "Data manager"
+msgstr "Administrador de datos"
+
+#: includes/classes/data-manager/class-labels-creator.php:89
+#: includes/classes/data-manager/class-features-icons-creator.php:67
+#: includes/classes/data-manager/class-terms-creator.php:120
+msgctxt "data manager term add"
+msgid "Add"
+msgstr "Agregar"
+
+#: includes/classes/data-manager/class-locations-creator.php:67
+#: includes/classes/data-manager/class-labels-creator.php:74
+#: includes/classes/data-manager/class-features-icons-creator.php:50
+#: includes/classes/data-manager/class-terms-creator.php:139
+msgctxt "data manager term add"
+msgid "Add new option"
+msgstr "Añadir nueva opción"
+
+#: includes/classes/data-manager/class-labels-creator.php:81
+msgctxt "data manager term add"
+msgid "Label color"
+msgstr "Сolor de la etiqueta"
+
+#: includes/classes/data-manager/class-labels-creator.php:87
+#: includes/classes/data-manager/class-features-icons-creator.php:65
+#: includes/classes/data-manager/class-terms-creator.php:118
+msgctxt "data manager term add"
+msgid "Save"
+msgstr "Salvar"
+
+#: templates/admin/data-manager/tabs/locations-tab.php:1
+msgctxt "data manager title"
+msgid "Locations"
+msgstr "Ubicaciones"
+
+#: templates/admin/data-manager/tabs/parameters-tab.php:1
+msgctxt "data manager title"
+msgid "Parameters"
+msgstr "Parámetros"
+
+#: templates/admin/data-manager/tabs/units-tab.php:1
+msgctxt "data manager title"
+msgid "Units & formats"
+msgstr "Unidades y Formatos"
+
+#: includes/classes/entities/class-property.php:55
+#: templates/admin/properties-archive/filter.php:105
+#: includes/classes/pages/admin/class-properties-archive-page.php:406
+msgid "Date added"
+msgstr ""
+"Fecha Agregada\n"
+
+#: templates/admin/settings/tabs/general-tab.php:40
+msgid "Date format"
+msgstr "Formato de fecha"
+
+#: templates/admin/data-manager/tabs/units-tab.php:61
+msgid "Decimal separator"
+msgstr "Separador decimal"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:188
+msgid "Default currency"
+msgstr ""
+"Moneda predeterminada\n"
+
+#: templates/admin/settings/tabs/map-tab.php:14
+msgid "Default latitude and longitude - center of the map"
+msgstr ""
+"Latitud y longitud predeterminadas: centro del mapa\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:17
+msgid "Default layout for listings pages"
+msgstr "Diseño predeterminado para las páginas de listados"
+
+#: templates/admin/settings/tabs/listings-tab.php:39
+msgid "Default layout for single listing pages"
+msgstr ""
+"Diseño predeterminado para páginas de listas individuales\n"
+
+#: templates/admin/settings/tabs/map-tab.php:125
+msgid "Default map marker icon"
+msgstr ""
+"Icono de marcador de mapa predeterminado\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:10
+msgid "Default property image"
+msgstr ""
+"Imagen de propiedad predeterminada\n"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:14
+msgid "Default Search results"
+msgstr ""
+"Resultados de búsqueda predeterminados\n"
+
+#: includes/classes/widgets/class-properties-filter-widget.php:41
+#: includes/classes/widgets/elementor/class-elementor-query.php:31
+msgid "Default sort"
+msgstr ""
+"Ordenar por defecto\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:124
+msgid "Default sort options"
+msgstr ""
+"Opciones de clasificación predeterminadas\n"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:205
+msgid "Default unit"
+msgstr ""
+
+#: templates/admin/settings/tabs/map-tab.php:22
+msgid "Default zoom level"
+msgstr ""
+"Nivel de zoom predeterminado\n"
+
+#: templates/admin/properties-archive/bulk-actions.php:10
+#: includes/classes/framework/fields/class-avatar-field.php:48
+msgid "Delete"
+msgstr "Borrar"
+
+#: includes/helper-functions.php:640
+#, php-format
+msgid "Delete %s homes from your listings?"
+msgstr ""
+"¿Eliminar %s casas de sus listados?\n"
+
+#: templates/admin/fields-builder/forms/field-form.php:178
+msgid "Delete field"
+msgstr ""
+"Eliminar campo\n"
+
+#: includes/helper-functions.php:641
+msgid "Delete homes"
+msgstr ""
+"Eliminar casas\n"
+
+#: templates/admin/properties-archive/quick-edit-bulk.php:105
+msgid "Delete properties"
+msgstr ""
+"Eliminar propiedades\n"
+
+#: templates/admin/properties-archive/quick-edit.php:154
+msgid "Delete property"
+msgstr ""
+"Eliminar propiedad\n"
+
+#: includes/classes/pages/admin/class-properties-archive-page.php:338
+msgctxt "delete property"
+msgid "Delete"
+msgstr "Elimina"
+
+#: templates/admin/fields-builder/forms/section-form.php:71
+msgid "Delete section"
+msgstr ""
+"Eliminar sección\n"
+
+#: includes/classes/data-manager/class-terms-creator.php:188
+msgid "Delete selected options"
+msgstr ""
+"Eliminar opciones seleccionadas\n"
+
+#: includes/classes/class-migrations.php:100
+msgid "Deleted"
+msgstr "Eliminado"
+
+#: includes/classes/class-admin-menu.php:107
+#: includes/classes/class-admin-menu.php:108
+msgid "Demo content"
+msgstr "Contenido de demostración"
+
+#: templates/admin/demo/steps/step4.php:3
+msgid ""
+"Demo listings show how your pages look and work like. You can delete demo "
+"content any time."
+msgstr ""
+"Los listados de demostración muestran cómo se ven y funcionan sus páginas. "
+"Puede eliminar el contenido de demostración en cualquier momento."
+
+#: includes/functions.php:262 includes/classes/entities/class-property.php:384
+msgid "Description"
+msgstr "Descripción"
+
+#: templates/admin/dashboard/partials/themes.php:47
+msgid "Details"
+msgstr ""
+"Detalles\n"
+
+#: includes/classes/widgets/class-request-form-widget.php:94
+#: includes/classes/widgets/elementor/class-elementor-request-form-widget.php:93
+msgid "Disable e-mail"
+msgstr "Deshabilitar correo electrónico"
+
+#: templates/admin/settings/tabs/listings-tab.php:60
+msgid "Disable lightBox on single page"
+msgstr ""
+
+#: includes/classes/widgets/class-request-form-widget.php:84
+#: includes/classes/widgets/elementor/class-elementor-request-form-widget.php:81
+msgid "Disable name"
+msgstr ""
+"Deshabilitar nombre\n"
+
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:93
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:114
+msgid "Disable navbar"
+msgstr ""
+"Deshabilitar barra de navegación\n"
+
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:90
+msgid "Disable pagination"
+msgstr "Deshabilitar paginación"
+
+#: includes/classes/widgets/class-request-form-widget.php:89
+#: includes/classes/widgets/elementor/class-elementor-request-form-widget.php:87
+msgid "Disable phone"
+msgstr ""
+"Deshabilitar teléfono\n"
+
+#: includes/classes/class-migrations.php:210
+msgid "Dishwasher"
+msgstr "Lavavajillas"
+
+#: includes/classes/class-settings-container.php:710
+msgid "DJF - Djibouti Franc"
+msgstr "DJF - Djibouti Franc"
+
+#: includes/classes/class-settings-container.php:709
+msgid "DKK - Danish Krone"
+msgstr "DKK - Danish Krone"
+
+#: includes/functions.php:296 includes/classes/entities/class-property.php:702
+msgid "Documents"
+msgstr ""
+"Documentos\n"
+
+#: templates/front/shortcodes/authentication/login-form.php:59
+msgid ""
+"Don't have an account? <a href=\"#\" class=\"js-es-auth-item__switcher\" "
+"data-auth-item=\"buyer-register-buttons\">Sign up</a>"
+msgstr ""
+"¿No tienes una cuenta? <a href=\"#\" class=\"js-es-auth-item__switcher\" "
+"data-auth-item=\"buyer-register-buttons\">Inscribirse</a>\n"
+
+#: templates/front/shortcodes/authentication/login-buttons.php:39
+msgid ""
+"Don't have an account? <a href=\"#\" data-auth-item=\"buyer-register-"
+"buttons\" class=\"js-es-auth-item__switcher\">Sign up</a>"
+msgstr ""
+"¿No tienes una cuenta? <a href=\"#\" data-auth-item=\"buyer-register-"
+"buttons\" class=\"js-es-auth-item__switcher\">Inscribirse</a>"
+
+#: includes/classes/class-settings-container.php:711
+msgid "DOP - Dominican Peso"
+msgstr "DOP - Dominican Peso"
+
+#: templates/admin/properties-archive/bulk-actions.php:9
+msgid "Draft"
+msgstr "Borrador"
+
+#: includes/classes/class-migrations.php:219
+msgid "Dryer"
+msgstr "Secador"
+
+#: templates/admin/properties-archive/bulk-actions.php:11
+#: includes/classes/pages/admin/class-properties-archive-page.php:334
+msgid "Duplicate"
+msgstr "Duplicado"
+
+#: templates/admin/settings/tabs/seo-tab.php:29
+msgid "Dynamic content"
+msgstr "Contenido dinámico"
+
+#: includes/classes/class-settings-container.php:667
+msgid "DZD - Algerian Dinar"
+msgstr "DZD - Algerian Dinar"
+
+#: includes/helper-functions.php:299
+#, php-format
+msgid "E.g. %s"
+msgstr ""
+"P.ej. %s\n"
+
+#: includes/classes/entities/class-property.php:835
+msgid "E.g. great view..."
+msgstr ""
+"P.ej. gran vista...\n"
+
+#: includes/classes/entities/class-property.php:443
+msgid "E.g. Start From"
+msgstr "P.ej. Empezar desde"
+
+#: includes/classes/class-admin-init.php:81
+msgid "Each 5 min"
+msgstr ""
+
+#: templates/admin/fields-builder/forms/field-form.php:14
+msgid "Edit field"
+msgstr "Editar campo"
+
+#: includes/helper-functions.php:646
+msgid "Edit pin location"
+msgstr ""
+"Editar ubicación de pin\n"
+
+#: templates/front/shortcodes/profile/tabs/profile-form.php:14
+msgid "Edit profile"
+msgstr ""
+"Editar perfil\n"
+
+#: includes/hooks.php:257 includes/hooks.php:260
+msgid "Edit property"
+msgstr ""
+"Editar propiedad\n"
+
+#: includes/classes/pages/admin/class-properties-archive-page.php:288
+msgctxt "edit property"
+msgid "Quick edit"
+msgstr "Edición rapida"
+
+#: templates/admin/fields-builder/forms/section-form.php:11
+msgid "Edit section"
+msgstr "Editar sección"
+
+#: includes/classes/class-settings-container.php:712
+msgid "EGP - Egyptian Pound"
+msgstr "EGP - Egyptian Pound"
+
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:144
+msgctxt "Elementor widget section"
+msgid "Advanced search fields"
+msgstr "Campos de búsqueda avanzada"
+
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:64
+#: includes/classes/widgets/elementor/class-elementor-request-form-widget.php:65
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:65
+#: includes/classes/widgets/elementor/class-elementor-authentication-widget.php:65
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:65
+#: includes/classes/widgets/elementor/class-elementor-properties-slider-widget.php:65
+msgctxt "Elementor widget section"
+msgid "Content"
+msgstr "Contenido"
+
+#: includes/classes/widgets/elementor/class-elementor-request-form-widget.php:119
+msgctxt "Elementor widget section"
+msgid "Email"
+msgstr "Email"
+
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:89
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:110
+msgctxt "Elementor widget section"
+msgid "Navbar"
+msgstr "Barra de navegación"
+
+#: includes/classes/widgets/elementor/class-elementor-query.php:21
+msgctxt "Elementor widget section"
+msgid "Query filter"
+msgstr "Filtro de consulta"
+
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:125
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:146
+msgctxt "Elementor widget section"
+msgid "Search navbar"
+msgstr "Barra de navegación de búsqueda"
+
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:112
+msgctxt "Elementor widget section"
+msgid "Simple & main search fields"
+msgstr "Campos de búsqueda simples y principales"
+
+#: includes/classes/widgets/elementor/class-elementor-properties-slider-widget.php:87
+msgctxt "Elementor widget section"
+msgid "Slider settings"
+msgstr "Configuración del control deslizante"
+
+#: includes/classes/widgets/elementor/class-elementor-request-form-widget.php:101
+msgctxt "Elementor widget section"
+msgid "Style"
+msgstr "Estilo"
+
+#: includes/classes/class-elementor.php:99
+msgctxt "Elementor widgets category name"
+msgid "Estatik"
+msgstr "Estatik"
+
+#: includes/classes/entities/class-user.php:26
+#: templates/front/shortcodes/profile/tabs/profile-form.php:35
+msgid "Email"
+msgstr ""
+"Correo electrónico\n"
+
+#: includes/classes/widgets/class-request-form-widget.php:115
+msgid "Email subject"
+msgstr ""
+"Asunto del email\n"
+
+#: includes/classes/widgets/elementor/class-elementor-request-form-widget.php:123
+msgctxt "email subject"
+msgid "Subject"
+msgstr "Sujeto"
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:98
+msgid "Email*"
+msgstr "Correo electrónico*"
+
+#: includes/helper-functions.php:293
+msgid "Embed the code"
+msgstr ""
+"Insertar el código\n"
+
+#: includes/classes/widgets/class-properties-slider-widget.php:65
+#: includes/classes/widgets/elementor/class-elementor-properties-slider-widget.php:110
+msgid "Enable arrows"
+msgstr ""
+"Habilitar flechas\n"
+
+#: templates/admin/settings/tabs/seo-tab.php:5
+msgid "Enable auto tags"
+msgstr ""
+"Habilitar etiquetas automáticas\n"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:22
+msgid ""
+"Enable auto-update search results for Simple and Advanced Estatik search"
+msgstr ""
+"habilitar la actualización automática de resultados de búsqueda para Simple "
+"y búsqueda avanzada de Estatik"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:27
+msgid "Enable autocomplete locations for search"
+msgstr ""
+"Habilitar ubicaciones de autocompletar para la búsqueda\n"
+
+#: templates/admin/settings/tabs/seo-tab.php:14
+msgid "Enable clickable tags"
+msgstr ""
+"Habilitar etiquetas en las que se puede hacer clic\n"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:215
+msgid "Enable collapse list of more than 6 items"
+msgstr ""
+"Habilitar colapsar lista de más de 6 elementos\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:55
+msgid "Enable collapsed description"
+msgstr ""
+
+#: includes/classes/widgets/class-search-form-widget.php:146
+msgid "Enable collapsed filters"
+msgstr ""
+"Habilitar filtros contraídos\n"
+
+#: templates/admin/settings/tabs/seo-tab.php:20
+msgid "Enable dynamic content"
+msgstr ""
+"Habilitar contenido dinámico\n"
+
+#: includes/classes/widgets/elementor/class-elementor-authentication-widget.php:82
+msgid "Enable Facebook auth"
+msgstr "Habilitar la autenticación de Facebook"
+
+#: includes/classes/widgets/elementor/class-elementor-authentication-widget.php:88
+msgid "Enable Google auth"
+msgstr ""
+"Habilitar la autenticación de Google\n"
+
+#: templates/admin/settings/tabs/recaptcha-tab.php:22
+msgid "Enable Google reCaptcha to submit forms:"
+msgstr ""
+"Habilite Google reCaptcha para enviar formularios:\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:31
+#: templates/admin/settings/tabs/listings-tab.php:32
+msgid "Enable grid view"
+msgstr "Habilitar vista de cuadrícula"
+
+#: templates/admin/settings/tabs/terms-tab.php:4
+msgid "Enable information about Privacy policy & Terms of use to submit forms"
+msgstr ""
+"Habilite la información sobre la política de privacidad y los términos de "
+"uso para enviar formularios\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:160
+msgid "Enable labels"
+msgstr ""
+"Habilitar etiquetas\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:28
+#: templates/admin/settings/tabs/listings-tab.php:33
+msgid "Enable list view"
+msgstr ""
+"Habilitar vista de lista\n"
+
+#: templates/admin/settings/tabs/auth-tab.php:11
+msgid "Enable log in form"
+msgstr "Habilitar formulario de inicio de sesión"
+
+#: templates/admin/settings/tabs/auth-tab.php:28
+msgid "Enable log in with Facebook"
+msgstr ""
+"Habilitar inicio de sesión con Facebook\n"
+
+#: templates/admin/settings/tabs/auth-tab.php:56
+msgid "Enable log in with Google"
+msgstr ""
+"Habilitar inicio de sesión con Google\n"
+
+#: includes/classes/widgets/elementor/class-elementor-authentication-widget.php:94
+msgid "Enable Login form"
+msgstr ""
+"Habilitar formulario de inicio de sesión\n"
+
+#: includes/classes/widgets/class-search-form-widget.php:127
+msgid "Enable main filters"
+msgstr ""
+"Habilitar filtros principales\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:150
+msgid "Enable map on single listing page"
+msgstr ""
+"Habilitar mapa en una sola página de listado\n"
+
+#: templates/admin/settings/tabs/map-tab.php:60
+msgid "Enable markers cluster"
+msgstr ""
+"Habilitar grupo de marcadores\n"
+
+#: templates/admin/settings/tabs/general-tab.php:57
+msgid "Enable REST Support"
+msgstr ""
+"Habilitar soporte REST\n"
+
+#: includes/classes/widgets/class-search-form-widget.php:111
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:91
+msgid "Enable saved search"
+msgstr ""
+"Habilitar búsqueda guardada\n"
+
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:129
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:150
+msgid "Enable search bar"
+msgstr "Habilitar barra de búsqueda"
+
+#: includes/classes/widgets/class-search-form-widget.php:118
+msgid "Enable search by address, city, ZIP"
+msgstr ""
+"Habilitar la búsqueda por dirección, ciudad, código postal\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:165
+msgid "Enable sharing"
+msgstr ""
+"Habilitar compartir\n"
+
+#: templates/admin/settings/tabs/sharing-tab.php:10
+msgid "Enable sharing via social networks"
+msgstr ""
+"Habilitar compartir a través de redes sociales\n"
+
+#: templates/admin/settings/tabs/sharing-tab.php:5
+msgid "Enable sharing with link"
+msgstr ""
+"Habilitar compartir con enlace\n"
+
+#: templates/admin/settings/tabs/sharing-tab.php:25
+msgid "Enable sharing with PDF"
+msgstr "Habilitar compartir con PDF"
+
+#: templates/admin/settings/tabs/auth-tab.php:120
+msgid "Enable sign up form for agents"
+msgstr ""
+"Habilitar formulario de registro para agentes\n"
+
+#: templates/admin/settings/tabs/auth-tab.php:94
+msgid "Enable sign up form for buyers"
+msgstr ""
+"Habilitar formulario de registro para compradores\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:110
+msgid "Enable sorting"
+msgstr "Habilitar clasificación"
+
+#: templates/admin/settings/tabs/general-tab.php:53
+msgid ""
+"Enable this option if you want to remove Estatik logo and 'Powered by' link "
+"on Estatik pages."
+msgstr ""
+"Habilite esta opción si desea eliminar el logotipo de Estatik y el enlace "
+"'Desarrollado por' en las páginas de Estatik."
+
+#: templates/admin/settings/tabs/general-tab.php:50
+msgid "Enable white label"
+msgstr ""
+"Habilitar etiqueta blanca\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:155
+msgid "Enable wishlist"
+msgstr "Habilitar lista de deseos"
+
+#: includes/classes/class-settings-container.php:311
+msgid "English (CAD)"
+msgstr ""
+"English (CAD)\n"
+
+#: includes/classes/class-settings-container.php:323
+msgid "English (GB)"
+msgstr ""
+"English (GB)\n"
+
+#: includes/classes/class-settings-container.php:299
+msgid "English (USA)"
+msgstr "English (USA)"
+
+#: includes/classes/widgets/class-properties-filter-widget.php:61
+msgid "Enter IDs separated by commas"
+msgstr ""
+"Introduzca los ID separados por comas\n"
+
+#: templates/front/shortcodes/authentication/reset-form.php:4
+msgid ""
+"Enter your email address and we will send you a link to change your password."
+msgstr ""
+"Ingrese su dirección de correo electrónico y le enviaremos un enlace para "
+"cambiar su contraseña."
+
+#: includes/classes/class-settings-container.php:714
+msgid "ERN - Nakfa"
+msgstr "ERN - Nakfa"
+
+#: includes/classes/class-address-components.php:36
+#: templates/admin/fields-builder/forms/field-form.php:112
+msgid "establishment"
+msgstr ""
+
+#. Name of the plugin
+#. Author of the plugin
+#: includes/hooks.php:534 includes/classes/class-admin-menu.php:27
+#: includes/classes/class-admin-menu.php:28
+msgid "Estatik"
+msgstr "Estatik"
+
+#: includes/hooks.php:490
+msgid "Estatik Authentication"
+msgstr "Estatik Autenticación"
+
+#: includes/hooks.php:492
+msgid "Estatik Half map"
+msgstr "Estatik Medio mapa "
+
+#: includes/classes/pages/admin/class-demo-page.php:272
+msgctxt "estatik product"
+msgid "Premium"
+msgstr "Premium"
+
+#: includes/classes/pages/admin/class-demo-page.php:266
+msgctxt "estatik product"
+msgid "PRO"
+msgstr "PRO"
+
+#: includes/classes/pages/admin/class-demo-page.php:261
+msgctxt "estatik product"
+msgid "Simple"
+msgstr "Simple"
+
+#: includes/hooks.php:491
+msgid "Estatik Profile"
+msgstr "Estatik Perfil"
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:65
+msgid "Estatik Request Info from"
+msgstr ""
+"Estatik Solicitar información a\n"
+
+#: includes/hooks.php:493
+msgid "Estatik Search results"
+msgstr "Estatik Resultados de la búsqueda"
+
+#: includes/classes/pages/admin/class-demo-page.php:262
+msgctxt "estatik simple price"
+msgid "Free"
+msgstr "Gratis"
+
+#: includes/classes/class-divi-single-entity-module.php:14
+#: includes/classes/class-divi-single-entity-module.php:15
+msgid "Estatik Single Page"
+msgstr ""
+
+#: templates/admin/dashboard/partials/themes.php:2
+msgid "Estatik themes & freebies"
+msgstr "Temas y regalos de Estatik"
+
+#: includes/classes/class-settings-container.php:715
+msgid "ETB - Ethiopian Birr"
+msgstr "ETB - Ethiopian Birr"
+
+#: includes/classes/class-settings-container.php:656
+msgid "EUR - Euro"
+msgstr "EUR - Euro"
+
+#: includes/classes/entities/class-property.php:653
+msgid "Ex. -62.149905"
+msgstr "Ej. -62.149905"
+
+#: includes/classes/entities/class-property.php:640
+msgid "Ex. 63.524073"
+msgstr "Ej. 63.524073"
+
+#: templates/admin/settings/tabs/map-tab.php:17
+msgid "ex: 12.381068,-1.492711"
+msgstr "ej: 12.381068,-1.492711"
+
+#: includes/classes/pages/admin/class-data-manager-page.php:384
+msgid "Exterior"
+msgstr ""
+"Exterior\n"
+
+#: includes/classes/class-taxonomies.php:121
+#: includes/classes/class-taxonomies.php:122
+msgid "Exterior Material"
+msgstr "Materiales exteriores"
+
+#: includes/classes/entities/class-property.php:802
+msgid "Exterior material"
+msgstr ""
+"Material exterior\n"
+
+#: includes/classes/class-settings-container.php:850
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/classes/auth/class-facebook-authentication.php:136
+msgid "Facebook user email is empty"
+msgstr ""
+"El correo electrónico del usuario de Facebook está vacío.\n"
+
+#: includes/classes/framework/class-estatik-framework.php:55
+msgid "Failed"
+msgstr ""
+"Ha fallado\n"
+
+#: includes/classes/class-taxonomies.php:158
+msgid "Feature"
+msgstr ""
+"Rasgo\n"
+
+#: includes/classes/class-migrations.php:164
+#: includes/classes/class-migrations.php:176
+#: includes/classes/pages/admin/class-properties-archive-page.php:381
+msgid "Featured"
+msgstr "Presentado"
+
+#: includes/classes/class-taxonomies.php:157
+#: includes/classes/entities/class-property.php:766
+msgid "Features"
+msgstr "Características"
+
+#: includes/classes/fields-builder/class-fields-builder-item.php:37
+msgctxt "field builder visible for"
+msgid "Admins"
+msgstr "Admins"
+
+#: includes/classes/fields-builder/class-fields-builder-item.php:38
+msgctxt "field builder visible for"
+msgid "Agents"
+msgstr "Agentes"
+
+#: includes/classes/fields-builder/class-fields-builder-item.php:36
+msgctxt "field builder visible for"
+msgid "All users"
+msgstr "Todos los usuarios"
+
+#: includes/classes/fields-builder/class-fields-builder-item.php:40
+msgctxt "field builder visible for"
+msgid "Authenticated Users"
+msgstr "Usuarios autenticados"
+
+#: includes/classes/fields-builder/class-fields-builder-item.php:39
+msgctxt "field builder visible for"
+msgid "Buyers"
+msgstr "Compradores"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:435
+msgid "Field didn't saved."
+msgstr ""
+"El campo no se guardó.\n"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:404
+msgid "Field machine name is empty."
+msgstr ""
+"El nombre de la máquina de campo está vacío.\n"
+
+#: templates/admin/fields-builder/forms/field-form.php:30
+msgid "Field name"
+msgstr "Nombre del campo"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:45
+msgid "Field successfully restored."
+msgstr ""
+"Campo restaurado con éxito.\n"
+
+#: includes/classes/fields-builder/class-fields-builder.php:37
+msgctxt "field type"
+msgid "Area"
+msgstr "Área"
+
+#: includes/classes/fields-builder/class-fields-builder.php:48
+msgctxt "field type"
+msgid "Checkboxes"
+msgstr "Casilla de verificación"
+
+#: includes/classes/fields-builder/class-fields-builder.php:40
+msgctxt "field type"
+msgid "Date & time picker"
+msgstr "Selector de fecha y hora"
+
+#: includes/classes/fields-builder/class-fields-builder.php:39
+msgctxt "field type"
+msgid "Date picker"
+msgstr "Selector de fechas"
+
+#: includes/classes/fields-builder/class-fields-builder.php:45
+msgctxt "field type"
+msgid "Dropdown"
+msgstr "Desplegable"
+
+#: includes/classes/fields-builder/class-fields-builder.php:41
+msgctxt "field type"
+msgid "Email"
+msgstr "Email"
+
+#: includes/classes/fields-builder/class-fields-builder.php:38
+msgctxt "field type"
+msgid "File Upload"
+msgstr "Subir archivo"
+
+#: includes/classes/fields-builder/class-fields-builder.php:35
+msgctxt "field type"
+msgid "Number"
+msgstr "Número"
+
+#: includes/classes/fields-builder/class-fields-builder.php:42
+msgctxt "field type"
+msgid "Phone number"
+msgstr "Número de teléfono"
+
+#: includes/classes/fields-builder/class-fields-builder.php:36
+msgctxt "field type"
+msgid "Price"
+msgstr "Precio"
+
+#: includes/classes/fields-builder/class-fields-builder.php:49
+msgctxt "field type"
+msgid "Radio buttons"
+msgstr "Botones de radio"
+
+#: includes/classes/fields-builder/class-fields-builder.php:46
+msgctxt "field type"
+msgid "Select - buttons"
+msgstr "Seleccionar - botones"
+
+#: includes/classes/fields-builder/class-fields-builder.php:47
+msgctxt "field type"
+msgid "Switch"
+msgstr "Switch"
+
+#: includes/classes/fields-builder/class-fields-builder.php:34
+msgctxt "field type"
+msgid "Text"
+msgstr "Texto"
+
+#: includes/classes/fields-builder/class-fields-builder.php:44
+msgctxt "field type"
+msgid "Textarea"
+msgstr "área de texto"
+
+#: includes/classes/fields-builder/class-fields-builder.php:43
+msgctxt "field type"
+msgid "URL"
+msgstr "URL"
+
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:121
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:135
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:147
+msgid "Fields"
+msgstr ""
+"Campos\n"
+
+#: includes/classes/class-admin-menu.php:82
+#: includes/classes/class-admin-menu.php:83
+msgid "Fields Builder"
+msgstr "Generador de campos"
+
+#: includes/classes/class-admin-init.php:104
+#: includes/classes/pages/admin/class-dashboard-page.php:217
+msgid "Fields builder"
+msgstr ""
+"Generador de campos\n"
+
+#: includes/classes/pages/admin/class-migration-page.php:65
+msgid "Fields Builder migrated."
+msgstr "Constructor de campos migrado."
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:137
+msgctxt "fields builder options"
+msgid "Option {#index}"
+msgstr "Opción {#índice}"
+
+#: templates/front/shortcodes/search/main.php:101
+#: templates/front/shortcodes/search/simple.php:48
+msgid "Filters"
+msgstr ""
+"Filtros\n"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:39
+msgid "Filters options"
+msgstr ""
+"Opciones de filtros\n"
+
+#: includes/classes/shortcodes/class-search-form-shortcode.php:98
+msgid "Find Your Perfect Home"
+msgstr ""
+"Encuentra tu hogar perfecto\n"
+
+#: templates/admin/demo/steps/step4.php:14
+msgid "Finish step"
+msgstr "Terminar paso"
+
+#: includes/classes/class-migrations.php:138
+msgid "Finished"
+msgstr ""
+"Finalizado\n"
+
+#: includes/classes/class-migrations.php:191
+msgid "Fire alarm"
+msgstr ""
+"Alarma de incendios\n"
+
+#: includes/classes/class-migrations.php:195
+msgid "Fireplace"
+msgstr ""
+"Hogar\n"
+
+#: includes/classes/entities/class-user.php:37
+msgid "First name"
+msgstr "Primer nombre"
+
+#: includes/classes/class-settings-container.php:717
+msgid "FJD - Fiji Dollar"
+msgstr "FJD - Fiji Dollar"
+
+#: includes/classes/class-settings-container.php:716
+msgid "FKP - Falkland Islands Pound"
+msgstr "FKP - Falkland Islands Pound"
+
+#: includes/functions.php:77
+msgid "floor"
+msgid_plural "floors"
+msgstr[0] "piso"
+msgstr[1] "pisos"
+
+#: includes/classes/class-taxonomies.php:145
+#: includes/classes/class-taxonomies.php:146
+#: includes/classes/entities/class-property.php:784
+msgid "Floor covering"
+msgstr ""
+"Recubrimiento de piso\n"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:276
+msgid "Floor Level"
+msgstr ""
+"Nivel del suelo\n"
+
+#: includes/classes/entities/class-property.php:243
+msgid "Floor level"
+msgstr "Nivel del suelo"
+
+#: includes/functions.php:302
+msgid "Floor Plans"
+msgstr "v"
+
+#: includes/classes/entities/class-property.php:719
+msgid "Floor plans"
+msgstr ""
+"Planos de planta\n"
+
+#: includes/classes/entities/class-property.php:228
+#: templates/admin/settings/tabs/listing-search-tab.php:254
+msgid "Floors"
+msgstr ""
+"Pisos\n"
+
+#: templates/admin/settings/tabs/general-tab.php:72
+msgid "For large buttons like Search, Request info, etc."
+msgstr ""
+"Para botones grandes como Buscar, Solicitar información, etc.\n"
+
+#: includes/classes/class-migrations.php:85
+msgid "For rent"
+msgstr "En renta"
+
+#: includes/classes/class-migrations.php:84
+msgid "For sale"
+msgstr "En venta"
+
+#: templates/admin/settings/tabs/general-tab.php:80
+msgid "For smaller buttons like Search on results page, Contact, etc."
+msgstr ""
+"Para botones más pequeños como Buscar en la página de resultados, Contacto, "
+"etc.\n"
+
+#: templates/admin/demo/steps/step2.php:3
+msgid "For using Google maps on listing pages."
+msgstr ""
+"Para usar los mapas de Google en las páginas de listados.\n"
+
+#: includes/classes/class-migrations.php:165
+msgid "Foreclosure"
+msgstr "Juicio hipotecario"
+
+#: templates/front/shortcodes/authentication/login-form.php:45
+msgid "Forgot password?"
+msgstr "¿Se te olvidó tu contraseña?"
+
+#: includes/classes/widgets/elementor/class-elementor-authentication-widget.php:69
+msgid "Form"
+msgstr ""
+"Formulario\n"
+
+#: includes/classes/class-settings-container.php:246
+msgid "France"
+msgstr ""
+"Francia\n"
+
+#: includes/classes/class-settings-container.php:370
+msgid "French (France)"
+msgstr ""
+"Francés (Francia)\n"
+
+#: templates/admin/partials/help.php:7
+msgid "Frequently asked questions"
+msgstr ""
+"Preguntas frecuentes\n"
+
+#: includes/classes/entities/class-saved-search.php:84
+#, php-format
+msgid "From %s"
+msgstr "Desde %s"
+
+#: templates/admin/demo/steps/step3.php:58
+msgid "Front-end management"
+msgstr ""
+"Gestión de front-end\n"
+
+#: includes/classes/class-migrations.php:111
+msgid "Garage - attached"
+msgstr ""
+"Garaje - adjunto\n"
+
+#: includes/classes/class-migrations.php:112
+msgid "Garage - detached"
+msgstr "Garaje - independiente"
+
+#: includes/classes/class-migrations.php:218
+msgid "Garbage disposal"
+msgstr ""
+"Basurero\n"
+
+#: includes/classes/class-migrations.php:188
+msgid "Garden"
+msgstr ""
+"Jardín\n"
+
+#: includes/classes/class-settings-container.php:657
+msgid "GBP - Pound Sterling"
+msgstr "GBP - Libra esterlina"
+
+#: includes/classes/class-settings-container.php:720
+msgid "GEL - Lari"
+msgstr "GEL - Lari"
+
+#: templates/admin/settings/tabs/listings-tab.php:5
+msgid "General listing name"
+msgstr "Nombre de listado general"
+
+#: includes/classes/class-settings-container.php:347
+msgid "German"
+msgstr ""
+"Alemán\n"
+
+#: includes/classes/class-settings-container.php:247
+msgid "Germany"
+msgstr ""
+"Alemania\n"
+
+#: includes/classes/class-settings-container.php:405
+msgid "Get started with your account"
+msgstr ""
+"Comience con su cuenta\n"
+
+#: templates/admin/demo/steps/step2.php:9
+msgid "getting the key"
+msgstr "conseguir la llave"
+
+#: includes/classes/class-settings-container.php:721
+msgid "GHS - Ghana Cedi"
+msgstr "GHS - Ghana Cedi"
+
+#: includes/classes/class-settings-container.php:722
+msgid "GIP - Gibraltar Pound"
+msgstr "GIP - Gibraltar Pound"
+
+#: includes/classes/class-settings-container.php:719
+msgid "GMD - Dalasi"
+msgstr "GMD - Dalasi"
+
+#: includes/classes/class-settings-container.php:724
+msgid "GNF - Guinea Franc"
+msgstr "GNF - Guinea Franc"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:133
+#: templates/admin/settings/tabs/listing-search-tab.php:208
+#, php-format
+msgid "Go to %s to edit options."
+msgstr "Vaya a %s para editar las opciones."
+
+#: templates/front/shortcodes/profile/tabs/saved-searches.php:58
+#: templates/front/shortcodes/profile/tabs/saved-homes.php:27
+msgid "Go to search"
+msgstr "Ir a buscar"
+
+#: templates/admin/settings/tabs/map-tab.php:9
+msgid "Google API key"
+msgstr "Clave de la API de Google"
+
+#: templates/admin/demo/steps/step2.php:7
+msgid "Google Maps API Key"
+msgstr "Clave API de Google Maps"
+
+#: includes/classes/auth/class-google-authentication.php:158
+msgid "Google user email is empty"
+msgstr ""
+"El correo electrónico del usuario de Google está vacío\n"
+
+#: includes/helper-functions.php:639
+#: includes/classes/shortcodes/class-request-form-shortcode.php:138
+#: includes/classes/pages/front/class-profile-page.php:22
+#: includes/classes/pages/front/class-profile-page.php:96
+msgid "Got it"
+msgstr ""
+"Entiendo\n"
+
+#: includes/classes/class-settings-container.php:248
+msgid "Great Britain"
+msgstr "Gran Bretaña"
+
+#: includes/classes/class-settings-container.php:838
+#: includes/classes/pages/admin/class-demo-page.php:293
+#: templates/admin/demo/steps/step3.php:37
+msgid "Grid layout"
+msgstr "Diseño de cuadrícula"
+
+#: includes/classes/class-settings-container.php:723
+msgid "GTQ - Quetzal"
+msgstr "GTQ - Quetzal"
+
+#: includes/classes/class-settings-container.php:725
+msgid "GYD - Guyana Dollar"
+msgstr "GYD - Guyana Dollar"
+
+#: includes/functions.php:81
+msgid "half bath"
+msgid_plural "half baths"
+msgstr[0] "Medio baño"
+msgstr[1] "medios baños"
+
+#: includes/classes/entities/class-property.php:194
+msgid "Half baths"
+msgstr "Medios baños"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:197
+msgid "Half baths list"
+msgstr ""
+"Lista de medios baños\n"
+
+#: includes/classes/class-migrations.php:145
+msgid "Hard wood"
+msgstr ""
+"Harwood\n"
+
+#: includes/classes/class-migrations.php:186
+msgid "Heating"
+msgstr "Calefacción"
+
+#: includes/classes/class-settings-container.php:218
+msgid "hectares"
+msgstr "hectáreas"
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:60
+msgid "Hello, I'd like more information about this home. Thank you!"
+msgstr ""
+"Hola, quisiera más información sobre esta casa. ¡Gracias!\n"
+
+#: includes/entity-functions.php:75
+msgid "Hide"
+msgstr ""
+"Esconder\n"
+
+#: includes/classes/entities/class-property.php:469
+msgid "Hide address from clients"
+msgstr ""
+"Ocultar la dirección de los clientes\n"
+
+#: templates/front/partials/entity-section-content.php:48
+msgid "Hide description"
+msgstr "Ocultar descripción"
+
+#: templates/front/shortcodes/search/simple.php:105
+msgid "Hide filters"
+msgstr ""
+"Ocultar filtros\n"
+
+#: templates/admin/property/tabs/location.php:21
+#: templates/admin/property/tabs/location.php:23
+msgid "Hide manual address entry"
+msgstr ""
+"Ocultar entrada de dirección manual\n"
+
+#: includes/classes/widgets/class-widget.php:110
+msgid "Hide on checked page"
+msgstr ""
+"Ocultar en la página marcada\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:65
+msgid "Hide Request Info button"
+msgstr ""
+"Botón Ocultar información de solicitud\n"
+
+#: includes/classes/class-settings-container.php:225
+msgid "Highest price"
+msgstr "Precio más alto"
+
+#: includes/classes/class-settings-container.php:728
+msgid "HKD - Hong Kong Dollar"
+msgstr "HKD - Hong Kong Dollar"
+
+#: includes/classes/class-settings-container.php:727
+msgid "HNL - Lempira"
+msgstr "HNL - Lempira"
+
+#: includes/classes/widgets/elementor/class-elementor-properties-slider-widget.php:79
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: includes/classes/class-migrations.php:88
+msgid "Houses"
+msgstr ""
+"Casas\n"
+
+#: includes/classes/class-settings-container.php:704
+msgid "HRK - Kuna"
+msgstr "HRK - Kuna"
+
+#: includes/classes/class-settings-container.php:726
+msgid "HTG - Gourde"
+msgstr "HTG - Gourde"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://estatik.net"
+msgstr "http://estatik.net"
+
+#: includes/classes/class-settings-container.php:729
+msgid "HUF - Forint"
+msgstr "HUF - Forint"
+
+#: includes/hooks.php:309 templates/admin/settings/tabs/terms-tab.php:13
+msgid "I agree to the Terms of Use and Privacy Policy"
+msgstr "Acepto los Términos de uso y la Política de privacidad"
+
+#: includes/classes/class-settings-container.php:481
+msgid "Icon"
+msgstr ""
+"Icono\n"
+
+#: templates/admin/settings/tabs/map-tab.php:78
+#: templates/admin/settings/tabs/map-tab.php:115
+#: templates/admin/settings/tabs/map-tab.php:140
+#: templates/admin/settings/tabs/map-tab.php:200
+msgid "Icon color"
+msgstr ""
+"Color del icono\n"
+
+#: includes/classes/class-settings-container.php:474
+msgid "Icons"
+msgstr "Iconos"
+
+#: includes/classes/entities/class-property.php:365
+#: includes/classes/pages/admin/class-properties-archive-page.php:400
+msgid "ID"
+msgstr "ID"
+
+#: includes/classes/class-settings-container.php:731
+msgid "IDR - Rupiah"
+msgstr "IDR - Rupiah"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:313
+msgid ""
+"If you are limited in time or just don’t feel like setting up the plugin "
+"yourself, our team is at your service. We can help set up your WordPress "
+"website to look like our plugin or theme demo websites."
+msgstr ""
+
+#: includes/classes/class-settings-container.php:735
+msgid "ILS - New Israeli Sheqel"
+msgstr "ILS - New Israeli Sheqel"
+
+#: includes/classes/pages/admin/class-properties-archive-page.php:402
+msgid "Image"
+msgstr ""
+"Imagen\n"
+
+#: includes/helper-functions.php:1798
+msgctxt "image size crop"
+msgid "Cropped"
+msgstr ""
+
+#: includes/helper-functions.php:1798
+msgctxt "image size crop"
+msgid "Without crop"
+msgstr ""
+
+#: templates/admin/demo/steps/step4.php:8
+msgctxt "import demo listings"
+msgid "No"
+msgstr "No"
+
+#: templates/admin/demo/steps/step4.php:9
+msgctxt "import demo listings"
+msgid "Yes"
+msgstr "Sí"
+
+#: templates/admin/dashboard/index.php:116
+#, php-format
+msgid ""
+"Import listings from your MLS via RETS, Web API or CREA DDF facility. Plugin "
+"setup service is included. Sit back and let us handle everything! Click <a "
+"href=\"%s\" target=\"%s\">here</a> to read details."
+msgstr ""
+
+#: includes/classes/widgets/class-properties-slider-widget.php:70
+#: includes/classes/widgets/elementor/class-elementor-properties-slider-widget.php:116
+msgid "Infinite"
+msgstr "Infinito"
+
+#: includes/classes/class-settings-container.php:683
+msgid "INR - Indian Rupee"
+msgstr "INR - Indian Rupee"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:314
+#, fuzzy
+#| msgid "Installation & setup"
+msgid "Installation & Setup"
+msgstr "Instalación y configuración"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:318
+msgid ""
+"Installation, connection to MLS, and mapping MLS fields to Estatik for every "
+"property type (Residential, Commercial, Multifamily, Lease, LotsAndLand, etc."
+"), setting up automatic import, and launching synchronization."
+msgstr ""
+
+#: includes/classes/pages/admin/class-data-manager-page.php:380
+msgid "Interior"
+msgstr ""
+"Interior\n"
+
+#: includes/classes/pages/admin/class-migration-page.php:162
+msgid "Internal server error"
+msgstr ""
+"Error Interno del Servidor\n"
+
+#: includes/classes/class-address-components.php:17
+#: templates/admin/fields-builder/forms/field-form.php:93
+#, fuzzy
+#| msgid "Intersection"
+msgid "intersection"
+msgstr "Intersección"
+
+#: includes/classes/class-auth-init.php:247
+msgid "Invalid authentication method."
+msgstr ""
+"Método de autenticación no válido.\n"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:266
+msgid "Invalid input type"
+msgstr ""
+"Tipo de entrada no válido\n"
+
+#: includes/classes/pages/admin/class-properties-archive-page.php:52
+msgid "Invalid post type."
+msgstr ""
+"Tipo de publicación no válida.\n"
+
+#: includes/ajax.php:235
+msgid "Invalid saved search."
+msgstr ""
+"Búsqueda guardada no válida.\n"
+
+#: includes/ajax.php:183 includes/ajax.php:238
+#: includes/helper-functions.php:930 includes/classes/framework/ajax.php:44
+#: includes/classes/shortcodes/class-request-form-shortcode.php:172
+#: includes/classes/pages/front/class-profile-page.php:23
+#: includes/classes/pages/front/class-profile-page.php:97
+msgid "Invalid security nonce. Please, reload the page and try again."
+msgstr ""
+"Nonce de seguridad no válido. Por favor, recarga la página e inténtalo de "
+"nuevo.\n"
+
+#: includes/classes/auth/class-authentication.php:77
+msgid "Invalid user email"
+msgstr ""
+"Correo electrónico de usuario no válido\n"
+
+#: includes/classes/class-auth-init.php:237
+msgid "Invalid user email."
+msgstr "Correo electrónico de usuario no válido."
+
+#: includes/classes/class-settings-container.php:734
+msgid "IQD - Iraqi Dinar"
+msgstr "IQD - Iraqi Dinar"
+
+#: includes/classes/class-migrations.php:214
+msgid "Iron"
+msgstr "Planchar"
+
+#: includes/classes/class-settings-container.php:733
+msgid "IRR - Iranian Rial"
+msgstr "IRR - Iranian Rial"
+
+#: includes/classes/entities/class-property.php:463
+msgid "Is manual address"
+msgstr "Es dirección manual"
+
+#: includes/classes/class-settings-container.php:730
+msgid "ISK - Iceland Krona"
+msgstr "ISK - Iceland Krona"
+
+#: includes/ajax.php:84
+msgid "Item successfully added to wishlist"
+msgstr ""
+"Artículo añadido con éxito a la lista de deseos\n"
+
+#: includes/ajax.php:81
+msgid "Item successfully removed from wishlist"
+msgstr ""
+"Artículo eliminado con éxito de la lista de deseos\n"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:331
+msgid "Items order was changed successfully."
+msgstr "El orden de los artículos se cambió con éxito."
+
+#: includes/classes/class-migrations.php:216
+msgid "Jacuzzi"
+msgstr "Jacuzzi"
+
+#: includes/classes/class-settings-container.php:736
+msgid "JMD - Jamaican Dollar"
+msgstr "JMD - Jamaican Dollar"
+
+#: includes/classes/class-settings-container.php:738
+msgid "JOD - Jordanian Dinar"
+msgstr "JOD - Jordanian Dinar"
+
+#: includes/classes/class-settings-container.php:737
+msgid "JPY - Yen"
+msgstr "JPY - Yen"
+
+#: includes/classes/class-settings-container.php:740
+msgid "KES - Kenyan Shilling"
+msgstr "KES - Kenyan Shilling"
+
+#: includes/classes/entities/class-property.php:828
+msgid "Keywords"
+msgstr "Palabras clave"
+
+#: includes/classes/class-settings-container.php:744
+msgid "KGS - Som"
+msgstr "KGS - Som"
+
+#: includes/classes/class-settings-container.php:693
+msgid "KHR - Riel"
+msgstr "KHR - Riel"
+
+#: includes/classes/class-settings-container.php:700
+msgid "KMF - Comoro Franc"
+msgstr "KMF - Comoro Franc"
+
+#: includes/classes/class-settings-container.php:741
+msgid "KPW - North Korean Won"
+msgstr "KPW - North Korean Won"
+
+#: includes/classes/class-settings-container.php:742
+msgid "KRW - Won"
+msgstr "KRW - Won"
+
+#: includes/classes/class-settings-container.php:743
+msgid "KWD - Kuwaiti Dinar"
+msgstr "KWD - Kuwaiti Dinar"
+
+#: includes/classes/class-settings-container.php:695
+msgid "KYD - Cayman Islands Dollar"
+msgstr "KYD - Cayman Islands Dollar"
+
+#: includes/classes/class-settings-container.php:739
+msgid "KZT - Tenge"
+msgstr "KZT - Tenge"
+
+#: includes/classes/class-taxonomies.php:75
+msgid "Label"
+msgstr ""
+"Etiqueta\n"
+
+#: templates/admin/fields-builder/forms/field-form.php:39
+msgid "Label for frontend form"
+msgstr "Etiqueta para formulario frontend"
+
+#: includes/classes/class-taxonomies.php:74
+#: includes/classes/pages/admin/class-data-manager-page.php:368
+#: includes/classes/widgets/elementor/class-elementor-query.php:77
+msgid "Labels"
+msgstr "Etiquetas"
+
+#: includes/classes/class-settings-container.php:745
+msgid "LAK - Kip"
+msgstr "LAK - Kip"
+
+#: includes/classes/class-migrations.php:146
+msgid "Laminate"
+msgstr ""
+"Laminado\n"
+
+#: includes/classes/class-migrations.php:93
+msgid "Land"
+msgstr ""
+"Tierra\n"
+
+#: includes/classes/class-address-components.php:37
+#: templates/admin/fields-builder/forms/field-form.php:113
+msgid "landmark"
+msgstr ""
+
+#: templates/admin/settings/tabs/general-tab.php:12
+msgid "Language"
+msgstr "Idioma"
+
+#: includes/classes/class-settings-container.php:839
+msgid "Large grid layout"
+msgstr ""
+"Diseño de cuadrícula grande\n"
+
+#: includes/classes/class-settings-container.php:226
+msgid "Largest sq ft"
+msgstr ""
+"pies cuadrados más grandes\n"
+
+#: includes/classes/entities/class-user.php:41
+msgid "Last name"
+msgstr ""
+"Apellido\n"
+
+#: includes/classes/entities/class-property.php:633
+msgid "Latitude"
+msgstr "Latitud"
+
+#: includes/classes/widgets/class-listings-widget.php:56
+#: includes/classes/widgets/class-properties-slider-widget.php:52
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:75
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:75
+#: includes/classes/widgets/elementor/class-elementor-properties-slider-widget.php:75
+msgid "Layout"
+msgstr "Diseño"
+
+#: includes/classes/class-settings-container.php:746
+msgid "LBP - Lebanese Pound"
+msgstr "LBP - Lebanese Pound"
+
+#: templates/admin/properties-archive/filter.php:56
+#: templates/front/shortcodes/search/main.php:100
+#: templates/front/shortcodes/search/advanced.php:46
+msgid "Less filters"
+msgstr "Menos filtros"
+
+#: templates/admin/demo/steps/step1.php:2
+msgid "Let’s adjust Estatik to your needs"
+msgstr ""
+"Ajustemos Estatik a tus necesidades\n"
+
+#: includes/classes/widgets/class-listings-widget.php:76
+msgid "Link button name"
+msgstr ""
+"Nombre del botón de enlace\n"
+
+#: includes/classes/widgets/class-listings-widget.php:83
+msgid "Link button page"
+msgstr ""
+"Página del botón de enlace\n"
+
+#: includes/classes/framework/fields/class-link-field.php:14
+msgid "Link name"
+msgstr "Nombre del enlace"
+
+#: includes/helper-functions.php:287
+#: includes/classes/entities/class-property.php:739
+msgid "Link to your video from YouTube or Vimeo"
+msgstr "Enlace a su video desde YouTube o Vimeo"
+
+#: includes/classes/class-settings-container.php:849
+msgid "Linkedin"
+msgstr ""
+"Linkedin\n"
+
+#: includes/classes/class-migrations.php:147
+msgid "Linoleum/vinyl"
+msgstr ""
+"Linóleo/vinilo\n"
+
+#: includes/classes/class-settings-container.php:840
+#: includes/classes/pages/admin/class-demo-page.php:289
+#: templates/admin/demo/steps/step3.php:34
+msgid "List layout"
+msgstr "Diseño de lista"
+
+#: includes/classes/pages/admin/class-migration-page.php:119
+#, php-format
+msgid "Listing #%s successfully migrated."
+msgstr ""
+"Listado #%s migrado con éxito.\n"
+
+#: includes/classes/pages/admin/class-settings-page.php:89
+#: templates/admin/settings/tabs/listing-search-tab.php:1
+msgid "Listing search"
+msgstr "Búsqueda de listado"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:573
+msgid "Listing sections"
+msgstr ""
+"Listado de secciones\n"
+
+#: includes/classes/widgets/class-properties-filter-widget.php:58
+msgid "Listings IDs"
+msgstr ""
+"ID de listados\n"
+
+#: includes/classes/pages/admin/class-migration-page.php:94
+msgid "Listings labels migrated."
+msgstr "Etiquetas de listados migradas."
+
+#: includes/classes/widgets/class-listings-widget.php:60
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:79
+msgctxt "listings layout name"
+msgid "1 column"
+msgstr "1 columna"
+
+#: includes/classes/widgets/class-listings-widget.php:61
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:80
+msgctxt "listings layout name"
+msgid "2 columns"
+msgstr "2 columnas"
+
+#: includes/classes/widgets/class-listings-widget.php:62
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:81
+msgctxt "listings layout name"
+msgid "3 columns"
+msgstr "3 columnas"
+
+#: includes/classes/widgets/class-listings-widget.php:63
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:82
+msgctxt "listings layout name"
+msgid "4 columns"
+msgstr "4 columnas"
+
+#: includes/classes/widgets/class-listings-widget.php:64
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:83
+msgctxt "listings layout name"
+msgid "5 columns"
+msgstr "5 columnas"
+
+#: includes/classes/widgets/class-listings-widget.php:65
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:84
+msgctxt "listings layout name"
+msgid "6 columns"
+msgstr "6 columnas"
+
+#: includes/classes/widgets/class-listings-widget.php:59
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:78
+msgctxt "listings layout name"
+msgid "List"
+msgstr "Lista"
+
+#: includes/classes/pages/admin/class-migration-page.php:130
+msgid "Listings successfully migrated."
+msgstr ""
+"Listados migrados con éxito.\n"
+
+#: includes/classes/widgets/class-properties-filter-widget.php:67
+msgid "Listings to show"
+msgstr "Listados para mostrar"
+
+#: includes/classes/class-settings-container.php:794
+msgid "LKR - Sri Lanka Rupee"
+msgstr "LKR - Sri Lanka Rupee"
+
+#: includes/classes/class-address-components.php:26
+#: templates/admin/fields-builder/forms/field-form.php:102
+#, fuzzy
+#| msgid "Locality"
+msgid "locality"
+msgstr ""
+"Localidad\n"
+
+#: includes/functions.php:274 includes/classes/class-taxonomies.php:26
+msgid "Location"
+msgstr ""
+"Ubicación\n"
+
+#: templates/front/shortcodes/search/partials/autocomplete.php:19
+#: templates/front/shortcodes/search/partials/autocomplete.php:35
+msgid "Location not found"
+msgstr "Ubicación no encontrada"
+
+#: includes/classes/class-taxonomies.php:25
+#: includes/classes/pages/admin/class-data-manager-page.php:412
+msgid "Locations"
+msgstr "Ubicaciones"
+
+#: includes/classes/pages/admin/class-demo-page.php:312
+#: templates/admin/demo/steps/step3.php:49
+#: templates/admin/settings/tabs/auth-tab.php:21
+#: templates/front/shortcodes/authentication/login-form.php:55
+msgid "Log in"
+msgstr "Iniciar sesión"
+
+#: templates/admin/settings/tabs/auth-tab.php:22
+msgid "Log in page"
+msgstr ""
+"Página de inicio de sesión\n"
+
+#: templates/front/shortcodes/authentication/login-buttons.php:26
+#, php-format
+msgid "Log in with %s"
+msgstr "Iniciar sesión con %s"
+
+#: templates/front/shortcodes/authentication/login-buttons.php:34
+msgid "Log in with email"
+msgstr ""
+"Iniciar sesión con correo electrónico\n"
+
+#: templates/front/shortcodes/profile/profile.php:68
+#: templates/front/shortcodes/authentication/authentication.php:20
+msgid "Log out"
+msgstr ""
+"Cerrar sesión\n"
+
+#: includes/classes/entities/class-user.php:29
+msgid "Login"
+msgstr "Acceso"
+
+#: includes/classes/widgets/elementor/class-elementor-authentication-widget.php:74
+msgid "Login buttons"
+msgstr ""
+"Botones de inicio de sesión\n"
+
+#: includes/classes/widgets/elementor/class-elementor-authentication-widget.php:73
+msgid "Login form"
+msgstr ""
+"Formulario de inicio de sesión\n"
+
+#: templates/admin/settings/tabs/general-tab.php:63
+msgid "Logo image for admin login page"
+msgstr ""
+"Imagen del logotipo para la página de inicio de sesión del administrador\n"
+
+#: includes/classes/entities/class-property.php:646
+msgid "Longitude"
+msgstr "Longitud"
+
+#: includes/classes/entities/class-property.php:275
+msgid "Lot size"
+msgstr "Tamaño del lote"
+
+#: templates/admin/settings/tabs/general-tab.php:29
+msgid "Lot size unit"
+msgstr ""
+"Unidad de tamaño de lote\n"
+
+#: includes/classes/pages/admin/class-data-manager-page.php:402
+#: templates/admin/data-manager/tabs/units-tab.php:12
+msgid "Lot size units"
+msgstr "Unidades de tamaño de lote"
+
+#: includes/classes/entities/class-property.php:275
+#, php-format
+msgid "Lot size, %s"
+msgstr ""
+"Tamaño del lote, %s\n"
+
+#: includes/classes/class-settings-container.php:224
+msgid "Lowest price"
+msgstr "El precio más bajo"
+
+#: includes/classes/class-settings-container.php:749
+msgid "LRD - Liberian Dollar"
+msgstr "LRD - Liberian Dollar"
+
+#: includes/classes/class-settings-container.php:747
+msgid "LSL - Loti"
+msgstr "LSL - Loti"
+
+#: includes/classes/class-settings-container.php:750
+msgid "LYD - Libyan Dinar"
+msgstr "LYD - Libyan Dinar"
+
+#: includes/classes/class-settings-container.php:764
+msgid "MAD - Moroccan Dirham"
+msgstr "MAD - Moroccan Dirham"
+
+#: templates/admin/settings/tabs/general-tab.php:70
+msgid "Main color"
+msgstr ""
+"Color principal\n"
+
+#: includes/classes/widgets/class-search-form-widget.php:125
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:115
+msgid "Main filters"
+msgstr "Filtros principales"
+
+#: includes/classes/class-settings-container.php:425
+msgid "Manage your listings, profile and more"
+msgstr ""
+"Administre sus listados, perfil y más\n"
+
+#: includes/classes/pages/admin/class-demo-page.php:297
+#: templates/admin/demo/steps/step3.php:40
+msgid "Map view"
+msgstr ""
+"Vista del mapa\n"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:172
+msgid "Max"
+msgstr ""
+"Máx.\n"
+
+#: templates/admin/settings/tabs/map-tab.php:47
+msgid "Max zoom level"
+msgstr ""
+
+#: templates/admin/settings/tabs/listings-tab.php:12
+#: templates/admin/settings/tabs/general-tab.php:65
+msgid "Maximum file size - 2MB.<br>Allowed file types: JPG, PNG, GIF."
+msgstr ""
+"Tamaño máximo de archivo: 2 MB. Tipos de archivo permitidos: JPG, PNG, GIF.\n"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:267
+msgid "Maximum floor"
+msgstr ""
+"Piso máximo\n"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:289
+msgid "Maximum floor level"
+msgstr ""
+"Nivel máximo del piso\n"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:70
+#: templates/admin/settings/tabs/listing-search-tab.php:111
+#, php-format
+msgid "Maximum prices, %s"
+msgstr "Precios máximos, %s"
+
+#: includes/classes/class-settings-container.php:762
+msgid "MDL - Moldovan Leu"
+msgstr "MDL - Moldovan Leu"
+
+#: includes/classes/widgets/class-request-form-widget.php:78
+msgid "Message"
+msgstr ""
+"Mensaje\n"
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:120
+msgid "Message*"
+msgstr ""
+"Mensaje*\n"
+
+#: includes/classes/class-migrations.php:120
+#: includes/classes/class-migrations.php:129
+msgid "Metal"
+msgstr "Metal"
+
+#: includes/classes/class-settings-container.php:753
+msgid "MGA - Malagasy Ariary"
+msgstr "MGA - Malagasy Ariary"
+
+#: includes/classes/class-migrations.php:209
+msgid "Microwave"
+msgstr ""
+"Microondas\n"
+
+#: includes/classes/class-admin-menu.php:121
+#: includes/classes/class-admin-menu.php:122
+msgid "Migration"
+msgstr "Migración"
+
+#: templates/admin/migration/index.php:4
+msgid "Migration from Estatik 3"
+msgstr "Migración desde Estatik 3"
+
+#: templates/admin/migration/index.php:18
+msgid ""
+"Migration process may take some time, especially if you have lots of "
+"properties added. \n"
+"                    Please be patient."
+msgstr ""
+"El proceso de migración puede llevar algún tiempo, especialmente si tiene "
+"muchas propiedades agregadas.\n"
+"                     Por favor sea paciente."
+
+#: includes/classes/pages/admin/class-migration-page.php:136
+msgid "Migration successfully finished."
+msgstr ""
+"Migración finalizada con éxito.\n"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:167
+msgid "Min"
+msgstr ""
+"Mínimo\n"
+
+#: templates/admin/settings/tabs/map-tab.php:35
+msgid "Min zoom level"
+msgstr ""
+
+#: templates/admin/settings/tabs/listing-search-tab.php:262
+msgid "Minimum floor"
+msgstr "Piso mínimo"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:284
+msgid "Minimum floor level"
+msgstr ""
+"Nivel mínimo del piso\n"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:60
+#: templates/admin/settings/tabs/listing-search-tab.php:102
+#, php-format
+msgid "Minimum prices, %s"
+msgstr "Precios mínimos, %s"
+
+#: includes/classes/class-settings-container.php:779
+msgid "MKD - Denar"
+msgstr "MKD - Denar"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:246
+msgid "MLS Import"
+msgstr ""
+
+#: templates/admin/fields-builder/forms/field-form.php:149
+msgid "MLS import support"
+msgstr ""
+"Soporte de importación MLS\n"
+
+#: includes/classes/pages/admin/class-demo-page.php:255
+msgid "MLS import via RETS"
+msgstr ""
+"Importación de MLS a través de RETS\n"
+
+#: includes/classes/class-settings-container.php:766
+msgid "MMK - Kyat"
+msgstr "MMK - Kyat"
+
+#: includes/classes/class-settings-container.php:763
+msgid "MNT - Tugrik"
+msgstr "MNT - Tugrik"
+
+#: includes/classes/class-settings-container.php:752
+msgid "MOP - Pataca"
+msgstr "MOP - Pataca"
+
+#: templates/admin/properties-archive/filter.php:56
+#: templates/front/shortcodes/search/main.php:83
+#: templates/front/shortcodes/search/simple.php:92
+#: templates/front/shortcodes/search/advanced.php:47
+msgid "More filters"
+msgstr "Más filtros"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:293
+msgid "Mortgage Calculator"
+msgstr "Mortgage Calculator"
+
+#: includes/classes/class-settings-container.php:757
+msgid "MRU - Ouguiya"
+msgstr "MRU - Ouguiya"
+
+#: includes/classes/class-migrations.php:92
+msgid "Multifamily"
+msgstr "Multifamiliar"
+
+#: includes/classes/class-settings-container.php:758
+msgid "MUR - Mauritius Rupee"
+msgstr "MUR - Mauritius Rupee"
+
+#: includes/classes/class-settings-container.php:756
+msgid "MVR - Rufiyaa"
+msgstr ""
+"MVR - Rufiyaa\n"
+
+#: includes/classes/class-settings-container.php:754
+msgid "MWK - Kwacha"
+msgstr ""
+"MWK - Kwacha\n"
+
+#: includes/classes/class-settings-container.php:760
+msgid "MXN - Mexican Peso"
+msgstr "MXN - Mexican Peso"
+
+#: includes/classes/class-settings-container.php:761
+msgid "MXV - Mexican Unidad de Inversion (UDI)"
+msgstr "MXV - Mexican Unidad de Inversion (UDI)"
+
+#: includes/classes/class-admin-menu.php:51
+#: includes/classes/class-admin-menu.php:52
+#: templates/admin/properties-archive/header.php:3
+#: includes/classes/pages/admin/class-dashboard-page.php:207
+msgid "My listings"
+msgstr "Mis propiedades"
+
+#: includes/classes/class-settings-container.php:755
+msgid "MYR - Malaysian Ringgit"
+msgstr "MYR - Malaysian Ringgit"
+
+#: includes/classes/class-settings-container.php:765
+msgid "MZN - Mozambique Metical"
+msgstr "MZN - Mozambique Metical"
+
+#: includes/classes/class-settings-container.php:216
+msgid "m²"
+msgstr "m²"
+
+#: includes/classes/class-settings-container.php:219
+msgid "m³"
+msgstr "m³"
+
+#: includes/classes/class-settings-container.php:767
+msgid "NAD - Namibia Dollar"
+msgstr "NAD - Namibia Dollar"
+
+#: includes/classes/entities/class-user.php:46
+#: templates/front/shortcodes/profile/tabs/profile-form.php:27
+msgid "Name"
+msgstr "Nombre"
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:88
+msgid "Name*"
+msgstr "Nombre*"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:262
+msgid "Native Theme"
+msgstr "Native Tema"
+
+#: includes/classes/pages/admin/class-demo-page.php:223
+msgid "Nearby & Walkscore integration"
+msgstr ""
+"Integración de Near y Walkscore\n"
+
+#: templates/admin/partials/help.php:2
+msgid "Need more help?"
+msgstr ""
+"Necesitas más ayuda?\n"
+
+#: includes/classes/class-taxonomies.php:180
+msgid "Neighborhood"
+msgstr "Vecindario"
+
+#: includes/classes/class-address-components.php:27
+#: templates/admin/fields-builder/forms/field-form.php:103
+msgid "neighborhood"
+msgstr ""
+
+#: includes/classes/class-taxonomies.php:179
+#: includes/classes/entities/class-property.php:678
+msgid "Neighborhoods"
+msgstr ""
+"Barrios\n"
+
+#: templates/front/shortcodes/authentication/reset-form.php:21
+#: templates/front/shortcodes/profile/partials/change-password-form.php:12
+msgid "New password"
+msgstr "Nueva contraseña"
+
+#: includes/classes/pages/front/class-profile-page.php:118
+msgid "New password is not equal with confirm password field."
+msgstr ""
+"La nueva contraseña no es igual al campo de confirmación de contraseña.\n"
+
+#: includes/classes/emails/class-new-user-info-email.php:28
+msgid "New user info after registration"
+msgstr "Información de nuevo usuario después del registro"
+
+#: includes/classes/class-settings-container.php:223
+#: includes/classes/pages/admin/class-properties-archive-page.php:380
+msgid "Newest"
+msgstr ""
+"El más nuevo\n"
+
+#: includes/classes/pages/admin/class-entities-archive-page.php:113
+msgid "Next"
+msgstr ""
+"Próximo\n"
+
+#: includes/classes/class-settings-container.php:770
+msgid "NGN - Naira"
+msgstr "NGN - Naira"
+
+#: includes/classes/class-settings-container.php:769
+msgid "NIO - Cordoba Oro"
+msgstr "NIO - Cordoba Oro"
+
+#: includes/hooks.php:94 includes/hooks.php:216 includes/hooks.php:217
+#, php-format
+msgid "No %s"
+msgstr ""
+"Sin %s\n"
+
+#: templates/admin/properties-archive/filter.php:95
+msgid "No max"
+msgstr "No max"
+
+#: templates/admin/properties-archive/filter.php:85
+msgid "No min"
+msgstr "No min"
+
+#: templates/front/partials/no-found-posts.php:2
+msgid "No results"
+msgstr ""
+"No hay resultados\n"
+
+#: includes/classes/class-settings-container.php:688
+msgid "NOK - Norwegian Krone"
+msgstr "NOK - Norwegian Krone"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:333
+msgid "Nothing to sort."
+msgstr "Nada que ordenar."
+
+#: includes/classes/class-settings-container.php:768
+msgid "NPR - Nepalese Rupee"
+msgstr "NPR - Nepalese Rupee"
+
+#: includes/classes/class-settings-container.php:702
+msgid "NZD - New Zealand Dollar"
+msgstr "NZD - New Zealand Dollar"
+
+#: includes/classes/class-migrations.php:113
+msgid "Off-street"
+msgstr "fuera de la calle"
+
+#: includes/classes/class-settings-container.php:229
+#: includes/classes/pages/admin/class-properties-archive-page.php:384
+msgid "Oldest"
+msgstr "Más antiguo"
+
+#: includes/classes/class-settings-container.php:771
+msgid "OMR - Rial Omani"
+msgstr "OMR - Rial Omani"
+
+#: includes/classes/class-migrations.php:114
+msgid "On-street"
+msgstr "En la calle"
+
+#: includes/helper-functions.php:311
+#: includes/classes/entities/class-property.php:686
+#: includes/classes/entities/class-property.php:704
+#: includes/classes/entities/class-property.php:721
+#, php-format
+msgid "One file must be less than %s. Allowed Extensions: %s."
+msgstr ""
+"Un archivo debe ser menor que %s. Extensiones permitidas: %s.\n"
+
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:85
+msgid "Only for Main search layout"
+msgstr ""
+"Solo para el diseño de búsqueda principal\n"
+
+#: includes/classes/widgets/class-search-form-widget.php:112
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:92
+msgid "Only for Simple or Advanced search layout"
+msgstr ""
+"Solo para diseño de búsqueda simple o avanzada\n"
+
+#: templates/front/property/map.php:11
+#: templates/front/shortcodes/half-map.php:26
+msgid ""
+"Oops! This page didn't load Google Maps correctly. Please contact admin to "
+"fix this."
+msgstr ""
+"¡UPS! Esta página no cargó Google Maps correctamente. Póngase en contacto "
+"con el administrador para solucionar este problema."
+
+#: includes/functions.php:268 includes/classes/entities/class-property.php:325
+msgid "Open House"
+msgstr "Casa abierta"
+
+#: includes/classes/class-migrations.php:166
+#: includes/classes/entities/class-property.php:302
+msgid "Open house"
+msgstr ""
+"Casa abierta\n"
+
+#: includes/classes/entities/class-property.php:344
+msgctxt "open house date"
+msgid "Date"
+msgstr "Fecha"
+
+#: includes/classes/entities/class-property.php:356
+msgctxt "open house time"
+msgid "End time"
+msgstr "Hora de finalización"
+
+#: includes/classes/entities/class-property.php:351
+msgctxt "open house time"
+msgid "Start time"
+msgstr "Hora de inicio"
+
+#: includes/classes/entities/class-property.php:851
+#, php-format
+msgid "Or %s range"
+msgstr ""
+"O rango %s\n"
+
+#: templates/front/popup/share.php:32
+msgid "Or share with"
+msgstr "O compartir con"
+
+#: includes/classes/class-settings-container.php:252
+msgid "Other"
+msgstr "Otro"
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:26
+msgid "Other email"
+msgstr ""
+"Otro correo electrónico\n"
+
+#: includes/classes/class-migrations.php:215
+msgid "Oven"
+msgstr "Horno"
+
+#: includes/classes/class-settings-container.php:773
+msgid "PAB - Balboa"
+msgstr "PAB - Balboa"
+
+#: includes/classes/pages/admin/class-settings-page.php:39
+#, php-format
+msgid "Page <b>%s</b> successfully created."
+msgstr ""
+"Página %s creada con éxito.\n"
+
+#: includes/classes/pages/admin/class-migration-page.php:49
+msgid "Pages migrated."
+msgstr ""
+"Páginas migradas.\n"
+
+#: includes/classes/pages/admin/class-data-manager-page.php:352
+msgid "Parameters"
+msgstr "Parámetros"
+
+#: includes/classes/class-taxonomies.php:97
+#: includes/classes/class-taxonomies.php:98
+#: includes/classes/entities/class-property.php:820
+msgid "Parking"
+msgstr "Estacionamiento"
+
+#: includes/classes/class-migrations.php:139
+msgid "Partially finished"
+msgstr ""
+"Parcialmente terminado\n"
+
+#: includes/classes/entities/class-user.php:33
+msgid "Password"
+msgstr "Contraseña"
+
+#: includes/classes/class-auth-init.php:331
+#: includes/classes/pages/front/class-profile-page.php:134
+msgid "Password successfully changed."
+msgstr "Contraseña cambiada correctamente."
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:213
+msgid "Pattern"
+msgstr ""
+"Patrón\n"
+
+#: includes/classes/pages/admin/class-demo-page.php:211
+msgid "PDF feature"
+msgstr ""
+"Función PDF\n"
+
+#: includes/classes/class-settings-container.php:776
+msgid "PEN - Nuevo Sol"
+msgstr "PEN - Nuevo Sol"
+
+#: includes/classes/class-migrations.php:98
+msgid "Pending"
+msgstr ""
+"Pendiente\n"
+
+#: includes/classes/class-migrations.php:104
+msgid "per day"
+msgstr ""
+"por día\n"
+
+#: includes/classes/class-migrations.php:106
+msgid "per month"
+msgstr "por mes"
+
+#: includes/classes/class-migrations.php:105
+msgid "per week"
+msgstr ""
+"por semana\n"
+
+#: includes/classes/class-migrations.php:107
+msgid "per year"
+msgstr "por año"
+
+#: includes/classes/class-settings-container.php:774
+msgid "PGK - Kina"
+msgstr "PGK - Kina"
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:108
+msgid "Phone"
+msgstr "Teléfono"
+
+#: includes/classes/entities/class-property.php:684
+msgid "Photo gallery"
+msgstr ""
+"Galería de fotos\n"
+
+#: includes/functions.php:280
+msgid "Photos & Media"
+msgstr "Fotos y Medios"
+
+#: includes/classes/class-settings-container.php:777
+msgid "PHP - Philippine Peso"
+msgstr "PHP - Philippine Peso"
+
+#: includes/classes/class-settings-container.php:852
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: includes/classes/class-settings-container.php:772
+msgid "PKR - Pakistan Rupee"
+msgstr "PKR - Pakistan Rupee"
+
+#: templates/admin/settings/tabs/general-tab.php:59
+msgid ""
+"Please enable REST support if you need to use Gutenberg or pull your "
+"listings via wp api."
+msgstr ""
+"Habilite el soporte REST si necesita usar Gutenberg o extraer sus listados a "
+"través de wp api."
+
+#: includes/classes/class-settings-container.php:661
+msgid "PLN - Poland Zloty"
+msgstr "PLN - Poland Zloty"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:125
+#: templates/admin/settings/tabs/listing-search-tab.php:208
+msgctxt "plugin options"
+msgid "Data manager"
+msgstr "Administrador de datos"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:43
+msgctxt "plugin options"
+msgid "Price"
+msgstr "Precio"
+
+#: includes/classes/class-settings-container.php:1374
+msgctxt "plugin settings"
+msgid "Buttons"
+msgstr ""
+
+#: includes/classes/class-settings-container.php:1375
+msgctxt "plugin settings"
+msgid "Dropdown"
+msgstr ""
+
+#: includes/classes/pages/admin/class-settings-page.php:73
+#: templates/admin/settings/tabs/general-tab.php:1
+msgctxt "plugin settings"
+msgid "General"
+msgstr "General"
+
+#: templates/admin/settings/tabs/recaptcha-tab.php:2
+msgctxt "plugin settings"
+msgid "generate them"
+msgstr "Generarlos"
+
+#: includes/classes/pages/admin/class-settings-page.php:81
+#: templates/admin/settings/tabs/recaptcha-tab.php:1
+msgctxt "plugin settings"
+msgid "Google reCAPTCHA"
+msgstr "ReCAPTCHA de Google"
+
+#: includes/classes/pages/admin/class-settings-page.php:85
+#: templates/admin/settings/tabs/listings-tab.php:1
+msgctxt "plugin settings"
+msgid "Listings"
+msgstr "Listados"
+
+#: includes/classes/pages/admin/class-settings-page.php:93
+msgctxt "plugin settings"
+msgid "Log in & Sign up"
+msgstr "Inicie sesión y regístrese"
+
+#: includes/classes/pages/admin/class-settings-page.php:77
+#: templates/admin/settings/tabs/map-tab.php:2
+msgctxt "plugin settings"
+msgid "Map"
+msgstr "Mapa"
+
+#: includes/classes/pages/admin/class-settings-page.php:110
+#: templates/admin/settings/tabs/terms-tab.php:1
+msgctxt "plugin settings"
+msgid "Privacy policy & Terms of use"
+msgstr "Política de privacidad y Condiciones de uso"
+
+#: includes/classes/pages/admin/class-settings-page.php:97
+msgctxt "plugin settings"
+msgid "SEO"
+msgstr "SEO"
+
+#: includes/classes/pages/admin/class-settings-page.php:101
+msgctxt "plugin settings"
+msgid "Sharing"
+msgstr "Distribución"
+
+#: includes/classes/pages/admin/class-settings-page.php:105
+msgctxt "plugin settings"
+msgid "URL slug"
+msgstr "URL slug"
+
+#: templates/admin/settings/tabs/map-tab.php:1
+msgctxt "plugin settings link name"
+msgid "generate it"
+msgstr "generarlo"
+
+#: includes/classes/pages/admin/class-migration-page.php:57
+msgid "Plugin settings migrated."
+msgstr "Se migró la configuración del complemento."
+
+#: templates/admin/settings/tabs/map-tab.php:164
+#: templates/admin/settings/tabs/map-tab.php:172
+#: templates/admin/settings/tabs/map-tab.php:180
+#: templates/admin/settings/tabs/map-tab.php:188
+msgctxt "plugin settings taxonomy placeholder"
+msgid "All"
+msgstr "Todos"
+
+#: includes/classes/class-address-components.php:18
+#: templates/admin/fields-builder/forms/field-form.php:94
+#, fuzzy
+#| msgid "Political"
+msgid "political"
+msgstr ""
+"Político\n"
+
+#: includes/classes/pages/front/class-profile-page.php:25
+#: includes/classes/pages/front/class-profile-page.php:99
+msgctxt "popup error title"
+msgid "Error!"
+msgstr "¡Error!"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:281
+msgid "Portal Theme"
+msgstr "Portal Tema"
+
+#: includes/classes/pages/admin/class-properties-archive-page.php:55
+msgid "Post ID is empty"
+msgstr "El ID de la publicación está vacío"
+
+#: includes/classes/class-address-components.php:38
+#: templates/admin/fields-builder/forms/field-form.php:114
+msgid "postal_town"
+msgstr ""
+
+#: includes/classes/class-address-components.php:34
+#: templates/admin/fields-builder/forms/field-form.php:110
+#, fuzzy
+#| msgid "Premium"
+msgid "premise"
+msgstr "Premium"
+
+#: templates/admin/dashboard/index.php:115
+#: includes/classes/pages/admin/class-dashboard-page.php:247
+msgid "Premium"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:319
+msgid "Premium MLS Setup (for Premium users only)"
+msgstr ""
+
+#: includes/classes/pages/admin/class-entities-archive-page.php:112
+msgid "Prev"
+msgstr "Vista previa"
+
+#: templates/admin/dashboard/partials/themes.php:45
+msgid "Preview"
+msgstr "Vista previa"
+
+#: includes/classes/class-settings-container.php:482
+#: includes/classes/entities/class-property.php:408
+#: templates/admin/properties-archive/quick-edit.php:118
+#: includes/classes/pages/admin/class-properties-archive-page.php:408
+msgid "Price"
+msgstr ""
+"Precio\n"
+
+#: includes/classes/entities/class-property.php:440
+msgid "Price note"
+msgstr "Nota de precio"
+
+#: includes/classes/entities/class-property.php:425
+#: templates/admin/properties-archive/quick-edit.php:125
+msgid "Price per sqft"
+msgstr ""
+"Precio por pie cuadrado\n"
+
+#: templates/admin/properties-archive/filter.php:82
+#: templates/admin/properties-archive/filter.php:93
+msgid "Price range"
+msgstr "Rango de precios"
+
+#: includes/hooks.php:283
+msgid "Privacy Policy"
+msgstr "Política de privacidad"
+
+#: templates/admin/settings/tabs/terms-tab.php:26
+msgid "Privacy policy"
+msgstr "Política de privacidad"
+
+#: templates/admin/settings/tabs/terms-tab.php:27
+msgid "Privacy policy page"
+msgstr "Página de política de privacidad"
+
+#: templates/admin/dashboard/index.php:107
+#: includes/classes/pages/admin/class-dashboard-page.php:233
+#: includes/classes/pages/admin/class-dashboard-page.php:240
+msgid "PRO"
+msgstr ""
+
+#: includes/classes/pages/admin/class-demo-page.php:322
+#: templates/admin/demo/steps/step3.php:55
+#: templates/admin/settings/tabs/auth-tab.php:5
+#: templates/admin/settings/tabs/auth-tab.php:6
+#: templates/front/shortcodes/profile/profile.php:36
+msgid "Profile"
+msgstr ""
+"Perfil\n"
+
+#: includes/classes/pages/front/class-profile-page.php:60
+msgid "Profile updated successfully."
+msgstr ""
+"Perfil actualizado con éxito.\n"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:275
+msgid "Project Theme"
+msgstr ""
+"Project Tema \n"
+
+#: templates/admin/properties-archive/filter.php:33
+#: templates/admin/properties-archive/filter.php:45
+#: templates/admin/properties-archive/filter.php:71
+msgctxt "properties filter select"
+msgid "All"
+msgstr "Todos"
+
+#: includes/classes/widgets/elementor/class-elementor-query.php:38
+msgid "Properties IDs"
+msgstr "ID de propiedades"
+
+#: includes/classes/meta-boxes/class-property-fields-meta-box.php:113
+msgid "Properties info"
+msgstr ""
+"Información de propiedades\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:105
+msgid "Properties number per page"
+msgstr ""
+"Número de propiedades por página\n"
+
+#: includes/classes/widgets/elementor/class-elementor-query.php:25
+msgid "Properties per page"
+msgstr ""
+"Propiedades por página\n"
+
+#: includes/classes/class-settings-container.php:1121
+msgid "Property"
+msgstr ""
+"Propiedad\n"
+
+#: includes/classes/widgets/class-properties-filter-widget.php:71
+msgid "Property categories to show"
+msgstr ""
+"Categorías de propiedades para mostrar\n"
+
+#: templates/admin/settings/tabs/map-tab.php:160
+msgid "Property category"
+msgstr "Categoría de propiedad"
+
+#: templates/admin/settings/tabs/slugs-tab.php:10
+msgid "Property category slug"
+msgstr ""
+"Slug de categoría de propiedad\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:82
+msgid "Property content font"
+msgstr ""
+"Fuente del contenido de la propiedad\n"
+
+#: includes/helper-functions.php:280
+msgctxt "property edit"
+msgid "Video"
+msgstr "Video"
+
+#: templates/admin/settings/tabs/listings-tab.php:71
+msgid "Property headings font"
+msgstr "Fuente de encabezados de propiedad"
+
+#: templates/admin/settings/tabs/listings-tab.php:95
+msgid "Property item image size"
+msgstr ""
+
+#: templates/admin/settings/tabs/map-tab.php:184
+msgid "Property label"
+msgstr "Etiqueta de propiedad"
+
+#: templates/front/popup/share.php:25
+msgctxt "property link copy"
+msgid "Copy"
+msgstr "Dupdo"
+
+#: templates/admin/properties-archive/filter.php:19
+msgid "Property search"
+msgstr "Búsqueda de Propiedades"
+
+#: templates/admin/settings/tabs/slugs-tab.php:5
+msgid "Property slug"
+msgstr "Propiedad slug"
+
+#: templates/admin/settings/tabs/map-tab.php:176
+msgid "Property statuses"
+msgstr ""
+"Estados de propiedad\n"
+
+#: templates/admin/settings/tabs/map-tab.php:168
+msgid "Property type"
+msgstr "Tipo de propiedad"
+
+#: templates/admin/settings/tabs/slugs-tab.php:15
+msgid "Property type slug"
+msgstr "Tipo de propiedad slug"
+
+#: includes/classes/widgets/class-properties-filter-widget.php:86
+msgid "Property types to show"
+msgstr "Tipos de propiedades para mostrar"
+
+#: includes/classes/entities/class-property.php:559
+msgid "Province"
+msgstr "Provincia"
+
+#: templates/admin/settings/tabs/slugs-tab.php:20
+msgid "Province / state slug"
+msgstr " Provincia / estado slug"
+
+#: includes/classes/pages/admin/class-data-manager-page.php:54
+msgid "Provinces"
+msgstr ""
+"Provincias\n"
+
+#: templates/admin/properties-archive/bulk-actions.php:8
+#: includes/classes/pages/admin/class-properties-archive-page.php:332
+msgid "Publish"
+msgstr "Publicar"
+
+#: includes/classes/class-settings-container.php:775
+msgid "PYG - Guarani"
+msgstr "PYG - Guarani"
+
+#: includes/classes/class-settings-container.php:778
+msgid "QAR - Qatari Rial"
+msgstr "QAR - Qatari Rial"
+
+#: templates/admin/properties-archive/quick-edit.php:11
+#: templates/admin/properties-archive/bulk-actions.php:12
+#: templates/admin/properties-archive/quick-edit-bulk.php:14
+msgid "Quick edit"
+msgstr "Edición rapida"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:287
+msgid "Realtor Theme"
+msgstr "Realtor Tema"
+
+#: templates/admin/settings/tabs/recaptcha-tab.php:17
+msgid "reCAPTCHA secret key"
+msgstr "clave secreta reCAPTCHA"
+
+#: templates/admin/settings/tabs/recaptcha-tab.php:12
+msgid "reCAPTCHA site key"
+msgstr "clave del sitio reCAPTCHA"
+
+#: includes/classes/class-settings-container.php:1055
+msgid "reCAPTCHA v2"
+msgstr "reCAPTCHA v2"
+
+#: includes/classes/class-settings-container.php:1056
+msgid "reCAPTCHA v3"
+msgstr "reCAPTCHA v3"
+
+#: templates/admin/settings/tabs/recaptcha-tab.php:7
+msgid "reCAPTCHA version"
+msgstr "versión reCAPTCHA"
+
+#: templates/front/shortcodes/search/partials/autocomplete.php:25
+msgid "Recent searches"
+msgstr ""
+"Búsquedas recientes\n"
+
+#: includes/classes/shortcodes/class-properties-slider-shortcode.php:73
+msgid "Recommended Listings"
+msgstr ""
+"Anuncios recomendados\n"
+
+#: includes/classes/class-migrations.php:211
+msgid "Refrigerator"
+msgstr ""
+"Refrigerador\n"
+
+#: includes/helper-functions.php:643
+#: templates/front/shortcodes/profile/tabs/saved-searches.php:38
+msgid "Remove"
+msgstr ""
+"Eliminar\n"
+
+#: templates/front/partials/no-found-posts.php:7
+msgid "Remove all filters"
+msgstr ""
+"Eliminar todos los filtros\n"
+
+#: includes/helper-functions.php:638
+msgid "Remove this home from saved?"
+msgstr "¿Eliminar esta casa de guardados?"
+
+#: includes/classes/class-taxonomies.php:64
+#: includes/classes/entities/class-property.php:101
+msgid "Rent Period"
+msgstr ""
+"Período de alquiler\n"
+
+#: includes/classes/class-taxonomies.php:63
+msgid "Rent Periods"
+msgstr "Períodos de Renta"
+
+#: includes/classes/pages/admin/class-data-manager-page.php:372
+msgid "Rent periods"
+msgstr ""
+"Períodos de alquiler\n"
+
+#: includes/functions.php:315
+#: includes/classes/class-settings-container.php:1073
+#: includes/classes/class-settings-container.php:1082
+msgid "Request form"
+msgstr ""
+"Formulario de solicitud\n"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:228
+msgctxt "request form bg color field"
+msgid "Background color"
+msgstr "Color de fondo"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:234
+msgctxt "request form text color field"
+msgid "Text color"
+msgstr "Color de texto"
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:66
+#: templates/front/property/layout/single-left-slider.php:31
+#: templates/front/property/partials/header.php:19
+msgid "Request info"
+msgstr "Solicitar información"
+
+#: includes/classes/emails/class-request-property-info-email.php:47
+msgid "Request property info"
+msgstr "Solicitar información de la propiedad"
+
+#: templates/admin/fields-builder/forms/field-form.php:58
+msgid "Required field"
+msgstr ""
+"Campo requerido\n"
+
+#: templates/admin/properties-archive/filter.php:54
+#: includes/classes/framework/fields/class-base-field.php:102
+#: templates/front/shortcodes/search/advanced.php:59
+msgid "Reset"
+msgstr "Reiniciar"
+
+#: includes/classes/emails/class-reset-password-email.php:35
+#: includes/classes/pages/admin/class-demo-page.php:317
+#: includes/classes/widgets/elementor/class-elementor-authentication-widget.php:77
+#: templates/admin/demo/steps/step3.php:52
+msgid "Reset password"
+msgstr ""
+"Restablecer la contraseña\n"
+
+#: includes/classes/class-settings-container.php:780
+msgid "RON - Romanian Leu"
+msgstr "RON - Romanian Leu"
+
+#: includes/classes/class-taxonomies.php:109
+#: includes/classes/class-taxonomies.php:110
+#: includes/classes/entities/class-property.php:811
+msgid "Roof"
+msgstr ""
+"Techo\n"
+
+#: includes/classes/class-address-components.php:16
+#: templates/admin/fields-builder/forms/field-form.php:92
+#, fuzzy
+#| msgid "Route"
+msgid "route"
+msgstr "Ruta"
+
+#: includes/classes/class-settings-container.php:786
+msgid "RSD - Serbian Dinar"
+msgstr ""
+"RSD - Serbian Dinar\n"
+
+#: includes/classes/class-settings-container.php:658
+msgid "RUB - Russian Ruble"
+msgstr "RUB - Russian Ruble"
+
+#: includes/classes/class-settings-container.php:249
+msgid "Russia"
+msgstr ""
+"Rusia\n"
+
+#: includes/classes/class-settings-container.php:335
+msgid "Russian"
+msgstr "Ruso"
+
+#: includes/classes/class-settings-container.php:781
+msgid "RWF - Rwanda Franc"
+msgstr "RWF - Rwanda Franc"
+
+#: templates/admin/dashboard/index.php:39
+msgid "Sales & News"
+msgstr "Ventas y Noticias"
+
+#: includes/classes/class-settings-container.php:785
+msgid "SAR - Saudi Riyal"
+msgstr "SAR - Saudi Riyal"
+
+#: templates/front/partials/entity-control.php:32
+msgid "Save"
+msgstr ""
+"Salvar\n"
+
+#: templates/admin/settings/index.php:14
+#: templates/admin/properties-archive/quick-edit.php:160
+#: templates/admin/properties-archive/quick-edit-bulk.php:111
+#: templates/admin/fields-builder/forms/field-form.php:154
+#: templates/admin/fields-builder/forms/section-form.php:63
+#: templates/admin/data-manager/tabs/units-tab.php:68
+#: templates/front/shortcodes/profile/tabs/profile-form.php:55
+msgid "Save changes"
+msgstr ""
+"Guardar cambios\n"
+
+#: templates/front/shortcodes/authentication/reset-form.php:41
+msgid "Save new password"
+msgstr ""
+"Guardar nueva contraseña\n"
+
+#: includes/helper-functions.php:647
+msgid "Save pin location"
+msgstr "Guardar ubicación de pin"
+
+#: templates/front/shortcodes/search/simple.php:53
+#: templates/front/shortcodes/search/simple.php:55
+#: templates/front/shortcodes/search/advanced.php:53
+#: templates/front/shortcodes/search/advanced.php:53
+#: templates/front/shortcodes/search/advanced.php:55
+msgid "Save search"
+msgstr ""
+"Guardar búsqueda\n"
+
+#: includes/classes/shortcodes/class-profile-shortcode.php:27
+msgid "Saved homes"
+msgstr ""
+"Viviendas guardadas\n"
+
+#: includes/classes/shortcodes/class-profile-shortcode.php:33
+msgid "Saved searches"
+msgstr "Búsquedas guardadas"
+
+#: includes/classes/class-settings-container.php:791
+msgid "SBD - Solomon Islands Dollar"
+msgstr "SBD - Solomon Islands Dollar"
+
+#: includes/classes/entities/class-property.php:309
+msgid ""
+"Scheduled period of time in which property designated to be open for viewing "
+"by potential clients"
+msgstr ""
+"Período de tiempo programado en el que la propiedad designada para estar "
+"abierta a la vista de clientes potenciales"
+
+#: includes/classes/class-settings-container.php:787
+msgid "SCR - Seychelles Rupee"
+msgstr "SCR - Seychelles Rupee"
+
+#: includes/classes/class-settings-container.php:795
+msgid "SDG - Sudanese Pound"
+msgstr "SDG - Sudanese Pound"
+
+#: includes/classes/data-manager/class-locations-creator.php:44
+#: templates/front/shortcodes/search/main.php:50
+#: templates/front/shortcodes/search/main.php:96
+#: templates/front/shortcodes/search/advanced.php:58
+msgid "Search"
+msgstr ""
+"Búsqueda\n"
+
+#: includes/classes/widgets/class-search-form-widget.php:116
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:105
+msgid "Search by location"
+msgstr ""
+"Buscar por ubicación\n"
+
+#: templates/admin/properties-archive/filter.php:22
+msgid "Search by title, ID or address"
+msgstr "Buscar por título, identificación o dirección"
+
+#: templates/admin/partials/help.php:8
+msgid "Search our most popular help topics"
+msgstr "Busque nuestros temas de ayuda más populares"
+
+#: includes/classes/widgets/class-widget.php:51
+msgid "Search Page"
+msgstr ""
+"Página de búsqueda\n"
+
+#: includes/ajax.php:210
+msgid "Search params are empty. Please fill search fields."
+msgstr ""
+"Los parámetros de búsqueda están vacíos. Por favor complete los campos de "
+"búsqueda.\n"
+
+#: includes/classes/pages/admin/class-demo-page.php:302
+#: templates/admin/demo/steps/step3.php:43
+#: templates/admin/settings/tabs/listing-search-tab.php:13
+#: templates/front/shortcodes/profile/tabs/saved-searches.php:43
+msgid "Search results"
+msgstr ""
+"Resultados de la búsqueda\n"
+
+#: includes/classes/widgets/class-search-form-widget.php:95
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:98
+msgid "Search results page"
+msgstr ""
+"Página de resultados de búsqueda\n"
+
+#: includes/ajax.php:205
+msgid "Search saved"
+msgstr "Búsqueda guardada"
+
+#: templates/admin/fields-builder/forms/field-form.php:138
+msgid "Search support"
+msgstr ""
+"Buscar soporte\n"
+
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:73
+msgid "Search type"
+msgstr "Tipo de búsqueda"
+
+#: includes/classes/widgets/class-search-form-widget.php:87
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:78
+msgctxt "search widget"
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: includes/classes/widgets/class-search-form-widget.php:85
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:76
+msgctxt "search widget"
+msgid "Main"
+msgstr "Principal"
+
+#: includes/classes/widgets/class-search-form-widget.php:86
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:77
+msgctxt "search widget"
+msgid "Simple"
+msgstr "Simple"
+
+#: templates/admin/settings/tabs/general-tab.php:78
+msgid "Secondary color"
+msgstr "Color secundario"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:466
+msgid "Section didn't saved."
+msgstr "La sección no se guardó."
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:370
+msgid "Section machine name is empty."
+msgstr ""
+"El nombre de la máquina de la sección está vacío.\n"
+
+#: templates/admin/fields-builder/forms/section-form.php:25
+msgid "Section name"
+msgstr ""
+"Nombre de la sección\n"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:61
+msgid "Section successfully restored."
+msgstr "Sección restaurada con éxito."
+
+#: templates/admin/fields-builder/forms/field-form.php:87
+msgid "See"
+msgstr "Ver"
+
+#: includes/classes/class-settings-container.php:798
+msgid "SEK - Swedish Krona"
+msgstr "SEK - Swedish Krona"
+
+#: includes/classes/widgets/class-search-form-widget.php:138
+#: includes/classes/widgets/class-search-form-widget.php:157
+#: includes/classes/widgets/class-search-form-widget.php:167
+msgid "Select field"
+msgstr ""
+"Seleccionar campo\n"
+
+#: includes/classes/widgets/class-search-form-widget.php:163
+msgid "Select fields"
+msgstr ""
+"Seleccionar campos\n"
+
+#: includes/classes/data-manager/class-features-icons-creator.php:59
+#: templates/admin/settings/tabs/map-tab.php:71
+#: templates/admin/settings/tabs/map-tab.php:107
+#: templates/admin/settings/tabs/map-tab.php:132
+#: templates/admin/settings/tabs/map-tab.php:192
+msgid "Select icon"
+msgstr ""
+"Seleccionar icono\n"
+
+#: templates/admin/settings/tabs/sharing-tab.php:19
+msgid "Select options"
+msgstr "Seleccione opciones"
+
+#: includes/helper-functions.php:449
+msgid "Select page"
+msgstr ""
+"Seleccionar página\n"
+
+#: includes/classes/widgets/class-widget.php:114
+msgid "Select pages"
+msgstr ""
+"Seleccionar páginas\n"
+
+#: includes/classes/widgets/class-search-form-widget.php:82
+msgid "Select search type"
+msgstr ""
+"Seleccionar tipo de búsqueda\n"
+
+#: templates/admin/properties-archive/bulk-actions.php:5
+#: templates/admin/properties-archive/quick-edit-bulk.php:17
+msgid "selected listings"
+msgstr ""
+"listados seleccionados\n"
+
+#: includes/classes/widgets/class-request-form-widget.php:98
+#: includes/classes/widgets/elementor/class-elementor-request-form-widget.php:129
+msgid "Send Message To"
+msgstr ""
+"Enviar mensaje a\n"
+
+#: templates/front/shortcodes/authentication/reset-form.php:51
+msgid "Send reset link"
+msgstr "Enviar enlace de reinicio"
+
+#: templates/admin/settings/tabs/seo-tab.php:1
+msgid "SEO"
+msgstr "SEO"
+
+#: templates/admin/dashboard/index.php:52
+msgid "Services"
+msgstr ""
+"Servicios\n"
+
+#: templates/admin/settings/tabs/map-tab.php:121
+msgid "Set map markers"
+msgstr ""
+"Establecer marcadores de mapa\n"
+
+#: includes/classes/entities/class-property.php:414
+msgid "Set property price"
+msgstr "Establecer el precio de la propiedad"
+
+#: templates/admin/demo/steps/step2.php:2
+msgid "Set up your Google Maps API Key"
+msgstr ""
+"Configura tu clave API de Google Maps\n"
+
+#: includes/classes/class-admin-menu.php:93
+#: includes/classes/class-admin-menu.php:94
+#: templates/admin/settings/index.php:13
+#: includes/classes/pages/admin/class-dashboard-page.php:212
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/classes/pages/admin/class-settings-page.php:149
+msgid "Settings didn\\'t saved. Please, reload the page and try again."
+msgstr ""
+"La configuración no se guardó. Por favor, recarga la página e inténtalo de "
+"nuevo."
+
+#: includes/classes/class-settings-container.php:789
+msgid "SGD - Singapore Dollar"
+msgstr "SGD - Singapore Dollar"
+
+#: includes/classes/class-migrations.php:121
+msgid "Shake/Shingle"
+msgstr ""
+"Batido/teja\n"
+
+#: templates/front/partials/entity-control.php:41
+msgid "Share"
+msgstr ""
+"Cuota\n"
+
+#: includes/property-functions.php:218
+msgid "Share this home"
+msgstr ""
+"Comparte esta casa\n"
+
+#: templates/front/popup/share.php:34
+msgid "Share with"
+msgstr "Compartir con"
+
+#: templates/admin/settings/tabs/sharing-tab.php:1
+msgid "Sharing"
+msgstr "Distribución"
+
+#: includes/classes/class-migrations.php:130
+msgid "Shingle"
+msgstr ""
+"Guijarros\n"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:227
+msgid "Shortcodes"
+msgstr ""
+"Códigos cortos\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:175
+msgid "Show agent block on single property page"
+msgstr ""
+"Mostrar bloque de agentes en una sola página de propiedades\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:187
+msgid "Show agent quantity of listing savings"
+msgstr ""
+"Mostrar la cantidad de ahorros del anuncio del agente\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:181
+msgid "Show agent quantity of listing views"
+msgstr ""
+"Mostrar la cantidad de agentes de vistas de listado\n"
+
+#: templates/front/partials/entity-section-content.php:42
+msgid "Show all"
+msgstr ""
+"Mostrar todo\n"
+
+#: includes/classes/entities/class-property.php:751
+msgid "Show all amenities"
+msgstr ""
+"Mostrar todos los servicios\n"
+
+#: includes/entity-functions.php:74
+msgid "Show all amenities & features"
+msgstr ""
+"Mostrar todas las comodidades y características\n"
+
+#: includes/classes/entities/class-property.php:386
+msgid "Show all description"
+msgstr ""
+"Mostrar toda la descripción\n"
+
+#: includes/classes/entities/class-property.php:771
+msgid "Show all features"
+msgstr ""
+"Mostrar todas las características\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:170
+msgid "Show date added"
+msgstr ""
+"Mostrar fecha añadida\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:145
+msgid "Show description in listing box"
+msgstr ""
+"Mostrar descripción en el cuadro de listado\n"
+
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:117
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:138
+msgid "Show layouts"
+msgstr "Mostrar diseños"
+
+#: templates/admin/settings/tabs/listings-tab.php:135
+msgid "Show listing address"
+msgstr ""
+"Mostrar dirección de listado\n"
+
+#: includes/classes/framework/fields/class-checkboxes-field.php:77
+msgid "Show more"
+msgstr ""
+"Mostrar más\n"
+
+#: includes/classes/widgets/class-widget.php:109
+msgid "Show on checked page"
+msgstr ""
+"Mostrar en la página marcada\n"
+
+#: includes/classes/widgets/class-widget.php:106
+msgid "Show on pages"
+msgstr ""
+"Mostrar en páginas\n"
+
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:105
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:126
+msgid "Show page title"
+msgstr "Mostrar título de página"
+
+#: templates/admin/settings/tabs/listings-tab.php:130
+msgid "Show price"
+msgstr ""
+"Mostrar precio\n"
+
+#: includes/classes/widgets/class-properties-filter-widget.php:46
+msgid "Show properties"
+msgstr ""
+"Mostrar propiedades\n"
+
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:99
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:120
+msgid "Show sorting"
+msgstr "Mostrar clasificación"
+
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:111
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:132
+msgid "Show total"
+msgstr "Mostrar totales"
+
+#: includes/classes/class-settings-container.php:782
+msgid "SHP - Saint Helena Pound"
+msgstr "SHP - Saint Helena Pound"
+
+#: templates/admin/data-manager/tabs/units-tab.php:37
+msgid "Sign"
+msgstr ""
+"Firmar\n"
+
+#: includes/classes/class-settings-container.php:429
+msgid "Sign in or register"
+msgstr ""
+"Ingresa o Registro\n"
+
+#: templates/admin/data-manager/tabs/units-tab.php:51
+msgid "Sign position"
+msgstr "Posición de la señal"
+
+#: includes/classes/class-settings-container.php:1072
+#: includes/classes/class-settings-container.php:1081
+#: includes/classes/pages/admin/class-demo-page.php:307
+#: templates/admin/demo/steps/step3.php:46
+#: templates/front/shortcodes/authentication/buyer-register-form.php:68
+msgid "Sign up"
+msgstr ""
+"Inscribirse\n"
+
+#: templates/front/shortcodes/authentication/buyer-register-buttons.php:26
+#, php-format
+msgid "Sign up with %s"
+msgstr ""
+"Regístrese con %s\n"
+
+#: templates/front/shortcodes/authentication/buyer-register-buttons.php:33
+msgid "Sign up with email"
+msgstr "Ingresa con e-mail"
+
+#: includes/classes/class-settings-container.php:859
+msgid "Single listing with slider"
+msgstr ""
+"Listado único con control deslizante\n"
+
+#: templates/admin/demo/steps/step1.php:17
+msgid "Single owner"
+msgstr ""
+"Único propietario\n"
+
+#: includes/classes/widgets/class-widget.php:47
+msgid "Single Page"
+msgstr "Única página"
+
+#: includes/classes/class-elementor-property-document.php:67
+msgid "Single Properties"
+msgstr ""
+"Propiedades individuales\n"
+
+#: includes/classes/class-elementor-property-document.php:60
+msgid "Single Property"
+msgstr "Propiedad única"
+
+#: includes/classes/widgets/class-widget.php:48
+msgid "Single Property Page"
+msgstr ""
+"Página de propiedad única\n"
+
+#: templates/admin/fields-builder/forms/field-form.php:44
+msgid "Single Property Section"
+msgstr ""
+"Sección de Propiedad Única\n"
+
+#: includes/classes/class-migrations.php:122
+#: includes/classes/class-migrations.php:148
+msgid "Slate"
+msgstr "Pizarra"
+
+#: includes/classes/widgets/class-properties-slider-widget.php:75
+msgid "Slides per serving"
+msgstr ""
+"Diapositivas por porción\n"
+
+#: includes/classes/widgets/elementor/class-elementor-properties-slider-widget.php:91
+msgid "Slides to show"
+msgstr "Diapositivas para mostrar"
+
+#: includes/classes/class-settings-container.php:788
+msgid "SLL - Leone"
+msgstr "SLL - Leone"
+
+#: includes/classes/class-migrations.php:192
+msgid "Smoke detector"
+msgstr ""
+"Detector de humo\n"
+
+#: includes/classes/pages/admin/class-demo-page.php:201
+msgid "Social sharing"
+msgstr "Compartiendo socialmente"
+
+#: includes/classes/class-migrations.php:149
+msgid "Softwood"
+msgstr "Madera blanda"
+
+#: includes/classes/class-migrations.php:101
+msgid "Sold"
+msgstr ""
+"Vendido\n"
+"Algo mal. Póngase en contacto con el soporte."
+
+#: includes/ajax.php:87 includes/helper-functions.php:637
+msgid "Something wrong. Please contact the support."
+msgstr "Algo mal. Póngase en contacto con el soporte."
+
+#: includes/property-functions.php:242
+#: includes/classes/pages/admin/class-entities-archive-page.php:83
+msgid "Sort by"
+msgstr ""
+"Ordenar por\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:119
+msgid "Sort options"
+msgstr "Ordenar opciones"
+
+#: includes/classes/class-settings-container.php:792
+msgid "SOS - Somali Shilling"
+msgstr "SOS - Somali Shilling"
+
+#: includes/classes/widgets/elementor/class-elementor-properties-slider-widget.php:122
+msgid "Space between slides (px)"
+msgstr ""
+"Espacio entre diapositivas (px)\n"
+
+#: includes/classes/widgets/class-properties-slider-widget.php:83
+msgid "Space between slides, px"
+msgstr "Espacio entre diapositivas, px"
+
+#: includes/classes/class-settings-container.php:250
+msgid "Spain"
+msgstr ""
+"España\n"
+
+#: includes/classes/class-settings-container.php:359
+msgid "Spanish"
+msgstr "Español"
+
+#: includes/functions.php:62 includes/classes/class-settings-container.php:215
+msgid "sq ft"
+msgstr "pies cuadrados"
+
+#: includes/classes/class-settings-container.php:796
+msgid "SRD - Surinam Dollar"
+msgstr "SRD - Surinam Dollar"
+
+#: includes/classes/class-settings-container.php:793
+msgid "SSP - South Sudanese Pound"
+msgstr "SSP - South Sudanese Pound"
+
+#: templates/admin/migration/index.php:29
+msgid "Start migration"
+msgstr "Iniciar migración"
+
+#: includes/classes/pages/admin/class-migration-page.php:108
+#, php-format
+msgid "Start migration %s %s."
+msgstr ""
+"Iniciar migración %s %s.\n"
+
+#: includes/classes/pages/admin/class-migration-page.php:40
+msgid "Start migration."
+msgstr "Inicie la migración."
+
+#: templates/front/shortcodes/profile/tabs/saved-searches.php:55
+#: templates/front/shortcodes/profile/tabs/saved-homes.php:24
+msgid "Start searching for properties to add now."
+msgstr "Comience a buscar propiedades para agregar ahora."
+
+#: includes/classes/entities/class-property.php:528
+msgid "State"
+msgstr ""
+"Estado\n"
+
+#: includes/classes/pages/admin/class-data-manager-page.php:47
+msgid "States"
+msgstr "Estados"
+
+#: includes/classes/class-taxonomies.php:87
+#: includes/classes/entities/class-property.php:146
+#: templates/admin/properties-archive/quick-edit.php:99
+#: templates/admin/properties-archive/filter.php:42
+#: templates/admin/properties-archive/quick-edit-bulk.php:87
+#: includes/classes/pages/admin/class-properties-archive-page.php:414
+msgid "Status"
+msgstr ""
+"Estado\n"
+
+#: includes/classes/class-taxonomies.php:86
+#: includes/classes/pages/admin/class-data-manager-page.php:364
+#: includes/classes/widgets/elementor/class-elementor-query.php:67
+msgid "Statuses"
+msgstr ""
+"Estados\n"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:177
+#: includes/classes/pages/admin/class-fields-builder-page.php:194
+msgid "Step"
+msgstr "Paso"
+
+#: includes/classes/class-settings-container.php:784
+msgid "STN - Dobra"
+msgstr "STN - Dobra"
+
+#: includes/classes/class-migrations.php:131
+msgid "Stone"
+msgstr ""
+"Roca\n"
+
+#: includes/classes/class-address-components.php:15
+#: templates/admin/fields-builder/forms/field-form.php:91
+#, fuzzy
+#| msgid "Street address"
+msgid "street_address"
+msgstr "Dirección"
+
+#: includes/classes/class-migrations.php:132
+msgid "Stucco"
+msgstr "Estuco"
+
+#: includes/classes/class-address-components.php:33
+#: templates/admin/fields-builder/forms/field-form.php:109
+#, fuzzy
+#| msgid "Sub locality"
+msgid "sublocality"
+msgstr "Sub localidad"
+
+#: includes/classes/class-address-components.php:28
+#: templates/admin/fields-builder/forms/field-form.php:104
+msgid "Sublocality level 1"
+msgstr ""
+
+#: includes/classes/class-address-components.php:29
+#: templates/admin/fields-builder/forms/field-form.php:105
+msgid "Sublocality level 2"
+msgstr ""
+
+#: includes/classes/class-address-components.php:30
+#: templates/admin/fields-builder/forms/field-form.php:106
+msgid "Sublocality level 3"
+msgstr ""
+
+#: includes/classes/class-address-components.php:31
+#: templates/admin/fields-builder/forms/field-form.php:107
+msgid "Sublocality level 4"
+msgstr ""
+
+#: includes/classes/class-address-components.php:32
+#: templates/admin/fields-builder/forms/field-form.php:108
+msgid "Sublocality level 5"
+msgstr ""
+
+#: templates/admin/partials/help.php:14
+msgid "Submit a ticket"
+msgstr ""
+"Envía un boleto\n"
+
+#: templates/admin/partials/help.php:15
+msgid "Submitting some issues with our plugins or themes"
+msgstr "Enviar algunos problemas con nuestros complementos o temas"
+
+#: includes/classes/class-address-components.php:35
+#: templates/admin/fields-builder/forms/field-form.php:111
+msgid "subpremise"
+msgstr ""
+
+#: includes/classes/pages/admin/class-demo-page.php:239
+msgid "Subscriptions"
+msgstr ""
+"Suscripciones\n"
+
+#: templates/admin/settings/tabs/auth-tab.php:141
+msgid "Subtitle for agent sign up page"
+msgstr ""
+"Subtítulo para la página de registro del agente\n"
+
+#: templates/admin/settings/tabs/auth-tab.php:114
+msgid "Subtitle for buyer sign up page"
+msgstr ""
+"Subtítulo para la página de registro del comprador\n"
+
+#: templates/admin/settings/tabs/auth-tab.php:89
+msgid "Subtitle for sign in page"
+msgstr "Subtítulo para la página de inicio de sesión"
+
+#: includes/ajax.php:233
+msgid "Successfully deleted."
+msgstr ""
+"Eliminado con éxito.\n"
+
+#: includes/classes/class-settings-container.php:713
+msgid "SVC - El Salvador Colon"
+msgstr "SVC - El Salvador Colon"
+
+#: includes/classes/class-migrations.php:187
+msgid "Swimming pool"
+msgstr ""
+"Alberca\n"
+
+#: includes/classes/class-settings-container.php:801
+msgid "SYP - Syrian Pound"
+msgstr "SYP - Syrian Pound"
+
+#: includes/classes/class-settings-container.php:797
+msgid "SZL - Lilangeni"
+msgstr "SZL - Lilangeni"
+
+#: includes/classes/class-taxonomies.php:192
+msgid "Tag"
+msgstr "Etiqueta"
+
+#: includes/classes/class-taxonomies.php:191
+#: includes/classes/pages/admin/class-data-manager-page.php:388
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: includes/classes/data-manager/class-terms-creator.php:196
+#, php-format
+msgid "Taxonomy <b>%s</b> doesn't exist."
+msgstr "La taxonomía <b>%s</b> no existe."
+
+#: includes/classes/pages/admin/class-data-manager-page.php:324
+msgid "Term name is empty"
+msgstr ""
+"El nombre del término está vacío\n"
+
+#: templates/admin/settings/tabs/terms-tab.php:20
+msgid "Terms & conditions"
+msgstr "Términos y condiciones"
+
+#: includes/hooks.php:296
+msgctxt "terms & conditions"
+msgid "REQUEST INFO"
+msgstr "SOLICITAR INFORMACIÓN"
+
+#: includes/hooks.php:300
+msgctxt "terms & conditions"
+msgid "SIGN UP"
+msgstr "INSCRIBIRSE"
+
+#: templates/admin/settings/tabs/terms-tab.php:21
+msgid "Terms & conditions page"
+msgstr "Página de términos y condiciones"
+
+#: includes/hooks.php:282
+msgid "Terms of Use"
+msgstr ""
+"Condiciones de uso\n"
+
+#: includes/classes/class-migrations.php:190
+msgid "Terrace"
+msgstr ""
+"Terraza\n"
+
+#: includes/classes/class-settings-container.php:1064
+msgid "Text"
+msgstr "Texto"
+
+#: includes/classes/widgets/elementor/class-elementor-request-form-widget.php:111
+msgid "Text color"
+msgstr "Color de texto"
+
+#: templates/admin/demo/start.php:13
+msgid ""
+"Thank you for choosing Estatik. Grab your instant 5% OFF for<br> any Estatik "
+"product using coupon code below."
+msgstr ""
+"Gracias por elegir Estatik. Obtenga su 5% de descuento instantáneo para<br> "
+"cualquier producto Estatik usando el código de cupón a continuación."
+
+#: includes/classes/class-settings-container.php:805
+msgid "THB - Baht"
+msgstr "THB - Baht"
+
+#: includes/classes/class-auth-init.php:130
+msgid "The email address you use has already been registered. Please log in."
+msgstr ""
+"La dirección de correo electrónico que utiliza ya ha sido registrada. Por "
+"favor Iniciar sesión."
+
+#: templates/admin/demo/steps/step1.php:38
+msgid ""
+"The plugin will pick up the language, currency, area dimensions<br> and "
+"other settings of the country you select."
+msgstr ""
+"El complemento seleccionará el idioma, la moneda, las dimensiones del "
+"área<br> y otras configuraciones del país que seleccione."
+
+#: templates/admin/data-manager/tabs/units-tab.php:56
+msgid "Thousand separator"
+msgstr "separador de mil"
+
+#: includes/classes/class-migrations.php:123
+#: includes/classes/class-migrations.php:150
+msgid "Tile"
+msgstr ""
+"Loseta\n"
+"Formato de tiempo"
+
+#: templates/admin/settings/tabs/general-tab.php:45
+msgid "Time format"
+msgstr ""
+"Formato de tiempo\n"
+
+#: includes/classes/class-settings-container.php:1019
+#: includes/classes/entities/class-property.php:374
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:69
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:69
+msgid "Title"
+msgstr "Título"
+
+#: templates/admin/settings/tabs/auth-tab.php:136
+msgid "Title for agent sign up page"
+msgstr "Título de la página de registro del agente"
+
+#: templates/admin/settings/tabs/auth-tab.php:109
+msgid "Title for buyer sign up page"
+msgstr ""
+"Título de la página de registro del comprador\n"
+
+#: templates/admin/settings/tabs/auth-tab.php:84
+msgid "Title for sign in page"
+msgstr "Título de la página de inicio de sesión"
+
+#: includes/classes/class-settings-container.php:803
+msgid "TJS - Somoni"
+msgstr "TJS - Somoni"
+
+#: includes/classes/class-settings-container.php:810
+msgid "TMT - Turkmenistan New Manat"
+msgstr "TMT - Turkmenistan New Manat"
+
+#: includes/classes/class-settings-container.php:808
+msgid "TND - Tunisian Dinar"
+msgstr "TND - Tunisian Dinar"
+
+#: templates/admin/demo/steps/step2.php:9
+#, php-format
+msgid ""
+"To load Google Maps correctly you shoud enter Google API key. Read more "
+"information about %s."
+msgstr ""
+"Para cargar Google Maps correctamente, debe ingresar la clave API de Google. "
+"Leer más información sobre %s."
+
+#: includes/classes/class-settings-container.php:409
+#: includes/classes/class-settings-container.php:467
+msgid "to save your favourite homes and more"
+msgstr "para guardar tus casas favoritas y más"
+
+#: includes/classes/class-auth-init.php:87
+#, php-format
+msgid "To set your password, visit the following <a href=\"%s\">link</a>."
+msgstr ""
+"Para configurar su contraseña, visite el siguiente <a href=\"%s\">enlace</a>."
+
+#: templates/admin/migration/index.php:12
+msgid ""
+"To update the previous version to major version 4 you need to migrate your "
+"listings \n"
+"                    as the new version of the plugin requires. Before doing "
+"this, please make sure that your version \n"
+"                    of the plugin doesn't have custom changes of the code."
+msgstr ""
+"Para actualizar la versión anterior a la versión principal 4, debe migrar "
+"sus listados\n"
+"                     como requiere la nueva versión del plugin. Antes de "
+"hacer esto, asegúrese de que su versión\n"
+"                     del complemento no tiene cambios personalizados del "
+"código."
+
+#: includes/classes/class-settings-container.php:806
+msgid "TOP - Pa’anga"
+msgstr "TOP - Pa’anga"
+
+#: includes/classes/entities/class-property.php:212
+msgid "Total rooms"
+msgstr "Habitaciones totales"
+
+#: includes/classes/class-migrations.php:90
+msgid "Townhouses"
+msgstr "Adosados"
+
+#: includes/classes/class-migrations.php:217
+msgid "Trash compactor"
+msgstr ""
+"Compactador de basura\n"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:269
+msgid "Trendy Theme"
+msgstr "Trendy Tema"
+
+#: includes/classes/class-settings-container.php:809
+msgid "TRY - Turkish Lira"
+msgstr "TRY - Turkish Lira"
+
+#: includes/classes/class-settings-container.php:807
+msgid "TTD - Trinidad and Tobago Dollar"
+msgstr "TTD - Trinidad and Tobago Dollar"
+
+#: includes/classes/class-settings-container.php:802
+msgid "TWD - New Taiwan Dollar"
+msgstr "TWD - New Taiwan Dollar"
+
+#: includes/classes/class-settings-container.php:851
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/classes/class-taxonomies.php:52
+#: includes/classes/entities/class-property.php:123
+#: templates/admin/properties-archive/quick-edit.php:70
+#: templates/admin/properties-archive/filter.php:68
+#: templates/admin/properties-archive/quick-edit-bulk.php:62
+#: includes/classes/pages/admin/class-properties-archive-page.php:412
+#: templates/admin/settings/tabs/listing-search-tab.php:94
+#: templates/admin/fields-builder/forms/field-form.php:65
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/classes/class-taxonomies.php:51
+#: includes/classes/pages/admin/class-data-manager-page.php:360
+#: includes/classes/widgets/elementor/class-elementor-query.php:57
+msgid "Types"
+msgstr "Tipos"
+
+#: includes/classes/class-settings-container.php:804
+msgid "TZS - Tanzanian Shilling"
+msgstr "TZS - Tanzanian Shilling"
+
+#: includes/classes/class-settings-container.php:812
+msgid "UAH - Hryvnia"
+msgstr "UAH - Hryvnia"
+
+#: includes/classes/class-settings-container.php:811
+msgid "UGX - Uganda Shilling"
+msgstr ""
+"UGX - Uganda Shilling\n"
+
+#: includes/classes/class-migrations.php:140
+msgid "Unfinished"
+msgstr ""
+"Inconcluso\n"
+
+#: includes/classes/pages/admin/class-data-manager-page.php:394
+msgid "Units & Formats"
+msgstr "Unidades y Formatos"
+
+#: includes/classes/entities/class-property.php:287
+#: includes/classes/entities/class-property.php:297
+msgid "Unknown"
+msgstr ""
+"Desconocido\n"
+
+#: includes/classes/pages/admin/class-demo-page.php:196
+msgid "Unlimited download access"
+msgstr "Acceso de descarga ilimitado"
+
+#: templates/admin/dashboard/index.php:108
+msgid ""
+"Unlock advanced features like PDF flyer, Compare, Frontend Submission, "
+"Agents & Agencies, Subscriptions or one-time payments, CSV/XML import via WP "
+"ALL Import, White Label, Slideshow widgets, and others."
+msgstr ""
+
+#: includes/classes/pages/admin/class-demo-page.php:235
+msgid "Unlocked Fields Builder"
+msgstr "Generador de campos desbloqueados"
+
+#: includes/classes/pages/admin/class-properties-archive-page.php:330
+msgid "Unpublish"
+msgstr "Despublicar"
+
+#: includes/classes/class-migrations.php:97
+msgid "Unpublished"
+msgstr "Inédito"
+
+#: templates/front/shortcodes/profile/partials/change-password-form.php:38
+msgid "Update password"
+msgstr ""
+"Actualiza contraseña\n"
+
+#: templates/admin/demo/start.php:73 templates/admin/dashboard/index.php:109
+#: templates/admin/dashboard/index.php:117
+msgid "Upgrade"
+msgstr "Actualizar"
+
+#: includes/classes/entities/class-property.php:709
+msgid "Upload files"
+msgstr ""
+"Subir archivos\n"
+
+#: includes/classes/framework/fields/class-icon-field.php:74
+msgid "Upload icon"
+msgstr "Subir icono"
+
+#: templates/admin/settings/tabs/general-tab.php:66
+msgid "Upload image"
+msgstr ""
+"Cargar imagen\n"
+
+#: includes/classes/entities/class-property.php:727
+msgid "Upload images"
+msgstr ""
+"Subir imágenes\n"
+
+#: includes/classes/framework/fields/class-avatar-field.php:46
+#: templates/front/shortcodes/profile/tabs/profile-form.php:21
+msgid "Upload new photo"
+msgstr "Subir nueva foto"
+
+#: includes/classes/entities/class-property.php:690
+msgid "Upload photos"
+msgstr ""
+"Subir fotos\n"
+
+#: includes/classes/framework/fields/class-avatar-field.php:45
+#: templates/front/shortcodes/profile/tabs/profile-form.php:20
+msgid "Upload profile photo"
+msgstr ""
+"Subir foto de perfil\n"
+"Subir vídeo\n"
+"Sube tu icono personalizado"
+
+#: includes/helper-functions.php:306
+msgid "Upload video"
+msgstr "Subir vídeo"
+
+#: includes/classes/data-manager/class-features-icons-creator.php:60
+#: includes/classes/framework/fields/class-icon-field.php:75
+msgid "Upload your custom icon"
+msgstr ""
+"Sube tu icono personalizado\n"
+
+#: includes/classes/framework/fields/class-link-field.php:15
+msgid "URL"
+msgstr "URL"
+
+#: includes/classes/class-settings-container.php:251
+msgid "USA"
+msgstr "EE.UU"
+
+#: includes/classes/class-settings-container.php:655
+msgid "USD - United States dollar"
+msgstr "USD - United States dollar"
+
+#: templates/admin/data-manager/tabs/parameters-tab.php:30
+msgid "Use icons or check marks for amenities and features"
+msgstr ""
+"Use íconos o marcas de verificación para servicios y características\n"
+
+#: templates/admin/settings/tabs/map-tab.php:96
+msgid "Use single map marker?"
+msgstr ""
+"¿Usar marcador de mapa único?\n"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:51
+msgid "Use the same price list for all categories and types"
+msgstr "Utilice la misma lista de precios para todas las categorías y tipos"
+
+#: includes/classes/class-auth-init.php:304
+msgid "User doesn't exist"
+msgstr "El usuario no existe"
+
+#: includes/classes/class-settings-container.php:1366
+msgctxt "user email subject"
+msgid "New listing #{post_id} request submitted"
+msgstr "Nueva solicitud de listado #{post_id} enviada"
+
+#: includes/classes/class-settings-container.php:1350
+msgctxt "user email subject"
+msgid "New user registered"
+msgstr "Nuevo usuario registrado"
+
+#: includes/classes/class-settings-container.php:1358
+msgctxt "user email subject"
+msgid "Password Reset Request"
+msgstr "Solicitud de restablecimiento de contraseña"
+
+#: includes/classes/class-settings-container.php:1342
+msgctxt "user email subject"
+msgid "Your username and password info"
+msgstr "Información de su nombre de usuario y contraseña"
+
+#: includes/classes/class-auth-init.php:147
+msgid "User is not created. Incorrent user type."
+msgstr ""
+"No se crea el usuario. Tipo de usuario incorrecto.\n"
+
+#: includes/classes/class-settings-container.php:814
+msgid "USN - US Dollar (Next day)"
+msgstr "USN - US Dollar (Next day)"
+
+#: includes/classes/class-settings-container.php:815
+msgid "UYI - Uruguay Peso en Unidades Indexadas (URUIURUI)"
+msgstr "UYI - Uruguay Peso en Unidades Indexadas (URUIURUI)"
+
+#: includes/classes/class-settings-container.php:816
+msgid "UYU - Peso Uruguayo"
+msgstr "UYU - Peso Uruguayo"
+
+#: includes/classes/class-settings-container.php:817
+msgid "UZS - Uzbekistan Sum"
+msgstr "UZS - Uzbekistan Sum"
+
+#: includes/classes/class-settings-container.php:819
+msgid "VEF - Bolivar"
+msgstr "VEF - Bolivar"
+
+#: templates/front/shortcodes/profile/partials/change-password-form.php:3
+msgid "Verify current password"
+msgstr ""
+"Verificar contraseña actual\n"
+
+#: includes/classes/widgets/elementor/class-elementor-properties-slider-widget.php:80
+msgid "Vertical"
+msgstr "Vertical"
+
+#: includes/functions.php:290 includes/classes/entities/class-property.php:734
+msgid "Video"
+msgstr ""
+"Video\n"
+
+#: includes/helper-functions.php:283
+msgid "Video URL"
+msgstr "URL del vídeo"
+
+#: includes/classes/shortcodes/class-my-listing-shortcode.php:189
+msgid "View all"
+msgstr "Ver todo"
+
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:96
+msgid "View all link name"
+msgstr ""
+"Ver todo el nombre del enlace\n"
+
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:102
+msgid "View all page"
+msgstr ""
+"Ver toda la página\n"
+
+#: includes/classes/class-migrations.php:133
+msgid "Vinyl"
+msgstr "Vinilo"
+
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:135
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:156
+msgid "Visible fields"
+msgstr ""
+"Campos visibles\n"
+
+#: templates/admin/fields-builder/forms/field-form.php:130
+#: templates/admin/fields-builder/forms/section-form.php:41
+msgid "Visible for"
+msgstr ""
+"Visible para\n"
+
+#: templates/admin/fields-builder/forms/field-form.php:121
+#: templates/admin/fields-builder/forms/section-form.php:32
+msgid "Visible on frontend"
+msgstr "Visible en la interfaz"
+
+#: includes/classes/class-settings-container.php:820
+msgid "VND - Dong"
+msgstr "VND - Dong"
+
+#: includes/classes/class-settings-container.php:818
+msgid "VUV - Vatu"
+msgstr "VUV - Vatu"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:308
+msgid ""
+"We can extend plugin features and customize it to meet your requirements. To "
+"get an estimate, just fill out the form and we will get back to you with a "
+"quote."
+msgstr ""
+
+#: templates/admin/demo/start.php:12
+msgid "Welcome to Estatik"
+msgstr ""
+"Bienvenidos a Estatik\n"
+
+#: templates/admin/demo/steps/step1.php:37
+msgid "What is your country?"
+msgstr "¿Cuál es su país?"
+
+#: includes/classes/entities/class-property.php:149
+msgid "What is your property status?"
+msgstr ""
+"¿Cuál es el estado de su propiedad?\n"
+
+#: includes/classes/entities/class-property.php:126
+msgid "What is your property type?"
+msgstr ""
+"¿Cuál es su tipo de propiedad?\n"
+
+#: includes/classes/entities/class-property.php:81
+msgid "What kind of property are you marketing?"
+msgstr ""
+"¿Qué tipo de propiedad está comercializando?\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:140
+msgid "What to show on the listing preview block?"
+msgstr "¿Qué mostrar en el bloque de vista previa del listado?"
+
+#: templates/admin/settings/tabs/terms-tab.php:9
+msgid "What to use as accepting Privacy policy & Terms of use?"
+msgstr ""
+"¿Qué usar para aceptar la Política de privacidad y los Términos de uso?\n"
+
+#: templates/admin/settings/tabs/map-tab.php:84
+msgid "What to use as map marker?"
+msgstr ""
+"¿Qué usar como marcador de mapa?\n"
+
+#: includes/classes/pages/admin/class-demo-page.php:227
+msgid "WhatsApp integration"
+msgstr "Integración de WhatsApp"
+
+#: includes/classes/pages/admin/class-demo-page.php:231
+msgid "White label"
+msgstr ""
+"etiqueta blanca\n"
+
+#: templates/admin/demo/steps/step1.php:5
+msgid "Who is your website for?"
+msgstr "¿Para quién es tu sitio web?"
+
+#: includes/classes/widgets/class-properties-slider-widget.php:55
+msgctxt "widget layout"
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: includes/classes/widgets/class-properties-slider-widget.php:56
+msgctxt "widget layout"
+msgid "Vertical"
+msgstr "Vertical"
+
+#: includes/classes/widgets/elementor/class-elementor-authentication-widget.php:33
+msgctxt "widget name"
+msgid "Estatik Authentication"
+msgstr "Estatik Autenticación "
+
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:47
+msgctxt "widget name"
+msgid "Estatik Half Map"
+msgstr "Estatik Medio mapa"
+
+#: includes/classes/widgets/class-listings-widget.php:12
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:33
+msgctxt "widget name"
+msgid "Estatik Listings"
+msgstr "Estatik Listados"
+
+#: includes/classes/widgets/class-request-form-widget.php:12
+#: includes/classes/widgets/elementor/class-elementor-request-form-widget.php:33
+msgctxt "widget name"
+msgid "Estatik Request Form"
+msgstr "Estatik Formulario de solicitud"
+
+#: includes/classes/widgets/class-search-form-widget.php:12
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:47
+msgctxt "widget name"
+msgid "Estatik Search"
+msgstr "Estatik Búsqueda"
+
+#: includes/classes/widgets/class-properties-slider-widget.php:12
+#: includes/classes/widgets/elementor/class-elementor-properties-slider-widget.php:33
+msgctxt "widget name"
+msgid "Estatik Slider"
+msgstr "Estatik Deslizador"
+
+#: includes/classes/class-migrations.php:213
+msgid "Wifi"
+msgstr "Wifi"
+
+#: includes/classes/pages/admin/class-demo-page.php:206
+msgid "Wishlists & Saved searches"
+msgstr ""
+"Listas de deseos y búsquedas guardadas\n"
+
+#: includes/classes/class-settings-container.php:863
+msgid "With left slider"
+msgstr "Con deslizador izquierdo"
+
+#: includes/classes/class-settings-container.php:861
+msgid "With tiled gallery"
+msgstr ""
+"Con galería de azulejos\n"
+
+#: includes/classes/class-migrations.php:134
+msgid "Wood"
+msgstr ""
+"Madera\n"
+
+#: includes/classes/class-migrations.php:135
+msgid "Wood products"
+msgstr "Productos de madera"
+
+#: templates/admin/demo/steps/step4.php:2
+msgid "Would you like to add demo listings?"
+msgstr "¿Le gustaría agregar listados de demostración?"
+
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:100
+msgid "WP default"
+msgstr "Valor predeterminado de WP"
+
+#: includes/classes/class-settings-container.php:783
+msgid "WST - Tala"
+msgstr "WST - Tala"
+
+#: includes/classes/class-settings-container.php:694
+msgid "XAF - CFA Franc BEAC"
+msgstr "XAF - CFA Franc BEAC"
+
+#: includes/classes/class-settings-container.php:669
+msgid "XCD - East Caribbean Dollar"
+msgstr "XCD - East Caribbean Dollar"
+
+#: includes/classes/class-settings-container.php:732
+msgid "XDR - SDR (Special Drawing Right)"
+msgstr "XDR - SDR (Special Drawing Right)"
+
+#: includes/classes/class-settings-container.php:680
+msgid "XOF - CFA Franc BCEAO"
+msgstr "XOF - CFA Franc BCEAO"
+
+#: includes/classes/class-settings-container.php:718
+msgid "XPF - CFP Franc"
+msgstr "XPF - CFP Franc"
+
+#: includes/classes/class-settings-container.php:790
+msgid "XSU - Sucre"
+msgstr "XSU - Sucre"
+
+#: includes/classes/class-settings-container.php:759
+msgid "XUA - ADB Unit of Account"
+msgstr "XUA - ADB Unit of Account"
+
+#: includes/classes/entities/class-property.php:281
+msgid "Year built"
+msgstr ""
+"Año de construcción\n"
+
+#: includes/classes/entities/class-property.php:291
+msgid "Year remodeled"
+msgstr "Año remodelado"
+
+#: includes/classes/class-settings-container.php:821
+msgid "YER - Yemeni Rial"
+msgstr "YER - Yemeni Rial"
+
+#: includes/classes/class-auth-init.php:124
+#, php-format
+msgid "You already created an account using %s. Please log in instead."
+msgstr "Ya creaste una cuenta usando %s. Inicie sesión en su lugar."
+
+#: templates/admin/demo/steps/step1.php:18
+msgid "You are a single agent or an owner of your website."
+msgstr "Usted es un agente único o propietario de su sitio web."
+
+#: includes/classes/pages/front/class-profile-page.php:81
+#, fuzzy
+#| msgid "You are not authorized for access this page."
+msgid "You are not authorize for access this page."
+msgstr ""
+"No está autorizado para acceder a esta página.\n"
+
+#: includes/classes/class-auth-init.php:165
+msgid ""
+"You are successfully registered. Please check your email for account details."
+msgstr ""
+"Estás registrado con éxito. Por favor revise su correo electrónico para "
+"obtener detalles de la cuenta.\n"
+
+#: templates/admin/demo/steps/step1.php:22
+msgid "You can add multiple agents & agencies."
+msgstr "Puede agregar varios agentes y agencias."
+
+#: includes/classes/framework/fields/class-icon-field.php:76
+msgid ""
+"You can choose to upload more than one file at a time. Make sure each file "
+"size doesn’t exceed 100 Kb. PNG, SVG are supported."
+msgstr ""
+"Puede optar por cargar más de un archivo a la vez. Asegúrese de que el "
+"tamaño de cada archivo no supere los 100 Kb. PNG, SVG son compatibles."
+
+#: includes/classes/pages/admin/class-settings-page.php:140
+msgid "You don't have permissions for this action."
+msgstr ""
+"No tienes permisos para esta acción.\n"
+
+#: templates/admin/fields-builder/partials/fields-tab.php:14
+msgid "You don’t have any fields in this section yet."
+msgstr ""
+"Todavía no tienes ningún campo en esta sección.\n"
+
+#: includes/classes/pages/admin/class-settings-page.php:44
+#, fuzzy
+#| msgid "You have no permissions to do this action"
+msgid "You have no permissions for this action"
+msgstr "No tienes permisos para realizar esta acción."
+
+#: templates/front/shortcodes/profile/tabs/saved-homes.php:23
+msgid "You haven’t saved any homes yet."
+msgstr "Aún no has guardado ninguna casa."
+
+#: templates/front/shortcodes/profile/tabs/saved-searches.php:54
+msgid "You haven’t saved any searches yet."
+msgstr ""
+"Aún no has guardado ninguna búsqueda.\n"
+
+#: templates/front/shortcodes/profile/tabs/profile-form.php:40
+msgid "You'll use it to sign in, and we'll use it to contact you"
+msgstr ""
+"Lo usará para iniciar sesión y nosotros lo usaremos para comunicarnos con "
+"usted\n"
+
+#: templates/front/shortcodes/authentication/buyer-register-form.php:43
+msgid "You'll use it to sign in, and we'll use it to contact you."
+msgstr ""
+"Lo usará para iniciar sesión y nosotros lo usaremos para comunicarnos con "
+"usted.\n"
+
+#: templates/admin/demo/start.php:70
+msgid "Your version now"
+msgstr "Tu versión ahora"
+
+#: templates/front/shortcodes/authentication/authentication.php:19
+msgid "You’re already logged in."
+msgstr "Ya estás conectado."
+
+#: includes/classes/class-settings-container.php:748
+msgid "ZAR - Rand"
+msgstr "ZAR - Rand"
+
+#: includes/classes/entities/class-property.php:619
+msgid "Zip / Postal Code"
+msgstr "Código Postal"
+
+#: includes/classes/class-settings-container.php:822
+msgid "ZMW - Zambian Kwacha"
+msgstr "ZMW - Zambian Kwacha"
+
+#: includes/classes/class-settings-container.php:823
+msgid "ZWL - Zimbabwe Dollar"
+msgstr "ZWL - Zimbabwe Dollar"
+
+#: templates/admin/demo/steps/step1.php:39
+msgid ""
+"{0} language, {1} currency, {2} and {3} for area and lot sizes.<br>Go to "
+"Settings to change it."
+msgstr ""
+"{0} idioma, {1} moneda, {2} y {3} para áreas y tamaños de lotes.<br>Vaya a "
+"Configuración para cambiarlo."

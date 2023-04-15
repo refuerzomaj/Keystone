@@ -1,0 +1,97 @@
+/*
+
+====== Zoom effect ======
+
+*/
+.mfp-zoom-in {
+	/* start state */
+	/* animate in */
+	/* animate out */
+}
+.mfp-zoom-in .mfp-with-anim {
+	opacity: 0;
+	transition: all 0.2s ease-in-out;
+	transform: scale(0.8);
+}
+.mfp-zoom-in.mfp-bg {
+	opacity: 0;
+	transition: all 0.3s ease-out;
+}
+.mfp-zoom-in.mfp-ready .mfp-with-anim {
+	opacity: 1;
+	transform: scale(1);
+}
+.mfp-zoom-in.mfp-ready.mfp-bg {
+	opacity: 0.8;
+}
+.mfp-zoom-in.mfp-removing .mfp-with-anim {
+	transform: scale(0.8);
+	opacity: 0;
+}
+.mfp-zoom-in.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+
+/*
+
+====== Plugin css ======
+
+*/
+.ered-white-popup-block {
+	background: #FFF;
+	padding: 20px 40px;
+	text-align: left;
+	max-width: 520px;
+	margin: 40px auto;
+	position: relative;
+}
+.ered-download-popup-wrapper {
+	text-align: center;
+}
+.ered-download-popup-wrapper h4 {
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+.ered-download-popup-wrapper form {
+	margin: auto;
+	padding: 10px 0;
+}
+.ered-download-popup-wrapper form p {
+	display: flex;
+	justify-content: space-between;
+}
+.ered-download-popup-wrapper form p input {
+	flex: 0 1 auto!important;
+	border: solid 1px #92c800!important;
+	border-radius: 0!important;
+	padding: 0 18px!important;
+	height: 44px;
+	margin: 0!important;
+	width: 48% !important;
+}
+.ered-download-popup-wrapper form p button {
+	flex-shrink: 0!important;
+	border-radius: 0!important;
+	margin: 0!important;
+	padding: 11px 19px!important;
+	line-height: 18px!important;
+	background-color: #92c800!important;
+	border: solid 1px #92c800!important;
+	color: #fff!important;
+	width: 100%!important;
+}
+.ered-download-popup-wrapper .ladda-button[data-style=expand-right][data-loading] {
+	padding-right: 64px!important;
+}
+
+.ered-download-popup-wrapper button:hover {
+	background-color: #000!important;
+	border-color: #000!important;
+}
+#ered_download_popup .mfp-close:hover {
+	background-color: #222!important;
+	color: #fff!important;
+	border-radius: 0!important;
+	border: 0!important;
+}

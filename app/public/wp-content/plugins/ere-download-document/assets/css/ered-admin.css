@@ -1,0 +1,59 @@
+.ered-download-list {
+	width: 100%;
+	border-collapse: collapse;
+}
+.ered-download-list tr {
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+	-ms-transition: background 0.5s;
+	-o-transition: background 0.55s;
+	transition: background 0.5s;
+}
+.ered-download-list tr.highlight-color {
+	background-color: #f1f391;
+}
+.ered-download-list td,
+.ered-download-list th {
+	border: solid 1px #ddd;
+	padding: 5px 15px;
+	text-align: left;
+	vertical-align: text-top;
+	line-height: 24px;
+}
+.ered-download-list th {
+	background-color: #ddd;
+}
+.ered-download-pagination {
+	display: flex;
+	margin-top: 20px;
+}
+.ered-download-pagination a {
+	padding: 5px 10px;
+	background-color: #ddd;
+	margin-right: 10px;
+	text-decoration: none;
+	font-size: 16px;
+	border-radius: 3px;
+}
+.ered-download-pagination a.current-page {
+	background-color: #0085ba;
+	color: #fff;
+}
+
+.ered-white-popup-block {
+	background: #FFF;
+	padding: 20px 30px;
+	text-align: left;
+	max-width: 420px;
+	margin: 40px auto;
+	position: relative;
+}
+#ered-change-info-form p {
+	display: flex;
+}
+#ered-change-info-form label {
+	flex: 0 0 20%;
+}
+#ered-change-info-form p input {
+	flex: 0 0 80%;
+}

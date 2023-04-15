@@ -1,0 +1,138 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ERE Download Document\n"
+"POT-Creation-Date: 2019-09-14 16:23+0700\n"
+"PO-Revision-Date: 2017-02-18 15:35+0700\n"
+"Last-Translator: \n"
+"Language-Team: G5Theme <g5plus@outlook.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;_x:1,2c;esc_html;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"esc_attr;esc_attr__;esc_attr_e;esc_attr_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;"
+"_n_noop:1,2;_nx_noop:1,2,3c;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/templates/download-management.php:7 inc/admin.class.php:46
+#: inc/admin.class.php:47
+msgid "Download Management"
+msgstr ""
+
+#: admin/templates/download-management.php:11
+msgid "ID"
+msgstr ""
+
+#: admin/templates/download-management.php:12
+#: admin/templates/download-management.php:68
+msgid "Name"
+msgstr ""
+
+#: admin/templates/download-management.php:13
+#: admin/templates/download-management.php:72
+msgid "Email"
+msgstr ""
+
+#: admin/templates/download-management.php:14
+msgid "Link Download"
+msgstr ""
+
+#: admin/templates/download-management.php:15
+msgid "Download Date"
+msgstr ""
+
+#: admin/templates/download-management.php:30
+msgid "Edit Email"
+msgstr ""
+
+#: admin/templates/download-management.php:38
+msgid "Delete"
+msgstr ""
+
+#: admin/templates/download-management.php:66
+msgid "Edit Customer Information"
+msgstr ""
+
+#: admin/templates/download-management.php:76 admin/templates/settings.php:58
+msgid "Save Changes"
+msgstr ""
+
+#: admin/templates/settings.php:6 templates/popup.php:6
+msgid "Download document"
+msgstr ""
+
+#: admin/templates/settings.php:10 templates/popup.php:10
+msgid "Enter your email before downloading this document"
+msgstr ""
+
+#: admin/templates/settings.php:15 inc/admin.class.php:38 inc/admin.class.php:39
+msgid "Settings"
+msgstr ""
+
+#: admin/templates/settings.php:25
+msgid "Popup Title (*)"
+msgstr ""
+
+#: admin/templates/settings.php:30
+msgid "Enter popup download title"
+msgstr ""
+
+#: admin/templates/settings.php:36
+msgid "Popup Subtitle (*)"
+msgstr ""
+
+#: admin/templates/settings.php:41
+msgid "Enter popup download subtitle"
+msgstr ""
+
+#: admin/templates/settings.php:47
+msgid "Email Notification"
+msgstr ""
+
+#: admin/templates/settings.php:52
+msgid ""
+"Enter email address here if you want receive notification when client download. "
+"Empty to disable notification!"
+msgstr ""
+
+#: inc/admin.class.php:28 inc/admin.class.php:29
+msgid "ERE Download Document"
+msgstr ""
+
+#: inc/admin.class.php:85
+msgid "Settings page updated successfully."
+msgstr ""
+
+#: inc/ajax.class.php:35 inc/ajax.class.php:70 inc/ajax.class.php:92
+msgid "Access Deny! Refresh website and try again!"
+msgstr ""
+
+#: inc/ajax.class.php:44 inc/ajax.class.php:78
+msgid "The email address is incorrect!"
+msgstr ""
+
+#: inc/ajax.class.php:52
+#, php-format
+msgid "[%s] has just downloaded file"
+msgstr ""
+
+#: inc/ajax.class.php:60
+msgid "Error! Refresh website and try again!"
+msgstr ""
+
+#: templates/popup.php:20
+msgid "Enter your name..."
+msgstr ""
+
+#: templates/popup.php:21
+msgid "Enter your email..."
+msgstr ""
+
+#: templates/popup.php:24
+msgid "Download Now"
+msgstr ""

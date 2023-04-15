@@ -1,0 +1,5529 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Essential Wp Real Estate\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-06 15:11+0600\n"
+"PO-Revision-Date: 2019-03-05 12:41+0600\n"
+"Last-Translator: \n"
+"Language-Team: SmartDataSoft <support@smartdatasoft.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;esc_html_e;esc_attr_e;esc_attr__;esc_html__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../index.php:50
+#, php-format
+msgid "%1$s requires PHP version %2$s+, plugin is currently NOT RUNNING."
+msgstr ""
+
+#: ../index.php:66
+#, php-format
+msgid "%1$s requires WordPress version %2$s+. Because you are using an earlier version, the plugin is currently NOT RUNNING."
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:33
+#: ../src/Front/Purchase/Cart/Cartactions.php:219
+#, php-format
+msgid "No checkout page has been configured. Visit <a href=\"%s\">Settings</a> to set one."
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:45
+#: ../src/Admin/Adminnotice/Adminnotice.php:77
+msgid "Dismiss Notice"
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:52
+#, php-format
+msgid "Note: Test Mode is enabled. While in test mode no live transactions are processed. <a href=\"%s\">Settings</a>."
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:63
+#, php-format
+msgid "The listing files in %s are not currently protected due to your site running on NGINX."
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:65
+msgid "If you have already added the redirect rule, you may safely dismiss this notice"
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:92
+msgid "Upgrade PHP to Prepare for Property Listing Plugin"
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:106
+#, php-format
+msgid "%1$sYour site is running an outdated version of PHP (%2$s), which requires an update. Property Listing Plugin  will require %3$sPHP 5.6 or greater%4$s in order to keep your store online and selling. While 5.6 is the minimum version we will be supporting, we encourage you to update to the most recent version of PHP that your hosting provider offers. %5$sLearn more about updating PHP.%6$s%7$s"
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:125
+#, php-format
+msgid "%1$sMany web hosts can give you instructions on how/where to upgrade your version of PHP through their control panel, or may even be able to do it for you. If you need to change hosts, please see %2$sour hosting recommendations%3$s."
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:135
+#, php-format
+msgid "%1$s%2$s%3$s %4$s Dismiss this notice. %5$s"
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:160
+msgid "Discount code added."
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:163
+msgid "There was a problem adding your discount code, please try again."
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:166
+msgid "A discount with that code already exists, please use a different code."
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:169
+#: ../src/Admin/Settings/Discounts/edit-discount.php:38
+msgid "Discount code updated."
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:172
+msgid "There was a problem updating your discount code, please try again."
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:175
+msgid "The discount code could not be added because one or more of the required fields was empty, please try again."
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:178
+msgid "The discount code entered is invalid; only alphanumeric characters are allowed, please try again."
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:181
+msgid "The discount amount must be a valid percentage or numeric flat amount. Please try again."
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:191
+msgid "The payment has been deleted."
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:194
+msgid "The purchase receipt has been resent."
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:197
+msgid "The reports have been refreshed."
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:200
+msgid "The payment note has been deleted."
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:210
+msgid "The settings have been imported."
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:213
+msgid "API keys successfully generated."
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:216
+msgid "The specified user already has API keys."
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:219
+msgid "API keys successfully regenerated."
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:222
+msgid "API keys successfully revoked."
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:225
+msgid "SendWP has been successfully connected!"
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:235
+msgid "The payment note has been added successfully."
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:238
+msgid "The payment has been successfully updated."
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:248
+msgid "Customer successfully deleted"
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:251
+msgid "User successfully verified"
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:254
+msgid "Customer email added"
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:257
+msgid "Customer email removed"
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:260
+msgid "Failed to remove customer email"
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:263
+msgid "Primary email updated for customer"
+msgstr ""
+
+#: ../src/Admin/Adminnotice/Adminnotice.php:266
+msgid "Failed to set primary email"
+msgstr ""
+
+#: ../src/Admin/Menu/Menu.php:38
+msgid "Property Listing"
+msgstr ""
+
+#: ../src/Admin/Menu/Menu.php:46
+msgid "Add New Property Listing"
+msgstr ""
+
+#: ../src/Admin/Menu/Menu.php:79 ../src/Admin/Menu/Menu.php:178
+#: ../src/Admin/Menu/Menu.php:179
+msgid "Settings"
+msgstr ""
+
+#: ../src/Admin/Menu/Menu.php:94
+msgid "Supports"
+msgstr ""
+
+#: ../src/Admin/Menu/Menu.php:103
+msgid "Clear Cache"
+msgstr ""
+
+#: ../src/Admin/Menu/Menu.php:187 ../src/Admin/Menu/Menu.php:188
+msgid "Discounts"
+msgstr ""
+
+#: ../src/Admin/Menu/Menu.php:196 ../src/Admin/Menu/Menu.php:197
+msgid "Payments"
+msgstr ""
+
+#: ../src/Admin/Menu/Menu.php:214
+msgid "Discount Codes"
+msgstr ""
+
+#: ../src/Admin/Menu/Menu.php:214 ../src/Admin/MetaBoxes/functions.php:18
+#: ../templates/frontend/listings/dashboard/add/group.php:23
+#: ../templates/frontend/listings/dashboard/edit/group.php:48
+msgid "Add New"
+msgstr ""
+
+#: ../src/Admin/Menu/Menu.php:217
+#: ../src/Admin/Settings/Payment/Paymentlist.php:166
+#: ../src/Admin/Settings/Settings.php:246
+#: ../templates/frontend/widgets/listing_sidebar_search.php:71
+msgid "Search"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:13
+#: ../src/Admin/MetaBoxes/Components/Fields.php:16
+#: ../src/Admin/Settings/Archive.php:32 ../src/Admin/Settings/Single.php:60
+#: ../src/Front/Provider/ListingProvider.php:544
+#: ../src/Front/Provider/ListingProvider.php:545
+#: ../templates/frontend/listings/receipt/receipt.php:126
+msgid "Price"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:20
+msgid "Max Price (price range) "
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:23
+msgid "Price Range"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:27
+#: ../src/Admin/MetaBoxes/Components/Fields.php:30
+msgid "Price Suffix"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:34
+msgid "Bedroom"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:37
+msgid "Number of bedroom"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:41
+msgid "Washroom"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:44
+msgid "Number of washroom"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:48
+msgid "Area Size (sqft)"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:51
+msgid "Area of the listing"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:55
+msgid "Garage"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:58
+msgid "Number of Garage"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:62
+msgid "Year"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:65
+msgid "Build Year of the listing"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:69
+#: ../src/Admin/Settings/Single.php:45
+#: ../src/Front/Provider/ListingProvider.php:579
+msgid "Address"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:75
+msgid "Zip/Post Code"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:81
+msgid "Phone"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:87
+#: ../src/Admin/Settings/Payment/Paymentlist.php:316
+#: ../src/Common/Actions/Actions.php:102 ../src/Front/Provider/Markups.php:431
+#: ../templates/admin/order_details.php:580
+msgid "Email"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:93
+msgid "Website"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:99
+msgid "Gallery"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:101
+msgid "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium."
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:105
+msgid "Advance Features"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:113
+msgid "Icon"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:117
+msgid "fa fa-shower"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:118
+msgid "fa fa-bars"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:119
+msgid "fa fa-bath"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:120
+msgid "fa fa-bed"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:121
+msgid "fa fa-beer"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:122
+msgid "fa fa-bicycle"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:123
+msgid "fa fa-biking"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:124
+msgid "fa fa-bus"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:125
+msgid "fa fa-space-shuttle"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:126
+msgid "fa fa-taxi"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:127
+msgid "fa fa-television"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:128
+msgid "fa fa-university "
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:129
+msgid "fa fa-user-secret "
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:130
+msgid "fa fa-users "
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:131
+msgid "fa fa-ambulance "
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:132
+msgid "fa fa-bicycle "
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:133
+msgid "fa fa-subway "
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:134
+msgid "fa fa-plane "
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:140
+#: ../src/Admin/MetaBoxes/Components/Fields.php:156
+#: ../src/Admin/Settings/Discounts/Discount_Codes.php:152
+#: ../src/Admin/Settings/Discounts/add-discount.php:27
+#: ../src/Admin/Settings/Discounts/edit-discount.php:51
+#: ../src/Common/Actions/Actions.php:98 ../src/Front/Provider/Markups.php:369
+#: ../templates/admin/order_details.php:576
+#: ../templates/frontend/listings/receipt/receipt.php:119
+msgid "Name"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:148
+msgid "Amenities"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:162
+#: ../src/Front/Provider/Markups.php:628
+msgid "Select"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:166
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/admin-actions.php:125
+msgid "Yes"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:167
+msgid "No"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:175
+msgid "Floor Plan"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:183
+msgid "Floor Name"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:189
+#: ../src/Front/Provider/ListingProvider.php:254
+msgid "Beds"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:195
+#: ../src/Front/Provider/ListingProvider.php:259
+msgid "Baths"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:201
+msgid "Area (sqft)"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:207
+msgid "Blueprint"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:214
+msgid "Video"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:220
+msgid "Url"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:226
+msgid "Video Placeholder"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:233
+#: ../src/Admin/Settings/Settings.php:527
+msgid "Map"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:239
+msgid "Lat"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Components/Fields.php:240
+msgid "Lon"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Forms/group_inc/image.php:41
+#: ../src/Admin/MetaBoxes/Forms/image_advanced.php:29
+#: ../templates/frontend/listings/dashboard/add/image.php:16
+#: ../templates/frontend/listings/dashboard/add/image_advanced.php:13
+#: ../templates/frontend/listings/dashboard/edit/image.php:32
+#: ../templates/frontend/listings/dashboard/edit/image_advanced.php:29
+msgid "Upload Images"
+msgstr ""
+
+#: ../src/Admin/MetaBoxes/Forms/group_inc/image.php:42
+#: ../src/Admin/MetaBoxes/Forms/image_advanced.php:30
+#: ../templates/frontend/listings/dashboard/add/image.php:17
+#: ../templates/frontend/listings/dashboard/add/image_advanced.php:14
+#: ../templates/frontend/listings/dashboard/edit/image.php:33
+#: ../templates/frontend/listings/dashboard/edit/image_advanced.php:30
+msgid "Clear"
+msgstr ""
+
+#: ../src/Admin/Settings/Archive.php:28 ../src/Admin/Settings/Single.php:38
+#: ../src/Front/Provider/ListingProvider.php:601
+#: ../src/Front/Provider/ListingProvider.php:602
+msgid "Types"
+msgstr ""
+
+#: ../src/Admin/Settings/Archive.php:36 ../src/Admin/Settings/Single.php:34
+#: ../src/Front/Provider/Markups.php:791 ../src/Front/Provider/Markups.php:1045
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:1096
+#: ../templates/frontend/widgets/listing_sidebar_search.php:74
+msgid "Title"
+msgstr ""
+
+#: ../src/Admin/Settings/Archive.php:40
+msgid "Excerpt"
+msgstr ""
+
+#: ../src/Admin/Settings/Archive.php:44
+msgid "Features"
+msgstr ""
+
+#: ../src/Admin/Settings/Archive.php:47 ../src/Admin/Settings/Single.php:63
+msgid "Meta Features"
+msgstr ""
+
+#: ../src/Admin/Settings/Archive.php:50 ../src/Admin/Settings/Single.php:42
+#: ../src/Front/Provider/ListingProvider.php:578
+#: ../templates/frontend/listings/single/blocks/rating_overview.php:112
+msgid "Location"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/Discount_Codes.php:135
+#: ../src/Admin/Settings/Payment/Paymentlist.php:223
+msgid "All"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/Discount_Codes.php:136
+#: ../src/Admin/Settings/Discounts/edit-discount.php:139
+#: ../src/Front/Purchase/Discount/Discount.php:745
+msgid "Active"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/Discount_Codes.php:137
+#: ../src/Admin/Settings/Discounts/edit-discount.php:140
+#: ../src/Front/Purchase/Discount/Discount.php:741
+msgid "Inactive"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/Discount_Codes.php:153
+#: ../src/Admin/Settings/Discounts/add-discount.php:37
+#: ../src/Admin/Settings/Discounts/edit-discount.php:61
+msgid "Code"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/Discount_Codes.php:154
+#: ../src/Admin/Settings/Discounts/add-discount.php:60
+#: ../src/Admin/Settings/Discounts/edit-discount.php:84
+#: ../src/Admin/Settings/Payment/Paymentlist.php:318
+#: ../templates/frontend/listings/receipt/history.php:24
+msgid "Amount"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/Discount_Codes.php:155
+msgid "Uses"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/Discount_Codes.php:156
+msgid "Start Date"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/Discount_Codes.php:157
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:158
+msgid "Expiration"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/Discount_Codes.php:158
+#: ../src/Admin/Settings/Discounts/edit-discount.php:135
+#: ../src/Admin/Settings/Payment/Paymentlist.php:321
+#: ../src/Admin/Settings/Single.php:57
+#: ../src/Front/Provider/ListingProvider.php:590
+#: ../src/Front/Provider/ListingProvider.php:591
+msgid "Status"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/Discount_Codes.php:222
+#: ../templates/frontend/listings/dashboard/listings.php:47
+msgid "Edit"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/Discount_Codes.php:235
+#: ../src/Admin/Settings/Discounts/Discount_Codes.php:313
+msgid "Deactivate"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/Discount_Codes.php:247
+#: ../src/Admin/Settings/Discounts/Discount_Codes.php:312
+msgid "Activate"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/Discount_Codes.php:260
+#: ../src/Admin/Settings/Discounts/Discount_Codes.php:314
+#: ../src/Admin/Settings/Payment/Paymentlist.php:428
+#: ../src/Admin/Settings/Payment/Paymentlist.php:496
+#: ../src/Common/Ajax/Ajax.php:534 ../src/Common/Ajax/Ajax.php:540
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:449
+#: ../src/Front/Purchase/Payments/functions.php:1606
+#: ../templates/frontend/listings/dashboard/listings.php:51
+#: ../views/settings/settings_pagelayout_custom_field.php:75
+#: ../views/settings/settings_pagelayout_custom_field.php:81
+msgid "Delete"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/Discount_Codes.php:301
+msgid "No discounts found."
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/Discount_Codes.php:416
+msgid "No start date"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/Discount_Codes.php:422
+msgid "No expiration"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/add-discount.php:10
+msgid "Add New Discount"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/add-discount.php:14
+msgid "Discount code created."
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/add-discount.php:16
+#: ../src/Admin/Settings/Discounts/edit-discount.php:40
+msgid "&larr; Back to Discounts"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/add-discount.php:31
+msgid "The name of this discount."
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/add-discount.php:41
+#: ../src/Admin/Settings/Discounts/edit-discount.php:65
+msgid "Enter a code for this discount, such as 10PERCENT. Only alphanumeric characters are allowed."
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/add-discount.php:47
+#: ../src/Admin/Settings/Discounts/edit-discount.php:71
+msgid "Type"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/add-discount.php:51
+#: ../src/Admin/Settings/Discounts/edit-discount.php:75
+msgid "Percentage"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/add-discount.php:52
+#: ../src/Admin/Settings/Discounts/edit-discount.php:76
+msgid "Flat amount"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/add-discount.php:54
+#: ../src/Admin/Settings/Discounts/edit-discount.php:78
+msgid "The kind of discount to apply for this discount."
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/add-discount.php:64
+#: ../src/Admin/Settings/Discounts/edit-discount.php:88
+#, php-format
+msgid "Enter the discount amount in %s"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/add-discount.php:65
+#: ../src/Admin/Settings/Discounts/edit-discount.php:89
+msgid "Enter the discount percentage. 10 = 10%"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/add-discount.php:74
+#: ../src/Admin/Settings/Discounts/edit-discount.php:95
+msgid "Start date"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/add-discount.php:78
+#: ../src/Admin/Settings/Discounts/edit-discount.php:99
+msgid "Enter the start date for this discount code in the format of mm/dd/yyyy. For no start date, leave blank. If entered, the discount can only be used after or on this date."
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/add-discount.php:84
+#: ../src/Admin/Settings/Discounts/edit-discount.php:105
+msgid "Expiration date"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/add-discount.php:88
+msgid "Enter the expiration date for this discount code in the format of mm/dd/yyyy. For no expiration, leave blank."
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/add-discount.php:94
+#: ../src/Admin/Settings/Discounts/edit-discount.php:125
+msgid "Minimum Amount"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/add-discount.php:98
+msgid "The minimum dollar amount that must be in the cart before this discount can be used. Leave blank for no minimum."
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/add-discount.php:104
+#: ../src/Admin/Settings/Discounts/edit-discount.php:115
+msgid "Max Uses"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/add-discount.php:108
+#: ../src/Admin/Settings/Discounts/edit-discount.php:119
+msgid "The maximum number of times this discount can be used. Leave blank for unlimited."
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/add-discount.php:114
+#: ../src/Admin/Settings/Discounts/edit-discount.php:148
+msgid "Use Once Per Customer"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/add-discount.php:118
+#: ../src/Admin/Settings/Discounts/edit-discount.php:152
+msgid "Limit this discount to a single-use per customer?"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/add-discount.php:128
+msgid "Add Discount Code"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/discount-actions.php:31
+#: ../src/Admin/Settings/Discounts/discount-actions.php:222
+msgid "You do not have permission to create discount codes"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/discount-actions.php:31
+#: ../src/Admin/Settings/Discounts/discount-actions.php:112
+#: ../src/Admin/Settings/Discounts/discount-actions.php:168
+#: ../src/Admin/Settings/Discounts/discount-actions.php:172
+#: ../src/Admin/Settings/Discounts/discount-actions.php:193
+#: ../src/Admin/Settings/Discounts/discount-actions.php:197
+#: ../src/Admin/Settings/Discounts/discount-actions.php:218
+#: ../src/Admin/Settings/Discounts/edit-discount.php:8
+#: ../src/Common/Emails/Emailtemplate.php:234
+#: ../src/Common/Emails/actions.php:30 ../src/Common/Emails/actions.php:40
+#: ../src/Common/User/User.php:838 ../src/Common/User/User.php:860
+#: ../src/Common/User/User.php:912 ../src/Front/Error/Error.php:35
+#: ../src/Front/Models/Listingsaction.php:1258
+#: ../src/Front/Purchase/Cart/Cart.php:1429
+#: ../src/Front/Purchase/Cart/Cart.php:1443
+#: ../src/Front/Purchase/Gateways/Manual.php:17
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:30
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:1474
+#: ../src/Front/Purchase/Gateways/Stripe/Stripe.php:72
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/upgrade-functions.php:56
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:1482
+#: ../src/Front/Purchase/Payments/actions.php:242
+msgid "Error"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/discount-actions.php:112
+#: ../src/Admin/Settings/Discounts/discount-actions.php:197
+msgid "You do not have permission to edit discount codes"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/discount-actions.php:168
+#: ../src/Admin/Settings/Discounts/discount-actions.php:193
+#: ../src/Admin/Settings/Discounts/discount-actions.php:218
+msgid "Trying to cheat or something?"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/discount-actions.php:172
+msgid "You do not have permission to delete discount codes"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/edit-discount.php:8
+msgid "Something went wrong."
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/edit-discount.php:34
+msgid "Edit Discount"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/edit-discount.php:55
+msgid "The name of this discount"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/edit-discount.php:109
+msgid "Enter the expiration date for this discount code in the format of mm/dd/yyyy. For no expiration, leave blank"
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/edit-discount.php:129
+msgid "The minimum amount that must be purchased before this discount can be used. Leave blank for no minimum."
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/edit-discount.php:142
+msgid "The status of this discount code."
+msgstr ""
+
+#: ../src/Admin/Settings/Discounts/edit-discount.php:163
+msgid "Update Discount Code"
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:34 ../src/Admin/Settings/Settings.php:83
+msgid "Pages"
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:37
+msgid "Page Settings"
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:38
+msgid "Property Listing Plugin uses the pages below for handling the display of checkout, purchase confirmation, purchase history, and purchase failures. If pages are deleted or removed in some way, they can be recreated manually from the Pages menu. When re-creating the pages, enter the shortcode shown in the page content area."
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:42
+msgid "Primary Checkout Page"
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:43
+msgid "This is the checkout page where buyers will complete their purchases. The [listing_checkout] shortcode must be on this page."
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:47 ../src/Admin/Settings/Pages.php:56
+#: ../src/Admin/Settings/Pages.php:65 ../src/Admin/Settings/Pages.php:74
+#: ../src/Admin/Settings/Pages.php:83 ../src/Admin/Settings/Pages.php:95
+#: ../src/Admin/Settings/Pages.php:107 ../src/Admin/Settings/Pages.php:119
+#: ../src/Admin/Settings/Pages.php:128 ../src/Admin/Settings/Pages.php:137
+#: ../src/Admin/Settings/Pages.php:146 ../src/Admin/Settings/Pages.php:155
+#: ../src/Admin/Settings/Pages.php:164 ../src/Admin/Settings/Pages.php:173
+msgid "Select a page"
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:51
+msgid "Success Page"
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:52
+msgid "This is the page buyers are sent to after completing their purchases. The [cl_receipt] shortcode should be on this page."
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:60
+msgid "Failed Transaction Page"
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:61
+msgid "This is the page buyers are sent to if their transaction fails."
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:69
+msgid "Cancel Payment Page"
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:70
+msgid "This is the page buyers are sent to if their transaction is cancelled."
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:78
+msgid "Purchase History Page"
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:79
+msgid "This page shows a complete purchase history for the current user, including listing links. The [purchase_history] shortcode should be on this page."
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:87
+msgid "Register User Page"
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:89
+#, php-format
+msgid "If a customer sign up using the [cl_register_user] shortcode, this is the page they will be redirected to. Note, this can be overridden using the redirect attribute in the shortcode like this: [cl_admin_login redirect=\"%s\"]."
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:99
+msgid "User Profile"
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:101
+#, php-format
+msgid "If a customer sign up using the [cl_update_user] shortcode, this is the page they will be redirected to. Note, this can be overridden using the redirect attribute in the shortcode like this: [cl_admin_login redirect=\"%s\"]."
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:111
+msgid "Login Page"
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:113
+#, php-format
+msgid "If a customer logs in using the [cl_admin_login] shortcode, this is the page they will be redirected to. Note, this can be overridden using the redirect attribute in the shortcode like this: [cl_admin_login redirect=\"%s\"]."
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:123
+msgid "Compare Page"
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:124
+msgid "The is main compare page. The [cl_compare_listing] shortcode should be on this page."
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:132
+msgid "Listing Dashboard Page"
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:133
+msgid "The is main listing dashboard page. The [cl_dashboard] shortcode should be on this page."
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:141
+msgid "Add Listing Page"
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:142
+msgid "The is main add listing page. The [cl_add_listing] shortcode should be on this page."
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:150
+msgid "Edit Listing Page"
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:151
+msgid "The is main edit listing page. The [cl_add_listing] shortcode should be on this page."
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:159
+msgid "Checkout Page"
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:160
+msgid "The is main Checkout Page. The [cl_compare_listing] shortcode should be on this page."
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:168
+msgid "Cart Page"
+msgstr ""
+
+#: ../src/Admin/Settings/Pages.php:169
+msgid "The is main Cart Page. The [cl_compare_listing] shortcode should be on this page."
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Payment.php:30
+msgid "The specified ID does not belong to a payment. Please try again"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Payment.php:95
+#: ../src/Admin/Settings/Payment/Paymentlist.php:381
+msgid "View Order Details"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Payment.php:98
+msgid "Edit Payment"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:114
+msgid "All Gateways"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:131
+msgid "Start Date:"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:135
+msgid "End Date:"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:157
+msgid "Apply"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:163
+msgid "Clear Filter"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:233
+msgid "Completed"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:244
+#: ../src/Admin/Settings/Settings.php:638
+#: ../src/Front/Purchase/Payments/functions.php:738
+#: ../templates/frontend/listings/dashboard/listings.php:22
+msgid "Pending"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:255
+#: ../src/Front/Purchase/Payments/functions.php:744
+msgid "Processing"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:266
+#: ../src/Front/Purchase/Payments/functions.php:740
+msgid "Refunded"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:277
+#: ../src/Front/Purchase/Payments/functions.php:743
+msgid "Revoked"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:288
+#: ../src/Front/Purchase/Payments/functions.php:741
+msgid "Failed"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:299
+#: ../src/Front/Purchase/Payments/functions.php:742
+msgid "Abandoned"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:315
+#: ../templates/frontend/listings/receipt/history.php:22
+msgid "ID"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:317
+#: ../src/Common/Provider/Provider.php:35
+#: ../templates/frontend/listings/receipt/history.php:25
+msgid "Details"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:319
+#: ../templates/frontend/listings/receipt/history.php:23
+#: ../templates/frontend/listings/receipt/receipt.php:55
+msgid "Date"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:320
+msgid "Customer"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:322
+msgid "Gateway"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:416
+msgid "Resend Purchase Receipt"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:433
+msgid "(unknown)"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:483
+msgid "(customer missing)"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:497
+msgid "Set To Completed"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:498
+msgid "Set To Pending"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:499
+msgid "Set To Processing"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:500
+msgid "Set To Refunded"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:501
+msgid "Set To Revoked"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:502
+msgid "Set To Failed"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:503
+msgid "Set To Abandoned"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:504
+msgid "Set To Preapproval"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:505
+msgid "Set To Cancelled"
+msgstr ""
+
+#: ../src/Admin/Settings/Payment/Paymentlist.php:506
+msgid "Resend Email Receipts"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:78 ../src/Admin/Settings/Settings.php:204
+#: ../src/Admin/Settings/Settings.php:219
+#: ../src/Admin/Settings/Settings.php:227
+#: ../src/Admin/Settings/Settings.php:233
+#: ../src/Admin/Settings/Settings.php:239
+#: ../src/Admin/Settings/Settings.php:252
+msgid "General"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:79
+msgid "Payment Gateways"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:80
+msgid "Emails"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:81
+msgid "Advanced"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:82
+msgid "Tools"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:84
+msgid "Additional"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:182
+#, php-format
+msgid "The callback function used for the %s setting is missing."
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:205
+#: ../src/Admin/Settings/Settings.php:271
+msgid "Currency"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:211
+msgid "Paypal Standard"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:212
+#: ../src/Admin/Settings/Settings.php:693
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:8
+msgid "Stripe"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:213
+msgid "Woocommerce"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:220
+msgid "Purchase Receipts"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:221
+msgid "New Sale Notifications"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:240
+msgid "Custom Field"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:241
+#: ../templates/frontend/listings/dashboard/dashboard.php:31
+msgid "Add Listing"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:242
+msgid "Single"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:243
+msgid "Archive (Grid)"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:244
+msgid "Archive (List)"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:245
+msgid "Compare Fields"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:272
+msgid "Choose your currency. Note that some payment gateways have currency restrictions."
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:279
+msgid "Currency Position"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:280
+msgid "Choose the location of the currency sign."
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:283
+msgid "Before - $10"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:284
+msgid "After - 10$"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:289
+msgid "Thousands Separator"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:290
+msgid "The symbol (usually , or .) to separate thousands."
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:297
+msgid "Decimal Separator"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:298
+msgid "The symbol (usually , or .) to separate decimal points."
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:305
+msgid "Number of decimals"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:329
+msgid "Email Configuration"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:334
+msgid "Logo"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:335
+msgid "Upload or choose a logo to be displayed at the top of the purchase receipt emails. Displayed on HTML emails only."
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:340
+msgid "From Name"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:341
+msgid "The name purchase receipts are said to come from. This should probably be your site or shop name."
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:347
+msgid "From Email"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:348
+msgid "Email to send purchase receipts from. This will act as the \"from\" and \"reply-to\" address."
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:360
+msgid "SendWP"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:365
+msgid "Deliverability settings"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:371
+msgid "Recapture"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:376
+msgid "Abandoned cart recovery"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:390
+msgid "Purchase Email Subject"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:391
+msgid "Enter the subject line for the purchase receipt email."
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:393
+#: ../src/Admin/Settings/Settings.php:400
+#: ../src/Admin/Settings/Settings.php:404
+#: ../src/Common/Emails/Emailtemplate.php:133
+#: ../src/Common/Emails/functions.php:19 ../src/Common/Emails/functions.php:23
+#: ../src/Common/Emails/functions.php:59 ../src/Common/Emails/functions.php:63
+msgid "Purchase Receipt"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:397
+msgid "Purchase Email Heading"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:398
+msgid "Enter the heading for the purchase receipt email."
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:405
+msgid "Enter the text that is sent as purchase receipt email to users after completion of a successful purchase. HTML is accepted. Available template tags:"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:407
+#: ../src/Common/Emails/Emailtemplate.php:150
+msgid "Dear"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:407
+#: ../src/Common/Emails/Emailtemplate.php:151
+msgid "Thank you for your purchase. Please click on the link(s) below to listing your files."
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:413
+msgid "Sale Notification Subject"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:414
+msgid "Enter the subject line for the sale notification email."
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:420
+msgid "Sale Notification Heading"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:421
+msgid "Enter the heading for the sale notification email."
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:423
+#: ../src/Common/Emails/functions.php:111
+msgid "New Sale!"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:427
+msgid "Sale Notification"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:428
+msgid "Enter the text that is sent as sale notification email after completion of a purchase. HTML is accepted. Available template tags:"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:434
+msgid "Sale Notification Emails"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:435
+msgid "Enter the email address(es) that should receive a notification anytime a sale is made, one per line."
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:441
+msgid "Disable Admin Notifications"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:442
+msgid "Check this box if you do not want to receive sales notification emails."
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:455
+msgid "Enforce SSL"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:456
+msgid "The act of forcing all website traffic to HTTPS via a 301 redirect."
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:461
+msgid "No Cache Checkout"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:467
+msgid "Redirect On Add"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:473
+msgid "Disable Styles"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:474
+msgid "Check this to disable all included styling of buttons, checkout fields, and all other elements."
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:476
+msgid "Disabling Styles"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:477
+msgid "If your theme has a complete custom CSS file for Property Listing Plugin, you may wish to disable our default styles. This is not recommended unless you're sure your theme has a complete custom CSS."
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:489
+msgid "Enable Item Quantities"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:495
+msgid "Enable Taxes"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:496
+msgid "Choose if you want to enable taxes or not"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:510
+msgid "LISTING ARCHIVE"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:515
+msgid "Listing Slug"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:521
+msgid "Default Archive Layout"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:522
+msgid "Choose your default listing archive page layout."
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:525
+msgid "Grid"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:526
+msgid "List"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:534
+msgid "Number of Columns [Grid]"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:535
+#: ../src/Admin/Settings/Settings.php:551
+msgid "Choose number of Listing layout columns."
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:538
+#: ../src/Admin/Settings/Settings.php:554
+msgid "1"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:539
+#: ../src/Admin/Settings/Settings.php:555
+msgid "2"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:540
+#: ../src/Admin/Settings/Settings.php:556
+msgid "3"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:541
+#: ../src/Admin/Settings/Settings.php:557
+msgid "4"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:542
+#: ../src/Admin/Settings/Settings.php:558
+msgid "6"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:543
+#: ../src/Admin/Settings/Settings.php:559
+msgid "12"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:550
+msgid "Number of Columns [List]"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:566
+msgid "Listings per pages"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:567
+msgid "Number of Listings shown on per archive page"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:573
+msgid "Listing Purchase"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:579
+msgid "Enable Geolocation"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:580
+msgid "Enabling geolocation added the functionality of the visited user to know their own location on the map. User need to give gps access on their device."
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:586
+msgid "Default Latitude"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:592
+msgid "Default Longitude"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:598
+msgid "Default Zoom"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:633
+msgid "Add Listing Status"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:634
+msgid "Choose the status of the listig when added."
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:637
+msgid "Publish"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:645
+msgid "Add Listing Redirect"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:646
+msgid "The url the site will redirect after user add listing"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:652
+msgid "Registration Redirect"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:653
+msgid "The url the site will redirect after user ragitration"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:659
+msgid "Checkout Button Text"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:660
+#: ../src/Admin/Settings/Settings.php:683
+msgid "Text shown on the Add to Cart Button when the product is already in the cart"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:666
+msgid "Button Type"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:667
+msgid "Choose your checkout button type."
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:670
+#: ../src/Front/Models/Listingsaction.php:521
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:412
+msgid "Default"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:671
+msgid "Primary"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:672
+#: ../src/Front/Purchase/Cart/Cart.php:1393
+#: ../src/Front/Purchase/Cart/Cart.php:1455
+msgid "Success"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:673
+msgid "Info"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:674
+msgid "Warning"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:675
+msgid "Danger"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:676
+msgid "Link"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:682
+msgid "Button Style"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:688
+msgid "Default Payment Gateway"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:689
+msgid "Choose your default payment gateway."
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:692
+msgid "Paypal"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:699
+msgid "Logged In Only"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:700
+msgid "Must be logged into an account to purchase"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:706
+msgid "Enable Skus"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:713
+msgid "Tax Rate"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:720
+msgid "Google recaptcha secret API"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:726
+msgid "Google recaptcha sitekey"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:747
+#, php-format
+msgid "Enter your PayPal API credentials to process refunds via PayPal. Learn how to access your <a href=\"%s\"> PayPal API Credentials</a> ."
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:1060
+msgid "Upload File"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:1119
+msgctxt "all dropdown items"
+msgid "All"
+msgstr ""
+
+#: ../src/Admin/Settings/Settings.php:1120
+msgctxt "no dropdown items"
+msgid "None"
+msgstr ""
+
+#: ../src/Admin/Settings/Single.php:22 ../src/Admin/Settings/Single.php:26
+#: ../src/Common/Ajax/Ajax.php:745 ../src/Front/Provider/Markups.php:380
+#: ../templates/frontend/listings/common/listing_footer.php:29
+#: ../templates/frontend/listings/dashboard/add/image.php:13
+#: ../templates/frontend/listings/dashboard/add/image_advanced.php:10
+#: ../templates/frontend/listings/dashboard/edit/image.php:27
+#: ../templates/frontend/listings/dashboard/edit/image_advanced.php:25
+#: ../templates/frontend/listings/dashboard/favourites.php:28
+#: ../templates/frontend/listings/dashboard/listings.php:32
+#: ../templates/frontend/listings/inc/featured-image.php:38
+#: ../views/settings/settings_pagelayout_archive.php:60
+msgid "Placeholder"
+msgstr ""
+
+#: ../src/Admin/Settings/Single.php:48 ../src/Common/Provider/Provider.php:16
+msgid "Rating"
+msgstr ""
+
+#: ../src/Admin/Settings/Single.php:51
+msgid "Publish Date"
+msgstr ""
+
+#: ../src/Admin/Settings/Single.php:54
+msgid "View Count"
+msgstr ""
+
+#: ../src/Admin/Settings/Single.php:66
+msgid "Social Share"
+msgstr ""
+
+#: ../src/Admin/Settings/Single.php:69
+msgid "Cart"
+msgstr ""
+
+#: ../src/Admin/Settings/Single.php:72
+msgid "Favourite"
+msgstr ""
+
+#: ../src/Admin/Settings/Single.php:75
+#: ../templates/frontend/listings/common/listing_footer.php:40
+msgid "Compare"
+msgstr ""
+
+#: ../src/Admin/Settings/Single.php:78
+msgid "Report Abuse"
+msgstr ""
+
+#: ../src/Common/Actions/Actions.php:64
+msgid "Clasyfied Enquiry Widget"
+msgstr ""
+
+#: ../src/Common/Actions/Actions.php:65
+msgid "Click to edit"
+msgstr ""
+
+#: ../src/Common/Actions/Actions.php:99
+#: ../templates/frontend/listings/single/blocks/comment_form.php:59
+msgid "Your Name"
+msgstr ""
+
+#: ../src/Common/Actions/Actions.php:103
+#: ../templates/frontend/listings/single/blocks/comment_form.php:64
+msgid "Your Email"
+msgstr ""
+
+#: ../src/Common/Actions/Actions.php:106
+msgid "Phone No."
+msgstr ""
+
+#: ../src/Common/Actions/Actions.php:107
+msgid "+001-234-5678"
+msgstr ""
+
+#: ../src/Common/Actions/Actions.php:110 ../src/Common/Provider/Provider.php:36
+#: ../src/Front/Provider/Markups.php:802 ../src/Front/Provider/Markups.php:1055
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:1101
+msgid "Description"
+msgstr ""
+
+#: ../src/Common/Actions/Actions.php:111
+msgid "I'm interested in this property."
+msgstr ""
+
+#: ../src/Common/Actions/Actions.php:117
+msgid "Send Message"
+msgstr ""
+
+#: ../src/Common/Actions/Actions.php:149
+msgid "Listing User"
+msgstr ""
+
+#: ../src/Common/Actions/Actions.php:207
+msgid "Have a discount code?"
+msgstr ""
+
+#: ../src/Common/Actions/Actions.php:207
+msgctxt "Entering a discount code"
+msgid "Click to enter it"
+msgstr ""
+
+#: ../src/Common/Actions/Actions.php:211
+msgid "Discount"
+msgstr ""
+
+#: ../src/Common/Actions/Actions.php:213
+msgid "Enter a coupon code if you have one."
+msgstr ""
+
+#: ../src/Common/Actions/Actions.php:215 ../src/Front/Loader/Styles.php:116
+#: ../src/Front/Purchase/Gateways/Gateways.php:323
+#: ../src/Front/Purchase/Gateways/scripts.php:76
+msgid "Enter discount"
+msgstr ""
+
+#: ../src/Common/Actions/Actions.php:216
+msgctxt "Apply discount at checkout"
+msgid "Apply"
+msgstr ""
+
+#: ../src/Common/Ajax/Ajax.php:100 ../src/Common/Ajax/Ajax.php:158
+#: ../src/Common/Ajax/Ajax.php:197
+msgid "Nonce verification failed!"
+msgstr ""
+
+#: ../src/Common/Ajax/Ajax.php:121
+msgid "Listing enquiry message"
+msgstr ""
+
+#: ../src/Common/Ajax/Ajax.php:136
+msgid "Enquiry has been sent successfully!"
+msgstr ""
+
+#: ../src/Common/Ajax/Ajax.php:143
+msgid "Failed to send message"
+msgstr ""
+
+#: ../src/Common/Ajax/Ajax.php:178
+msgid "Successfully redirecting ..."
+msgstr ""
+
+#: ../src/Common/Ajax/Ajax.php:184
+msgid "ERROR"
+msgstr ""
+
+#: ../src/Common/Ajax/Ajax.php:184
+msgid "Username or password is incorrect."
+msgstr ""
+
+#: ../src/Common/Ajax/Ajax.php:216
+msgid "Username has Space"
+msgstr ""
+
+#: ../src/Common/Ajax/Ajax.php:220
+msgid "Needed Username must"
+msgstr ""
+
+#: ../src/Common/Ajax/Ajax.php:224
+msgid "Username already exists"
+msgstr ""
+
+#: ../src/Common/Ajax/Ajax.php:228
+msgid "Email has no valid value"
+msgstr ""
+
+#: ../src/Common/Ajax/Ajax.php:232
+msgid "Email already exists"
+msgstr ""
+
+#: ../src/Common/Ajax/Ajax.php:236 ../src/Front/Provider/Markups.php:478
+#: ../templates/frontend/listings/dashboard/profile.php:18
+msgid "Password didn't match"
+msgstr ""
+
+#: ../src/Common/Ajax/Ajax.php:240 ../src/Common/Ajax/Ajax.php:272
+msgid "Plese check on the reCAPTCHA box."
+msgstr ""
+
+#: ../src/Common/Ajax/Ajax.php:296
+msgid "Successfully registered."
+msgstr ""
+
+#: ../src/Common/Ajax/Ajax.php:303
+msgid "Sometings wrong goes here"
+msgstr ""
+
+#: ../src/Common/Ajax/Ajax.php:675
+msgid "Your message sent successfully."
+msgstr ""
+
+#: ../src/Common/Ajax/Ajax.php:679
+msgid "Something Wrong."
+msgstr ""
+
+#: ../src/Common/Ajax/Ajax.php:684
+msgid "Please fill out the form."
+msgstr ""
+
+#: ../src/Common/Ajax/Ajax.php:845
+msgid "Your cart is empty..."
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:15
+msgid "US Dollars (&#36;)"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:16
+msgid "Euros (&euro;)"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:17
+msgid "Pound Sterling (&pound;)"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:18
+msgid "Australian Dollars (&#36;)"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:19
+msgid "Brazilian Real (R&#36;)"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:20
+msgid "Canadian Dollars (&#36;)"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:21
+msgid "Czech Koruna"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:22
+msgid "Danish Krone"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:23
+msgid "Hong Kong Dollar (&#36;)"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:24
+msgid "Hungarian Forint"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:25
+msgid "Israeli Shekel (&#8362;)"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:26
+msgid "Japanese Yen (&yen;)"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:27
+msgid "Malaysian Ringgits"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:28
+msgid "Mexican Peso (&#36;)"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:29
+msgid "New Zealand Dollar (&#36;)"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:30
+msgid "Norwegian Krone"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:31
+msgid "Philippine Pesos"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:32
+msgid "Polish Zloty"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:33
+msgid "Singapore Dollar (&#36;)"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:34
+msgid "Swedish Krona"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:35
+msgid "Swiss Franc"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:36
+msgid "Taiwan New Dollars"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:37
+msgid "Thai Baht (&#3647;)"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:38
+msgid "Indian Rupee (&#8377;)"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:39
+msgid "Turkish Lira (&#8378;)"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:40
+msgid "Iranian Rial (&#65020;)"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:41
+msgid "Russian Rubles"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:42
+msgid "Angolan Kwanza"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:43
+msgid "United Arab Emirates dirham (د.إ)"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:44
+msgid "Kenyan shilling (KES)"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:45
+msgid "Nigerian naira (₦)"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:46
+msgid "Guatemalan quetzal (Q)"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:47
+msgid "Pakistani Rupee (PKR)"
+msgstr ""
+
+#: ../src/Common/Currencies/Currencies.php:48
+msgid "Bulgarian lev (BGN)"
+msgstr ""
+
+#: ../src/Common/Customer/Customer.php:192
+#: ../src/Front/Purchase/Discount/Discount.php:244
+#, php-format
+msgid "Can't get property %s"
+msgstr ""
+
+#: ../src/Common/Customer/Dbcustomer.php:63
+msgid "Select a Customer"
+msgstr ""
+
+#: ../src/Common/Customer/Dbcustomer.php:67
+#: ../templates/admin/order_details.php:556
+msgid "Type to search all Customers"
+msgstr ""
+
+#: ../src/Common/Customer/Dbcustomer.php:82
+msgid "No customer attached"
+msgstr ""
+
+#: ../src/Common/Customer/Dbcustomer.php:87
+msgid "No customers found"
+msgstr ""
+
+#: ../src/Common/Emails/Emails.php:160
+msgid "Default Template"
+msgstr ""
+
+#: ../src/Common/Emails/Emails.php:161
+msgid "No template, plain text only"
+msgstr ""
+
+#: ../src/Common/Emails/Emails.php:277
+msgid "You cannot send email with Emails until init/admin_init has been reached"
+msgstr ""
+
+#: ../src/Common/Emails/Emails.php:299
+#, php-format
+msgid ""
+"Email from Property Listing Plugin failed to send.\n"
+"Send time: %1$s\n"
+"To: %2$s\n"
+"Subject: %3$s\n"
+"\n"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtags.php:250
+msgid "A list of listing links for each listing purchased"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtags.php:255
+msgid "A plain-text list of listing URLs for each listing purchased"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtags.php:260
+msgid "The buyer's first name"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtags.php:265
+msgid "The buyer's full name, first and last"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtags.php:270
+msgid "The buyer's user name on the site, if they registered an account"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtags.php:275
+msgid "The buyer's email address"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtags.php:280
+msgid "The buyer's billing address"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtags.php:285
+msgid "The date of the purchase"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtags.php:290
+msgid "The price of the purchase before taxes"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtags.php:295
+msgid "The taxed amount of the purchase"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtags.php:300
+msgid "The total price of the purchase"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtags.php:305
+msgid "The unique ID number for this purchase"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtags.php:310
+msgid "The unique ID number for this purchase receipt"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtags.php:315
+msgid "The method of payment used for this purchase"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtags.php:320
+msgid "Your site name"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtags.php:325
+msgid "Adds a link so users can view their receipt directly on your website if they are unable to view it in the browser correctly."
+msgstr ""
+
+#: ../src/Common/Emails/Emailtags.php:330
+msgid "Adds a list of any discount codes applied to this purchase"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtags.php:335
+msgid "The buyer's IP Address"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtags.php:387
+#: ../src/Common/Emails/Emailtags.php:522
+#: ../templates/frontend/listings/receipt/receipt.php:124
+msgid "Quantity"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtags.php:391
+#: ../src/Common/Emails/Emailtags.php:526
+#: ../templates/frontend/listings/receipt/receipt.php:121
+msgid "SKU"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtags.php:443
+msgid "No listingable files found."
+msgstr ""
+
+#: ../src/Common/Emails/Emailtags.php:473
+msgid "Additional information about your purchase:"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtags.php:857
+#, php-format
+msgid "%1$sView it in your browser %2$s"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtemplate.php:48
+msgid "Sample Product Title"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtemplate.php:50
+msgid "Sample listing File Name"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtemplate.php:50
+msgid "Optional notes about this listing."
+msgstr ""
+
+#: ../src/Common/Emails/Emailtemplate.php:63
+msgid "These are some sample notes added to a product."
+msgstr ""
+
+#: ../src/Common/Emails/Emailtemplate.php:107
+msgid "Preview Purchase Receipt"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtemplate.php:108
+msgid "Send Test Email"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtemplate.php:202
+#: ../src/Common/Emails/functions.php:170
+msgid "Hello"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtemplate.php:202
+#: ../src/Common/Emails/functions.php:170
+#, php-format
+msgid "A %s purchase has been made"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtemplate.php:203
+#: ../src/Common/Emails/functions.php:171
+#, php-format
+msgid "%s sold:"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtemplate.php:205
+#: ../src/Common/Emails/functions.php:173
+msgid "Purchased by: "
+msgstr ""
+
+#: ../src/Common/Emails/Emailtemplate.php:206
+#: ../src/Common/Emails/functions.php:174
+msgid "Amount: "
+msgstr ""
+
+#: ../src/Common/Emails/Emailtemplate.php:207
+#: ../src/Common/Emails/functions.php:175
+msgid "Payment Method: "
+msgstr ""
+
+#: ../src/Common/Emails/Emailtemplate.php:208
+#: ../src/Common/Emails/functions.php:176
+msgid "Thank you"
+msgstr ""
+
+#: ../src/Common/Emails/Emailtemplate.php:234
+msgid "Missing purchase key."
+msgstr ""
+
+#: ../src/Common/Emails/Emailtemplate.php:251
+msgid "Receipt"
+msgstr ""
+
+#: ../src/Common/Emails/actions.php:30
+msgid "You do not have permission to edit this payment record"
+msgstr ""
+
+#: ../src/Common/Emails/actions.php:40
+msgid "Email Empty"
+msgstr ""
+
+#: ../src/Common/Emails/functions.php:107
+#, php-format
+msgid "New listing purchase - Order #%1$s"
+msgstr ""
+
+#: ../src/Common/Emails/functions.php:253
+#: ../src/Common/Emails/functions.php:337
+#: ../src/Common/Emails/functions.php:359
+msgid "You do not have permission to do this."
+msgstr ""
+
+#: ../src/Common/Emails/functions.php:311
+msgid "Something went wrong. SendWP was not installed correctly."
+msgstr ""
+
+#: ../src/Common/Emails/functions.php:417
+msgid "Something went wrong. Recapture for PROPERTY LISTING PLUGIN was not installed correctly."
+msgstr ""
+
+#: ../src/Common/Emails/functions.php:447
+#, php-format
+msgid "%1$sRecover abandoned purchases like this one.%2$s %3$sTry Recapture for free%4$s."
+msgstr ""
+
+#: ../src/Common/Emails/functions.php:460
+#, php-format
+msgid "%1$s %2$s %3$s %4$s Dismiss this notice. %5$s"
+msgstr ""
+
+#: ../src/Common/PostTypes/Assign.php:17
+msgctxt "taxonomy singular name"
+msgid "Property Listing"
+msgstr ""
+
+#: ../src/Common/PostTypes/Assign.php:18
+msgctxt "taxonomy plural name"
+msgid "Property Listings"
+msgstr ""
+
+#: ../src/Common/PostTypes/Assign.php:26
+msgctxt "taxonomy singular name"
+msgid "Payment"
+msgstr ""
+
+#: ../src/Common/PostTypes/Assign.php:27
+msgctxt "taxonomy plural name"
+msgid "Payments"
+msgstr ""
+
+#: ../src/Common/PostTypes/Assign.php:35
+msgctxt "taxonomy singular name"
+msgid "Discount"
+msgstr ""
+
+#: ../src/Common/PostTypes/Assign.php:36
+msgctxt "taxonomy plural name"
+msgid "Discounts"
+msgstr ""
+
+#: ../src/Common/PostTypes/Assign.php:47
+msgctxt "taxonomy singular name"
+msgid "Type"
+msgstr ""
+
+#: ../src/Common/PostTypes/Assign.php:48
+msgctxt "taxonomy plural name"
+msgid "Types"
+msgstr ""
+
+#: ../src/Common/PostTypes/Assign.php:55
+msgctxt "taxonomy singular name"
+msgid "Location"
+msgstr ""
+
+#: ../src/Common/PostTypes/Assign.php:56
+msgctxt "taxonomy plural name"
+msgid "Locations"
+msgstr ""
+
+#: ../src/Common/PostTypes/Assign.php:63
+msgctxt "taxonomy singular name"
+msgid "Status"
+msgstr ""
+
+#: ../src/Common/PostTypes/Assign.php:64
+msgctxt "taxonomy plural name"
+msgid "Status"
+msgstr ""
+
+#: ../src/Common/PostTypes/Assign.php:71
+msgctxt "taxonomy singular name"
+msgid "Feature"
+msgstr ""
+
+#: ../src/Common/PostTypes/Assign.php:72
+msgctxt "taxonomy plural name"
+msgid "Features"
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:42
+msgid " Archives"
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:43
+msgid " Attributes"
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:44
+#: ../src/Common/PostTypes/PostTypes.php:104
+#: ../src/Common/PostTypes/PostTypes.php:105
+msgid "Parent "
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:45
+#: ../src/Common/PostTypes/PostTypes.php:103
+msgid "All "
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:46
+#: ../src/Common/PostTypes/PostTypes.php:47
+#: ../src/Common/PostTypes/PostTypes.php:108
+msgid "Add New "
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:48
+#: ../src/Common/PostTypes/PostTypes.php:109
+msgid "New "
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:49
+#: ../src/Common/PostTypes/PostTypes.php:106
+msgid "Edit "
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:50
+#: ../src/Common/PostTypes/PostTypes.php:107
+msgid "Update "
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:51
+#: ../src/Common/PostTypes/PostTypes.php:52
+msgid "View "
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:53
+#: ../src/Common/PostTypes/PostTypes.php:102
+msgid "Search "
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:54
+msgid "Not found"
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:55
+msgid "Not found in Trash"
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:56
+#: ../src/Front/Provider/Markups.php:778 ../src/Front/Provider/Markups.php:1033
+msgid "Featured Image"
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:57
+msgid "Set featured image"
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:58
+msgid "Remove featured image"
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:59
+msgid "Use as featured image"
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:60
+msgid "Insert into "
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:61
+msgid "Uploaded to this "
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:62
+msgid " list"
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:63
+msgid " list navigation"
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:64
+msgid "Filter"
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:139
+msgctxt "Refunded payment status"
+msgid "Refunded"
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:150
+msgctxt "Failed payment status"
+msgid "Failed"
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:161
+msgctxt "Revoked payment status"
+msgid "Revoked"
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:172
+msgctxt "Abandoned payment status"
+msgid "Abandoned"
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:183
+msgctxt "Processing payment status"
+msgid "Processing"
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:196
+msgctxt "Active discount code status"
+msgid "Active"
+msgstr ""
+
+#: ../src/Common/PostTypes/PostTypes.php:207
+msgctxt "Inactive discount code status"
+msgid "Inactive"
+msgstr ""
+
+#: ../src/Common/Provider/Provider.php:17
+msgid "Write a Review"
+msgstr ""
+
+#: ../src/Common/Provider/Provider.php:18
+msgid "Reviews"
+msgstr ""
+
+#: ../src/Common/Roles/Roles.php:29
+msgid "Shop Manager"
+msgstr ""
+
+#: ../src/Common/Roles/Roles.php:64
+msgid "Shop Accountant"
+msgstr ""
+
+#: ../src/Common/Roles/Roles.php:74
+msgid "Shop Worker"
+msgstr ""
+
+#: ../src/Common/Roles/Roles.php:85
+msgid "Shop Vendor"
+msgstr ""
+
+#: ../src/Common/User/User.php:525
+#, php-format
+msgid "[%s] New User Registration"
+msgstr ""
+
+#: ../src/Common/User/User.php:526
+msgid "New user registration"
+msgstr ""
+
+#: ../src/Common/User/User.php:527 ../src/Common/User/User.php:539
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: ../src/Common/User/User.php:528
+#, php-format
+msgid "E-mail: %s"
+msgstr ""
+
+#: ../src/Common/User/User.php:537
+#, php-format
+msgid "[%s] Your username and password"
+msgstr ""
+
+#: ../src/Common/User/User.php:538
+msgid "Your account info"
+msgstr ""
+
+#: ../src/Common/User/User.php:542
+msgid "Password entered at checkout"
+msgstr ""
+
+#: ../src/Common/User/User.php:544
+msgid "Password entered at registration"
+msgstr ""
+
+#: ../src/Common/User/User.php:547
+#, php-format
+msgid "Password: %s"
+msgstr ""
+
+#: ../src/Common/User/User.php:552
+msgid "Click here to log in"
+msgstr ""
+
+#: ../src/Common/User/User.php:555
+#, php-format
+msgid "To log in, visit: %s"
+msgstr ""
+
+#: ../src/Common/User/User.php:714 ../src/Common/User/User.php:715
+msgid "Verify your account"
+msgstr ""
+
+#: ../src/Common/User/User.php:717
+#, php-format
+msgid ""
+"Hello %1$s,\n"
+"\n"
+"Your account with %2$s needs to be verified before you can access your purchase history. <a href='%3$s'>Click here</a> to verify your account.\n"
+"\n"
+"Link missing? Visit the following URL: %4$s"
+msgstr ""
+
+#: ../src/Common/User/User.php:834
+#, php-format
+msgid "Sorry but your account verification link has expired. <a href=\"%s\">Click here</a> to request a new verification URL."
+msgstr ""
+
+#: ../src/Common/User/User.php:860
+msgid "Nonce verification failed."
+msgstr ""
+
+#: ../src/Common/User/User.php:864
+msgid "You must be logged in to verify your account."
+msgstr ""
+
+#: ../src/Common/User/User.php:864 ../src/Common/User/User.php:868
+msgid "Notice"
+msgstr ""
+
+#: ../src/Common/User/User.php:868
+msgid "Your account has already been verified."
+msgstr ""
+
+#: ../src/Common/User/User.php:912
+msgid "Invalid verification token provided."
+msgstr ""
+
+#: ../src/Front/CL_Logging/CL_Logging.php:50
+#: ../templates/admin/order_details.php:304
+msgid "Logs"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1825
+msgid "A Coru&ntilde;a"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1826
+msgid "Araba"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1827
+msgid "Albacete"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1828
+msgid "Alicante"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1829
+msgid "Almer&iacute;a"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1830
+msgid "Asturias"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1831
+msgid "&Aacute;vila"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1832
+msgid "Badajoz"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1833
+msgid "Baleares"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1834
+msgid "Barcelona"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1835
+msgid "Burgos"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1836
+msgid "C&aacute;ceres"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1837
+msgid "C&aacute;diz"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1838
+msgid "Cantabria"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1839
+msgid "Castell&oacute;n"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1840
+msgid "Ceuta"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1841
+msgid "Ciudad Real"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1842
+msgid "C&oacute;rdoba"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1843
+msgid "Cuenca"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1844
+msgid "Girona"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1845
+msgid "Granada"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1846
+msgid "Guadalajara"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1847
+msgid "Gipuzkoa"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1848
+msgid "Huelva"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1849
+msgid "Huesca"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1850
+msgid "Ja&eacute;n"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1851
+msgid "La Rioja"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1852
+msgid "Las Palmas"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1853
+msgid "Le&oacute;n"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1854
+msgid "Lleida"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1855
+msgid "Lugo"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1856
+msgid "Madrid"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1857
+msgid "M&aacute;laga"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1858
+msgid "Melilla"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1859
+msgid "Murcia"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1860
+msgid "Navarra"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1861
+msgid "Ourense"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1862
+msgid "Palencia"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1863
+msgid "Pontevedra"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1864
+msgid "Salamanca"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1865
+msgid "Santa Cruz de Tenerife"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1866
+msgid "Segovia"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1867
+msgid "Sevilla"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1868
+msgid "Soria"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1869
+msgid "Tarragona"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1870
+msgid "Teruel"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1871
+msgid "Toledo"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1872
+msgid "Valencia"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1873
+msgid "Valladolid"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1874
+msgid "Bizkaia"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1875
+msgid "Zamora"
+msgstr ""
+
+#: ../src/Front/Country/Country.php:1876
+msgid "Zaragoza"
+msgstr ""
+
+#: ../src/Front/Loader/Shortcode.php:58
+msgid "Sorry, trouble retrieving payment receipt."
+msgstr ""
+
+#: ../src/Front/Loader/Shortcode.php:99
+msgid "You must be logged in to view this payment receipt."
+msgstr ""
+
+#: ../src/Front/Loader/Shortcode.php:111
+msgid "Receipt could not be retrieved, your purchase session has expired."
+msgstr ""
+
+#: ../src/Front/Loader/Shortcode.php:163
+#: ../src/Front/Purchase/Cart/Cartactions.php:240
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/buy-now/template.php:47
+msgid "Buy Now"
+msgstr ""
+
+#: ../src/Front/Loader/Shortcode.php:165
+#: ../src/Front/Purchase/Cart/Cartactions.php:240
+#: ../src/Front/Purchase/Checkout/Checkout.php:191
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/buy-now/template.php:202
+msgid "Purchase"
+msgstr ""
+
+#: ../src/Front/Loader/Shortcode.php:209
+msgid "Your transaction failed, please try again or contact site support."
+msgstr ""
+
+#: ../src/Front/Loader/Shortcode.php:218
+msgid "Your transaction has been successfully cancelled."
+msgstr ""
+
+#: ../src/Front/Loader/Sidebars.php:25
+msgid "Listing Sidebar"
+msgstr ""
+
+#: ../src/Front/Loader/Sidebars.php:27
+msgid "Widgets in this area will be shown on all posts and pages."
+msgstr ""
+
+#: ../src/Front/Loader/Sidebars.php:36
+msgid "Listing Single"
+msgstr ""
+
+#: ../src/Front/Loader/Sidebars.php:38
+msgid "Widgets in this area will be shown on Listing Single."
+msgstr ""
+
+#: ../src/Front/Loader/Styles.php:114
+#: ../src/Front/Purchase/Gateways/scripts.php:74
+msgid "Please select a payment method"
+msgstr ""
+
+#: ../src/Front/Loader/Styles.php:115
+#: ../src/Front/Purchase/Gateways/scripts.php:75
+msgid "Please enter a discount code"
+msgstr ""
+
+#: ../src/Front/Loader/Styles.php:117
+#: ../src/Front/Purchase/Gateways/scripts.php:77
+msgid "Discount Applied"
+msgstr ""
+
+#: ../src/Front/Loader/Styles.php:118
+#: ../src/Front/Purchase/Gateways/scripts.php:78
+msgid "Please enter an email address before applying a discount code"
+msgstr ""
+
+#: ../src/Front/Loader/Styles.php:119
+#: ../src/Front/Purchase/Gateways/scripts.php:79
+msgid "Please enter a username before applying a discount code"
+msgstr ""
+
+#: ../src/Front/Loader/Styles.php:120
+#: ../src/Front/Purchase/Gateways/scripts.php:80
+msgid "Please Wait..."
+msgstr ""
+
+#: ../src/Front/Loader/Styles.php:121
+msgid "Item added to compare."
+msgstr ""
+
+#: ../src/Front/Loader/Styles.php:125
+msgid "Can't upload over 5 photos for free plan"
+msgstr ""
+
+#: ../src/Front/Models/Listingsaction.php:522
+msgid "Bundle"
+msgstr ""
+
+#: ../src/Front/Models/Listingsaction.php:1258
+msgid "Sorry but your listing link has expired."
+msgstr ""
+
+#: ../src/Front/Provider/ListingProvider.php:252
+msgid "Bed"
+msgstr ""
+
+#: ../src/Front/Provider/ListingProvider.php:257
+msgid "Bath"
+msgstr ""
+
+#: ../src/Front/Provider/ListingProvider.php:275
+#: ../templates/frontend/listings/single/blocks/floor.php:26
+msgid "sqft"
+msgstr ""
+
+#: ../src/Front/Provider/ListingProvider.php:475
+msgid "Latest"
+msgstr ""
+
+#: ../src/Front/Provider/ListingProvider.php:480
+msgid "Oldest"
+msgstr ""
+
+#: ../src/Front/Provider/ListingProvider.php:485
+msgid "Title Ascending"
+msgstr ""
+
+#: ../src/Front/Provider/ListingProvider.php:490
+msgid "Title Descending"
+msgstr ""
+
+#: ../src/Front/Provider/ListingProvider.php:495
+msgid "Most Rated"
+msgstr ""
+
+#: ../src/Front/Provider/ListingProvider.php:500
+msgid "Most Viewed"
+msgstr ""
+
+#: ../src/Front/Provider/ListingProvider.php:536
+msgid "Keywords"
+msgstr ""
+
+#: ../src/Front/Provider/ListingProvider.php:555
+#: ../src/Front/Provider/ListingProvider.php:556
+msgid "Min Price"
+msgstr ""
+
+#: ../src/Front/Provider/ListingProvider.php:566
+#: ../src/Front/Provider/ListingProvider.php:567
+msgid "Max Price"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:241
+msgid " ago"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:257
+msgid "Viewed:"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:392
+msgid "Non Comparable Data"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:418 ../src/Front/Provider/Markups.php:508
+#: ../src/Front/Purchase/Checkout/Checkout.php:79
+#: ../src/Front/Purchase/Checkout/Checkout.php:85
+#: ../templates/frontend/listings/dashboard/profile.php:70
+msgid "First Name"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:419
+msgid "First name"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:422 ../src/Front/Provider/Markups.php:512
+#: ../src/Front/Purchase/Checkout/Checkout.php:95
+#: ../src/Front/Purchase/Checkout/Checkout.php:107
+#: ../templates/frontend/listings/dashboard/profile.php:74
+msgid "Last Name"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:423
+msgid "Last name"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:426 ../src/Front/Provider/Markups.php:427
+#: ../src/Front/Provider/Markups.php:516
+msgid "Username"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:430 ../src/Front/Provider/Markups.php:520
+#: ../templates/frontend/listings/dashboard/profile.php:78
+msgid "E-mail"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:434 ../src/Front/Provider/Markups.php:435
+#: ../src/Front/Provider/Markups.php:524 ../src/Front/Provider/Markups.php:525
+#: ../src/Front/Provider/Markups.php:563
+#: ../templates/frontend/listings/dashboard/profile.php:82
+#: ../templates/frontend/listings/dashboard/profile.php:83
+msgid "Password"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:438 ../src/Front/Provider/Markups.php:439
+#: ../src/Front/Provider/Markups.php:528
+#: ../templates/frontend/listings/dashboard/profile.php:86
+msgid "Confirm Password"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:448
+msgid "Already have an account!"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:448 ../src/Front/Provider/Markups.php:565
+#: ../src/Front/Provider/Markups.php:645 ../src/Front/Provider/Markups.php:916
+#: ../templates/frontend/listings/dashboard/overview.php:3
+#: ../templates/frontend/listings/dashboard/profile.php:3
+msgid "Login"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:449 ../src/Front/Provider/Markups.php:566
+msgid "Register"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:496
+#: ../templates/frontend/listings/dashboard/profile.php:41
+msgid "Profile Successfully Updated."
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:529
+#: ../templates/frontend/listings/dashboard/profile.php:87
+msgid "confirm your password"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:539
+#: ../templates/frontend/listings/dashboard/profile.php:97
+msgid "Submit"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:551
+msgid "Now you are Logged in"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:562
+msgid "Username or Email"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:564
+msgid "Remember Me"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:645
+msgid " to Edit Listing."
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:660
+msgid "Please "
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:660
+msgid "Login "
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:660
+msgid "to Edit Listing"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:665
+msgid "To edit a Listing, Please go to dashboard and click on edit button to edit that Listing."
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:814 ../src/Front/Provider/Markups.php:1066
+msgid "Property Types"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:829 ../src/Front/Provider/Markups.php:1077
+msgid "Listing Locations"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:844 ../src/Front/Provider/Markups.php:1088
+msgid "Listing Status"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:859 ../src/Front/Provider/Markups.php:1099
+msgid "Listing Features"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:890 ../src/Front/Provider/Markups.php:892
+#: ../src/Front/Provider/Markups.php:1123
+#: ../src/Front/Provider/Markups.php:1125
+msgid "Submit &#38; Preview"
+msgstr ""
+
+#: ../src/Front/Provider/Markups.php:917
+#, php-format
+msgid "Please %s to Add Listing"
+msgstr ""
+
+#: ../src/Front/Purchase/Cart/Cart.php:893
+#, php-format
+msgid "includes %s tax"
+msgstr ""
+
+#: ../src/Front/Purchase/Cart/Cart.php:895
+#, php-format
+msgid "excludes %s tax"
+msgstr ""
+
+#: ../src/Front/Purchase/Cart/Cart.php:1394
+msgid "Cart saved successfully. You can restore your cart using this URL:"
+msgstr ""
+
+#: ../src/Front/Purchase/Cart/Cart.php:1429
+#: ../src/Front/Purchase/Cart/Cart.php:1443
+msgid "Cart restoration failed. Invalid token."
+msgstr ""
+
+#: ../src/Front/Purchase/Cart/Cart.php:1437
+#: ../src/Front/Purchase/Cart/Cart.php:1446
+msgid "The cart cannot be restored. Invalid token."
+msgstr ""
+
+#: ../src/Front/Purchase/Cart/Cart.php:1455
+msgid "Cart restored successfully."
+msgstr ""
+
+#: ../src/Front/Purchase/Cart/Cartactions.php:113
+msgid "Security key not found"
+msgstr ""
+
+#: ../src/Front/Purchase/Cart/Cartactions.php:121
+msgid "Security key not verified"
+msgstr ""
+
+#: ../src/Front/Purchase/Cart/Cartactions.php:241
+msgctxt "text shown on the Add to Cart Button when the product is already in the cart"
+msgid "Checkout"
+msgstr ""
+
+#: ../src/Front/Purchase/Cart/Cartactions.php:299
+msgid "Free"
+msgstr ""
+
+#: ../src/Front/Purchase/Cart/Cartactions.php:398
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/compat.php:217
+msgid "Your cart is empty."
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:58
+msgid "Personal Info"
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:62
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/buy-now/template.php:106
+msgid "Email Address"
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:67
+msgid "We will send the purchase receipt to this address."
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:68
+msgid "Email address"
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:84
+msgid "We will use this to personalize your account experience."
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:100
+msgid "We will use this as well to personalize your account experience."
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:126
+msgid "Purchase Total:"
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:151
+msgid "Go back"
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:194
+msgid "Free listing"
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:849
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:762
+msgid "Billing Details"
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:853
+#: ../templates/admin/order_details.php:605
+msgid "Billing Address"
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:858
+msgid "The primary billing address for your credit card."
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:865
+msgid "Address line 1"
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:875
+msgid "Billing Address Line 2 (optional)"
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:880
+msgid "The suite, apt no, PO box, etc, associated with your billing address."
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:887
+msgid "Address line 2"
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:897
+msgid "Billing City"
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:902
+msgid "The city for your billing address."
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:909
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:498
+msgid "City"
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:919
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:801
+msgid "Billing Zip / Postal Code"
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:924
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:806
+msgid "The zip or postal code for your billing address."
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:931
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:813
+msgid "Zip / Postal Code"
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:941
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:765
+msgid "Billing Country"
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:946
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:770
+msgid "The country for your billing address."
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:976
+msgid "Billing State / Province"
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:981
+msgid "The state or province for your billing address."
+msgstr ""
+
+#: ../src/Front/Purchase/Checkout/Checkout.php:1007
+msgid "State / Province"
+msgstr ""
+
+#: ../src/Front/Purchase/Discount/Discount.php:738
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:333
+msgid "Expired"
+msgstr ""
+
+#: ../src/Front/Purchase/Discount/Discount.php:1416
+msgctxt "error shown when attempting to use a discount before its start date"
+msgid "This discount is invalid."
+msgstr ""
+
+#: ../src/Front/Purchase/Discount/Discount.php:1483
+msgid "This discount has reached its maximum usage."
+msgstr ""
+
+#: ../src/Front/Purchase/Discount/Discount.php:1516
+#, php-format
+msgid "Minimum order of %s not met."
+msgstr ""
+
+#: ../src/Front/Purchase/Discount/Discount.php:1601
+#: ../src/Front/Purchase/Discount/Discount.php:1626
+msgid "The product requirements for this discount are not met."
+msgstr ""
+
+#: ../src/Front/Purchase/Discount/Discount.php:1641
+msgid "This discount is not valid for the cart contents."
+msgstr ""
+
+#: ../src/Front/Purchase/Discount/Discount.php:1730
+msgid "This discount has already been redeemed."
+msgstr ""
+
+#: ../src/Front/Purchase/Discount/Discount.php:1778
+msgctxt "error for when a discount is invalid based on its configuration"
+msgid "This discount is invalid."
+msgstr ""
+
+#: ../src/Front/Purchase/Discount/Discount.php:1809
+msgid "This discount is expired."
+msgstr ""
+
+#: ../src/Front/Purchase/Discount/Discount.php:1814
+msgid "This discount is not active."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Gateways.php:64
+msgid "PayPal Standard"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Gateways.php:65
+msgid "PayPal"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Gateways.php:69
+#: ../src/Front/Purchase/Gateways/Gateways.php:70
+msgid "Stripe Payment"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Gateways.php:136
+#: ../src/Front/Purchase/Gateways/Gateways.php:155
+msgid "Free Purchase"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Gateways.php:299
+msgid "The selected payment gateway is not enabled"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Gateways.php:348
+msgid "One or more of the discounts you entered is invalid"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Gateways.php:358
+msgid "The zip / postal code you entered for your billing address is invalid"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Gateways.php:577
+msgid "You must be logged into an account to purchase"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Gateways.php:588
+#: ../src/Front/Purchase/Gateways/Gateways.php:718
+msgid "Invalid email"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Gateways.php:595
+msgid "Enter an email"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Gateways.php:640
+msgid "An internal error has occurred, please try again or contact support."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Gateways.php:675
+msgid "There was an error completing your purchase. Please try again."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Gateways.php:722
+#: ../src/Front/Purchase/Gateways/Gateways.php:818
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/compat.php:117
+msgid "The user information is invalid"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Gateways.php:735
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/buy-now/checkout.php:81
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/checkout.php:274
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Gateways.php:739
+msgid "Please enter your first name"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Gateways.php:749
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:879
+msgid "Please enter your zip / postal code"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Gateways.php:753
+msgid "Please enter your billing city"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Gateways.php:757
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:884
+msgid "Please select your billing country"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Gateways.php:761
+msgid "Please enter billing state / province"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Manual.php:17
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:30
+#: ../src/Front/Purchase/Gateways/Stripe/Stripe.php:72
+msgid "Nonce verification has failed"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Manual.php:44
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:55
+msgid "Payment Error"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Manual.php:44
+#, php-format
+msgid "Payment creation failed while processing a manual (free or test) purchase. Payment data: %s"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:55
+#, php-format
+msgid "Payment creation failed before sending buyer to PayPal. Payment data: %s"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:315
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:323
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:406
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:416
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:486
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:495
+msgid "IPN Error"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:315
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:323
+#, php-format
+msgid "Invalid IPN verification response. IPN data: %s"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:406
+#, php-format
+msgid "Invalid business email in IPN response. IPN data: %s"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:409
+msgid "Payment failed due to invalid PayPal business email."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:416
+#, php-format
+msgid "Invalid currency in IPN response. IPN data: %s"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:419
+msgid "Payment failed due to invalid currency in PayPal IPN."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:486
+#, php-format
+msgid "Invalid payment amount in IPN response. IPN data: %s"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:489
+msgid "Payment failed due to invalid amount in PayPal IPN."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:495
+#, php-format
+msgid "Invalid purchase key in IPN response. IPN data: %s"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:497
+msgid "Payment failed due to invalid purchase key in PayPal IPN."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:503
+#, php-format
+msgid "PayPal Transaction ID: %s"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:515
+msgid "Payment made via eCheck and will clear automatically in 5-8 days"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:521
+msgid "Payment requires a confirmed customer address and must be accepted manually through PayPal"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:526
+msgid "Payment must be accepted manually through PayPal due to international account regulations"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:531
+msgid "Payment received in non-shop currency and must be accepted manually through PayPal"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:537
+msgid "Payment is being reviewed by PayPal staff as high-risk or in possible violation of government regulations"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:542
+msgid "Payment was sent to non-confirmed or non-registered email address."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:547
+msgid "PayPal account must be upgraded before this payment can be accepted"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:552
+msgid "PayPal account is not verified. Verify account in order to accept this payment"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:557
+msgid "Payment is pending for unknown reasons. Contact PayPal support for assistance"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:599
+#, php-format
+msgid "Partial PayPal refund processed: %s"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:604
+#, php-format
+msgid "PayPal Payment #%1$s Refunded for reason: %2$s"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:605
+#, php-format
+msgid "PayPal Refund Transaction ID: %s"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:846
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:1282
+msgid "Payment could not be verified while validating PayPal PDT. Missing payment total fields."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:856
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:1292
+#, php-format
+msgid "Payment failed while validating PayPal PDT. Amount expected: %1$f. Amount Received: %2$f"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:882
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:1320
+msgid "Payment failed while validating PayPal PDT."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:888
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:1326
+msgid "PayPal PDT encountered an unexpected result, payment set to pending"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:941
+msgid "Refund Payment in PayPal"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:1066
+msgid "PayPal refund failed for unknown reason."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:1075
+#, php-format
+msgid "PayPal refund transaction ID: %s"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:1078
+#, php-format
+msgid "PayPal refund failed: %s"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:1090
+msgid "Paypal Active"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:1106
+msgid "Paypal Email"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:1111
+msgid "Paypal Sandbox"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:1116
+msgid "IPN email notifications"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:1121
+msgid "Receiver email"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:1126
+msgid "PayPal identity token"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:1131
+msgid "Invoice Prefix"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:1136
+msgid "Image Url"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:1142
+msgid "API credentials"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:1148
+msgid "Live API username"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:1153
+msgid "Live API password"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:1158
+msgid "Live API signature"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:1164
+msgid "Sandbox API username"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:1169
+msgid "Sandbox API password"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/PaypalStandard/PaypalStandard.php:1174
+msgid "Sandbox API signature"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:46
+#: ../src/Front/Purchase/Gateways/Stripe/Stripe.php:112
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:46
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:25
+msgid "We are unable to process your payment at this time, please try again later or contact support."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:67
+msgid "Unable to locate payment method 3. Please try again with a new payment method."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:85
+#: ../src/Front/Purchase/Gateways/Stripe/Stripe.php:151
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:87
+msgid "Prepaid cards are not a valid payment method. Please try again with a new payment method."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:103
+msgid "Unable to create customer. Please try again1."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:226
+msgid "Charges are no longer directly created in Stripe. "
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:362
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:384
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:404
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:486
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:574
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:668
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:761
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:985
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:1133
+#: ../src/Front/Purchase/Gateways/Stripe/Stripe.php:428
+#: ../src/Front/Purchase/Gateways/Stripe/Stripe.php:450
+#: ../src/Front/Purchase/Gateways/Stripe/Stripe.php:470
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:364
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:386
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:406
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:488
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:576
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:672
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:765
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:991
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:1139
+msgid "Stripe Error"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:364
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:386
+#: ../src/Front/Purchase/Gateways/Stripe/Stripe.php:430
+#: ../src/Front/Purchase/Gateways/Stripe/Stripe.php:452
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:366
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:388
+#, php-format
+msgid "There was an error while processing a Stripe payment. Payment data: %s"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:451
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:461
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:526
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:536
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:613
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:628
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:707
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:717
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:801
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:816
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:828
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:840
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:857
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:888
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:1024
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:1041
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:1051
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:1070
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:1119
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:1169
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:1183
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:1196
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:1230
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:453
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:463
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:528
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:538
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:615
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:632
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:711
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:721
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:805
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:822
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:834
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:846
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:863
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:894
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:1030
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:1047
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:1057
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:1076
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:1125
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:1175
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:1191
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:1204
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:1238
+msgid "An error occurred, but your payment may have gone through. Please contact the site administrator."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:971
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:977
+msgid "Unable to create payment."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/Classes/payment-actions.php:1517
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:1525
+msgid "Charge not refunded in Stripe, as checkbox was not selected."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/Stripe.php:31
+msgid "Stripe Active"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/Stripe.php:36
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:53
+msgid "Test Publishable Key"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/Stripe.php:37
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:54
+msgid "Enter your test publishable key, found in your Stripe Account Settings"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/Stripe.php:44
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:61
+msgid "Test Secret Key"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/Stripe.php:45
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:62
+msgid "Enter your test secret key, found in your Stripe Account Settings"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/Stripe.php:52
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:69
+msgid "Live Publishable Key"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/Stripe.php:53
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:70
+msgid "Enter your live publishable key, found in your Stripe Account Settings"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/Stripe.php:60
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:77
+msgid "Live Secret Key"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/Stripe.php:61
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:78
+msgid "Enter your live secret key, found in your Stripe Account Settings"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/Stripe.php:133
+msgid "Unable to locate payment method 2. Please try again with a new payment method."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/Stripe.php:169
+msgid "Unable to create customer. Please try again2"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/Stripe.php:292
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:228
+msgid "Charges are no longer directly created in Stripe."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/admin-actions.php:62
+msgid "Preapproval cancelled"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/admin-actions.php:79
+msgid "The preapproved payment was successfully charged."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/admin-actions.php:82
+msgid "The preapproved payment failed to be charged. View order details for further details."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/admin-actions.php:85
+msgid "The preapproved payment was successfully cancelled."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/admin-actions.php:90
+#, php-format
+msgid "There was an error connecting your Stripe account. Message: %1$s. Please <a href=\"%2$s\">try again</a>."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/admin-actions.php:124
+msgid "Used Existing Card:"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/admin-actions.php:188
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/scripts.php:151
+msgid "Refund Charge in Stripe"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/admin-filters.php:91
+msgid "Process"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/admin-filters.php:94
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:616
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:650
+#: ../templates/admin/order_details.php:567
+#: ../templates/admin/order_details.php:587
+msgid "Cancel"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/class-notices-registry.php:93
+msgid "A message must be specified for each notice."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/notices.php:39
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:632
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/apple-pay.php:22
+msgid "Unable to locate registry"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/notices/cl-recurring-requirement.php:18
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/notices/cl-requirement.php:18
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/notices/php-requirement.php:21
+msgid "Credit card payments with Stripe are currently disabled."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/notices/cl-recurring-requirement.php:26
+#, php-format
+msgid "To continue accepting credit card payments with Stripe please update %1$sProperty Listing Plugin - Recurring Payments%2$s to version %3$s2.10%4$s or higher."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/notices/cl-requirement.php:26
+#, php-format
+msgid "To continue accepting credit card payments with Stripe please update %1$sProperty Listing Plugin%2$s to version %3$s2.9%4$s or higher."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/notices/cl-stripe-core.php:28
+msgid "Accept credit card payments with Stripe"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/notices/cl-stripe-core.php:34
+#, php-format
+msgid "Property Listing Plugin now lets you accept credit card payments using Stripe, including Apple Pay and Google Pay support. %1$sEnable Stripe%2$s now or %3$slearn more%4$s about the benefits of using Stripe."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/notices/php-requirement.php:29
+#, php-format
+msgid "Property Listing Plugin Stripe Payment Gateway requires PHP version %1$s or higher. It looks like you're using version %2$s, which means you will need to %3$supgrade your version of PHP to allow the plugin to continue to function%4$s. Newer versions of PHP are both faster and more secure. The version you're using %5$sno longer receives security updates%6$s, which is another great reason to update."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/notices/php-requirement.php:51
+msgid "Read More"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/notices/php-requirement.php:65
+msgid "Which version should I upgrade to?"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/notices/php-requirement.php:73
+#, php-format
+msgid "In order to be compatible with future versions of the Stripe payment gateway, you should update your PHP version to at least %1$s; however we recommend using version <code>7.4</code> if possible to receive the full speed and security benefits provided to more modern and fully supported versions of PHP. However, some plugins may not be fully compatible with PHP <code>7.4</code>, so more testing may be required."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/notices/php-requirement.php:84
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:304
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:373
+msgid "Need help upgrading? Ask your web host!"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/notices/php-requirement.php:92
+#, php-format
+msgid "Many web hosts can give you instructions on how/where to upgrade your version of PHP through their control panel, or may even be able to do it for you. %1$sRead more about updating PHP%2$s."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/reporting/class-stripe-reports.php:23
+msgid "Stripe-specific reports have been removed."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:34
+msgid "Unmet Requirements"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:46
+msgid "Connection Status"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:86
+msgid "Webhooks"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:90
+#, php-format
+msgid "In order for Stripe to function completely, you must configure your Stripe webhooks. Visit your %1$saccount dashboard%2$s to configure them. Please add a webhook endpoint for the URL below."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:96
+#, php-format
+msgid "Webhook URL: %s"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:101
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/admin/settings.php:51
+#, php-format
+msgid "See our %1$sdocumentation%2$s for more information."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:108
+msgid "Billing Address Display"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:109
+msgid "Select how you would like to display the billing address fields on the checkout form. <p><strong>Notes</strong>:</p><p>If taxes are enabled, this option cannot be changed from \"Full address\".</p><p>If set to \"No address fields\", you <strong>must</strong> disable \"zip code verification\" in your Stripe account.</p>"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:112
+msgid "Full address"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:113
+msgid "Zip / Postal Code and Country only"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:114
+msgid "No address fields"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:120
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/gateway-actions.php:61
+msgid "Statement Descriptor"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:121
+msgid "Choose how charges will appear on customer's credit card statements. <em>Max 22 characters</em>"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:126
+msgid "Show Previously Used Cards"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:127
+msgid "Provides logged in customers with a list of previous used payment methods for faster checkout."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:132
+msgid "Prepaid Cards"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:133
+msgid "Allow prepaid cards as valid payment method."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:138
+msgid "Split Credit Card Form"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:139
+msgid "Use separate card number, expiration, and CVC fields in payment forms."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:144
+msgid "Restrict Stripe Assets"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:145
+msgid "Only load Stripe.com hosted assets on pages that specifically utilize Stripe functionality."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:147
+msgid "Loading Javascript from Stripe"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:148
+msgid "Stripe advises that their Javascript library be loaded on every page to take advantage of their advanced fraud detection rules. If you are not concerned with this, enable this setting to only load the Javascript when necessary. Read more about Stripe's recommended setup here: https://stripe.com/docs/web/setup."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:155
+msgid "Stripe Checkout"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:160
+#, php-format
+msgid "To ensure your website is compliant with the new %1$sStrong Customer Authentication%2$s (SCA) regulations, the legacy Stripe Checkout modal is no longer supported. Payments are still securely accepted through through Stripe on the standard Property Listing Plugin checkout page. \"Buy Now\" buttons will also automatically redirect to the standard checkout page."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:182
+msgid "You have disabled the \"Test Mode\" option. Once you have saved your changes, please verify your Stripe connection, especially if you have not previously connected in with \"Test Mode\" disabled."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:287
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:359
+#, php-format
+msgid "Processing credit cards with Stripe requires PHP version %1$s or higher. It looks like you're using version %2$s, which means you will need to %3$supgrade your version of PHP before acceping credit card payments%4$s."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:311
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings.php:379
+#, php-format
+msgid "Many web hosts can give you instructions on how/where to upgrade your version of PHP through their control panel, or may even be able to do it for you. If you need to change hosts, please see %1$sour hosting recommendations%2$s."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:119
+#, php-format
+msgid "There was an error getting your Stripe credentials. Please %1$stry again%2$s. If you continue to have this problem, please contact support."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:302
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:576
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:638
+msgid "Connect with Stripe"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:312
+msgid "Connect with Stripe for pay as you go pricing: 2% per-transaction fee + Stripe fees."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:322
+#, php-format
+msgid "Have questions about connecting with Stripe? See the %1$sdocumentation%2$s."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:343
+msgid "Retrieving account information..."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:356
+msgid "Manage API keys manually"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:366
+msgid "Hide API keys"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:372
+msgid "Although you can add your API keys manually, we recommend using Stripe Connect: an easier and more secure way of connecting your Stripe account to your website. Stripe Connect prevents issues that can arise when copying and pasting account details from Stripe into your Property Listing Plugin payment gateway settings. With Stripe Connect you'll be ready to go with just a few clicks."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:390
+msgid "Unable to retrieve account information."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:408
+msgctxt "Stripe Connect mode"
+msgid "test"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:409
+msgctxt "Stripe Connect mode"
+msgid "live"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:415
+#, php-format
+msgid "Your Stripe account is connected in %1$s mode. %2$sReconnect in %1$s mode%4$s, or %3$sdisconnect this account%4$s."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:439
+#, php-format
+msgid "You are currently connected to a %1$stemporary%2$s Stripe test account, which can only be used for testing purposes. You cannot manage this account in Stripe."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:447
+msgid "Webhooks cannot be configured for recurring purchases with this account."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:455
+#, php-format
+msgid "%1$sRegister a Stripe account%2$s for full access."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:464
+#, php-format
+msgid "%1$sDisconnect this account%2$s."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:531
+msgid "Pay as you go pricing: 2% per-transaction fee + Stripe fees."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:542
+msgid "Administrator (Owner)"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:553
+msgid "The API keys provided do not match the Stripe Connect account associated with this installation. If you have manually modified these values after connecting your account, please reconnect below or update your API keys."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:579
+msgid "It is highly recommended to Connect with Stripe for easier setup and improved security."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:592
+#, php-format
+msgid "Your manually managed %1$s mode API keys are valid."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:608
+#, php-format
+msgid "Your manually managed %1$s mode API keys are invalid."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:648
+msgid "Start accepting payments with Stripe by connecting your account. Stripe Connect helps ensure easier setup and improved security."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:659
+msgctxt "gateway test mode status"
+msgid "enabled"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:660
+msgctxt "gateway test mode status"
+msgid "disabled"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/settings/stripe-connect.php:669
+#, php-format
+msgid "\"Test Mode\" has been %s. Please verify your Stripe connection status."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/upgrade-functions.php:32
+#, php-format
+msgid "Property Listing Plugin - Stripe Gateway needs to upgrade the customers database; <a href=\"%s\">click here to start the upgrade</a>. <a href=\"#\" onClick=\"jQuery(this).parent().next('p').slideToggle()\">Learn more about this upgrade</a>"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/upgrade-functions.php:35
+msgid "<strong>About this upgrade:</strong><br />This upgrade will improve the reliability of associating purchase records with your existing customer records in Stripe by changing their Stripe Customer IDs to be stored locally on their Plugin customer record, instead of their user record."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/upgrade-functions.php:37
+msgid "<strong>Advanced User?</strong><br />This upgrade can also be run via WPCLI with the following command:<br /><code>wp cl-stripe migrate_customer_ids</code>"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/admin/upgrade-functions.php:56
+msgid "You do not have permission to do shop upgrades"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/card-actions.php:25
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/card-actions.php:142
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/card-actions.php:209
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/card-actions.php:259
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/card-actions.php:312
+msgid "This feature is not available at this time."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/card-actions.php:36
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/card-actions.php:45
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/card-actions.php:53
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/card-actions.php:153
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/card-actions.php:162
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/card-actions.php:173
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/card-actions.php:220
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/card-actions.php:229
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/card-actions.php:240
+msgid "Error updating card."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/card-actions.php:116
+msgid "Card successfully updated."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/card-actions.php:183
+msgid "Card successfully set as default."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/card-actions.php:286
+msgid "Card successfully removed."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/card-actions.php:323
+msgid "Unable to update your account at this time, please try again later"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/card-actions.php:334
+msgid "Missing card ID."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/card-actions.php:343
+msgid "Error adding card."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/card-actions.php:353
+msgid "Unable to retrieve customer."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/card-actions.php:372
+msgid "Unable to create customer in Stripe."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/card-actions.php:399
+msgid "Card successfully added."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/class-cl-stripe.php:233
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:134
+msgid "Credit Card"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/class-stripe-api.php:71
+#, php-format
+msgid "Unable to call %1$s::%2$s"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/compat.php:222
+msgid "Missing nonce when processing checkout."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/compat.php:229
+msgid "Error processing purchase. Please reload the page and try again."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/emails.php:29
+msgid "Your Preapproved Payment Requires Action"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/emails.php:30
+msgid "Payment Requires Action"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/emails.php:32
+msgid "Dear {name},"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/emails.php:33
+msgid "Your preapproved payment requires further action before your purchase can be completed. Please click the link below to take finalize your purchase"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/functions.php:594
+msgid "Invalid order ID."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/functions.php:664
+#, php-format
+msgid "%1$s refunded in Stripe. Refund ID %2$s"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/gateway-actions.php:12
+msgctxt "Pending preapproved payment"
+msgid "Preapproval Pending"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/gateway-actions.php:24
+msgctxt "Preapproved payment"
+msgid "Preapproved"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/gateway-actions.php:36
+msgctxt "Cancelled payment"
+msgid "Cancelled"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/gateway-actions.php:59
+msgid "Outputs a line stating what charges will appear as on customer's credit card statements."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/gateway-filters.php:60
+msgid "Please enter a name for the credit card."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/i18n.php:25
+msgid "The card number is not a valid credit card number."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/i18n.php:26
+msgid "The card's expiration month is invalid."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/i18n.php:27
+msgid "The card's expiration year is invalid."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/i18n.php:28
+msgid "The card's security code is invalid."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/i18n.php:29
+msgid "The card number is incorrect."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/i18n.php:30
+msgid "The card number is incomplete."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/i18n.php:31
+msgid "The card's security code is incomplete."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/i18n.php:32
+msgid "The card's expiration date is incomplete."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/i18n.php:33
+msgid "The card has expired."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/i18n.php:34
+msgid "The card's security code is incorrect."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/i18n.php:35
+msgid "The card's zip code failed validation."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/i18n.php:36
+msgid "The card's expiration year is in the past"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/i18n.php:37
+msgid "The card was declined."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/i18n.php:38
+msgid "An error occurred while processing the card."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/i18n.php:39
+msgid "Unable to process this payment, please try again or use alternative method."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/i18n.php:40
+msgid "Invalid email address, please correct and try again."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/integrations/wp-cli.php:48
+msgid "The Stripe customer ID migration has already been run. To do this anyway, use the --force argument."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/integrations/wp-cli.php:85
+msgid "Migration complete."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/integrations/wp-cli.php:87
+msgid "No user records were found that needed to be migrated."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:68
+msgid "Unable to locate payment method 1. Please try again with a new payment method."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-actions.php:105
+msgid "Unable to create customer. Please try again."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/buy-now/ajax.php:20
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/buy-now/ajax.php:35
+msgid "Unable to add item to cart."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/admin/settings.php:32
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/admin/settings.php:40
+msgid "Apple Pay/Google Pay"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/admin/settings.php:44
+#, php-format
+msgid "\"Express Checkout\" via Apple Pay, Google Pay, or Microsoft Pay digital wallets. By using Apple Pay, you agree to %1$sStripe%3$s and %2$sApple's%3$s terms of service."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/admin/settings.php:49
+msgid "Apple Pay is not available in Test Mode."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/admin/settings.php:72
+#, php-format
+msgid "Single %s"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/admin/settings.php:77
+#, php-format
+msgid "%s Archive (includes <code>[listings]</code> shortcode)"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/admin/settings.php:80
+#: ../templates/frontend/listings/cart/cart-checkout.php:9
+#: ../templates/frontend/listings/cart/cart-empty.php:7
+msgid "Checkout"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/admin/settings.php:109
+msgid "This feature is not available when taxes are enabled."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/admin/settings.php:117
+#, php-format
+msgid "See the %1$sExpress Checkout documentation%2$s for more information."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/apple-pay.php:27
+msgid "Apple Pay domain verification error."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/apple-pay.php:173
+msgid "Unable to create domain association folder in domain root."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/apple-pay.php:180
+msgid "Unable to copy domain association file to domain .well-known directory."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/apple-pay.php:268
+#, php-format
+msgid "Please %1$smanually add your domain%2$s %3$s to use Apple Pay."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/checkout.php:73
+msgid "Express Checkout (Apple Pay/Google Pay)"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/checkout.php:74
+msgid "Express Checkout"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/checkout.php:317
+msgid "Missing nonce when loading the gateway fields. Please read the following for more information."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/checkout.php:388
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:38
+msgid "Credit Card Info"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/checkout.php:396
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:64
+msgid "This is a secure SSL encrypted payment."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/checkout.php:401
+msgid "Card Number"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/checkout.php:405
+msgid "The (typically) 16 digits on the front of your credit card."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/checkout.php:406
+msgid "Card number"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/checkout.php:410
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:167
+msgid "CVC"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/checkout.php:413
+msgid "The 3 digit (back) or 4 digit (front) value on your card."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/checkout.php:414
+msgid "Security code"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/checkout.php:418
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:121
+msgid "Name on the Card"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/checkout.php:421
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:124
+msgid "The name printed on the front of your credit card."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/checkout.php:422
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:125
+msgid "Card name"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/checkout.php:427
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:575
+msgid "Expiration (MM/YY)"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/checkout.php:430
+msgid "The date your credit card expires, typically on the front of the card."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/functions.php:145
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/functions.php:191
+msgid "Total"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/functions.php:160
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-methods/payment-request/functions.php:217
+#, php-format
+msgid " × %d"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/payment-receipt.php:49
+msgid "To finalize your preapproved purchase, please confirm your payment method."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/scripts.php:84
+#: ../templates/frontend/listings/checkout/checkout.php:51
+msgid "Next"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/scripts.php:89
+msgid "Stripe publishable key missing. Please enter your publishable key in Settings."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/scripts.php:90
+msgid "Please fill out all required fields to continue your purchase."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/scripts.php:91
+msgid "Please agree to the terms to complete your purchase."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/scripts.php:92
+msgid "Please agree to the privacy policy to complete your purchase."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/scripts.php:93
+msgid "Unable to complete your request. Please try again."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:111
+msgid "Adding new payment methods is currently unavailable."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:132
+msgid "Credit Card Number"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:249
+#, php-format
+msgid "Update card billing address for %1$s •••• %2$s"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:277
+msgid "We are unable to process your payment at this time, please try again later or contacts support."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:308
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:398
+#, php-format
+msgid "%1$s •••• %2$s"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:345
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:627
+msgid "Add New Card"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:375
+msgid "Payment method management is currently unavailable."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:388
+msgid "Manage Payment Methods"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:417
+msgid "Expires"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:433
+msgid "Update"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:439
+msgid "Set as Default"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:457
+msgid "Billing Details1"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:466
+msgid "Address Line 1"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:482
+msgid "Address Line 2"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:515
+msgid "ZIP Code"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:527
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:537
+msgid "Country"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:551
+msgid "State"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:614
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:649
+msgid "Please Wait…"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:614
+msgid "Update Card"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:629
+msgid "Credit Card Details"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/template-functions.php:649
+msgid "Add new card"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/utils/modal.php:50
+msgid "Close"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/webhooks.php:27
+msgid "Unable to find Event"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/webhooks.php:70
+#, php-format
+msgid "Charge %s has been fully refunded in Stripe."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/webhooks.php:75
+#, php-format
+msgid "Charge %s partially refunded in Stripe."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/webhooks.php:112
+#, php-format
+msgid "Stripe Radar review opened with a reason of %s."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Stripe/stripe/includes/webhooks.php:154
+#, php-format
+msgid "Stripe Radar review closed with a reason of %s."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/Woocommerce/Woocommerce.php:20
+msgid "WooCommerce Active"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:103
+msgid "You have already added this item to your cart"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:104
+msgid "Your cart is empty"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:105
+#: ../templates/frontend/listings/cart/cart-button.php:18
+msgid "Loading"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:106
+msgid "Please select an option"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:228
+msgid "Add New listing"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:229
+msgid "Use This File"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:230
+msgid "Sorry, not available for variable priced products."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:231
+msgid "Are you sure you wish to delete this payment?"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:232
+msgid "Are you sure you wish to delete this note?"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:233
+msgid "Are you sure you wish to delete this tax rate?"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:234
+msgid "Are you sure you wish to revoke this API key?"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:235
+msgid "Are you sure you wish to regenerate this API key?"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:236
+msgid "Are you sure you wish to resend the purchase receipt?"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:237
+msgid "Are you sure you wish to disconnect the WordPress user from this customer record?"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:238
+msgid "Copy these links to your clipboard and give them to your customer"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:239
+#, php-format
+msgid "Are you sure you wish to delete this %s?"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:240
+msgid "You must have at least one price"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:241
+msgid "You must have at least one field"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:242
+msgid "Payments must contain at least one item"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:243
+#, php-format
+msgid "Choose a %s"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:244
+#, php-format
+msgid "Choose one or more %s"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:245
+msgid "Item price must be numeric"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:246
+msgid "Item tax must be numeric"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:247
+msgid "Quantity must be numeric"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:255
+#: ../templates/frontend/listings/dashboard/add/group.php:22
+#: ../templates/frontend/listings/dashboard/edit/group.php:45
+msgid "Remove"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:256
+#, php-format
+msgid "Type to search %s"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:258
+msgid "You must choose a method."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:259
+msgid "Required fields not completed."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:260
+msgid "Are you sure you want to reset your store? This process is <strong><em>not reversible</em></strong>. Please be sure you have a recent backup."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:261
+msgid "We are sorry but your browser is not compatible with this kind of file upload. Please upgrade your browser."
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:262
+msgid "Show advanced settings"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:263
+msgid "Hide advanced settings"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:264
+msgid "There are no listings attached to this payment"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:265
+msgid "Please wait &hellip;"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:274
+msgid "Purchase Limit Settings"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:275
+msgid "Simple Shipping Settings"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:276
+msgid "Software Licensing Settings"
+msgstr ""
+
+#: ../src/Front/Purchase/Gateways/scripts.php:277
+msgid "Recurring Payments Settings"
+msgstr ""
+
+#: ../src/Front/Purchase/Payments/Clpaymentstats.php:86
+msgid "Today"
+msgstr ""
+
+#: ../src/Front/Purchase/Payments/Clpaymentstats.php:87
+msgid "Yesterday"
+msgstr ""
+
+#: ../src/Front/Purchase/Payments/Clpaymentstats.php:88
+msgid "This Week"
+msgstr ""
+
+#: ../src/Front/Purchase/Payments/Clpaymentstats.php:89
+msgid "Last Week"
+msgstr ""
+
+#: ../src/Front/Purchase/Payments/Clpaymentstats.php:90
+msgid "This Month"
+msgstr ""
+
+#: ../src/Front/Purchase/Payments/Clpaymentstats.php:91
+msgid "Last Month"
+msgstr ""
+
+#: ../src/Front/Purchase/Payments/Clpaymentstats.php:92
+msgid "This Quarter"
+msgstr ""
+
+#: ../src/Front/Purchase/Payments/Clpaymentstats.php:93
+msgid "Last Quarter"
+msgstr ""
+
+#: ../src/Front/Purchase/Payments/Clpaymentstats.php:94
+msgid "This Year"
+msgstr ""
+
+#: ../src/Front/Purchase/Payments/Clpaymentstats.php:95
+msgid "Last Year"
+msgstr ""
+
+#: ../src/Front/Purchase/Payments/Clpaymentstats.php:404
+msgid "Improper date provided."
+msgstr ""
+
+#: ../src/Front/Purchase/Payments/actions.php:130
+msgid "New Customers require a name and email address"
+msgstr ""
+
+#: ../src/Front/Purchase/Payments/actions.php:148
+msgid "Error creating new customer"
+msgstr ""
+
+#: ../src/Front/Purchase/Payments/actions.php:151
+#, php-format
+msgid "A customer with the email address %s already exists. Please go back and use the \"Assign to another customer\" link to assign this payment to them."
+msgstr ""
+
+#: ../src/Front/Purchase/Payments/actions.php:242
+msgid "Error Updating Payment"
+msgstr ""
+
+#: ../src/Front/Purchase/Payments/actions.php:415
+msgid "After payment actions processed."
+msgstr ""
+
+#: ../src/Front/Purchase/Payments/actions.php:438
+#, php-format
+msgid "Status changed from %1$s to %2$s"
+msgstr ""
+
+#: ../src/Front/Purchase/Payments/actions.php:679
+#: ../src/Front/Purchase/Payments/actions.php:741
+msgid "Error resuming payment."
+msgstr ""
+
+#: ../src/Front/Purchase/Payments/actions.php:683
+msgid "Payment recovery triggered URL"
+msgstr ""
+
+#: ../src/Front/Purchase/Payments/actions.php:763
+#: ../src/Front/Purchase/Payments/actions.php:797
+msgid "To complete this payment, please login to your account."
+msgstr ""
+
+#: ../src/Front/Purchase/Payments/actions.php:765
+msgid "Lost Password"
+msgstr ""
+
+#: ../src/Front/Purchase/Payments/actions.php:766
+msgid "Lost Password?"
+msgstr ""
+
+#: ../src/Front/Purchase/Payments/functions.php:169
+msgid "Payment recovery processed"
+msgstr ""
+
+#: ../src/Front/Purchase/Payments/functions.php:739
+msgid "Complete"
+msgstr ""
+
+#: ../src/Front/Purchase/Payments/functions.php:1586
+msgid "CL BOT"
+msgstr ""
+
+#: ../src/essential-wp-real-estate.php:92
+msgid "Error Message:"
+msgstr ""
+
+#: ../src/functions.php:573
+msgid "listing"
+msgstr ""
+
+#: ../src/functions.php:574
+msgid "listings"
+msgstr ""
+
+#: ../src/functions.php:871
+msgid "You must provide a name."
+msgstr ""
+
+#: ../src/functions.php:896
+msgid "Failed to insert data"
+msgstr ""
+
+#: ../templates/admin/extensions.php:3
+msgid "Admin Extensions Page"
+msgstr ""
+
+#: ../templates/admin/order_details.php:11
+#, php-format
+msgid "Payment %s"
+msgstr ""
+
+#: ../templates/admin/order_details.php:27
+msgid "Update Payment"
+msgstr ""
+
+#: ../templates/admin/order_details.php:36
+msgid "Status:"
+msgstr ""
+
+#: ../templates/admin/order_details.php:45
+msgid "<strong>Pending</strong>: payment is still processing or was abandoned by customer. Successful payments will be marked as Complete automatically once processing is finalized."
+msgstr ""
+
+#: ../templates/admin/order_details.php:46
+msgid "<strong>Complete</strong>: all processing is completed for this purchase."
+msgstr ""
+
+#: ../templates/admin/order_details.php:47
+msgid "<strong>Revoked</strong>: access to purchased items is disabled, perhaps due to policy violation or fraud."
+msgstr ""
+
+#: ../templates/admin/order_details.php:48
+msgid "<strong>Refunded</strong>: the purchase amount is returned to the customer and access to items is disabled."
+msgstr ""
+
+#: ../templates/admin/order_details.php:49
+msgid "<strong>Abandoned</strong>: the purchase attempt was not completed by the customer."
+msgstr ""
+
+#: ../templates/admin/order_details.php:50
+msgid "<strong>Failed</strong>: customer clicked Cancel before completing the purchase."
+msgstr ""
+
+#: ../templates/admin/order_details.php:58
+msgid "Recovery URL"
+msgstr ""
+
+#: ../templates/admin/order_details.php:59
+msgid "Pending and abandoned payments can be resumed by the customer, using this custom URL. Payments can be resumed only when they do not have a transaction ID from the gateway."
+msgstr ""
+
+#: ../templates/admin/order_details.php:69
+msgid "Date:"
+msgstr ""
+
+#: ../templates/admin/order_details.php:76
+msgid "Time:"
+msgstr ""
+
+#: ../templates/admin/order_details.php:106
+msgid "Discount Code"
+msgid_plural "Discount Codes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../templates/admin/order_details.php:113
+msgid "None"
+msgstr ""
+
+#: ../templates/admin/order_details.php:125
+#: ../templates/frontend/listings/receipt/receipt.php:62
+msgid "Fees"
+msgstr ""
+
+#: ../templates/admin/order_details.php:142
+#: ../templates/frontend/listings/receipt/receipt.php:86
+msgid "Tax"
+msgstr ""
+
+#: ../templates/admin/order_details.php:155
+#: ../templates/frontend/listings/receipt/receipt.php:101
+msgid "Total Price"
+msgstr ""
+
+#: ../templates/admin/order_details.php:162
+msgid "Recalculate Totals"
+msgstr ""
+
+#: ../templates/admin/order_details.php:163
+msgid "Recalculate"
+msgstr ""
+
+#: ../templates/admin/order_details.php:190
+msgid "Delete Payment"
+msgstr ""
+
+#: ../templates/admin/order_details.php:192
+msgid "Save Payment"
+msgstr ""
+
+#: ../templates/admin/order_details.php:220
+msgid "Resend Receipt"
+msgstr ""
+
+#: ../templates/admin/order_details.php:221
+msgid "<strong>Resend Receipt</strong>: This will send a new copy of the purchase receipt to the customer&#8217;s email address. If listing URLs are included in the receipt, new file listing URLs will also be included with the receipt."
+msgstr ""
+
+#: ../templates/admin/order_details.php:226
+msgid " -- select email --"
+msgstr ""
+
+#: ../templates/admin/order_details.php:243
+msgid "Payment Meta"
+msgstr ""
+
+#: ../templates/admin/order_details.php:255
+msgid "Gateway:"
+msgstr ""
+
+#: ../templates/admin/order_details.php:263
+msgid "Key:"
+msgstr ""
+
+#: ../templates/admin/order_details.php:270
+msgid "IP:"
+msgstr ""
+
+#: ../templates/admin/order_details.php:278
+msgid "Transaction ID:"
+msgstr ""
+
+#: ../templates/admin/order_details.php:288
+msgid "Unlimited file listings"
+msgstr ""
+
+#: ../templates/admin/order_details.php:289
+msgid "<strong>Unlimited file listings</strong>: checking this box will override all other file listing limits for this purchase, granting the customer unliimited listings of all files included on the purchase."
+msgstr ""
+
+#: ../templates/admin/order_details.php:310
+msgid "View file listing log for purchase"
+msgstr ""
+
+#: ../templates/admin/order_details.php:314
+msgid "View customer listing log"
+msgstr ""
+
+#: ../templates/admin/order_details.php:318
+msgid "View all purchases of customer"
+msgstr ""
+
+#: ../templates/admin/order_details.php:343
+msgid "No listing attached to this order"
+msgstr ""
+
+#: ../templates/admin/order_details.php:373
+#, php-format
+msgid "Purchased %s"
+msgstr ""
+
+#: ../templates/admin/order_details.php:378
+#, php-format
+msgctxt "payment details purchased item title - full screen"
+msgid "%s Purchased"
+msgstr ""
+
+#: ../templates/admin/order_details.php:382
+msgctxt "payment details purchased item price - full screen"
+msgid "Price"
+msgstr ""
+
+#: ../templates/admin/order_details.php:384
+msgctxt "payment details purchased item quantity - full screen"
+msgid " & Quantity"
+msgstr ""
+
+#: ../templates/admin/order_details.php:390
+msgctxt "payment details purchased item tax - full screen"
+msgid "Tax"
+msgstr ""
+
+#: ../templates/admin/order_details.php:395
+#, php-format
+msgctxt "payment details purchased item total - full screen"
+msgid "%s Total"
+msgstr ""
+
+#: ../templates/admin/order_details.php:445
+msgid "Deleted"
+msgstr ""
+
+#: ../templates/admin/order_details.php:447
+#, php-format
+msgid "%s deleted"
+msgstr ""
+
+#: ../templates/admin/order_details.php:471
+msgctxt "payment details purchased item price - mobile"
+msgid "Price"
+msgstr ""
+
+#: ../templates/admin/order_details.php:473
+msgctxt "payment details purchased item quantity - mobile"
+msgid " & Quantity"
+msgstr ""
+
+#: ../templates/admin/order_details.php:487
+msgctxt "payment details purchased item tax - mobile"
+msgid "Tax"
+msgstr ""
+
+#: ../templates/admin/order_details.php:495
+#, php-format
+msgctxt "payment details purchased item total - mobile"
+msgid "%s Total"
+msgstr ""
+
+#: ../templates/admin/order_details.php:515
+#, php-format
+msgid "No %s included with this purchase"
+msgstr ""
+
+#: ../templates/admin/order_details.php:527
+msgid "Customer Details"
+msgstr ""
+
+#: ../templates/admin/order_details.php:542
+msgid "Assign to another customer"
+msgstr ""
+
+#: ../templates/admin/order_details.php:544
+msgid "New Customer"
+msgstr ""
+
+#: ../templates/admin/order_details.php:550
+msgid "Select a customer"
+msgstr ""
+
+#: ../templates/admin/order_details.php:564
+#: ../templates/admin/order_details.php:584
+msgid "Actions"
+msgstr ""
+
+#: ../templates/admin/order_details.php:570
+msgid "Click \"Save Payment\" to change the customer"
+msgstr ""
+
+#: ../templates/admin/order_details.php:590
+msgid "Click \"Save Payment\" to create new customer"
+msgstr ""
+
+#: ../templates/admin/order_details.php:615
+msgid "Street Address Line 1:"
+msgstr ""
+
+#: ../templates/admin/order_details.php:619
+msgid "Street Address Line 2:"
+msgstr ""
+
+#: ../templates/admin/order_details.php:626
+msgctxt "Address City"
+msgid "City:"
+msgstr ""
+
+#: ../templates/admin/order_details.php:631
+msgctxt "Zip / Postal code of address"
+msgid "Zip / Postal Code:"
+msgstr ""
+
+#: ../templates/admin/order_details.php:638
+msgctxt "Address country"
+msgid "Country:"
+msgstr ""
+
+#: ../templates/admin/order_details.php:649
+msgid "Select a country"
+msgstr ""
+
+#: ../templates/admin/order_details.php:652
+msgid "Type to search all Countries"
+msgstr ""
+
+#: ../templates/admin/order_details.php:660
+msgctxt "State / province of address"
+msgid "State / Province:"
+msgstr ""
+
+#: ../templates/admin/order_details.php:673
+msgid "Select a state"
+msgstr ""
+
+#: ../templates/admin/order_details.php:676
+msgid "Type to search all States/Provinces"
+msgstr ""
+
+#: ../templates/admin/order_details.php:700
+msgid "Payment Notes"
+msgstr ""
+
+#: ../templates/admin/order_details.php:715
+msgid "No payment notes"
+msgstr ""
+
+#: ../templates/admin/order_details.php:721
+msgid "Add Note"
+msgstr ""
+
+#: ../templates/admin/setting.php:3
+msgid "CPT Settings Page"
+msgstr ""
+
+#: ../templates/admin/supports.php:3
+msgid "Admin Supports Page"
+msgstr ""
+
+#: ../templates/frontend/listings/archive-cl_cpt.php:40
+#: ../templates/frontend/listings/single/blocks/maps.php:12
+msgid "You are within {{radius_value}} meters from this point"
+msgstr ""
+
+#: ../templates/frontend/listings/cart/cart-button.php:32
+msgid "Added to cart"
+msgstr ""
+
+#: ../templates/frontend/listings/cart/cart-button.php:39
+#, php-format
+msgid "Includes %1$s&#37; tax"
+msgstr ""
+
+#: ../templates/frontend/listings/cart/cart-button.php:41
+#, php-format
+msgid "Excluding %1$s&#37; tax"
+msgstr ""
+
+#: ../templates/frontend/listings/cart/cart-checkout.php:2
+#: ../templates/frontend/listings/cart/cart-empty.php:3
+msgid "Subtotal:"
+msgstr ""
+
+#: ../templates/frontend/listings/cart/cart-checkout.php:3
+#: ../templates/frontend/listings/cart/cart-empty.php:4
+msgid "Estimated Tax:"
+msgstr ""
+
+#: ../templates/frontend/listings/cart/cart-checkout.php:5
+#: ../templates/frontend/listings/cart/cart-empty.php:6
+msgid "Total:"
+msgstr ""
+
+#: ../templates/frontend/listings/cart/cart.php:9
+msgid "Number of items in cart"
+msgstr ""
+
+#: ../templates/frontend/listings/checkout/checkout.php:21
+msgid "Select Payment Method"
+msgstr ""
+
+#: ../templates/frontend/listings/common/listing_footer.php:17
+msgid "Compare Listings"
+msgstr ""
+
+#: ../templates/frontend/listings/common/nothing_found.php:5
+msgid "Nothing Found"
+msgstr ""
+
+#: ../templates/frontend/listings/common/nothing_found.php:6
+msgid "Uh oh, we can't seem to find the listing you're looking for. Try going back to previous page or contact us for more information"
+msgstr ""
+
+#: ../templates/frontend/listings/dashboard/add/featured_image.php:6
+#: ../templates/frontend/listings/dashboard/edit/featured_image.php:11
+#: ../templates/frontend/listings/dashboard/profile.php:61
+msgid " Select Image"
+msgstr ""
+
+#: ../templates/frontend/listings/dashboard/dashboard.php:29
+msgid "Dashboard"
+msgstr ""
+
+#: ../templates/frontend/listings/dashboard/dashboard.php:30
+msgid "My Profile"
+msgstr ""
+
+#: ../templates/frontend/listings/dashboard/dashboard.php:32
+msgid "My Listings"
+msgstr ""
+
+#: ../templates/frontend/listings/dashboard/dashboard.php:33
+msgid "Bookmarked Listings"
+msgstr ""
+
+#: ../templates/frontend/listings/dashboard/dashboard.php:34
+msgid "Sign Out"
+msgstr ""
+
+#: ../templates/frontend/listings/dashboard/favourites.php:35
+msgid " View"
+msgstr ""
+
+#: ../templates/frontend/listings/dashboard/favourites.php:36
+msgid " Remove"
+msgstr ""
+
+#: ../templates/frontend/listings/dashboard/favourites.php:45
+#: ../templates/frontend/listings/dashboard/listings.php:65
+msgid "No Listing Found"
+msgstr ""
+
+#: ../templates/frontend/listings/dashboard/listings.php:46
+msgid "View"
+msgstr ""
+
+#: ../templates/frontend/listings/dashboard/listings.php:55
+msgid "Are you sure you want to delete this item?"
+msgstr ""
+
+#: ../templates/frontend/listings/dashboard/overview.php:3
+#: ../templates/frontend/listings/dashboard/profile.php:3
+msgid "Please"
+msgstr ""
+
+#: ../templates/frontend/listings/dashboard/overview.php:13
+msgid "Active Listing"
+msgstr ""
+
+#: ../templates/frontend/listings/dashboard/overview.php:21
+msgid "Total Views"
+msgstr ""
+
+#: ../templates/frontend/listings/dashboard/overview.php:28
+msgid "Total Reviews"
+msgstr ""
+
+#: ../templates/frontend/listings/dashboard/overview.php:35
+msgid "Bookmarked"
+msgstr ""
+
+#: ../templates/frontend/listings/dashboard/profile.php:66
+msgid "User Name"
+msgstr ""
+
+#: ../templates/frontend/listings/inc/sorter.php:15
+msgid "Showing"
+msgstr ""
+
+#: ../templates/frontend/listings/inc/sorter.php:15
+msgid "of"
+msgstr ""
+
+#: ../templates/frontend/listings/inc/sorter.php:15
+msgid "Results"
+msgstr ""
+
+#: ../templates/frontend/listings/receipt/account-pending.php:3
+msgid "An email with an activation link has been sent."
+msgstr ""
+
+#: ../templates/frontend/listings/receipt/account-pending.php:8
+#, php-format
+msgid "Your account is pending verification. Please click the link in your email to activate your account. No email? <a href=\"%s\">Click here</a> to send a new activation code."
+msgstr ""
+
+#: ../templates/frontend/listings/receipt/history.php:6
+msgid "Your account has been successfully verified!"
+msgstr ""
+
+#: ../templates/frontend/listings/receipt/history.php:42
+msgid "Complete Purchase"
+msgstr ""
+
+#: ../templates/frontend/listings/receipt/history.php:45
+msgid "View Details and listings"
+msgstr ""
+
+#: ../templates/frontend/listings/receipt/history.php:63
+msgid "You have not made any purchases"
+msgstr ""
+
+#: ../templates/frontend/listings/receipt/receipt.php:9
+msgid "The specified receipt ID appears to be invalid"
+msgstr ""
+
+#: ../templates/frontend/listings/receipt/receipt.php:27
+msgid "Payment"
+msgstr ""
+
+#: ../templates/frontend/listings/receipt/receipt.php:36
+msgid "Payment Status"
+msgstr ""
+
+#: ../templates/frontend/listings/receipt/receipt.php:42
+msgid "Payment Key"
+msgstr ""
+
+#: ../templates/frontend/listings/receipt/receipt.php:49
+msgid "Payment Method"
+msgstr ""
+
+#: ../templates/frontend/listings/receipt/receipt.php:79
+msgid "Discount(s)"
+msgstr ""
+
+#: ../templates/frontend/listings/receipt/receipt.php:94
+msgid "Subtotal"
+msgstr ""
+
+#: ../templates/frontend/listings/receipt/receipt.php:115
+msgid "Products"
+msgstr ""
+
+#: ../templates/frontend/listings/search/taxo_type.php:48
+msgid "Select "
+msgstr ""
+
+#: ../templates/frontend/listings/single/blocks/comment_form.php:44
+msgid "Average Ratting"
+msgstr ""
+
+#: ../templates/frontend/listings/single/blocks/comment_form.php:53
+msgid "Messages"
+msgstr ""
+
+#: ../templates/frontend/listings/single/blocks/comment_form.php:70
+msgid "Submit Review"
+msgstr ""
+
+#: ../templates/frontend/listings/single/blocks/comments_template.php:17
+msgid " Reviews"
+msgstr ""
+
+#: ../templates/frontend/listings/single/blocks/comments_template.php:60
+msgid "Be the first one to rate this."
+msgstr ""
+
+#: ../templates/frontend/listings/single/blocks/floor.php:20
+msgid "Beds: "
+msgstr ""
+
+#: ../templates/frontend/listings/single/blocks/floor.php:23
+msgid "Baths: "
+msgstr ""
+
+#: ../templates/frontend/listings/single/blocks/floor.php:45
+msgid "No Floor Plan Included"
+msgstr ""
+
+#: ../templates/frontend/listings/single/blocks/rating_overview.php:6
+msgid "out of 5.0"
+msgstr ""
+
+#: ../templates/frontend/listings/single/blocks/rating_overview.php:84
+msgid "Property"
+msgstr ""
+
+#: ../templates/frontend/listings/single/blocks/rating_overview.php:99
+msgid "Value for Money"
+msgstr ""
+
+#: ../templates/frontend/listings/single/blocks/rating_overview.php:125
+msgid "Support"
+msgstr ""
+
+#: ../templates/frontend/listings/single/blocks/rating_overview.php:139
+msgid "Not yet Rated."
+msgstr ""
+
+#: ../templates/frontend/widgets/listing_enquiry_form.php:7
+msgid "Latest CPT's & Posts."
+msgstr ""
+
+#: ../templates/frontend/widgets/listing_enquiry_form.php:11
+msgid "Listing Enquiry Widget"
+msgstr ""
+
+#: ../templates/frontend/widgets/listing_enquiry_form.php:122
+msgid "Title:"
+msgstr ""
+
+#: ../templates/frontend/widgets/listing_enquiry_form.php:125
+msgid "Subtitle:"
+msgstr ""
+
+#: ../templates/frontend/widgets/listing_enquiry_form.php:128
+msgid "Shortcode:"
+msgstr ""
+
+#: ../templates/frontend/widgets/listing_enquiry_form.php:129
+msgid "Keep Empty to get default Enquiry Form"
+msgstr ""
+
+#: ../templates/frontend/widgets/listing_sidebar_search.php:79
+msgid "Submit Button"
+msgstr ""
+
+#: ../views/settings/settings.php:5
+msgid "Property Listing Plugin Listing Settings"
+msgstr ""
+
+#: ../views/settings/settings_pagelayout_add.php:48
+msgid "Customize the add form for this listing type"
+msgstr ""
+
+#: ../views/settings/settings_pagelayout_add.php:49
+#: ../views/settings/settings_pagelayout_archive_list.php:66
+#: ../views/settings/settings_pagelayout_search.php:41
+msgid "Need help?"
+msgstr ""
+
+#: ../views/settings/settings_pagelayout_add.php:53
+#: ../views/settings/settings_pagelayout_search.php:45
+msgid "Enabled Fields"
+msgstr ""
+
+#: ../views/settings/settings_pagelayout_add.php:71
+msgid "Preset Fields"
+msgstr ""
+
+#: ../views/settings/settings_pagelayout_archive_list.php:65
+msgid "Customize the Archive page"
+msgstr ""
+
+#: ../views/settings/settings_pagelayout_comp_field_list.php:26
+msgid "Select fields to Compare Page"
+msgstr ""
+
+#: ../views/settings/settings_pagelayout_custom_field.php:45
+msgid "Add Custom Fields"
+msgstr ""
+
+#: ../views/settings/settings_pagelayout_custom_field.php:50
+msgid "Text Field"
+msgstr ""
+
+#: ../views/settings/settings_pagelayout_custom_field.php:51
+msgid "Number Field"
+msgstr ""
+
+#: ../views/settings/settings_pagelayout_custom_field.php:52
+msgid "URL Field"
+msgstr ""
+
+#: ../views/settings/settings_pagelayout_custom_field.php:53
+msgid "Textarea Field"
+msgstr ""
+
+#: ../views/settings/settings_pagelayout_custom_field.php:55
+msgid "Add Field"
+msgstr ""
+
+#: ../views/settings/settings_pagelayout_search.php:40
+msgid "Customize the search form for this listing type"
+msgstr ""
+
+#: ../views/settings/settings_pagelayout_search.php:55
+msgid "Disabled Fields"
+msgstr ""

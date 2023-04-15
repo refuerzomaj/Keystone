@@ -1,0 +1,432 @@
+/* CSS Document */
+@import url(../../css/plugins/bootstrap.min.css);
+@import url(../../css/plugins/balloon.min.css);
+@import url(../../css/plugins/slick.css);
+@import url(../../css/plugins/slick-theme.css);
+@import url(../../css/responsive.css);
+@import url(../../css/var.css);
+/*------------------------------------
+	Fonts
+------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700');
+
+
+/*------------------------------------
+	Property Style
+------------------------------------*/
+
+.property-listing {
+    position: relative;
+    width: 100%;
+    border-radius: 0.5rem;
+	background: #ffffff;
+	margin-bottom:30px;
+	border:none;
+	box-shadow:0 0 20px 0 rgba(62,28,131,0.1);
+	-webkit-box-shadow:0 0 20px 0 rgba(62,28,131,0.1);
+}
+
+.property-listing .listing-short-detail-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price-features-wrapper {
+    padding: 1.5rem 1.5rem 0rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-fx-features {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.listing-card-info-icon {
+    font-size: 14px;
+    color: var(--secondary);
+}
+
+._card_list_flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+}
+
+._card_list_flex > div.title,
+._card_list_flex > div.excerpt,
+._card_list_flex > div.features
+{
+    width: 100%;
+}
+
+._card_flex_left p {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0;
+}
+
+span._list_blickes {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 28px;
+    padding: 0 15px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 4px;
+}
+span._list_blickes._netork {
+    background: #fff3f0;
+    color: #ff5722;
+}
+span._list_blickes._exlio {
+    background: var(--primary);
+    color: #fff;
+}
+
+span._list_blickes.types {
+    background:var(--primary-lite);
+    color: var(--primary);
+}
+
+.listing-card-info-price {
+    font-weight:700;
+	position:relative;
+    font-size:22px;
+    color:var(--primary);
+	line-height:1.4;
+    margin: 0px;
+}
+
+.listing-detail-footer {
+    padding: 1rem 1.5rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    min-height: 60px;
+}
+
+.foot-location {
+    font-size: 15px;
+    /* display: flex; */
+    align-items: center;
+    gap: 5px;
+    color: var(--secondary);
+}
+
+
+.footer-flex .selio_style {
+    display: inline-block;
+    list-style: none;
+    margin: 0px;
+}
+
+.selio_style a {
+    text-decoration: none;
+}
+
+.selio_style .prt_saveed_12lk {
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    border: 2px solid var(--border);
+    border-radius: 50%;
+    font-size: 13px;
+}
+
+.footer-flex .selio_style .prt_saveed_12lk a {
+    color: var(--secondary);
+}
+.footer-flex .selio_style .prt_saveed_12lk .toggler{
+	color: var(--secondary);
+	font-size: 14px;
+}
+.footer-flex .selio_style .prt_saveed_12lk label{
+    margin: 0;
+}
+
+a._calss_tyui {
+    font-weight: 600;
+    font-size: 16px;
+    color:var(--primary);
+}
+
+.prt_saveed_12lk .toggler [type=checkbox]:checked, .toggler [type=checkbox]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+}
+
+.cl_listing_archive a {
+    color: var(--secondary);
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+}
+
+.cl_listing_archive a.link:hover,
+.cl_listing_archive a.link:focus,
+.cl_listing_archive a:hover,
+.cl_listing_archive a:focus,
+.footer-flex .selio_style .prt_saveed_12lk a:hover,
+.selio_style a:hover
+{
+    color: var(--primary);
+}
+
+.property-listing .listing-detail-wrapper {
+    padding: 1.5rem;
+}
+
+.property-listing .listing-name {
+    font-size: 17px;
+    position: relative;
+    margin: 0px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.thumbnail-section {
+    position: relative;
+}
+
+/*------------------------------------
+	Property Grid
+------------------------------------*/
+
+.property-listing.property-grid .listing-detail-footer {
+    border-top: 1px solid #e4e8f3;
+}
+
+/*------------------------------------
+	Property List
+------------------------------------*/
+
+.property-listing.property-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px;
+}
+
+.property-listing.property-list .thumbnail-section {
+    flex:auto;
+    width: 250px;
+}
+
+.property-listing.property-list .content-section {
+    display: flex;
+    flex:auto;
+    flex-direction: column;
+    width: 250px;
+}
+
+.property-listing.property-list .listing-img-wrapper {
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.property-listing.property-list .listing-detail-wrapper {
+    padding:0px;
+}
+
+.property-listing.property-list .price-features-wrapper {
+    padding: 15px 0px 0px;
+}
+
+.property-listing.property-list .listing-detail-footer {
+    padding: 0px;
+}
+
+
+/*------------------------------------
+	Single Property List Design
+------------------------------------*/
+
+.gray {
+    background: #f3f5f8;
+}
+section {
+    padding: 80px 0 80px;
+    position: relative;
+}
+
+.property_info_detail_wrap {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+}
+
+.exlio_wrap {
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 2rem 1.5rem;
+    box-shadow: 0 0px 10px 0px rgb(62 28 131 / 10%);
+    -webkit-box-shadow: 0 0px 10px 0px rgb(62 28 131 / 10%);
+}
+
+._prtis_list {
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 0;
+    box-shadow: 0 0px 10px 0px rgb(62 28 131 / 10%);
+    -webkit-box-shadow: 0 0px 10px 0px rgb(62 28 131 / 10%);
+}
+
+ul._share_lists {
+    margin: 0;
+    padding: 0;
+}
+/* 
+ul:last-child {
+    margin: 0;
+} */
+
+.menu__list, .nav-dropdown, .nav-menu, ul {
+    list-style: none;
+}
+
+ul._share_lists.light li a {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background: rgba(228, 45, 41,0.1);
+    font-size: 13px;
+    color: #e42d29;
+}
+
+.property_detail_info {
+    width: 500px;
+    flex: auto;
+}
+
+.property_detail_section > .prt-sect-pric > ul{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+
+.property_info_detail_wrap_first {
+    flex: 1;
+}
+.exlio_wrap {
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 2rem 1.5rem;
+    box-shadow: 0 0px 10px 0px rgb(62 28 131 / 10%);
+	-webkit-box-shadow: 0 0px 10px 0px rgb(62 28 131 / 10%);
+}
+
+/*------------------------------------
+	Archive Grid Layout Markup
+------------------------------------*/
+
+.thumbnail-section .top-left,
+.thumbnail-section .top-right,
+.thumbnail-section .bottom-left,
+.thumbnail-section .bottom-right {
+    position: absolute;
+    z-index: 1;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.thumbnail-section .top-left {
+    top: 0;
+    left: 0;
+    justify-content: left;
+    
+}
+
+.thumbnail-section .top-right {
+    top: 0;
+    right: 0;
+    justify-content: right;
+}
+
+.thumbnail-section .bottom-left {
+    bottom: 0;
+    left: 0;
+    justify-content: left;
+}
+
+.thumbnail-section .bottom-right {
+    bottom: 0;
+    right: 0;
+    justify-content: right;
+}
+
+/*------------------------------------
+	Archive Grid _card_flex Markup
+------------------------------------*/
+
+._card_flex_left , ._card_flex_right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+._card_flex_left {
+    justify-content: left;
+}
+
+._card_flex_right {
+    justify-content: right;
+}
+
+._card_list_flex p {
+    color: var(--secondary);
+    font-size: 15px;
+}
+
+
+.pagelayout_archive_main_div {
+    margin: auto;
+}
+
+.archive_builder-section .widget-item .widget-item-remove {
+    display: none;
+}
+
+.archive_builder-section.enabled .widget-item .widget-item-remove {
+    transition: 0.2s;
+    background: #ff0433;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 0px;
+    flex-wrap: wrap;
+    opacity: 0;
+}
+
+.archive_builder-section.enabled .widget-item:hover .widget-item-remove {
+    width: 20px;
+    opacity: 1;
+    
+}

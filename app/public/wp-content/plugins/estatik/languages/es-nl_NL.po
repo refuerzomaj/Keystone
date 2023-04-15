@@ -1,0 +1,5436 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Estatik PRO\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-18 14:23+0000\n"
+"PO-Revision-Date: 2023-01-14 06:08+0000\n"
+"Last-Translator: \n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.8; wp-5.9\n"
+"X-Domain: es"
+
+#: templates/front/property/partials/properties-navbar.php:16
+#, php-format
+msgid "%d result"
+msgid_plural "%d results"
+msgstr[0] "%d resultaat"
+msgstr[1] "%d resultaten"
+
+#: includes/property-functions.php:502
+#, php-format
+msgid "%s - %s of %s homes"
+msgstr "%s - %s van %s woningen"
+
+#: includes/classes/pages/admin/class-entities-archive-page.php:133
+#, php-format
+msgid "%s - %s of %s properties"
+msgstr "%s - %s van %s eigenschappen"
+
+#: includes/classes/data-manager/class-labels-creator.php:25
+#: includes/classes/data-manager/class-terms-creator.php:72
+#, php-format
+msgid "(ID: %s)"
+msgstr ""
+
+#: includes/classes/pages/admin/class-demo-page.php:251
+msgid "1 Estatik Theme FREE to your choice"
+msgstr "1 Estatik thema GRATIS naar keuze"
+
+#: includes/classes/pages/admin/class-demo-page.php:191
+msgid "1 year FREE support for 1 website"
+msgstr "1 jaar GRATIS ondersteuning voor 1 website"
+
+#: includes/classes/pages/admin/class-demo-page.php:247
+msgid "10+ advanced widgets"
+msgstr "10+ geavanceerde widgets"
+
+#: includes/classes/class-settings-container.php:1233
+msgid "12-hour clock"
+msgstr "12-uurs klok"
+
+#: includes/classes/class-settings-container.php:1234
+msgid "24-hour clock"
+msgstr "24-uurs klok"
+
+#: templates/admin/demo/start.php:29
+msgid "4-minute setup with explanations"
+msgstr "Opstelling van 4 minuten met uitleg"
+
+#: templates/admin/demo/start.php:18
+msgid "5% OFF"
+msgstr "5% KORTING"
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:173
+msgid "</p>"
+msgstr "</p>"
+
+#: templates/admin/property/tabs/location.php:14
+#, php-format
+msgid ""
+"<a href=\"%s\">Set up your Google Maps API Key</a> for adding property "
+"location and using Google maps on listing pages."
+msgstr ""
+"<a href=\"%s\">Stel uw Google Maps API-sleutel in</a> voor het toevoegen van "
+"de locatie van een woning en het gebruik van Google maps op "
+"advertentiepagina's."
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:156
+msgid ""
+"<span class=\"es-icon es-icon_check-mark\"></span><h4>Thank you!</h4><p>"
+"We've sent along your message. The agent will follow up with you soon.</p>"
+msgstr ""
+"<span class=\"es-icon es-icon_check-mark\"></span><h4>Dank u!</h4><p> We "
+"hebben je bericht meegestuurd. De makelaar zal spoedig contact met u opnemen."
+"</p>"
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:168
+msgid ""
+"<span class=\"es-icon es-icon_close\"></span><h4>Error!</h4><p>Invalid "
+"reCAPTCHA. Please, reload the page and try again.</p>"
+msgstr ""
+"<span class=\"es-icon es-icon_close\"></span><h4>Fout!</h4><p> Ongeldige "
+"reCAPTCHA. Laad de pagina opnieuw en probeer het opnieuw.</p>"
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:164
+msgid ""
+"<span class=\"es-icon es-icon_close\"></span><h4>Error!</h4><p>Please, "
+"confirm terms & conditions</p>"
+msgstr ""
+"<span class=\"es-icon es-icon_close\"></span><h4>Error!</h4><p> Bevestig de "
+"algemene voorwaarden a.u.b.</p>"
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:160
+msgid ""
+"<span class=\"es-icon es-icon_close\"></span><h4>Error!</h4><p>Your message "
+"wasn't sent. Please, contact support.</p>"
+msgstr ""
+"<span class=\"es-icon es-icon_close\"></span><h4>Fout!</h4><p> Uw bericht is "
+"niet verzonden. Neem contact op met ondersteuning.</p>"
+
+#: includes/classes/class-auth-init.php:301
+#, php-format
+msgid ""
+"A reset link is on its way. Please check your email inbox for %s and click "
+"the link to reset your password."
+msgstr ""
+"Een resetlink is onderweg. Controleer uw e-mailinbox voor %s en klik op de "
+"link om uw wachtwoord opnieuw in te stellen."
+
+#. Description of the plugin
+#, fuzzy
+#| msgid "A premium version of Estatik Real Estate plugin for Wordpress."
+msgid "A simple version of Estatik Real Estate plugin for Wordpress."
+msgstr "Een PRO-versie van de Estatik Real Estate-plug-in voor Wordpress."
+
+#: includes/classes/class-auth-init.php:232
+msgid "Account doesn't exist. Please, use sign up buttons instead."
+msgstr "Account bestaat niet. Gebruik in plaats daarvan de aanmeldknoppen."
+
+#: includes/classes/class-settings-container.php:217
+msgid "acres"
+msgstr "acres"
+
+#: includes/classes/class-migrations.php:96
+msgid "Active"
+msgstr "Actief"
+
+#: includes/classes/framework/fields/class-fields-list-selector-field.php:65
+msgid "Add"
+msgstr "Toevoegen"
+
+#: templates/admin/property/tabs/location.php:21
+#: templates/admin/property/tabs/location.php:23
+msgid "Add address manually"
+msgstr "Voeg adres handmatig toe"
+
+#: includes/classes/framework/class-estatik-framework.php:54
+#: includes/classes/framework/fields/class-images-field.php:47
+#: includes/classes/framework/fields/class-media-field.php:77
+#: includes/classes/framework/fields/class-media-field.php:108
+msgid "Add caption"
+msgstr "Bijschrift toevoegen"
+
+#: includes/classes/class-admin-init.php:120
+#: templates/admin/fields-builder/partials/fields-tab.php:17
+msgid "Add field"
+msgstr "Voeg veld toe"
+
+#: includes/classes/entities/class-property.php:396
+msgid "Add labels"
+msgstr ""
+
+#: templates/admin/settings/tabs/map-tab.php:157
+msgid "Add map marker type"
+msgstr "Type kaartmarkering toevoegen"
+
+#: includes/classes/framework/fields/class-repeater-field.php:111
+msgid "Add new"
+msgstr "Nieuwe toevoegen"
+
+#: includes/classes/class-settings-container.php:1074
+#: includes/classes/class-settings-container.php:1083
+msgid "Add new comment"
+msgstr "Nieuwe opmerking toevoegen"
+
+#: includes/classes/class-admin-menu.php:61
+#: includes/classes/class-admin-menu.php:62
+#: templates/admin/properties-archive/header.php:7
+#: includes/classes/pages/admin/class-dashboard-page.php:222
+msgid "Add new property"
+msgstr "Nieuw object toevoegen"
+
+#: includes/classes/entities/class-property.php:328
+msgid "Add open house"
+msgstr "Open huis toevoegen"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:143
+msgid "Add option"
+msgstr "Optie toevoegen"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:83
+msgid "Add price list"
+msgstr "Prijslijst toevoegen"
+
+#: includes/helper-functions.php:458
+msgid "Add recommended page"
+msgstr "Aanbevolen pagina toevoegen"
+
+#: templates/admin/demo/steps/step3.php:2
+msgid "Add recommended pages"
+msgstr "Aanbevolen pagina's toevoegen"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:578
+msgid "Add section"
+msgstr "Sectie toevoegen"
+
+#: includes/functions.php:42
+#, php-format
+msgid "Added %s ago"
+msgstr "%s geleden toegevoegd"
+
+#: includes/classes/class-settings-container.php:1018
+#: includes/classes/entities/class-property.php:477
+#: includes/classes/pages/admin/class-properties-archive-page.php:404
+msgid "Address"
+msgstr "Adres"
+
+#: templates/admin/fields-builder/forms/field-form.php:88
+msgid "Address component"
+msgstr ""
+"Adres component\n"
+
+#: includes/classes/entities/class-property.php:658
+msgid "Address components"
+msgstr ""
+"Adres componenten\n"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:8
+msgid "Address field search placeholder"
+msgstr ""
+"Tijdelijke aanduiding voor zoeken in adresveld\n"
+
+#: templates/admin/fields-builder/forms/field-form.php:87
+msgid "Address Types and Address Component Types"
+msgstr ""
+"Adrestypes en adrescomponenttypes\n"
+
+#: includes/classes/class-settings-container.php:239
+msgid "Address, City, ZIP"
+msgstr ""
+"Adres, Plaats, Postcode\n"
+
+#: templates/admin/demo/start.php:28
+msgid "adjust plugin to your needs"
+msgstr "pas de plug-in aan uw behoeften aan"
+
+#: templates/front/partials/no-found-posts.php:3
+msgid "Adjust your search by changing filters."
+msgstr "Pas uw zoekopdracht aan door filters te wijzigen."
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:25
+msgid "Admin"
+msgstr "Beheerder"
+
+#: includes/classes/emails/class-new-user-registered-admin-email.php:34
+msgid "Admin new user registered"
+msgstr "Beheerder nieuwe gebruiker geregistreerd"
+
+#: templates/admin/fields-builder/forms/field-form.php:51
+msgid "Admin Tab"
+msgstr "Tabblad Beheer"
+
+#: includes/classes/class-address-components.php:20
+#: templates/admin/fields-builder/forms/field-form.php:96
+msgid "administrative_area_level_1"
+msgstr ""
+
+#: includes/classes/class-address-components.php:21
+#: templates/admin/fields-builder/forms/field-form.php:97
+msgid "administrative_area_level_2"
+msgstr ""
+
+#: includes/classes/class-address-components.php:22
+#: templates/admin/fields-builder/forms/field-form.php:98
+msgid "administrative_area_level_3"
+msgstr ""
+
+#: includes/classes/class-address-components.php:23
+#: templates/admin/fields-builder/forms/field-form.php:99
+msgid "administrative_area_level_4"
+msgstr ""
+
+#: includes/classes/class-address-components.php:24
+#: templates/admin/fields-builder/forms/field-form.php:100
+msgid "administrative_area_level_5"
+msgstr ""
+
+#: includes/classes/class-settings-container.php:813
+msgid "AED - UAE Dirham"
+msgstr "AED - UAE Dirham"
+
+#: includes/classes/class-settings-container.php:665
+msgid "AFN - Afghani"
+msgstr "AFN - Afghani"
+
+#: templates/admin/data-manager/tabs/units-tab.php:44
+msgid "After 100$"
+msgstr "Na 100$"
+
+#: templates/admin/data-manager/tabs/units-tab.php:46
+msgid "After with space 100 $"
+msgstr "Na met spatie 100 $"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:239
+#: templates/admin/demo/steps/step3.php:66
+msgid "Agencies"
+msgstr "Agentschappen"
+
+#: templates/admin/demo/steps/step1.php:21
+msgid "Agency"
+msgstr "Agentschap"
+
+#: templates/admin/demo/steps/step3.php:70
+#, fuzzy
+#| msgid "Agent logo"
+msgid "Agent page"
+msgstr "Agent logo"
+
+#: templates/admin/settings/tabs/auth-tab.php:130
+msgid "Agent registration"
+msgstr "Agent registratie"
+
+#: templates/admin/settings/tabs/auth-tab.php:131
+msgid "Agent registration page"
+msgstr "Agent registratie pagina"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:232
+#: templates/admin/demo/steps/step3.php:62
+msgid "Agents"
+msgstr "Agenten"
+
+#: includes/classes/pages/admin/class-demo-page.php:243
+msgid "Agents & Agencies support"
+msgstr "Agenten en Agentschappen steun"
+
+#: includes/classes/class-migrations.php:185
+msgid "Air conditioning"
+msgstr "Airconditioning"
+
+#: includes/classes/entities/class-property.php:95
+msgid "All"
+msgstr "Alle"
+
+#: includes/classes/class-settings-container.php:666
+msgid "ALL - Albanian Lek"
+msgstr "ALL - Albanian Lek"
+
+#: includes/classes/entities/class-property.php:73
+msgid "All categories"
+msgstr "Alle categorieën"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:431
+#: includes/classes/pages/admin/class-fields-builder-page.php:462
+#: includes/classes/pages/admin/class-settings-page.php:134
+msgid "All changes saved."
+msgstr ""
+"Alle wijzigingen opgeslagen.\n"
+
+#: includes/classes/entities/class-property.php:117
+msgid "All home types"
+msgstr ""
+"Alle woningtypes\n"
+
+#: templates/front/shortcodes/authentication/login-form.php:13
+msgid "All log in options"
+msgstr "Alle Inlogopties"
+
+#: includes/classes/widgets/class-widget.php:119
+msgid "All pages"
+msgstr ""
+"Alle pagina's\n"
+
+#: templates/front/shortcodes/authentication/buyer-register-form.php:13
+msgid "All sign up options"
+msgstr ""
+"Alle aanmeldingsopties\n"
+
+#: includes/classes/entities/class-property.php:140
+msgid "All statuses"
+msgstr "Alle statussen"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:18
+msgid ""
+"Allow only comma separated numbers. Do not add decimal points, dashes, "
+"spaces, currency signs.Ex: 5000,7000"
+msgstr ""
+"Alleen door komma's gescheiden getallen toestaan. Voeg geen decimale punten, "
+"streepjes, spaties, valutatekens toe. Ex: 5000,7000"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:19
+msgid "Allow only comma separated numbres."
+msgstr "Alleen door komma's gescheiden getallen toestaan."
+
+#: templates/front/shortcodes/authentication/buyer-register-form.php:70
+msgid ""
+"Already have an account? <a href=\"#\" class=\"js-es-auth-item__switcher\" "
+"data-auth-item=\"login-buttons\">Log in</a>"
+msgstr ""
+"Heb je al een account? <a href=\"#\" class=\"js-es-auth-item__switcher\" "
+"data-auth-item=\"login-buttons\">Log in</a>\n"
+
+#: templates/front/shortcodes/authentication/buyer-register-buttons.php:36
+msgid ""
+"Already have an account? <a href=\"#\" data-auth-item=\"login-buttons\" "
+"class=\"js-es-auth-item__switcher\">Log in</a>"
+msgstr ""
+"Heb je al een account? <a href=\"#\" data-auth-item=\"login-buttons\" "
+"class=\"js-es-auth-item__switcher\">Log in</a>"
+
+#: includes/hooks.php:955
+msgid "Alt Description"
+msgstr ""
+
+#: includes/classes/class-settings-container.php:671
+msgid "AMD - Armenian Dram"
+msgstr "AMD - Armenian Dram"
+
+#: includes/classes/class-taxonomies.php:168
+#: includes/classes/entities/class-property.php:746
+msgid "Amenities"
+msgstr "Voorzieningen"
+
+#: includes/functions.php:308
+#: includes/classes/pages/admin/class-data-manager-page.php:376
+#: templates/admin/data-manager/tabs/parameters-tab.php:26
+msgid "Amenities & Features"
+msgstr "Voorzieningen en Functies"
+
+#: includes/classes/class-taxonomies.php:169
+msgid "Amenity"
+msgstr ""
+"Voorziening\n"
+
+#: includes/classes/class-settings-container.php:707
+msgid "ANG - Netherlands Antillean Guilder"
+msgstr "ANG - Netherlands Antillean Guilder"
+
+#: includes/hooks.php:172
+msgid "Any"
+msgstr "Elk"
+
+#: includes/classes/class-settings-container.php:668
+msgid "AOA - Kwanza"
+msgstr "AOA - Kwanza"
+
+#: includes/classes/class-migrations.php:89
+msgid "Apartments"
+msgstr "Appartementen"
+
+#: templates/admin/settings/tabs/auth-tab.php:37
+msgid "App ID"
+msgstr "App ID"
+
+#: templates/admin/settings/tabs/auth-tab.php:43
+msgid "App secret"
+msgstr ""
+"App-geheim\n"
+
+#: includes/classes/widgets/class-widget.php:46
+msgid "Archive page"
+msgstr "Archiefpagina"
+
+#: includes/classes/widgets/class-widget.php:49
+msgid "Archive Property Page"
+msgstr "Eigendom Pagina archiveren"
+
+#: includes/classes/data-manager/class-terms-creator.php:180
+#, php-format
+msgid "Are you sure you want to delete %d Option(s)?"
+msgstr "Weet u zeker dat u %d optie(s) wilt verwijderen?"
+
+#: includes/helper-functions.php:644
+#, php-format
+msgid "Are you sure you want to delete %s field?"
+msgstr "Weet u zeker dat u het veld %s wilt verwijderen?"
+
+#: includes/helper-functions.php:645
+#, php-format
+msgid "Are you sure you want to delete %s section?"
+msgstr "Weet u zeker dat u %s sectie wilt verwijderen?"
+
+#: includes/classes/data-manager/class-locations-creator.php:120
+#: includes/classes/data-manager/class-labels-creator.php:17
+#: includes/classes/data-manager/class-terms-creator.php:68
+#: includes/classes/data-manager/class-features-creator.php:24
+#, php-format
+msgid "Are you sure you want to delete <b>%s</b> Option?"
+msgstr "Weet u zeker dat u de optie <b>%s</b> wilt verwijderen?"
+
+#: includes/classes/entities/class-property.php:259
+msgid "Area"
+msgstr ""
+"Gebied\n"
+
+#: templates/admin/settings/tabs/general-tab.php:24
+msgid "Area unit"
+msgstr ""
+"Gebiedseenheid\n"
+
+#: includes/classes/pages/admin/class-data-manager-page.php:398
+#: templates/admin/data-manager/tabs/units-tab.php:6
+msgid "Area units"
+msgstr "Gebiedseenheden"
+
+#: includes/classes/entities/class-property.php:259
+#, php-format
+msgid "Area, %s"
+msgstr "Gebied, %s"
+
+#: includes/classes/class-settings-container.php:670
+msgid "ARS - Argentine Peso"
+msgstr "ARS - Argentine Peso"
+
+#: includes/functions.php:314
+#: includes/classes/shortcodes/class-request-form-shortcode.php:52
+msgid "Ask an Agent About This Home"
+msgstr "Vraag een makelaar over deze woning"
+
+#: includes/classes/class-migrations.php:117
+msgid "Asphalt"
+msgstr "Asfalt"
+
+#: templates/front/shortcodes/authentication/reset-form.php:35
+#: templates/front/shortcodes/authentication/buyer-register-form.php:61
+#: templates/front/shortcodes/profile/partials/change-password-form.php:22
+msgid "At least 8 characters"
+msgstr "Ten minste 8 tekens"
+
+#: includes/classes/class-polylang-init.php:109
+#, php-format
+msgid "Attachments successfully copied from %s (in %s)"
+msgstr ""
+
+#: includes/classes/class-settings-container.php:662
+msgid "AUD - Australian Dollar"
+msgstr "AUD - Australian Dollar"
+
+#: templates/front/shortcodes/authentication/reset-form.php:44
+#: templates/front/shortcodes/authentication/buyer-register-form.php:39
+#: templates/front/shortcodes/authentication/login-form.php:26
+msgctxt "authenticate form"
+msgid "Email"
+msgstr "E-mail"
+
+#: templates/front/shortcodes/authentication/buyer-register-form.php:47
+#: templates/front/shortcodes/authentication/login-form.php:33
+msgctxt "authenticate form"
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: includes/classes/widgets/class-widget.php:52
+msgid "Author Page"
+msgstr "Auteurspagina"
+
+#: includes/classes/class-migrations.php:99
+msgid "Auto-draft"
+msgstr "Automatisch opstellen"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:29
+msgid "Autocomplete will be done with data used on your database"
+msgstr ""
+"Automatisch aanvullen wordt gedaan met gegevens die in uw database worden "
+"gebruikt"
+
+#: includes/classes/widgets/elementor/class-elementor-properties-slider-widget.php:98
+msgid "Autoplay"
+msgstr "Automatisch afspelen"
+
+#: includes/classes/widgets/elementor/class-elementor-properties-slider-widget.php:104
+msgid "Autoplay timeout"
+msgstr "Time-out voor automatisch afspelen"
+
+#: includes/classes/class-settings-container.php:672
+msgid "AWG - Aruban Florin"
+msgstr "AWG - Aruban Florin"
+
+#: includes/classes/class-settings-container.php:673
+msgid "AZN - Azerbaijanian Manat"
+msgstr "AZN - Azerbaijanian Manat"
+
+#: templates/front/shortcodes/authentication/reset-form.php:54
+msgid "Back to login"
+msgstr "Terug naar Inloggen"
+
+#: includes/property-functions.php:770
+msgid "Back to Search Results"
+msgstr "Terug naar zoekresultaten"
+
+#: includes/classes/widgets/class-search-form-widget.php:104
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:84
+#: includes/classes/widgets/elementor/class-elementor-request-form-widget.php:105
+msgid "Background color"
+msgstr "Achtergrond kleur"
+
+#: includes/classes/class-migrations.php:189
+msgid "Balcony"
+msgstr "Balkon"
+
+#: includes/classes/class-settings-container.php:686
+msgid "BAM - Convertible Mark"
+msgstr "BAM - Convertible Mark"
+
+#: includes/classes/class-taxonomies.php:133
+#: includes/classes/class-taxonomies.php:134
+#: includes/classes/entities/class-property.php:793
+msgid "Basement"
+msgstr "Kelder"
+
+#: includes/classes/entities/class-property.php:170
+msgid "Basic facts"
+msgstr "Basis feiten"
+
+#: includes/functions.php:252
+msgid "Basics"
+msgstr "Basis"
+
+#: includes/functions.php:73 includes/classes/entities/class-property.php:183
+msgid "bath"
+msgid_plural "baths"
+msgstr[0] "badkamer"
+msgstr[1] "badkamers"
+
+#: includes/classes/class-settings-container.php:228
+#: includes/classes/entities/class-property.php:178
+msgid "Bathrooms"
+msgstr "Badkamers"
+
+#: includes/classes/pages/admin/class-properties-archive-page.php:383
+msgid "Baths"
+msgstr "baden"
+
+#: includes/classes/entities/class-property.php:184
+msgid "baths"
+msgstr "baden"
+
+#: includes/classes/class-settings-container.php:677
+msgid "BBD - Barbados Dollar"
+msgstr "BBD - Barbados Dollar"
+
+#: includes/classes/class-settings-container.php:676
+msgid "BDT - Bangladesh taka"
+msgstr "BDT - Bangladesh taka"
+
+#: includes/functions.php:69 includes/classes/entities/class-property.php:161
+msgid "bed"
+msgid_plural "beds"
+msgstr[0] "Slaapk."
+msgstr[1] "Slaapk."
+
+#: includes/classes/class-settings-container.php:227
+#: includes/classes/entities/class-property.php:167
+msgid "Bedrooms"
+msgstr "Slaapkamers"
+
+#: includes/classes/pages/admin/class-properties-archive-page.php:382
+msgid "Beds"
+msgstr "Bedden"
+
+#: includes/classes/entities/class-property.php:162
+msgid "beds"
+msgstr "bedden"
+
+#: templates/admin/data-manager/tabs/units-tab.php:43
+msgid "Before $100"
+msgstr "Voor $ 100"
+
+#: templates/admin/data-manager/tabs/units-tab.php:45
+msgid "Before with space $ 100"
+msgstr "Vroeger met ruimte $ 100"
+
+#: includes/classes/class-migrations.php:194
+msgid "Bellhop"
+msgstr "Piccolo"
+
+#: includes/classes/class-settings-container.php:663
+msgid "BGN - Bulgarian Lev"
+msgstr "BGN - Bulgarian Lev"
+
+#: includes/classes/class-settings-container.php:675
+msgid "BHD - Bahraini Dinar"
+msgstr "BHD - Bahraini Dinar"
+
+#: includes/classes/class-settings-container.php:691
+msgid "BIF - Burundi Franc"
+msgstr "BIF - Burundi Franc"
+
+#: includes/classes/class-settings-container.php:681
+msgid "BMD - Bermudian Dollar"
+msgstr "BMD - Bermudian Dollar"
+
+#: includes/classes/class-settings-container.php:690
+msgid "BND - Brunei Dollar"
+msgstr "BND - Brunei Dollar"
+
+#: includes/classes/class-settings-container.php:684
+msgid "BOB - Boliviano"
+msgstr "BOB - Boliviano"
+
+#: includes/classes/class-settings-container.php:685
+msgid "BOV - Mvdol"
+msgstr "BOV - Mvdol"
+
+#: includes/classes/class-migrations.php:126
+msgid "Brick"
+msgstr "Steen"
+
+#: includes/classes/class-settings-container.php:689
+msgid "BRL - Brazilian Real"
+msgstr "BRL - Brazilian Real"
+
+#: includes/classes/class-settings-container.php:674
+msgid "BSD - Bahamian Dollar"
+msgstr "BSD - Bahamian Dollar"
+
+#: includes/classes/class-settings-container.php:682
+msgid "BTN - Ngultrum"
+msgstr "BTN - Ngultrum"
+
+#: includes/functions.php:284
+msgid "Building Details"
+msgstr "Gebouwdetails"
+
+#: templates/admin/data-manager/tabs/parameters-tab.php:58
+msgid "Building details"
+msgstr "Gebouwdetails"
+
+#: includes/classes/class-migrations.php:118
+msgid "Built-up"
+msgstr "Opgebouwd"
+
+#: includes/classes/widgets/elementor/class-elementor-authentication-widget.php:76
+msgid "Buyer register buttons"
+msgstr "Knoppen voor het registreren van kopers"
+
+#: includes/classes/widgets/elementor/class-elementor-authentication-widget.php:75
+msgid "Buyer register form"
+msgstr "Aanmeldingsformulier koper"
+
+#: templates/admin/settings/tabs/auth-tab.php:103
+msgid "Buyer registration"
+msgstr "Koper registratie"
+
+#: templates/admin/settings/tabs/auth-tab.php:104
+msgid "Buyer registration page"
+msgstr "Koper registratiepagina"
+
+#: includes/classes/pages/admin/class-migration-page.php:78
+msgid "Buyers migrated."
+msgstr "Kopers zijn gemigreerd."
+
+#: includes/classes/class-settings-container.php:687
+msgid "BWP - Pula"
+msgstr "BWP - Pula"
+
+#: includes/classes/entities/class-property.php:314
+msgid "By appointment only"
+msgstr "Alleen op afspraak"
+
+#: includes/hooks.php:305
+#, php-format
+msgid "By clicking the %s button you agree to the %s and %s"
+msgstr "Door op de %s-knop te klikken, gaat u akkoord met de %s en %s"
+
+#: templates/admin/settings/tabs/terms-tab.php:12
+msgid ""
+"By clicking the «BUTTON» button you agree to the Terms of Use and Privacy "
+"Policy"
+msgstr ""
+"Door op de knop «BUTTON» te klikken, gaat u akkoord met de "
+"gebruiksvoorwaarden en het privacybeleid"
+
+#: includes/classes/widgets/class-properties-filter-widget.php:53
+msgid "by filtering"
+msgstr "door te filteren"
+
+#: includes/classes/widgets/class-properties-filter-widget.php:52
+msgid "by ID"
+msgstr "op ID"
+
+#: includes/classes/class-settings-container.php:678
+msgid "BYN - Belarussian Ruble"
+msgstr "BYN - Belarussian Ruble"
+
+#: includes/classes/class-settings-container.php:679
+msgid "BZD - Belize Dollar"
+msgstr "BZD - Belize Dollar"
+
+#: includes/classes/class-migrations.php:212
+msgid "Cable TV"
+msgstr "Kabel TV"
+
+#: includes/classes/class-settings-container.php:659
+msgid "CAD - Canadian Dollar"
+msgstr "CAD - Canadian Dollar"
+
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:81
+msgid "Calculate full width using JavaScript"
+msgstr "Bereken de volledige breedte met JavaScript"
+
+#: includes/loop-functions.php:53
+#: includes/classes/entities/class-property.php:454
+#: templates/admin/properties-archive/quick-edit.php:137
+msgid "Call for price"
+msgstr "Informeer naar prijs"
+
+#: templates/front/shortcodes/authentication/reset-form.php:34
+#: templates/front/shortcodes/authentication/buyer-register-form.php:60
+#: templates/front/shortcodes/profile/partials/change-password-form.php:21
+msgid "Can't contain the name or email address"
+msgstr "Mag de naam of het e-mailadres niet bevatten"
+
+#: includes/classes/class-settings-container.php:245
+msgid "Canada"
+msgstr "Canada"
+
+#: includes/helper-functions.php:642
+msgid "Cancel"
+msgstr ""
+"Annuleren\n"
+
+#: includes/classes/class-migrations.php:193
+msgid "Carbon monoxide detector"
+msgstr "Koolmonoxide Detector"
+
+#: includes/classes/class-migrations.php:143
+msgid "Carpet"
+msgstr ""
+"Tapijt\n"
+
+#: includes/classes/class-migrations.php:110
+msgid "Carport"
+msgstr ""
+"Сarport\n"
+
+#: includes/classes/class-taxonomies.php:39
+#: includes/classes/pages/admin/class-data-manager-page.php:356
+#: includes/classes/widgets/elementor/class-elementor-query.php:47
+msgid "Categories"
+msgstr "Categorieën"
+
+#: includes/classes/class-taxonomies.php:40
+#: includes/classes/entities/class-property.php:77
+#: templates/admin/properties-archive/quick-edit.php:41
+#: templates/admin/properties-archive/filter.php:30
+#: templates/admin/properties-archive/quick-edit-bulk.php:37
+#: includes/classes/pages/admin/class-properties-archive-page.php:410
+#: templates/admin/settings/tabs/listing-search-tab.php:86
+msgid "Category"
+msgstr "Categorie"
+
+#: includes/classes/widgets/class-widget.php:50
+msgid "Category Page"
+msgstr "Categorie Pagina"
+
+#: includes/classes/class-settings-container.php:701
+msgid "CDF - Congolese Franc"
+msgstr "CDF - Congolese Franc"
+
+#: includes/classes/class-migrations.php:127
+msgid "Cement/concrete"
+msgstr "Cement/beton"
+
+#: templates/front/shortcodes/profile/tabs/profile-form.php:58
+msgid "Change Password"
+msgstr ""
+"Wijzig wachtwoord\n"
+
+#: templates/admin/dashboard/index.php:66
+msgid "Changelog"
+msgstr "Wijzigingslog"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:104
+#: includes/classes/pages/admin/class-dashboard-page.php:121
+msgctxt "changelog"
+msgid ""
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:107
+msgctxt "changelog"
+msgid "Added min & max map zoom setting fields"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:128
+msgctxt "changelog"
+msgid "Agencies support added"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:148
+msgctxt "changelog"
+msgid "AJAX map search added"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:140
+msgctxt "changelog"
+msgid "Buyer's & agent's profiles upgraded"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:57
+msgctxt "changelog"
+msgid "Captcha issues fixed"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:136
+msgctxt "changelog"
+msgid "Compare feature added"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:156
+msgctxt "changelog"
+msgid "Data Manager improved"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:54
+msgctxt "changelog"
+msgid "December, 25, 2022"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:172
+msgctxt "changelog"
+msgid "Elementor Support improved"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:185
+msgctxt "changelog"
+msgid "Estatik settings php warning fixed (All versions)"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:61
+msgctxt "changelog"
+msgid "FB tab fields issues fixed"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:152
+msgctxt "changelog"
+msgid "Fields Builder considerably improved"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:124
+msgctxt "changelog"
+msgid "Front-and back-end interface design updated"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:86
+msgctxt "changelog"
+msgid "Google fonts GDPR issue fixed"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:82
+msgctxt "changelog"
+msgid "Lazy load for carousel images added"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:176
+msgctxt "changelog"
+msgid "Loads of minor fixes and improvements"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:193
+msgctxt "changelog"
+msgid "minor fixes"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:115
+msgctxt "changelog"
+msgid "MLS migration fix added"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:164
+msgctxt "changelog"
+msgid "New widgets added: agencies, locations, slideshow widget"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:79
+msgctxt "changelog"
+msgid "November, 30, 2022"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:132
+msgctxt "changelog"
+msgid "One-time payments added"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:189
+msgctxt "changelog"
+msgid "PDF library fixed (Pro & Premium)"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:111
+msgctxt "changelog"
+msgid "Polylang support added"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:90
+msgctxt "changelog"
+msgid "Request Info form (subject and from email issue fixed)"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:144
+msgctxt "changelog"
+msgid "Requests to profile added"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:98
+msgctxt "changelog"
+msgid "Responsive js refactored"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:94
+msgctxt "changelog"
+msgid "SEO issues fixed"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:168
+msgctxt "changelog"
+msgid "Share via email added"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:65
+msgctxt "changelog"
+msgid "Single property pages mobile layout fixed"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:73
+msgctxt "changelog"
+msgid "Translation for sorting fixed"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:160
+msgctxt "changelog"
+msgid "WP ALL Import support added"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:182
+msgctxt "changelog date"
+msgid "July, 26, 2022"
+msgstr ""
+
+#: includes/classes/framework/fields/class-field.php:18
+#: includes/classes/framework/fields/class-textarea-field.php:15
+msgid "characters remaining"
+msgstr ""
+"overgebleven karakters\n"
+
+#: includes/classes/class-settings-container.php:799
+msgid "CHE - WIR Euro"
+msgstr "CHE - WIR Euro"
+
+#: includes/classes/class-settings-container.php:473
+msgid "Check marks"
+msgstr ""
+"Vinkjes\n"
+
+#: templates/admin/dashboard/index.php:101
+msgid "Check out other <br>Estatik Real Estate Web Solutions"
+msgstr ""
+
+#: includes/classes/class-settings-container.php:1065
+msgid "Checkbox"
+msgstr "Selectievakje"
+
+#: includes/classes/class-settings-container.php:751
+msgid "CHF - Swiss Franc"
+msgstr "CHF - Swiss Franc"
+
+#: templates/admin/properties-archive/quick-edit.php:44
+#: templates/admin/properties-archive/quick-edit-bulk.php:40
+#: includes/classes/widgets/elementor/class-elementor-query.php:50
+msgid "Choose category"
+msgstr ""
+"Kies categorie\n"
+
+#: includes/classes/entities/class-property.php:600
+#: includes/classes/entities/class-property.php:608
+msgid "Choose city"
+msgstr ""
+"Kies stad\n"
+
+#: includes/classes/entities/class-property.php:507
+#: includes/classes/entities/class-property.php:516
+msgid "Choose country"
+msgstr ""
+"Kies land\n"
+
+#: includes/classes/widgets/elementor/class-elementor-query.php:80
+msgid "Choose label"
+msgstr "Kies label"
+
+#: templates/admin/settings/tabs/general-tab.php:15
+msgid "Choose language"
+msgstr ""
+"Kies een taal\n"
+
+#: includes/classes/widgets/class-search-form-widget.php:99
+msgid "Choose page"
+msgstr ""
+"Kies pagina\n"
+
+#: includes/classes/entities/class-property.php:569
+#: includes/classes/entities/class-property.php:578
+msgid "Choose province"
+msgstr ""
+"Kies provincie\n"
+
+#: includes/classes/entities/class-property.php:538
+#: includes/classes/entities/class-property.php:547
+msgid "Choose state"
+msgstr ""
+"Kies staat\n"
+
+#: templates/admin/properties-archive/quick-edit.php:102
+#: templates/admin/properties-archive/quick-edit-bulk.php:90
+#: includes/classes/widgets/elementor/class-elementor-query.php:70
+msgid "Choose status"
+msgstr ""
+"Kies status\n"
+
+#: templates/admin/properties-archive/quick-edit.php:73
+#: templates/admin/properties-archive/quick-edit-bulk.php:65
+#: includes/classes/widgets/elementor/class-elementor-query.php:60
+msgid "Choose type"
+msgstr ""
+"Kies type\n"
+
+#: includes/classes/fields-builder/class-fields-builder.php:137
+msgid "Choose value"
+msgstr "Kies waarde"
+
+#: includes/classes/class-settings-container.php:800
+msgid "CHW - WIR Franc"
+msgstr "CHW - WIR Franc"
+
+#: includes/classes/pages/admin/class-data-manager-page.php:61
+msgid "Cities"
+msgstr ""
+"Steden\n"
+
+#: includes/classes/entities/class-property.php:590
+msgid "City / Department"
+msgstr "Stad / Afdeling"
+
+#: templates/admin/settings/tabs/slugs-tab.php:25
+msgid "City slug"
+msgstr "Stad naaktslak"
+
+#: includes/classes/class-settings-container.php:696
+msgid "CLF - Unidad de Fomento"
+msgstr "CLF - Unidad de Fomento"
+
+#: templates/admin/settings/tabs/auth-tab.php:65
+msgid "Client key"
+msgstr ""
+"Klantsleutel\n"
+
+#: templates/admin/settings/tabs/auth-tab.php:71
+msgid "Client secret"
+msgstr ""
+"Klantgeheim\n"
+
+#: includes/helper-functions.php:636
+msgid "Close"
+msgstr ""
+"Dichtbij\n"
+
+#: includes/classes/class-settings-container.php:697
+msgid "CLP - Chilean Peso"
+msgstr "CLP - Chilean Peso"
+
+#: includes/classes/class-settings-container.php:660
+msgid "CNY - Yuan Renminbi"
+msgstr "CNY - Yuan Renminbi"
+
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:143
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:164
+msgid "Collapsed fields"
+msgstr ""
+"Samengevouwen velden\n"
+
+#: includes/classes/widgets/class-search-form-widget.php:144
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:129
+msgid "Collapsed filters"
+msgstr ""
+"Samengevouwen filters\n"
+
+#: includes/classes/class-address-components.php:25
+#: templates/admin/fields-builder/forms/field-form.php:101
+#, fuzzy
+#| msgid "Colloquial Area"
+msgid "colloquial_area"
+msgstr "Informele Omgeving"
+
+#: includes/classes/widgets/class-request-form-widget.php:109
+msgid "Comma separated emails"
+msgstr ""
+"Door komma's gescheiden e-mails\n"
+
+#: includes/classes/widgets/elementor/class-elementor-query.php:40
+msgid "Comma separated properties IDs"
+msgstr "Door komma's gescheiden eigenschappen-ID's"
+
+#: templates/admin/demo/start.php:35
+msgid "Compare and choose <br>your version of Estatik"
+msgstr ""
+"Vergelijk en kies uw versie van Estatik\n"
+
+#: includes/classes/pages/admin/class-demo-page.php:215
+msgid "Compare feature"
+msgstr "Vergelijk functie"
+
+#: templates/admin/fields-builder/forms/field-form.php:143
+msgid "Compare support"
+msgstr ""
+
+#: includes/classes/class-migrations.php:119
+#: includes/classes/class-migrations.php:128
+msgid "Composition"
+msgstr ""
+"Samenstelling\n"
+
+#: includes/classes/class-migrations.php:144
+msgid "Concrete"
+msgstr ""
+"Betonnen\n"
+
+#: includes/classes/class-migrations.php:91
+msgid "Condos"
+msgstr ""
+"Appartementen\n"
+
+#: templates/front/shortcodes/profile/partials/change-password-form.php:28
+msgid "Confirm new password"
+msgstr ""
+"Bevestig nieuw wachtwoord\n"
+
+#: templates/front/shortcodes/profile/tabs/profile-form.php:44
+msgid "Confirm with password"
+msgstr "Bevestig met wachtwoord"
+
+#: templates/front/shortcodes/authentication/reset-form.php:36
+#: templates/front/shortcodes/authentication/buyer-register-form.php:62
+#: templates/front/shortcodes/profile/partials/change-password-form.php:23
+msgid "Contains a number or symbol"
+msgstr "Bevat een cijfer of symbool"
+
+#: templates/admin/demo/steps/step3.php:76
+#: templates/admin/demo/steps/step2.php:13
+#: templates/admin/demo/steps/step1.php:53
+msgid "Continue"
+msgstr "Doorgaan"
+
+#: includes/classes/class-settings-container.php:698
+msgid "COP - Colombian Peso"
+msgstr "COP - Colombian Peso"
+
+#: templates/admin/properties-archive/quick-edit.php:155
+#: templates/admin/properties-archive/quick-edit-bulk.php:106
+msgid "Copy"
+msgstr "Kopiëren"
+
+#: templates/front/popup/share.php:17
+msgid "Copy this URL to share"
+msgstr "Kopieer deze URL om te delen"
+
+#: includes/classes/class-settings-container.php:699
+msgid "COU - Unidad de Valor Real"
+msgstr "COU - Unidad de Valor Real"
+
+#: includes/classes/pages/admin/class-data-manager-page.php:39
+msgid "Countries"
+msgstr ""
+"Landen\n"
+
+#: includes/classes/data-manager/class-locations-creator.php:24
+msgid "Country"
+msgstr ""
+"Land\n"
+
+#: includes/classes/class-address-components.php:19
+#: templates/admin/fields-builder/forms/field-form.php:95
+msgid "country"
+msgstr ""
+
+#: includes/classes/entities/class-property.php:497
+msgid "Country / Region"
+msgstr "Land / Regio"
+
+#: templates/admin/demo/start.php:19
+msgid "coupon code"
+msgstr "coupon code"
+
+#: includes/classes/class-settings-container.php:703
+msgid "CRC - Costa Rican Colon"
+msgstr "CRC - Costa Rican Colon"
+
+#: includes/classes/class-settings-container.php:421
+msgid "Create an agent account"
+msgstr "Maak een agentenaccount aan"
+
+#: templates/admin/fields-builder/forms/field-form.php:14
+msgid "Create field"
+msgstr ""
+"Veld maken\n"
+
+#: includes/helper-functions.php:464
+msgid "Create page"
+msgstr ""
+"Maak pagina\n"
+
+#: templates/admin/fields-builder/forms/section-form.php:11
+msgid "Create section"
+msgstr "Sectie maken"
+
+#: includes/classes/pages/admin/class-demo-page.php:219
+msgid "CSV import"
+msgstr "CSV-import"
+
+#: includes/classes/class-settings-container.php:705
+msgid "CUC - Peso Convertible"
+msgstr "CUC - Peso Convertible"
+
+#: includes/classes/class-settings-container.php:706
+msgid "CUP - Cuban Peso"
+msgstr "CUP - Cuban Peso"
+
+#: includes/classes/pages/admin/class-data-manager-page.php:406
+msgid "Currencies"
+msgstr ""
+"Valuta's\n"
+
+#: templates/admin/settings/tabs/general-tab.php:35
+msgid "Currency"
+msgstr ""
+"Munteenheid\n"
+
+#: templates/admin/data-manager/tabs/units-tab.php:25
+msgid "Currency code"
+msgstr "Valuta code"
+
+#: templates/admin/data-manager/tabs/units-tab.php:19
+msgid "Currency settings"
+msgstr "Valuta-instellingen"
+
+#: includes/classes/pages/front/class-profile-page.php:112
+msgid "Current password didn't match."
+msgstr ""
+"Huidig wachtwoord komt niet overeen.\n"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:309
+msgid "Custom Development"
+msgstr ""
+
+#: includes/classes/widgets/class-request-form-widget.php:107
+#: includes/classes/widgets/elementor/class-elementor-request-form-widget.php:136
+msgid "Custom emails"
+msgstr "Aangepaste e-mails"
+
+#: includes/classes/class-settings-container.php:692
+msgid "CVE - Cabo Verde Escudo"
+msgstr "CVE - Cabo Verde Escudo"
+
+#: includes/classes/class-settings-container.php:708
+msgid "CZK - Czech Koruna"
+msgstr "CZK - Czech Koruna"
+
+#: includes/classes/class-admin-menu.php:40
+#: includes/classes/class-admin-menu.php:41
+#: templates/admin/dashboard/index.php:13
+msgid "Dashboard"
+msgstr ""
+"Dashboard\n"
+
+#: includes/classes/class-admin-menu.php:71
+#: includes/classes/class-admin-menu.php:72
+#: includes/classes/class-admin-init.php:105
+msgid "Data manager"
+msgstr "Gegevens manager"
+
+#: includes/classes/data-manager/class-labels-creator.php:89
+#: includes/classes/data-manager/class-features-icons-creator.php:67
+#: includes/classes/data-manager/class-terms-creator.php:120
+msgctxt "data manager term add"
+msgid "Add"
+msgstr "Toevoegen"
+
+#: includes/classes/data-manager/class-locations-creator.php:67
+#: includes/classes/data-manager/class-labels-creator.php:74
+#: includes/classes/data-manager/class-features-icons-creator.php:50
+#: includes/classes/data-manager/class-terms-creator.php:139
+msgctxt "data manager term add"
+msgid "Add new option"
+msgstr "Nieuwe optie toevoegen"
+
+#: includes/classes/data-manager/class-labels-creator.php:81
+msgctxt "data manager term add"
+msgid "Label color"
+msgstr "Labelkleur"
+
+#: includes/classes/data-manager/class-labels-creator.php:87
+#: includes/classes/data-manager/class-features-icons-creator.php:65
+#: includes/classes/data-manager/class-terms-creator.php:118
+msgctxt "data manager term add"
+msgid "Save"
+msgstr "Opslaan"
+
+#: templates/admin/data-manager/tabs/locations-tab.php:1
+msgctxt "data manager title"
+msgid "Locations"
+msgstr "Locaties"
+
+#: templates/admin/data-manager/tabs/parameters-tab.php:1
+msgctxt "data manager title"
+msgid "Parameters"
+msgstr "Parameters"
+
+#: templates/admin/data-manager/tabs/units-tab.php:1
+msgctxt "data manager title"
+msgid "Units & formats"
+msgstr "Eenheden & Formaten"
+
+#: includes/classes/entities/class-property.php:55
+#: templates/admin/properties-archive/filter.php:105
+#: includes/classes/pages/admin/class-properties-archive-page.php:406
+msgid "Date added"
+msgstr "Datum toegevoegd"
+
+#: templates/admin/settings/tabs/general-tab.php:40
+msgid "Date format"
+msgstr "Datumnotatie"
+
+#: templates/admin/data-manager/tabs/units-tab.php:61
+msgid "Decimal separator"
+msgstr ""
+"Decimaal Scheidingsteken\n"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:188
+msgid "Default currency"
+msgstr "Standaardvaluta"
+
+#: templates/admin/settings/tabs/map-tab.php:14
+msgid "Default latitude and longitude - center of the map"
+msgstr "Standaard breedte- en lengtegraad - midden van de kaart"
+
+#: templates/admin/settings/tabs/listings-tab.php:17
+msgid "Default layout for listings pages"
+msgstr ""
+"Standaardlay-out voor pagina's met vermeldingen\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:39
+msgid "Default layout for single listing pages"
+msgstr ""
+"Standaardlay-out voor pagina's met één vermelding\n"
+
+#: templates/admin/settings/tabs/map-tab.php:125
+msgid "Default map marker icon"
+msgstr ""
+"Standaard kaartmarkeringspictogram\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:10
+msgid "Default property image"
+msgstr "Standaard eigenschap afbeelding"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:14
+msgid "Default Search results"
+msgstr "Standaard zoekresultaten"
+
+#: includes/classes/widgets/class-properties-filter-widget.php:41
+#: includes/classes/widgets/elementor/class-elementor-query.php:31
+msgid "Default sort"
+msgstr "Standaard sortering"
+
+#: templates/admin/settings/tabs/listings-tab.php:124
+msgid "Default sort options"
+msgstr ""
+"Standaard sorteeropties\n"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:205
+msgid "Default unit"
+msgstr ""
+
+#: templates/admin/settings/tabs/map-tab.php:22
+msgid "Default zoom level"
+msgstr ""
+"Standaard zoomniveau\n"
+
+#: templates/admin/properties-archive/bulk-actions.php:10
+#: includes/classes/framework/fields/class-avatar-field.php:48
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: includes/helper-functions.php:640
+#, php-format
+msgid "Delete %s homes from your listings?"
+msgstr "%s woningen uit uw advertenties verwijderen?"
+
+#: templates/admin/fields-builder/forms/field-form.php:178
+msgid "Delete field"
+msgstr ""
+"Veld verwijderen\n"
+
+#: includes/helper-functions.php:641
+msgid "Delete homes"
+msgstr "Huizen verwijderen"
+
+#: templates/admin/properties-archive/quick-edit-bulk.php:105
+msgid "Delete properties"
+msgstr ""
+"Eigenschappen verwijderen\n"
+
+#: templates/admin/properties-archive/quick-edit.php:154
+msgid "Delete property"
+msgstr ""
+"Eigenschap verwijderen\n"
+
+#: includes/classes/pages/admin/class-properties-archive-page.php:338
+msgctxt "delete property"
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: templates/admin/fields-builder/forms/section-form.php:71
+msgid "Delete section"
+msgstr ""
+"Sectie verwijderen\n"
+
+#: includes/classes/data-manager/class-terms-creator.php:188
+msgid "Delete selected options"
+msgstr ""
+"Geselecteerde opties verwijderen\n"
+
+#: includes/classes/class-migrations.php:100
+msgid "Deleted"
+msgstr "Verwijderd"
+
+#: includes/classes/class-admin-menu.php:107
+#: includes/classes/class-admin-menu.php:108
+msgid "Demo content"
+msgstr "Demo-inhoud"
+
+#: templates/admin/demo/steps/step4.php:3
+msgid ""
+"Demo listings show how your pages look and work like. You can delete demo "
+"content any time."
+msgstr ""
+"Demolijsten laten zien hoe uw pagina's eruitzien en werken. U kunt demo-"
+"inhoud op elk moment verwijderen."
+
+#: includes/functions.php:262 includes/classes/entities/class-property.php:384
+msgid "Description"
+msgstr "Beschrijving"
+
+#: templates/admin/dashboard/partials/themes.php:47
+msgid "Details"
+msgstr "Details"
+
+#: includes/classes/widgets/class-request-form-widget.php:94
+#: includes/classes/widgets/elementor/class-elementor-request-form-widget.php:93
+msgid "Disable e-mail"
+msgstr "E-mail uitschakelen"
+
+#: templates/admin/settings/tabs/listings-tab.php:60
+msgid "Disable lightBox on single page"
+msgstr ""
+
+#: includes/classes/widgets/class-request-form-widget.php:84
+#: includes/classes/widgets/elementor/class-elementor-request-form-widget.php:81
+msgid "Disable name"
+msgstr ""
+"Naam uitschakelen\n"
+
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:93
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:114
+msgid "Disable navbar"
+msgstr "Navigatie uitschakelen"
+
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:90
+msgid "Disable pagination"
+msgstr ""
+"Paginering uitschakelen\n"
+
+#: includes/classes/widgets/class-request-form-widget.php:89
+#: includes/classes/widgets/elementor/class-elementor-request-form-widget.php:87
+msgid "Disable phone"
+msgstr ""
+"Telefoon uitschakelen\n"
+
+#: includes/classes/class-migrations.php:210
+msgid "Dishwasher"
+msgstr "Vaatwasser"
+
+#: includes/classes/class-settings-container.php:710
+msgid "DJF - Djibouti Franc"
+msgstr "DJF - Djibouti Franc"
+
+#: includes/classes/class-settings-container.php:709
+msgid "DKK - Danish Krone"
+msgstr "DKK - Danish Krone"
+
+#: includes/functions.php:296 includes/classes/entities/class-property.php:702
+msgid "Documents"
+msgstr "Documenten"
+
+#: templates/front/shortcodes/authentication/login-form.php:59
+msgid ""
+"Don't have an account? <a href=\"#\" class=\"js-es-auth-item__switcher\" "
+"data-auth-item=\"buyer-register-buttons\">Sign up</a>"
+msgstr ""
+"Heb je geen account? <a href=\"#\" class=\"js-es-auth-item__switcher\" data-"
+"auth-item=\"buyer-register-buttons\">Aanmelden</a>\n"
+
+#: templates/front/shortcodes/authentication/login-buttons.php:39
+msgid ""
+"Don't have an account? <a href=\"#\" data-auth-item=\"buyer-register-"
+"buttons\" class=\"js-es-auth-item__switcher\">Sign up</a>"
+msgstr ""
+"Heb je geen account? <a href=\"#\" data-auth-item=\"buyer-register-buttons\" "
+"class=\"js-es-auth-item__switcher\">Aanmelden</a>"
+
+#: includes/classes/class-settings-container.php:711
+msgid "DOP - Dominican Peso"
+msgstr "DOP - Dominican Peso"
+
+#: templates/admin/properties-archive/bulk-actions.php:9
+msgid "Draft"
+msgstr "Droogte"
+
+#: includes/classes/class-migrations.php:219
+msgid "Dryer"
+msgstr "Droger"
+
+#: templates/admin/properties-archive/bulk-actions.php:11
+#: includes/classes/pages/admin/class-properties-archive-page.php:334
+msgid "Duplicate"
+msgstr "Duplicaat"
+
+#: templates/admin/settings/tabs/seo-tab.php:29
+msgid "Dynamic content"
+msgstr "Dynamische inhoud"
+
+#: includes/classes/class-settings-container.php:667
+msgid "DZD - Algerian Dinar"
+msgstr "DZD - Algerian Dinar"
+
+#: includes/helper-functions.php:299
+#, php-format
+msgid "E.g. %s"
+msgstr "Bijv. %s"
+
+#: includes/classes/entities/class-property.php:835
+msgid "E.g. great view..."
+msgstr ""
+"Bijv. Mooi uitzicht...\n"
+
+#: includes/classes/entities/class-property.php:443
+msgid "E.g. Start From"
+msgstr "Bijv. Start van"
+
+#: includes/classes/class-admin-init.php:81
+msgid "Each 5 min"
+msgstr ""
+
+#: templates/admin/fields-builder/forms/field-form.php:14
+msgid "Edit field"
+msgstr "Veld bewerken"
+
+#: includes/helper-functions.php:646
+msgid "Edit pin location"
+msgstr "Pinlocatie bewerken"
+
+#: templates/front/shortcodes/profile/tabs/profile-form.php:14
+msgid "Edit profile"
+msgstr "Bewerk profiel"
+
+#: includes/hooks.php:257 includes/hooks.php:260
+msgid "Edit property"
+msgstr "Eigenschap bewerken"
+
+#: includes/classes/pages/admin/class-properties-archive-page.php:288
+msgctxt "edit property"
+msgid "Quick edit"
+msgstr "Snelle aanpassing"
+
+#: templates/admin/fields-builder/forms/section-form.php:11
+msgid "Edit section"
+msgstr "Bewerk sectie"
+
+#: includes/classes/class-settings-container.php:712
+msgid "EGP - Egyptian Pound"
+msgstr "EGP - Egyptian Pound"
+
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:144
+msgctxt "Elementor widget section"
+msgid "Advanced search fields"
+msgstr "Geavanceerde zoekvelden"
+
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:64
+#: includes/classes/widgets/elementor/class-elementor-request-form-widget.php:65
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:65
+#: includes/classes/widgets/elementor/class-elementor-authentication-widget.php:65
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:65
+#: includes/classes/widgets/elementor/class-elementor-properties-slider-widget.php:65
+msgctxt "Elementor widget section"
+msgid "Content"
+msgstr "Inhoud"
+
+#: includes/classes/widgets/elementor/class-elementor-request-form-widget.php:119
+msgctxt "Elementor widget section"
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:89
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:110
+msgctxt "Elementor widget section"
+msgid "Navbar"
+msgstr "Navbar"
+
+#: includes/classes/widgets/elementor/class-elementor-query.php:21
+msgctxt "Elementor widget section"
+msgid "Query filter"
+msgstr "Zoekfilter"
+
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:125
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:146
+msgctxt "Elementor widget section"
+msgid "Search navbar"
+msgstr "Navigatiebalk zoeken"
+
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:112
+msgctxt "Elementor widget section"
+msgid "Simple & main search fields"
+msgstr "Eenvoudige en hoofd zoekopdracht velden"
+
+#: includes/classes/widgets/elementor/class-elementor-properties-slider-widget.php:87
+msgctxt "Elementor widget section"
+msgid "Slider settings"
+msgstr "Instellingen schuifregelaar"
+
+#: includes/classes/widgets/elementor/class-elementor-request-form-widget.php:101
+msgctxt "Elementor widget section"
+msgid "Style"
+msgstr "Stijl"
+
+#: includes/classes/class-elementor.php:99
+msgctxt "Elementor widgets category name"
+msgid "Estatik"
+msgstr "Estatik"
+
+#: includes/classes/entities/class-user.php:26
+#: templates/front/shortcodes/profile/tabs/profile-form.php:35
+msgid "Email"
+msgstr ""
+"E-mail\n"
+
+#: includes/classes/widgets/class-request-form-widget.php:115
+msgid "Email subject"
+msgstr ""
+"E-mail onderwerp\n"
+
+#: includes/classes/widgets/elementor/class-elementor-request-form-widget.php:123
+msgctxt "email subject"
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:98
+msgid "Email*"
+msgstr "E-mail*"
+
+#: includes/helper-functions.php:293
+msgid "Embed the code"
+msgstr "Sluit de code in"
+
+#: includes/classes/widgets/class-properties-slider-widget.php:65
+#: includes/classes/widgets/elementor/class-elementor-properties-slider-widget.php:110
+msgid "Enable arrows"
+msgstr ""
+"Pijlen inschakelen\n"
+
+#: templates/admin/settings/tabs/seo-tab.php:5
+msgid "Enable auto tags"
+msgstr "Automatische tags inschakelen"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:22
+msgid ""
+"Enable auto-update search results for Simple and Advanced Estatik search"
+msgstr ""
+"Zoekresultaten automatisch bijwerken inschakelen voor Simple en Advanced "
+"Estatik zoeken"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:27
+msgid "Enable autocomplete locations for search"
+msgstr "Automatisch aanvullen van locaties voor zoeken inschakelen"
+
+#: templates/admin/settings/tabs/seo-tab.php:14
+msgid "Enable clickable tags"
+msgstr "Klikbare tags inschakelen"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:215
+msgid "Enable collapse list of more than 6 items"
+msgstr ""
+"Samenvouwlijst van meer dan 6 items inschakelen\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:55
+msgid "Enable collapsed description"
+msgstr ""
+
+#: includes/classes/widgets/class-search-form-widget.php:146
+msgid "Enable collapsed filters"
+msgstr "Samengevouwen filters inschakelen"
+
+#: templates/admin/settings/tabs/seo-tab.php:20
+msgid "Enable dynamic content"
+msgstr ""
+"Dynamische inhoud inschakelen\n"
+
+#: includes/classes/widgets/elementor/class-elementor-authentication-widget.php:82
+msgid "Enable Facebook auth"
+msgstr "Facebook-verificatie inschakelen"
+
+#: includes/classes/widgets/elementor/class-elementor-authentication-widget.php:88
+msgid "Enable Google auth"
+msgstr "Google-verificatie inschakelen"
+
+#: templates/admin/settings/tabs/recaptcha-tab.php:22
+msgid "Enable Google reCaptcha to submit forms:"
+msgstr "Schakel Google reCaptcha in om formulieren in te dienen:"
+
+#: templates/admin/settings/tabs/listings-tab.php:31
+#: templates/admin/settings/tabs/listings-tab.php:32
+msgid "Enable grid view"
+msgstr "Rasterweergave inschakelen"
+
+#: templates/admin/settings/tabs/terms-tab.php:4
+msgid "Enable information about Privacy policy & Terms of use to submit forms"
+msgstr ""
+"Schakel informatie over het privacybeleid en de gebruiksvoorwaarden in om "
+"formulieren in te dienen"
+
+#: templates/admin/settings/tabs/listings-tab.php:160
+msgid "Enable labels"
+msgstr "Labels inschakelen"
+
+#: templates/admin/settings/tabs/listings-tab.php:28
+#: templates/admin/settings/tabs/listings-tab.php:33
+msgid "Enable list view"
+msgstr "Lijstweergave inschakelen"
+
+#: templates/admin/settings/tabs/auth-tab.php:11
+msgid "Enable log in form"
+msgstr ""
+"Inlogformulier inschakelen\n"
+
+#: templates/admin/settings/tabs/auth-tab.php:28
+msgid "Enable log in with Facebook"
+msgstr ""
+"Inloggen met Facebook inschakelen\n"
+
+#: templates/admin/settings/tabs/auth-tab.php:56
+msgid "Enable log in with Google"
+msgstr "Inloggen met Google inschakelen"
+
+#: includes/classes/widgets/elementor/class-elementor-authentication-widget.php:94
+msgid "Enable Login form"
+msgstr "Inlogformulier inschakelen"
+
+#: includes/classes/widgets/class-search-form-widget.php:127
+msgid "Enable main filters"
+msgstr "Hoofdfilters inschakelen"
+
+#: templates/admin/settings/tabs/listings-tab.php:150
+msgid "Enable map on single listing page"
+msgstr "Kaart inschakelen op enkele vermeldingspagina"
+
+#: templates/admin/settings/tabs/map-tab.php:60
+msgid "Enable markers cluster"
+msgstr "Markeringencluster inschakelen"
+
+#: templates/admin/settings/tabs/general-tab.php:57
+msgid "Enable REST Support"
+msgstr ""
+"REST-ondersteuning inschakelen\n"
+
+#: includes/classes/widgets/class-search-form-widget.php:111
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:91
+msgid "Enable saved search"
+msgstr "Opgeslagen zoekopdracht inschakelen"
+
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:129
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:150
+msgid "Enable search bar"
+msgstr "Zoekbalk inschakelen"
+
+#: includes/classes/widgets/class-search-form-widget.php:118
+msgid "Enable search by address, city, ZIP"
+msgstr "Schakel zoeken op adres, stad, postcode in"
+
+#: templates/admin/settings/tabs/listings-tab.php:165
+msgid "Enable sharing"
+msgstr "Delen inschakelen"
+
+#: templates/admin/settings/tabs/sharing-tab.php:10
+msgid "Enable sharing via social networks"
+msgstr ""
+"Delen via sociale netwerken inschakelen\n"
+
+#: templates/admin/settings/tabs/sharing-tab.php:5
+msgid "Enable sharing with link"
+msgstr ""
+"Delen met link inschakelen\n"
+
+#: templates/admin/settings/tabs/sharing-tab.php:25
+msgid "Enable sharing with PDF"
+msgstr "Delen met PDF inschakelen"
+
+#: templates/admin/settings/tabs/auth-tab.php:120
+msgid "Enable sign up form for agents"
+msgstr "Aanmeldformulier voor agenten inschakelen"
+
+#: templates/admin/settings/tabs/auth-tab.php:94
+msgid "Enable sign up form for buyers"
+msgstr ""
+"Aanmeldformulier voor kopers inschakelen\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:110
+msgid "Enable sorting"
+msgstr ""
+"Sorteren inschakelen\n"
+
+#: templates/admin/settings/tabs/general-tab.php:53
+msgid ""
+"Enable this option if you want to remove Estatik logo and 'Powered by' link "
+"on Estatik pages."
+msgstr ""
+"Schakel deze optie in als u het Estatik-logo en de link 'Powered by' op "
+"Estatik-pagina's wilt verwijderen."
+
+#: templates/admin/settings/tabs/general-tab.php:50
+msgid "Enable white label"
+msgstr "Whitelabel inschakelen"
+
+#: templates/admin/settings/tabs/listings-tab.php:155
+msgid "Enable wishlist"
+msgstr "Verlanglijst inschakelen"
+
+#: includes/classes/class-settings-container.php:311
+msgid "English (CAD)"
+msgstr "English (CAD)"
+
+#: includes/classes/class-settings-container.php:323
+msgid "English (GB)"
+msgstr "English (GB)"
+
+#: includes/classes/class-settings-container.php:299
+msgid "English (USA)"
+msgstr "English (USA)"
+
+#: includes/classes/widgets/class-properties-filter-widget.php:61
+msgid "Enter IDs separated by commas"
+msgstr "Voer ID's in, gescheiden door komma's"
+
+#: templates/front/shortcodes/authentication/reset-form.php:4
+msgid ""
+"Enter your email address and we will send you a link to change your password."
+msgstr ""
+"Voer uw e-mailadres in en we sturen u een link om uw wachtwoord te wijzigen."
+
+#: includes/classes/class-settings-container.php:714
+msgid "ERN - Nakfa"
+msgstr "ERN - Nakfa"
+
+#: includes/classes/class-address-components.php:36
+#: templates/admin/fields-builder/forms/field-form.php:112
+msgid "establishment"
+msgstr ""
+
+#. Name of the plugin
+#. Author of the plugin
+#: includes/hooks.php:534 includes/classes/class-admin-menu.php:27
+#: includes/classes/class-admin-menu.php:28
+msgid "Estatik"
+msgstr "Estatik"
+
+#: includes/hooks.php:490
+msgid "Estatik Authentication"
+msgstr "Estatik-authenticatie"
+
+#: includes/hooks.php:492
+msgid "Estatik Half map"
+msgstr "Estatik Halve kaart"
+
+#: includes/classes/pages/admin/class-demo-page.php:272
+msgctxt "estatik product"
+msgid "Premium"
+msgstr "Premium"
+
+#: includes/classes/pages/admin/class-demo-page.php:266
+msgctxt "estatik product"
+msgid "PRO"
+msgstr "PRO"
+
+#: includes/classes/pages/admin/class-demo-page.php:261
+msgctxt "estatik product"
+msgid "Simple"
+msgstr "Simple"
+
+#: includes/hooks.php:491
+msgid "Estatik Profile"
+msgstr "Estatik-profiel"
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:65
+msgid "Estatik Request Info from"
+msgstr "Estatik Vraag informatie aan van"
+
+#: includes/hooks.php:493
+msgid "Estatik Search results"
+msgstr "Estatik Zoekresultaten"
+
+#: includes/classes/pages/admin/class-demo-page.php:262
+msgctxt "estatik simple price"
+msgid "Free"
+msgstr "GRATIS"
+
+#: includes/classes/class-divi-single-entity-module.php:14
+#: includes/classes/class-divi-single-entity-module.php:15
+msgid "Estatik Single Page"
+msgstr ""
+
+#: templates/admin/dashboard/partials/themes.php:2
+msgid "Estatik themes & freebies"
+msgstr "Estatik-thema's en gratis aanbiedingen"
+
+#: includes/classes/class-settings-container.php:715
+msgid "ETB - Ethiopian Birr"
+msgstr "ETB - Ethiopian Birr"
+
+#: includes/classes/class-settings-container.php:656
+msgid "EUR - Euro"
+msgstr "EUR - Euro"
+
+#: includes/classes/entities/class-property.php:653
+msgid "Ex. -62.149905"
+msgstr "Ex. -62.149905"
+
+#: includes/classes/entities/class-property.php:640
+msgid "Ex. 63.524073"
+msgstr "Ex. 63.524073"
+
+#: templates/admin/settings/tabs/map-tab.php:17
+msgid "ex: 12.381068,-1.492711"
+msgstr "ex: 12.381068,-1.492711"
+
+#: includes/classes/pages/admin/class-data-manager-page.php:384
+msgid "Exterior"
+msgstr "Buitenkant"
+
+#: includes/classes/class-taxonomies.php:121
+#: includes/classes/class-taxonomies.php:122
+msgid "Exterior Material"
+msgstr "Exterieur materiaal"
+
+#: includes/classes/entities/class-property.php:802
+msgid "Exterior material"
+msgstr "Exterieur materiaal"
+
+#: includes/classes/class-settings-container.php:850
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/classes/auth/class-facebook-authentication.php:136
+msgid "Facebook user email is empty"
+msgstr "E-mailadres van Facebook-gebruiker is leeg"
+
+#: includes/classes/framework/class-estatik-framework.php:55
+msgid "Failed"
+msgstr "Mislukt"
+
+#: includes/classes/class-taxonomies.php:158
+msgid "Feature"
+msgstr "Voorzien zijn van"
+
+#: includes/classes/class-migrations.php:164
+#: includes/classes/class-migrations.php:176
+#: includes/classes/pages/admin/class-properties-archive-page.php:381
+msgid "Featured"
+msgstr "Uitgelicht"
+
+#: includes/classes/class-taxonomies.php:157
+#: includes/classes/entities/class-property.php:766
+msgid "Features"
+msgstr "Functies"
+
+#: includes/classes/fields-builder/class-fields-builder-item.php:37
+msgctxt "field builder visible for"
+msgid "Admins"
+msgstr "Beheerders"
+
+#: includes/classes/fields-builder/class-fields-builder-item.php:38
+msgctxt "field builder visible for"
+msgid "Agents"
+msgstr "Agenten"
+
+#: includes/classes/fields-builder/class-fields-builder-item.php:36
+msgctxt "field builder visible for"
+msgid "All users"
+msgstr "Alle gebruikers"
+
+#: includes/classes/fields-builder/class-fields-builder-item.php:40
+msgctxt "field builder visible for"
+msgid "Authenticated Users"
+msgstr "Geverifieerde gebruikers"
+
+#: includes/classes/fields-builder/class-fields-builder-item.php:39
+msgctxt "field builder visible for"
+msgid "Buyers"
+msgstr "Kopers"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:435
+msgid "Field didn't saved."
+msgstr "Veld is niet opgeslagen."
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:404
+msgid "Field machine name is empty."
+msgstr "Naam veldmachine is leeg."
+
+#: templates/admin/fields-builder/forms/field-form.php:30
+msgid "Field name"
+msgstr "Veldnaam"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:45
+msgid "Field successfully restored."
+msgstr "Veld succesvol hersteld."
+
+#: includes/classes/fields-builder/class-fields-builder.php:37
+msgctxt "field type"
+msgid "Area"
+msgstr "Gebied"
+
+#: includes/classes/fields-builder/class-fields-builder.php:48
+msgctxt "field type"
+msgid "Checkboxes"
+msgstr "Selectievakjes"
+
+#: includes/classes/fields-builder/class-fields-builder.php:40
+msgctxt "field type"
+msgid "Date & time picker"
+msgstr "Datum- en tijdkiezer"
+
+#: includes/classes/fields-builder/class-fields-builder.php:39
+msgctxt "field type"
+msgid "Date picker"
+msgstr "Datumkiezer"
+
+#: includes/classes/fields-builder/class-fields-builder.php:45
+msgctxt "field type"
+msgid "Dropdown"
+msgstr "Laten vallen"
+
+#: includes/classes/fields-builder/class-fields-builder.php:41
+msgctxt "field type"
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/classes/fields-builder/class-fields-builder.php:38
+msgctxt "field type"
+msgid "File Upload"
+msgstr "Bestand Upload"
+
+#: includes/classes/fields-builder/class-fields-builder.php:35
+msgctxt "field type"
+msgid "Number"
+msgstr "Nummer"
+
+#: includes/classes/fields-builder/class-fields-builder.php:42
+msgctxt "field type"
+msgid "Phone number"
+msgstr "Telefoonnummer"
+
+#: includes/classes/fields-builder/class-fields-builder.php:36
+msgctxt "field type"
+msgid "Price"
+msgstr "Prijs"
+
+#: includes/classes/fields-builder/class-fields-builder.php:49
+msgctxt "field type"
+msgid "Radio buttons"
+msgstr "Radio knoppen"
+
+#: includes/classes/fields-builder/class-fields-builder.php:46
+msgctxt "field type"
+msgid "Select - buttons"
+msgstr "Selecteer - knoppen"
+
+#: includes/classes/fields-builder/class-fields-builder.php:47
+msgctxt "field type"
+msgid "Switch"
+msgstr "Schakelaar"
+
+#: includes/classes/fields-builder/class-fields-builder.php:34
+msgctxt "field type"
+msgid "Text"
+msgstr "Tekst"
+
+#: includes/classes/fields-builder/class-fields-builder.php:44
+msgctxt "field type"
+msgid "Textarea"
+msgstr "Tekstgebied"
+
+#: includes/classes/fields-builder/class-fields-builder.php:43
+msgctxt "field type"
+msgid "URL"
+msgstr "URL"
+
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:121
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:135
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:147
+msgid "Fields"
+msgstr ""
+"Velden\n"
+
+#: includes/classes/class-admin-menu.php:82
+#: includes/classes/class-admin-menu.php:83
+msgid "Fields Builder"
+msgstr "Velden bouwer"
+
+#: includes/classes/class-admin-init.php:104
+#: includes/classes/pages/admin/class-dashboard-page.php:217
+msgid "Fields builder"
+msgstr "Velden bouwer"
+
+#: includes/classes/pages/admin/class-migration-page.php:65
+msgid "Fields Builder migrated."
+msgstr "Fields Builder gemigreerd."
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:137
+msgctxt "fields builder options"
+msgid "Option {#index}"
+msgstr "Optie {#index}"
+
+#: templates/front/shortcodes/search/main.php:101
+#: templates/front/shortcodes/search/simple.php:48
+msgid "Filters"
+msgstr "Filters"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:39
+msgid "Filters options"
+msgstr "Filteropties"
+
+#: includes/classes/shortcodes/class-search-form-shortcode.php:98
+msgid "Find Your Perfect Home"
+msgstr "Vind je perfecte huis"
+
+#: templates/admin/demo/steps/step4.php:14
+msgid "Finish step"
+msgstr "Voltooi stap"
+
+#: includes/classes/class-migrations.php:138
+msgid "Finished"
+msgstr ""
+"Afgerond\n"
+
+#: includes/classes/class-migrations.php:191
+msgid "Fire alarm"
+msgstr "Brandalarm"
+
+#: includes/classes/class-migrations.php:195
+msgid "Fireplace"
+msgstr ""
+"Haard\n"
+
+#: includes/classes/entities/class-user.php:37
+msgid "First name"
+msgstr "Voornaam"
+
+#: includes/classes/class-settings-container.php:717
+msgid "FJD - Fiji Dollar"
+msgstr "FJD - Fiji Dollar"
+
+#: includes/classes/class-settings-container.php:716
+msgid "FKP - Falkland Islands Pound"
+msgstr "FKP - Falkland Islands Pound"
+
+#: includes/functions.php:77
+msgid "floor"
+msgid_plural "floors"
+msgstr[0] "vloer"
+msgstr[1] "vloeren"
+
+#: includes/classes/class-taxonomies.php:145
+#: includes/classes/class-taxonomies.php:146
+#: includes/classes/entities/class-property.php:784
+msgid "Floor covering"
+msgstr ""
+"Vloerbedekking\n"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:276
+msgid "Floor Level"
+msgstr "Etage"
+
+#: includes/classes/entities/class-property.php:243
+msgid "Floor level"
+msgstr "Etage"
+
+#: includes/functions.php:302
+msgid "Floor Plans"
+msgstr "Plattegronden"
+
+#: includes/classes/entities/class-property.php:719
+msgid "Floor plans"
+msgstr "Plattegronden"
+
+#: includes/classes/entities/class-property.php:228
+#: templates/admin/settings/tabs/listing-search-tab.php:254
+msgid "Floors"
+msgstr "Vloeren"
+
+#: templates/admin/settings/tabs/general-tab.php:72
+msgid "For large buttons like Search, Request info, etc."
+msgstr "Voor grote knoppen zoals Zoeken, Info aanvragen, etc."
+
+#: includes/classes/class-migrations.php:85
+msgid "For rent"
+msgstr "Te huur"
+
+#: includes/classes/class-migrations.php:84
+msgid "For sale"
+msgstr "Te koop"
+
+#: templates/admin/settings/tabs/general-tab.php:80
+msgid "For smaller buttons like Search on results page, Contact, etc."
+msgstr "Voor kleinere knoppen zoals Zoeken op resultatenpagina, Contact, etc."
+
+#: templates/admin/demo/steps/step2.php:3
+msgid "For using Google maps on listing pages."
+msgstr "Voor het gebruik van Google maps op listingpagina's."
+
+#: includes/classes/class-migrations.php:165
+msgid "Foreclosure"
+msgstr "Afscherming"
+
+#: templates/front/shortcodes/authentication/login-form.php:45
+msgid "Forgot password?"
+msgstr "Wachtwoord vergeten?"
+
+#: includes/classes/widgets/elementor/class-elementor-authentication-widget.php:69
+msgid "Form"
+msgstr "Formulier"
+
+#: includes/classes/class-settings-container.php:246
+msgid "France"
+msgstr "Frankrijk"
+
+#: includes/classes/class-settings-container.php:370
+msgid "French (France)"
+msgstr "Frans (Frankrijk)"
+
+#: templates/admin/partials/help.php:7
+msgid "Frequently asked questions"
+msgstr "Veel Gestelde Vragen"
+
+#: includes/classes/entities/class-saved-search.php:84
+#, php-format
+msgid "From %s"
+msgstr "Van %s"
+
+#: templates/admin/demo/steps/step3.php:58
+msgid "Front-end management"
+msgstr "Front-end beheer"
+
+#: includes/classes/class-migrations.php:111
+msgid "Garage - attached"
+msgstr "Garage - aangebouwd"
+
+#: includes/classes/class-migrations.php:112
+msgid "Garage - detached"
+msgstr "Garage - vrijstaand"
+
+#: includes/classes/class-migrations.php:218
+msgid "Garbage disposal"
+msgstr "Afvalverwijdering"
+
+#: includes/classes/class-migrations.php:188
+msgid "Garden"
+msgstr "Tuin"
+
+#: includes/classes/class-settings-container.php:657
+msgid "GBP - Pound Sterling"
+msgstr "GBP - Pound Sterling"
+
+#: includes/classes/class-settings-container.php:720
+msgid "GEL - Lari"
+msgstr "GEL - Lari"
+
+#: templates/admin/settings/tabs/listings-tab.php:5
+msgid "General listing name"
+msgstr "Algemene objectnaam"
+
+#: includes/classes/class-settings-container.php:347
+msgid "German"
+msgstr "Duits"
+
+#: includes/classes/class-settings-container.php:247
+msgid "Germany"
+msgstr "Duitsland"
+
+#: includes/classes/class-settings-container.php:405
+msgid "Get started with your account"
+msgstr "Aan de slag met uw account"
+
+#: templates/admin/demo/steps/step2.php:9
+msgid "getting the key"
+msgstr "de sleutel krijgen"
+
+#: includes/classes/class-settings-container.php:721
+msgid "GHS - Ghana Cedi"
+msgstr "GHS - Ghana Cedi"
+
+#: includes/classes/class-settings-container.php:722
+msgid "GIP - Gibraltar Pound"
+msgstr "GIP - Gibraltar Pound"
+
+#: includes/classes/class-settings-container.php:719
+msgid "GMD - Dalasi"
+msgstr "GMD - Dalasi"
+
+#: includes/classes/class-settings-container.php:724
+msgid "GNF - Guinea Franc"
+msgstr "GNF - Guinea Franc"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:133
+#: templates/admin/settings/tabs/listing-search-tab.php:208
+#, php-format
+msgid "Go to %s to edit options."
+msgstr "Ga naar %s om opties te bewerken."
+
+#: templates/front/shortcodes/profile/tabs/saved-searches.php:58
+#: templates/front/shortcodes/profile/tabs/saved-homes.php:27
+msgid "Go to search"
+msgstr "Ga naar zoeken"
+
+#: templates/admin/settings/tabs/map-tab.php:9
+msgid "Google API key"
+msgstr "Google API-sleutel"
+
+#: templates/admin/demo/steps/step2.php:7
+msgid "Google Maps API Key"
+msgstr "Google Maps API-sleutel"
+
+#: includes/classes/auth/class-google-authentication.php:158
+msgid "Google user email is empty"
+msgstr "E-mailadres van Google-gebruiker is leeg"
+
+#: includes/helper-functions.php:639
+#: includes/classes/shortcodes/class-request-form-shortcode.php:138
+#: includes/classes/pages/front/class-profile-page.php:22
+#: includes/classes/pages/front/class-profile-page.php:96
+msgid "Got it"
+msgstr "Ik snap het"
+
+#: includes/classes/class-settings-container.php:248
+msgid "Great Britain"
+msgstr "Groot Brittanië"
+
+#: includes/classes/class-settings-container.php:838
+#: includes/classes/pages/admin/class-demo-page.php:293
+#: templates/admin/demo/steps/step3.php:37
+msgid "Grid layout"
+msgstr "Rasterindeling"
+
+#: includes/classes/class-settings-container.php:723
+msgid "GTQ - Quetzal"
+msgstr "GTQ - Quetzal"
+
+#: includes/classes/class-settings-container.php:725
+msgid "GYD - Guyana Dollar"
+msgstr "GYD - Guyana Dollar"
+
+#: includes/functions.php:81
+msgid "half bath"
+msgid_plural "half baths"
+msgstr[0] "half bad"
+msgstr[1] "halve baden"
+
+#: includes/classes/entities/class-property.php:194
+msgid "Half baths"
+msgstr "Halve baden"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:197
+msgid "Half baths list"
+msgstr "Lijst met halve baden"
+
+#: includes/classes/class-migrations.php:145
+msgid "Hard wood"
+msgstr "Hard wood"
+
+#: includes/classes/class-migrations.php:186
+msgid "Heating"
+msgstr "Verwarming"
+
+#: includes/classes/class-settings-container.php:218
+msgid "hectares"
+msgstr "hectare"
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:60
+msgid "Hello, I'd like more information about this home. Thank you!"
+msgstr "Hallo, ik wil graag meer informatie over deze woning. Dank u!"
+
+#: includes/entity-functions.php:75
+msgid "Hide"
+msgstr "Verbergen"
+
+#: includes/classes/entities/class-property.php:469
+msgid "Hide address from clients"
+msgstr "Adres verbergen voor klanten"
+
+#: templates/front/partials/entity-section-content.php:48
+msgid "Hide description"
+msgstr ""
+"Beschrijving verbergen\n"
+
+#: templates/front/shortcodes/search/simple.php:105
+msgid "Hide filters"
+msgstr ""
+"Verberg filters\n"
+
+#: templates/admin/property/tabs/location.php:21
+#: templates/admin/property/tabs/location.php:23
+msgid "Hide manual address entry"
+msgstr ""
+"Handmatige adresinvoer verbergen\n"
+
+#: includes/classes/widgets/class-widget.php:110
+msgid "Hide on checked page"
+msgstr "Verbergen op aangevinkte pagina"
+
+#: templates/admin/settings/tabs/listings-tab.php:65
+msgid "Hide Request Info button"
+msgstr ""
+"Verberg de knop Info aanvragen\n"
+
+#: includes/classes/class-settings-container.php:225
+msgid "Highest price"
+msgstr ""
+"Hoogste prijs\n"
+
+#: includes/classes/class-settings-container.php:728
+msgid "HKD - Hong Kong Dollar"
+msgstr "HKD - Hong Kong Dollar"
+
+#: includes/classes/class-settings-container.php:727
+msgid "HNL - Lempira"
+msgstr "HNL - Lempira"
+
+#: includes/classes/widgets/elementor/class-elementor-properties-slider-widget.php:79
+msgid "Horizontal"
+msgstr "Horizontaal"
+
+#: includes/classes/class-migrations.php:88
+msgid "Houses"
+msgstr "Huizen"
+
+#: includes/classes/class-settings-container.php:704
+msgid "HRK - Kuna"
+msgstr "HRK - Kuna"
+
+#: includes/classes/class-settings-container.php:726
+msgid "HTG - Gourde"
+msgstr "HTG - Gourde"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://estatik.net"
+msgstr "http://estatik.net"
+
+#: includes/classes/class-settings-container.php:729
+msgid "HUF - Forint"
+msgstr "HUF - Forint"
+
+#: includes/hooks.php:309 templates/admin/settings/tabs/terms-tab.php:13
+msgid "I agree to the Terms of Use and Privacy Policy"
+msgstr "Ik ga akkoord met de gebruiksvoorwaarden en het privacybeleid"
+
+#: includes/classes/class-settings-container.php:481
+msgid "Icon"
+msgstr "Pictogram"
+
+#: templates/admin/settings/tabs/map-tab.php:78
+#: templates/admin/settings/tabs/map-tab.php:115
+#: templates/admin/settings/tabs/map-tab.php:140
+#: templates/admin/settings/tabs/map-tab.php:200
+msgid "Icon color"
+msgstr "Pictogram kleur"
+
+#: includes/classes/class-settings-container.php:474
+msgid "Icons"
+msgstr "Pictogrammen"
+
+#: includes/classes/entities/class-property.php:365
+#: includes/classes/pages/admin/class-properties-archive-page.php:400
+msgid "ID"
+msgstr "ID"
+
+#: includes/classes/class-settings-container.php:731
+msgid "IDR - Rupiah"
+msgstr "IDR - Rupiah"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:313
+msgid ""
+"If you are limited in time or just don’t feel like setting up the plugin "
+"yourself, our team is at your service. We can help set up your WordPress "
+"website to look like our plugin or theme demo websites."
+msgstr ""
+
+#: includes/classes/class-settings-container.php:735
+msgid "ILS - New Israeli Sheqel"
+msgstr "ILS - New Israeli Sheqel"
+
+#: includes/classes/pages/admin/class-properties-archive-page.php:402
+msgid "Image"
+msgstr ""
+"Afbeelding\n"
+
+#: includes/helper-functions.php:1798
+msgctxt "image size crop"
+msgid "Cropped"
+msgstr ""
+
+#: includes/helper-functions.php:1798
+msgctxt "image size crop"
+msgid "Without crop"
+msgstr ""
+
+#: templates/admin/demo/steps/step4.php:8
+msgctxt "import demo listings"
+msgid "No"
+msgstr "Geen"
+
+#: templates/admin/demo/steps/step4.php:9
+msgctxt "import demo listings"
+msgid "Yes"
+msgstr "Ja"
+
+#: templates/admin/dashboard/index.php:116
+#, php-format
+msgid ""
+"Import listings from your MLS via RETS, Web API or CREA DDF facility. Plugin "
+"setup service is included. Sit back and let us handle everything! Click <a "
+"href=\"%s\" target=\"%s\">here</a> to read details."
+msgstr ""
+
+#: includes/classes/widgets/class-properties-slider-widget.php:70
+#: includes/classes/widgets/elementor/class-elementor-properties-slider-widget.php:116
+msgid "Infinite"
+msgstr "Eindeloos"
+
+#: includes/classes/class-settings-container.php:683
+msgid "INR - Indian Rupee"
+msgstr "INR - Indiase roepie"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:314
+#, fuzzy
+#| msgid "Installation & setup"
+msgid "Installation & Setup"
+msgstr "Installatie & configuratie"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:318
+msgid ""
+"Installation, connection to MLS, and mapping MLS fields to Estatik for every "
+"property type (Residential, Commercial, Multifamily, Lease, LotsAndLand, etc."
+"), setting up automatic import, and launching synchronization."
+msgstr ""
+
+#: includes/classes/pages/admin/class-data-manager-page.php:380
+msgid "Interior"
+msgstr "Interieur"
+
+#: includes/classes/pages/admin/class-migration-page.php:162
+msgid "Internal server error"
+msgstr "Interne Server Fout"
+
+#: includes/classes/class-address-components.php:17
+#: templates/admin/fields-builder/forms/field-form.php:93
+#, fuzzy
+#| msgid "Intersection"
+msgid "intersection"
+msgstr "Kruispunt"
+
+#: includes/classes/class-auth-init.php:247
+msgid "Invalid authentication method."
+msgstr "Ongeldige authenticatiemethode."
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:266
+msgid "Invalid input type"
+msgstr "Ongeldig invoertype"
+
+#: includes/classes/pages/admin/class-properties-archive-page.php:52
+msgid "Invalid post type."
+msgstr "Ongeldig berichttype"
+
+#: includes/ajax.php:235
+msgid "Invalid saved search."
+msgstr "Ongeldige opgeslagen zoekopdracht."
+
+#: includes/ajax.php:183 includes/ajax.php:238
+#: includes/helper-functions.php:930 includes/classes/framework/ajax.php:44
+#: includes/classes/shortcodes/class-request-form-shortcode.php:172
+#: includes/classes/pages/front/class-profile-page.php:23
+#: includes/classes/pages/front/class-profile-page.php:97
+msgid "Invalid security nonce. Please, reload the page and try again."
+msgstr ""
+"Ongeldige beveiliging nonce. Laad de pagina opnieuw en probeer het opnieuw."
+
+#: includes/classes/auth/class-authentication.php:77
+msgid "Invalid user email"
+msgstr "Ongeldig e-mailadres van gebruiker"
+
+#: includes/classes/class-auth-init.php:237
+msgid "Invalid user email."
+msgstr "Ongeldig e-mailadres van gebruiker."
+
+#: includes/classes/class-settings-container.php:734
+msgid "IQD - Iraqi Dinar"
+msgstr "IQD - Iraqi Dinar"
+
+#: includes/classes/class-migrations.php:214
+msgid "Iron"
+msgstr "Ijzer"
+
+#: includes/classes/class-settings-container.php:733
+msgid "IRR - Iranian Rial"
+msgstr "IRR - Iranian Rial"
+
+#: includes/classes/entities/class-property.php:463
+msgid "Is manual address"
+msgstr "Is handmatig adres"
+
+#: includes/classes/class-settings-container.php:730
+msgid "ISK - Iceland Krona"
+msgstr "ISK - Iceland Krona"
+
+#: includes/ajax.php:84
+msgid "Item successfully added to wishlist"
+msgstr "Artikel succesvol toegevoegd aan verlanglijst"
+
+#: includes/ajax.php:81
+msgid "Item successfully removed from wishlist"
+msgstr "Artikel succesvol verwijderd van verlanglijst"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:331
+msgid "Items order was changed successfully."
+msgstr "De bestelling van de artikelen is met succes gewijzigd."
+
+#: includes/classes/class-migrations.php:216
+msgid "Jacuzzi"
+msgstr "Jacuzzi"
+
+#: includes/classes/class-settings-container.php:736
+msgid "JMD - Jamaican Dollar"
+msgstr "JMD - Jamaican Dollar"
+
+#: includes/classes/class-settings-container.php:738
+msgid "JOD - Jordanian Dinar"
+msgstr "JOD - Jordanian Dinar"
+
+#: includes/classes/class-settings-container.php:737
+msgid "JPY - Yen"
+msgstr "JPY - Yen"
+
+#: includes/classes/class-settings-container.php:740
+msgid "KES - Kenyan Shilling"
+msgstr "KES - Kenyan Shilling"
+
+#: includes/classes/entities/class-property.php:828
+msgid "Keywords"
+msgstr "Trefwoorden"
+
+#: includes/classes/class-settings-container.php:744
+msgid "KGS - Som"
+msgstr "KGS - Som"
+
+#: includes/classes/class-settings-container.php:693
+msgid "KHR - Riel"
+msgstr "KHR - Riel"
+
+#: includes/classes/class-settings-container.php:700
+msgid "KMF - Comoro Franc"
+msgstr "KMF - Comoro Franc"
+
+#: includes/classes/class-settings-container.php:741
+msgid "KPW - North Korean Won"
+msgstr "KPW - North Korean Won"
+
+#: includes/classes/class-settings-container.php:742
+msgid "KRW - Won"
+msgstr "KRW - Won"
+
+#: includes/classes/class-settings-container.php:743
+msgid "KWD - Kuwaiti Dinar"
+msgstr "KWD - Kuwaiti Dinar"
+
+#: includes/classes/class-settings-container.php:695
+msgid "KYD - Cayman Islands Dollar"
+msgstr "KYD - Cayman Islands Dollar"
+
+#: includes/classes/class-settings-container.php:739
+msgid "KZT - Tenge"
+msgstr "KZT - Tenge"
+
+#: includes/classes/class-taxonomies.php:75
+msgid "Label"
+msgstr "Label"
+
+#: templates/admin/fields-builder/forms/field-form.php:39
+msgid "Label for frontend form"
+msgstr "Label voor frontend-formulier"
+
+#: includes/classes/class-taxonomies.php:74
+#: includes/classes/pages/admin/class-data-manager-page.php:368
+#: includes/classes/widgets/elementor/class-elementor-query.php:77
+msgid "Labels"
+msgstr "Etiketten"
+
+#: includes/classes/class-settings-container.php:745
+msgid "LAK - Kip"
+msgstr "LAK - Kip"
+
+#: includes/classes/class-migrations.php:146
+msgid "Laminate"
+msgstr "laminaat"
+
+#: includes/classes/class-migrations.php:93
+msgid "Land"
+msgstr "Land"
+
+#: includes/classes/class-address-components.php:37
+#: templates/admin/fields-builder/forms/field-form.php:113
+msgid "landmark"
+msgstr ""
+
+#: templates/admin/settings/tabs/general-tab.php:12
+msgid "Language"
+msgstr "Taal"
+
+#: includes/classes/class-settings-container.php:839
+msgid "Large grid layout"
+msgstr "Grote rasterlay-out"
+
+#: includes/classes/class-settings-container.php:226
+msgid "Largest sq ft"
+msgstr "Grootste vierkante ft"
+
+#: includes/classes/entities/class-user.php:41
+msgid "Last name"
+msgstr "Achternaam"
+
+#: includes/classes/entities/class-property.php:633
+msgid "Latitude"
+msgstr "Breedtegraad"
+
+#: includes/classes/widgets/class-listings-widget.php:56
+#: includes/classes/widgets/class-properties-slider-widget.php:52
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:75
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:75
+#: includes/classes/widgets/elementor/class-elementor-properties-slider-widget.php:75
+msgid "Layout"
+msgstr "Lay-out"
+
+#: includes/classes/class-settings-container.php:746
+msgid "LBP - Lebanese Pound"
+msgstr "LBP - Lebanese Pound"
+
+#: templates/admin/properties-archive/filter.php:56
+#: templates/front/shortcodes/search/main.php:100
+#: templates/front/shortcodes/search/advanced.php:46
+msgid "Less filters"
+msgstr "Minder filters"
+
+#: templates/admin/demo/steps/step1.php:2
+msgid "Let’s adjust Estatik to your needs"
+msgstr "Laten we Estatik aanpassen aan uw behoeften"
+
+#: includes/classes/widgets/class-listings-widget.php:76
+msgid "Link button name"
+msgstr "Naam linkknop"
+
+#: includes/classes/widgets/class-listings-widget.php:83
+msgid "Link button page"
+msgstr "Link knop pagina"
+
+#: includes/classes/framework/fields/class-link-field.php:14
+msgid "Link name"
+msgstr "Linknaam"
+
+#: includes/helper-functions.php:287
+#: includes/classes/entities/class-property.php:739
+msgid "Link to your video from YouTube or Vimeo"
+msgstr "Link naar je video van YouTube of Vimeo"
+
+#: includes/classes/class-settings-container.php:849
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: includes/classes/class-migrations.php:147
+msgid "Linoleum/vinyl"
+msgstr "Linoleum/vinyl"
+
+#: includes/classes/class-settings-container.php:840
+#: includes/classes/pages/admin/class-demo-page.php:289
+#: templates/admin/demo/steps/step3.php:34
+msgid "List layout"
+msgstr "Lijstindeling"
+
+#: includes/classes/pages/admin/class-migration-page.php:119
+#, php-format
+msgid "Listing #%s successfully migrated."
+msgstr "Vermelding #%s succesvol gemigreerd."
+
+#: includes/classes/pages/admin/class-settings-page.php:89
+#: templates/admin/settings/tabs/listing-search-tab.php:1
+msgid "Listing search"
+msgstr "Object zoeken"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:573
+msgid "Listing sections"
+msgstr "Object secties"
+
+#: includes/classes/widgets/class-properties-filter-widget.php:58
+msgid "Listings IDs"
+msgstr "Vermelding IDs"
+
+#: includes/classes/pages/admin/class-migration-page.php:94
+msgid "Listings labels migrated."
+msgstr "Vermeldingslabels zijn gemigreerd."
+
+#: includes/classes/widgets/class-listings-widget.php:60
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:79
+msgctxt "listings layout name"
+msgid "1 column"
+msgstr "1 kolom"
+
+#: includes/classes/widgets/class-listings-widget.php:61
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:80
+msgctxt "listings layout name"
+msgid "2 columns"
+msgstr "2 kolommen"
+
+#: includes/classes/widgets/class-listings-widget.php:62
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:81
+msgctxt "listings layout name"
+msgid "3 columns"
+msgstr "3 kolommen"
+
+#: includes/classes/widgets/class-listings-widget.php:63
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:82
+msgctxt "listings layout name"
+msgid "4 columns"
+msgstr "4 kolommen"
+
+#: includes/classes/widgets/class-listings-widget.php:64
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:83
+msgctxt "listings layout name"
+msgid "5 columns"
+msgstr "5 kolommen"
+
+#: includes/classes/widgets/class-listings-widget.php:65
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:84
+msgctxt "listings layout name"
+msgid "6 columns"
+msgstr "6 kolommen"
+
+#: includes/classes/widgets/class-listings-widget.php:59
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:78
+msgctxt "listings layout name"
+msgid "List"
+msgstr "Lijst"
+
+#: includes/classes/pages/admin/class-migration-page.php:130
+msgid "Listings successfully migrated."
+msgstr "Objecten  zijn gemigreerd."
+
+#: includes/classes/widgets/class-properties-filter-widget.php:67
+msgid "Listings to show"
+msgstr "Vermeldingen om te laten zien"
+
+#: includes/classes/class-settings-container.php:794
+msgid "LKR - Sri Lanka Rupee"
+msgstr "LKR - Sri Lanka Rupee"
+
+#: includes/classes/class-address-components.php:26
+#: templates/admin/fields-builder/forms/field-form.php:102
+#, fuzzy
+#| msgid "Locality"
+msgid "locality"
+msgstr "Plaats"
+
+#: includes/functions.php:274 includes/classes/class-taxonomies.php:26
+msgid "Location"
+msgstr "Plaats"
+
+#: templates/front/shortcodes/search/partials/autocomplete.php:19
+#: templates/front/shortcodes/search/partials/autocomplete.php:35
+msgid "Location not found"
+msgstr "Locatie niet gevonden"
+
+#: includes/classes/class-taxonomies.php:25
+#: includes/classes/pages/admin/class-data-manager-page.php:412
+msgid "Locations"
+msgstr "Locaties"
+
+#: includes/classes/pages/admin/class-demo-page.php:312
+#: templates/admin/demo/steps/step3.php:49
+#: templates/admin/settings/tabs/auth-tab.php:21
+#: templates/front/shortcodes/authentication/login-form.php:55
+msgid "Log in"
+msgstr "Log in"
+
+#: templates/admin/settings/tabs/auth-tab.php:22
+msgid "Log in page"
+msgstr "Login pagina"
+
+#: templates/front/shortcodes/authentication/login-buttons.php:26
+#, php-format
+msgid "Log in with %s"
+msgstr "Log in met %s"
+
+#: templates/front/shortcodes/authentication/login-buttons.php:34
+msgid "Log in with email"
+msgstr "Inloggen met e-mail"
+
+#: templates/front/shortcodes/profile/profile.php:68
+#: templates/front/shortcodes/authentication/authentication.php:20
+msgid "Log out"
+msgstr "Uitloggen"
+
+#: includes/classes/entities/class-user.php:29
+msgid "Login"
+msgstr "Log in"
+
+#: includes/classes/widgets/elementor/class-elementor-authentication-widget.php:74
+msgid "Login buttons"
+msgstr "Inlogknoppen"
+
+#: includes/classes/widgets/elementor/class-elementor-authentication-widget.php:73
+msgid "Login form"
+msgstr "Login formulier"
+
+#: templates/admin/settings/tabs/general-tab.php:63
+msgid "Logo image for admin login page"
+msgstr "Logo-afbeelding voor beheerders aanmeldingspagina"
+
+#: includes/classes/entities/class-property.php:646
+msgid "Longitude"
+msgstr "Lengtegraad"
+
+#: includes/classes/entities/class-property.php:275
+msgid "Lot size"
+msgstr "Kavelgrootte"
+
+#: templates/admin/settings/tabs/general-tab.php:29
+msgid "Lot size unit"
+msgstr "Kavelgrootte eenheid"
+
+#: includes/classes/pages/admin/class-data-manager-page.php:402
+#: templates/admin/data-manager/tabs/units-tab.php:12
+msgid "Lot size units"
+msgstr "Kavelgrootte eenheden"
+
+#: includes/classes/entities/class-property.php:275
+#, php-format
+msgid "Lot size, %s"
+msgstr "Kavelgrootte, %s"
+
+#: includes/classes/class-settings-container.php:224
+msgid "Lowest price"
+msgstr "Laagste prijs"
+
+#: includes/classes/class-settings-container.php:749
+msgid "LRD - Liberian Dollar"
+msgstr "LRD - Liberian Dollar"
+
+#: includes/classes/class-settings-container.php:747
+msgid "LSL - Loti"
+msgstr "LSL - Loti"
+
+#: includes/classes/class-settings-container.php:750
+msgid "LYD - Libyan Dinar"
+msgstr "LYD - Libyan Dinar"
+
+#: includes/classes/class-settings-container.php:764
+msgid "MAD - Moroccan Dirham"
+msgstr "MAD - Moroccan Dirham"
+
+#: templates/admin/settings/tabs/general-tab.php:70
+msgid "Main color"
+msgstr "Hoofdkleur"
+
+#: includes/classes/widgets/class-search-form-widget.php:125
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:115
+msgid "Main filters"
+msgstr ""
+"Hoofdfilters\n"
+
+#: includes/classes/class-settings-container.php:425
+msgid "Manage your listings, profile and more"
+msgstr "Beheer uw vermeldingen, profiel en meer"
+
+#: includes/classes/pages/admin/class-demo-page.php:297
+#: templates/admin/demo/steps/step3.php:40
+msgid "Map view"
+msgstr "Kaartweergave"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:172
+msgid "Max"
+msgstr "Max"
+
+#: templates/admin/settings/tabs/map-tab.php:47
+msgid "Max zoom level"
+msgstr ""
+
+#: templates/admin/settings/tabs/listings-tab.php:12
+#: templates/admin/settings/tabs/general-tab.php:65
+msgid "Maximum file size - 2MB.<br>Allowed file types: JPG, PNG, GIF."
+msgstr ""
+"Maximale bestandsgrootte - 2 MB.<br>Toegestane bestandstypen: JPG, PNG, GIF."
+
+#: templates/admin/settings/tabs/listing-search-tab.php:267
+msgid "Maximum floor"
+msgstr "Maximale vloer"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:289
+msgid "Maximum floor level"
+msgstr "Maximale vloer"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:70
+#: templates/admin/settings/tabs/listing-search-tab.php:111
+#, php-format
+msgid "Maximum prices, %s"
+msgstr "Maximale prijzen, %s"
+
+#: includes/classes/class-settings-container.php:762
+msgid "MDL - Moldovan Leu"
+msgstr "MDL - Moldovan Leu"
+
+#: includes/classes/widgets/class-request-form-widget.php:78
+msgid "Message"
+msgstr "Bericht"
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:120
+msgid "Message*"
+msgstr "Bericht*"
+
+#: includes/classes/class-migrations.php:120
+#: includes/classes/class-migrations.php:129
+msgid "Metal"
+msgstr "Metaal"
+
+#: includes/classes/class-settings-container.php:753
+msgid "MGA - Malagasy Ariary"
+msgstr "MGA - Malagasy Ariary"
+
+#: includes/classes/class-migrations.php:209
+msgid "Microwave"
+msgstr "Magnetron"
+
+#: includes/classes/class-admin-menu.php:121
+#: includes/classes/class-admin-menu.php:122
+msgid "Migration"
+msgstr "Migratie"
+
+#: templates/admin/migration/index.php:4
+msgid "Migration from Estatik 3"
+msgstr "Migratie van Estatik 3"
+
+#: templates/admin/migration/index.php:18
+msgid ""
+"Migration process may take some time, especially if you have lots of "
+"properties added. \n"
+"                    Please be patient."
+msgstr ""
+"Het migratieproces kan enige tijd duren, vooral als u veel eigenschappen "
+"heeft toegevoegd.\n"
+"                     Wees alstublieft geduldig."
+
+#: includes/classes/pages/admin/class-migration-page.php:136
+msgid "Migration successfully finished."
+msgstr "Migratie succesvol afgerond."
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:167
+msgid "Min"
+msgstr "Min"
+
+#: templates/admin/settings/tabs/map-tab.php:35
+msgid "Min zoom level"
+msgstr ""
+
+#: templates/admin/settings/tabs/listing-search-tab.php:262
+msgid "Minimum floor"
+msgstr "Minimale vloer"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:284
+msgid "Minimum floor level"
+msgstr "Minimaal vloerniveau"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:60
+#: templates/admin/settings/tabs/listing-search-tab.php:102
+#, php-format
+msgid "Minimum prices, %s"
+msgstr "Minimumprijzen, %s"
+
+#: includes/classes/class-settings-container.php:779
+msgid "MKD - Denar"
+msgstr "MKD - Denar"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:246
+msgid "MLS Import"
+msgstr ""
+
+#: templates/admin/fields-builder/forms/field-form.php:149
+msgid "MLS import support"
+msgstr "Ondersteuning voor MLS-import"
+
+#: includes/classes/pages/admin/class-demo-page.php:255
+msgid "MLS import via RETS"
+msgstr "MLS import via RETS"
+
+#: includes/classes/class-settings-container.php:766
+msgid "MMK - Kyat"
+msgstr "MMK - Kyat"
+
+#: includes/classes/class-settings-container.php:763
+msgid "MNT - Tugrik"
+msgstr "MNT - Tugrik"
+
+#: includes/classes/class-settings-container.php:752
+msgid "MOP - Pataca"
+msgstr "MOP - Pataca"
+
+#: templates/admin/properties-archive/filter.php:56
+#: templates/front/shortcodes/search/main.php:83
+#: templates/front/shortcodes/search/simple.php:92
+#: templates/front/shortcodes/search/advanced.php:47
+msgid "More filters"
+msgstr "Meer filters"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:293
+msgid "Mortgage Calculator"
+msgstr "Hypotheekberekening"
+
+#: includes/classes/class-settings-container.php:757
+msgid "MRU - Ouguiya"
+msgstr "MRU - Ouguiya"
+
+#: includes/classes/class-migrations.php:92
+msgid "Multifamily"
+msgstr "Multi-familie"
+
+#: includes/classes/class-settings-container.php:758
+msgid "MUR - Mauritius Rupee"
+msgstr "MUR - Mauritius Rupee"
+
+#: includes/classes/class-settings-container.php:756
+msgid "MVR - Rufiyaa"
+msgstr "MVR - Rufiyaa"
+
+#: includes/classes/class-settings-container.php:754
+msgid "MWK - Kwacha"
+msgstr "MWK - Kwacha"
+
+#: includes/classes/class-settings-container.php:760
+msgid "MXN - Mexican Peso"
+msgstr "MXN - Mexican Peso"
+
+#: includes/classes/class-settings-container.php:761
+msgid "MXV - Mexican Unidad de Inversion (UDI)"
+msgstr "MXV - Mexican Unidad de Inversion (UDI)"
+
+#: includes/classes/class-admin-menu.php:51
+#: includes/classes/class-admin-menu.php:52
+#: templates/admin/properties-archive/header.php:3
+#: includes/classes/pages/admin/class-dashboard-page.php:207
+msgid "My listings"
+msgstr "Mijn objecten"
+
+#: includes/classes/class-settings-container.php:755
+msgid "MYR - Malaysian Ringgit"
+msgstr "MYR - Malaysian Ringgit"
+
+#: includes/classes/class-settings-container.php:765
+msgid "MZN - Mozambique Metical"
+msgstr "MZN - Mozambique Metical"
+
+#: includes/classes/class-settings-container.php:216
+msgid "m²"
+msgstr "m²"
+
+#: includes/classes/class-settings-container.php:219
+msgid "m³"
+msgstr "m³"
+
+#: includes/classes/class-settings-container.php:767
+msgid "NAD - Namibia Dollar"
+msgstr "NAD - Namibia Dollar"
+
+#: includes/classes/entities/class-user.php:46
+#: templates/front/shortcodes/profile/tabs/profile-form.php:27
+msgid "Name"
+msgstr "Naam"
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:88
+msgid "Name*"
+msgstr "Naam *"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:262
+msgid "Native Theme"
+msgstr "Native Thema"
+
+#: includes/classes/pages/admin/class-demo-page.php:223
+msgid "Nearby & Walkscore integration"
+msgstr "Nearby & Walkscore integratie"
+
+#: templates/admin/partials/help.php:2
+msgid "Need more help?"
+msgstr "Meer hulp nodig?"
+
+#: includes/classes/class-taxonomies.php:180
+msgid "Neighborhood"
+msgstr "Buurt"
+
+#: includes/classes/class-address-components.php:27
+#: templates/admin/fields-builder/forms/field-form.php:103
+msgid "neighborhood"
+msgstr ""
+
+#: includes/classes/class-taxonomies.php:179
+#: includes/classes/entities/class-property.php:678
+msgid "Neighborhoods"
+msgstr "Buurten"
+
+#: templates/front/shortcodes/authentication/reset-form.php:21
+#: templates/front/shortcodes/profile/partials/change-password-form.php:12
+msgid "New password"
+msgstr "Nieuw paswoord"
+
+#: includes/classes/pages/front/class-profile-page.php:118
+msgid "New password is not equal with confirm password field."
+msgstr "Nieuw wachtwoord is niet gelijk aan het veld wachtwoord bevestigen."
+
+#: includes/classes/emails/class-new-user-info-email.php:28
+msgid "New user info after registration"
+msgstr "Nieuwe gebruikersinformatie na registratie"
+
+#: includes/classes/class-settings-container.php:223
+#: includes/classes/pages/admin/class-properties-archive-page.php:380
+msgid "Newest"
+msgstr "Nieuwste"
+
+#: includes/classes/pages/admin/class-entities-archive-page.php:113
+msgid "Next"
+msgstr "Volgende"
+
+#: includes/classes/class-settings-container.php:770
+msgid "NGN - Naira"
+msgstr "NGN - Naira"
+
+#: includes/classes/class-settings-container.php:769
+msgid "NIO - Cordoba Oro"
+msgstr "NIO - Cordoba Oro"
+
+#: includes/hooks.php:94 includes/hooks.php:216 includes/hooks.php:217
+#, php-format
+msgid "No %s"
+msgstr "Geen %s"
+
+#: templates/admin/properties-archive/filter.php:95
+msgid "No max"
+msgstr "Geen maximum"
+
+#: templates/admin/properties-archive/filter.php:85
+msgid "No min"
+msgstr "Geen minimum"
+
+#: templates/front/partials/no-found-posts.php:2
+msgid "No results"
+msgstr "Geen resultaten"
+
+#: includes/classes/class-settings-container.php:688
+msgid "NOK - Norwegian Krone"
+msgstr "NOK - Norwegian Krone"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:333
+msgid "Nothing to sort."
+msgstr "Niets te sorteren."
+
+#: includes/classes/class-settings-container.php:768
+msgid "NPR - Nepalese Rupee"
+msgstr "NPR - Nepalese Rupee"
+
+#: includes/classes/class-settings-container.php:702
+msgid "NZD - New Zealand Dollar"
+msgstr "NZD - New Zealand Dollar"
+
+#: includes/classes/class-migrations.php:113
+msgid "Off-street"
+msgstr "Buiten de straat"
+
+#: includes/classes/class-settings-container.php:229
+#: includes/classes/pages/admin/class-properties-archive-page.php:384
+msgid "Oldest"
+msgstr "Oudste"
+
+#: includes/classes/class-settings-container.php:771
+msgid "OMR - Rial Omani"
+msgstr "OMR - Rial Omani"
+
+#: includes/classes/class-migrations.php:114
+msgid "On-street"
+msgstr "Op straat"
+
+#: includes/helper-functions.php:311
+#: includes/classes/entities/class-property.php:686
+#: includes/classes/entities/class-property.php:704
+#: includes/classes/entities/class-property.php:721
+#, php-format
+msgid "One file must be less than %s. Allowed Extensions: %s."
+msgstr "Eén bestand moet kleiner zijn dan %s. Toegestane extensies: %s."
+
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:85
+msgid "Only for Main search layout"
+msgstr "Alleen voor hoofdzoeklay-out"
+
+#: includes/classes/widgets/class-search-form-widget.php:112
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:92
+msgid "Only for Simple or Advanced search layout"
+msgstr "Alleen voor eenvoudige of geavanceerde zoek layout"
+
+#: templates/front/property/map.php:11
+#: templates/front/shortcodes/half-map.php:26
+msgid ""
+"Oops! This page didn't load Google Maps correctly. Please contact admin to "
+"fix this."
+msgstr ""
+"Oeps! Deze pagina heeft Google Maps niet correct geladen. Neem contact op "
+"met de beheerder om dit op te lossen."
+
+#: includes/functions.php:268 includes/classes/entities/class-property.php:325
+msgid "Open House"
+msgstr "Open Huis"
+
+#: includes/classes/class-migrations.php:166
+#: includes/classes/entities/class-property.php:302
+msgid "Open house"
+msgstr "Open huis"
+
+#: includes/classes/entities/class-property.php:344
+msgctxt "open house date"
+msgid "Date"
+msgstr "Datum"
+
+#: includes/classes/entities/class-property.php:356
+msgctxt "open house time"
+msgid "End time"
+msgstr "Eindtijd"
+
+#: includes/classes/entities/class-property.php:351
+msgctxt "open house time"
+msgid "Start time"
+msgstr "Starttijd"
+
+#: includes/classes/entities/class-property.php:851
+#, php-format
+msgid "Or %s range"
+msgstr "Of %s bereik"
+
+#: templates/front/popup/share.php:32
+msgid "Or share with"
+msgstr "Of deel met"
+
+#: includes/classes/class-settings-container.php:252
+msgid "Other"
+msgstr "Ander"
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:26
+msgid "Other email"
+msgstr "Andere e-mail"
+
+#: includes/classes/class-migrations.php:215
+msgid "Oven"
+msgstr "Oven"
+
+#: includes/classes/class-settings-container.php:773
+msgid "PAB - Balboa"
+msgstr "PAB - Balboa"
+
+#: includes/classes/pages/admin/class-settings-page.php:39
+#, php-format
+msgid "Page <b>%s</b> successfully created."
+msgstr "Pagina <b>%s</b> succesvol aangemaakt."
+
+#: includes/classes/pages/admin/class-migration-page.php:49
+msgid "Pages migrated."
+msgstr "Pagina's gemigreerd."
+
+#: includes/classes/pages/admin/class-data-manager-page.php:352
+msgid "Parameters"
+msgstr "Parameters"
+
+#: includes/classes/class-taxonomies.php:97
+#: includes/classes/class-taxonomies.php:98
+#: includes/classes/entities/class-property.php:820
+msgid "Parking"
+msgstr "Parkeren"
+
+#: includes/classes/class-migrations.php:139
+msgid "Partially finished"
+msgstr "Gedeeltelijk klaar"
+
+#: includes/classes/entities/class-user.php:33
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: includes/classes/class-auth-init.php:331
+#: includes/classes/pages/front/class-profile-page.php:134
+msgid "Password successfully changed."
+msgstr "Wachtwoord succesvol veranderd."
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:213
+msgid "Pattern"
+msgstr "Patroon"
+
+#: includes/classes/pages/admin/class-demo-page.php:211
+msgid "PDF feature"
+msgstr "PDF-functie"
+
+#: includes/classes/class-settings-container.php:776
+msgid "PEN - Nuevo Sol"
+msgstr "PEN - Nuevo Sol"
+
+#: includes/classes/class-migrations.php:98
+msgid "Pending"
+msgstr "In afwachting"
+
+#: includes/classes/class-migrations.php:104
+msgid "per day"
+msgstr "per dag"
+
+#: includes/classes/class-migrations.php:106
+msgid "per month"
+msgstr "per maand"
+
+#: includes/classes/class-migrations.php:105
+msgid "per week"
+msgstr "per week"
+
+#: includes/classes/class-migrations.php:107
+msgid "per year"
+msgstr "per jaar"
+
+#: includes/classes/class-settings-container.php:774
+msgid "PGK - Kina"
+msgstr "PGK - Kina"
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:108
+msgid "Phone"
+msgstr "Telefoon"
+
+#: includes/classes/entities/class-property.php:684
+msgid "Photo gallery"
+msgstr "Fotogalerij"
+
+#: includes/functions.php:280
+msgid "Photos & Media"
+msgstr "Foto's en Media"
+
+#: includes/classes/class-settings-container.php:777
+msgid "PHP - Philippine Peso"
+msgstr "PHP - Philippine Peso"
+
+#: includes/classes/class-settings-container.php:852
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: includes/classes/class-settings-container.php:772
+msgid "PKR - Pakistan Rupee"
+msgstr "PKR - Pakistan Rupee"
+
+#: templates/admin/settings/tabs/general-tab.php:59
+msgid ""
+"Please enable REST support if you need to use Gutenberg or pull your "
+"listings via wp api."
+msgstr ""
+"Schakel REST-ondersteuning in als u Gutenberg moet gebruiken of uw "
+"vermeldingen moet ophalen via wp api."
+
+#: includes/classes/class-settings-container.php:661
+msgid "PLN - Poland Zloty"
+msgstr "PLN - Poland Zloty"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:125
+#: templates/admin/settings/tabs/listing-search-tab.php:208
+msgctxt "plugin options"
+msgid "Data manager"
+msgstr "Gegevens manager"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:43
+msgctxt "plugin options"
+msgid "Price"
+msgstr "Prijs"
+
+#: includes/classes/class-settings-container.php:1374
+msgctxt "plugin settings"
+msgid "Buttons"
+msgstr ""
+
+#: includes/classes/class-settings-container.php:1375
+msgctxt "plugin settings"
+msgid "Dropdown"
+msgstr ""
+
+#: includes/classes/pages/admin/class-settings-page.php:73
+#: templates/admin/settings/tabs/general-tab.php:1
+msgctxt "plugin settings"
+msgid "General"
+msgstr "Algemeen"
+
+#: templates/admin/settings/tabs/recaptcha-tab.php:2
+msgctxt "plugin settings"
+msgid "generate them"
+msgstr "genereer ze"
+
+#: includes/classes/pages/admin/class-settings-page.php:81
+#: templates/admin/settings/tabs/recaptcha-tab.php:1
+msgctxt "plugin settings"
+msgid "Google reCAPTCHA"
+msgstr "Google reCAPTCHA"
+
+#: includes/classes/pages/admin/class-settings-page.php:85
+#: templates/admin/settings/tabs/listings-tab.php:1
+msgctxt "plugin settings"
+msgid "Listings"
+msgstr "Objecten"
+
+#: includes/classes/pages/admin/class-settings-page.php:93
+msgctxt "plugin settings"
+msgid "Log in & Sign up"
+msgstr "Log in en meld je aan"
+
+#: includes/classes/pages/admin/class-settings-page.php:77
+#: templates/admin/settings/tabs/map-tab.php:2
+msgctxt "plugin settings"
+msgid "Map"
+msgstr "Kaart"
+
+#: includes/classes/pages/admin/class-settings-page.php:110
+#: templates/admin/settings/tabs/terms-tab.php:1
+msgctxt "plugin settings"
+msgid "Privacy policy & Terms of use"
+msgstr "Privacybeleid en Gebruiksvoorwaarden"
+
+#: includes/classes/pages/admin/class-settings-page.php:97
+msgctxt "plugin settings"
+msgid "SEO"
+msgstr "SEO"
+
+#: includes/classes/pages/admin/class-settings-page.php:101
+msgctxt "plugin settings"
+msgid "Sharing"
+msgstr "Delen"
+
+#: includes/classes/pages/admin/class-settings-page.php:105
+msgctxt "plugin settings"
+msgid "URL slug"
+msgstr "URL slug"
+
+#: templates/admin/settings/tabs/map-tab.php:1
+msgctxt "plugin settings link name"
+msgid "generate it"
+msgstr "genereer het"
+
+#: includes/classes/pages/admin/class-migration-page.php:57
+msgid "Plugin settings migrated."
+msgstr "Plugin-instellingen gemigreerd."
+
+#: templates/admin/settings/tabs/map-tab.php:164
+#: templates/admin/settings/tabs/map-tab.php:172
+#: templates/admin/settings/tabs/map-tab.php:180
+#: templates/admin/settings/tabs/map-tab.php:188
+msgctxt "plugin settings taxonomy placeholder"
+msgid "All"
+msgstr "Alle"
+
+#: includes/classes/class-address-components.php:18
+#: templates/admin/fields-builder/forms/field-form.php:94
+#, fuzzy
+#| msgid "Political"
+msgid "political"
+msgstr "Politiek"
+
+#: includes/classes/pages/front/class-profile-page.php:25
+#: includes/classes/pages/front/class-profile-page.php:99
+msgctxt "popup error title"
+msgid "Error!"
+msgstr "Fout!"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:281
+msgid "Portal Theme"
+msgstr "Portal Thema"
+
+#: includes/classes/pages/admin/class-properties-archive-page.php:55
+msgid "Post ID is empty"
+msgstr "Post-ID is leeg"
+
+#: includes/classes/class-address-components.php:38
+#: templates/admin/fields-builder/forms/field-form.php:114
+msgid "postal_town"
+msgstr ""
+
+#: includes/classes/class-address-components.php:34
+#: templates/admin/fields-builder/forms/field-form.php:110
+#, fuzzy
+#| msgid "Premium"
+msgid "premise"
+msgstr "Premium"
+
+#: templates/admin/dashboard/index.php:115
+#: includes/classes/pages/admin/class-dashboard-page.php:247
+msgid "Premium"
+msgstr ""
+
+#: includes/classes/pages/admin/class-dashboard-page.php:319
+msgid "Premium MLS Setup (for Premium users only)"
+msgstr ""
+
+#: includes/classes/pages/admin/class-entities-archive-page.php:112
+msgid "Prev"
+msgstr "Vorige"
+
+#: templates/admin/dashboard/partials/themes.php:45
+msgid "Preview"
+msgstr "Bezichtiging"
+
+#: includes/classes/class-settings-container.php:482
+#: includes/classes/entities/class-property.php:408
+#: templates/admin/properties-archive/quick-edit.php:118
+#: includes/classes/pages/admin/class-properties-archive-page.php:408
+msgid "Price"
+msgstr "Prijs"
+
+#: includes/classes/entities/class-property.php:440
+msgid "Price note"
+msgstr "Prijs opmerking"
+
+#: includes/classes/entities/class-property.php:425
+#: templates/admin/properties-archive/quick-edit.php:125
+msgid "Price per sqft"
+msgstr "Prijs per vierkante meter"
+
+#: templates/admin/properties-archive/filter.php:82
+#: templates/admin/properties-archive/filter.php:93
+msgid "Price range"
+msgstr "Prijsklasse"
+
+#: includes/hooks.php:283
+msgid "Privacy Policy"
+msgstr "Privacybeleid"
+
+#: templates/admin/settings/tabs/terms-tab.php:26
+msgid "Privacy policy"
+msgstr "Privacybeleid"
+
+#: templates/admin/settings/tabs/terms-tab.php:27
+msgid "Privacy policy page"
+msgstr "Privacybeleid pagina"
+
+#: templates/admin/dashboard/index.php:107
+#: includes/classes/pages/admin/class-dashboard-page.php:233
+#: includes/classes/pages/admin/class-dashboard-page.php:240
+msgid "PRO"
+msgstr ""
+
+#: includes/classes/pages/admin/class-demo-page.php:322
+#: templates/admin/demo/steps/step3.php:55
+#: templates/admin/settings/tabs/auth-tab.php:5
+#: templates/admin/settings/tabs/auth-tab.php:6
+#: templates/front/shortcodes/profile/profile.php:36
+msgid "Profile"
+msgstr "Profiel"
+
+#: includes/classes/pages/front/class-profile-page.php:60
+msgid "Profile updated successfully."
+msgstr "Profiel succesvol bijgewerkt."
+
+#: includes/classes/pages/admin/class-dashboard-page.php:275
+msgid "Project Theme"
+msgstr "Project Thema"
+
+#: templates/admin/properties-archive/filter.php:33
+#: templates/admin/properties-archive/filter.php:45
+#: templates/admin/properties-archive/filter.php:71
+msgctxt "properties filter select"
+msgid "All"
+msgstr "Alle"
+
+#: includes/classes/widgets/elementor/class-elementor-query.php:38
+msgid "Properties IDs"
+msgstr "Eigenschappen-ID's"
+
+#: includes/classes/meta-boxes/class-property-fields-meta-box.php:113
+msgid "Properties info"
+msgstr "Eigenschappen info"
+
+#: templates/admin/settings/tabs/listings-tab.php:105
+msgid "Properties number per page"
+msgstr "Eigenschappen aantal per pagina"
+
+#: includes/classes/widgets/elementor/class-elementor-query.php:25
+msgid "Properties per page"
+msgstr "Eigenschappen per pagina"
+
+#: includes/classes/class-settings-container.php:1121
+msgid "Property"
+msgstr "Object "
+
+#: includes/classes/widgets/class-properties-filter-widget.php:71
+msgid "Property categories to show"
+msgstr "Eigenschap Categorieën om weer te geven"
+
+#: templates/admin/settings/tabs/map-tab.php:160
+msgid "Property category"
+msgstr "Eigendom Categorie"
+
+#: templates/admin/settings/tabs/slugs-tab.php:10
+msgid "Property category slug"
+msgstr "Eigendom Category slug"
+
+#: templates/admin/settings/tabs/listings-tab.php:82
+msgid "Property content font"
+msgstr "Onroerend goed inhoud lettertype"
+
+#: includes/helper-functions.php:280
+msgctxt "property edit"
+msgid "Video"
+msgstr "Video"
+
+#: templates/admin/settings/tabs/listings-tab.php:71
+msgid "Property headings font"
+msgstr "Eigenschap kopjes lettertype"
+
+#: templates/admin/settings/tabs/listings-tab.php:95
+msgid "Property item image size"
+msgstr ""
+
+#: templates/admin/settings/tabs/map-tab.php:184
+msgid "Property label"
+msgstr "Eigenschap Label"
+
+#: templates/front/popup/share.php:25
+msgctxt "property link copy"
+msgid "Copy"
+msgstr "Kopiëren"
+
+#: templates/admin/properties-archive/filter.php:19
+msgid "Property search"
+msgstr "Zoeken naar onroerend goed"
+
+#: templates/admin/settings/tabs/slugs-tab.php:5
+msgid "Property slug"
+msgstr "Onroerend goed slug"
+
+#: templates/admin/settings/tabs/map-tab.php:176
+msgid "Property statuses"
+msgstr "Eigenschap statussen"
+
+#: templates/admin/settings/tabs/map-tab.php:168
+msgid "Property type"
+msgstr "Eigendom type"
+
+#: templates/admin/settings/tabs/slugs-tab.php:15
+msgid "Property type slug"
+msgstr "Eigenschapstype slug"
+
+#: includes/classes/widgets/class-properties-filter-widget.php:86
+msgid "Property types to show"
+msgstr "Woningtypes om weer te geven"
+
+#: includes/classes/entities/class-property.php:559
+msgid "Province"
+msgstr "Provincie"
+
+#: templates/admin/settings/tabs/slugs-tab.php:20
+msgid "Province / state slug"
+msgstr "Provincie / staat slug"
+
+#: includes/classes/pages/admin/class-data-manager-page.php:54
+msgid "Provinces"
+msgstr "Provincies"
+
+#: templates/admin/properties-archive/bulk-actions.php:8
+#: includes/classes/pages/admin/class-properties-archive-page.php:332
+msgid "Publish"
+msgstr "Publiceren"
+
+#: includes/classes/class-settings-container.php:775
+msgid "PYG - Guarani"
+msgstr "PYG - Guarani"
+
+#: includes/classes/class-settings-container.php:778
+msgid "QAR - Qatari Rial"
+msgstr "QAR - Qatari Rial"
+
+#: templates/admin/properties-archive/quick-edit.php:11
+#: templates/admin/properties-archive/bulk-actions.php:12
+#: templates/admin/properties-archive/quick-edit-bulk.php:14
+msgid "Quick edit"
+msgstr "Snelle aanpassing"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:287
+msgid "Realtor Theme"
+msgstr "Realtor Thema"
+
+#: templates/admin/settings/tabs/recaptcha-tab.php:17
+msgid "reCAPTCHA secret key"
+msgstr "reCAPTCHA geheime sleutel"
+
+#: templates/admin/settings/tabs/recaptcha-tab.php:12
+msgid "reCAPTCHA site key"
+msgstr "reCAPTCHA-sitesleutel"
+
+#: includes/classes/class-settings-container.php:1055
+msgid "reCAPTCHA v2"
+msgstr "reCAPTCHA v2"
+
+#: includes/classes/class-settings-container.php:1056
+msgid "reCAPTCHA v3"
+msgstr "reCAPTCHA v3"
+
+#: templates/admin/settings/tabs/recaptcha-tab.php:7
+msgid "reCAPTCHA version"
+msgstr "reCAPTCHA-versie"
+
+#: templates/front/shortcodes/search/partials/autocomplete.php:25
+msgid "Recent searches"
+msgstr "Recente zoekopdrachten"
+
+#: includes/classes/shortcodes/class-properties-slider-shortcode.php:73
+msgid "Recommended Listings"
+msgstr "Aanbevolen aanbiedingen"
+
+#: includes/classes/class-migrations.php:211
+msgid "Refrigerator"
+msgstr "Koelkast"
+
+#: includes/helper-functions.php:643
+#: templates/front/shortcodes/profile/tabs/saved-searches.php:38
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: templates/front/partials/no-found-posts.php:7
+msgid "Remove all filters"
+msgstr "Alle filters verwijderen"
+
+#: includes/helper-functions.php:638
+msgid "Remove this home from saved?"
+msgstr "Dit huis verwijderen uit opgeslagen?"
+
+#: includes/classes/class-taxonomies.php:64
+#: includes/classes/entities/class-property.php:101
+msgid "Rent Period"
+msgstr "Huurperiode"
+
+#: includes/classes/class-taxonomies.php:63
+msgid "Rent Periods"
+msgstr "Huurperiodes"
+
+#: includes/classes/pages/admin/class-data-manager-page.php:372
+msgid "Rent periods"
+msgstr "Huurperiodes"
+
+#: includes/functions.php:315
+#: includes/classes/class-settings-container.php:1073
+#: includes/classes/class-settings-container.php:1082
+msgid "Request form"
+msgstr "Informatie aanvragen"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:228
+msgctxt "request form bg color field"
+msgid "Background color"
+msgstr "Achtergrond kleur"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:234
+msgctxt "request form text color field"
+msgid "Text color"
+msgstr "Tekst kleur"
+
+#: includes/classes/shortcodes/class-request-form-shortcode.php:66
+#: templates/front/property/layout/single-left-slider.php:31
+#: templates/front/property/partials/header.php:19
+msgid "Request info"
+msgstr "Informatie aanvragen"
+
+#: includes/classes/emails/class-request-property-info-email.php:47
+msgid "Request property info"
+msgstr "Vastgoedinfo aanvragen"
+
+#: templates/admin/fields-builder/forms/field-form.php:58
+msgid "Required field"
+msgstr "Verplicht veld"
+
+#: templates/admin/properties-archive/filter.php:54
+#: includes/classes/framework/fields/class-base-field.php:102
+#: templates/front/shortcodes/search/advanced.php:59
+msgid "Reset"
+msgstr "Resetten"
+
+#: includes/classes/emails/class-reset-password-email.php:35
+#: includes/classes/pages/admin/class-demo-page.php:317
+#: includes/classes/widgets/elementor/class-elementor-authentication-widget.php:77
+#: templates/admin/demo/steps/step3.php:52
+msgid "Reset password"
+msgstr "Wachtwoord opnieuw instellen"
+
+#: includes/classes/class-settings-container.php:780
+msgid "RON - Romanian Leu"
+msgstr "RON - Romanian Leu"
+
+#: includes/classes/class-taxonomies.php:109
+#: includes/classes/class-taxonomies.php:110
+#: includes/classes/entities/class-property.php:811
+msgid "Roof"
+msgstr "Dak"
+
+#: includes/classes/class-address-components.php:16
+#: templates/admin/fields-builder/forms/field-form.php:92
+#, fuzzy
+#| msgid "Route"
+msgid "route"
+msgstr "Route"
+
+#: includes/classes/class-settings-container.php:786
+msgid "RSD - Serbian Dinar"
+msgstr "RSD - Serbian Dinar"
+
+#: includes/classes/class-settings-container.php:658
+msgid "RUB - Russian Ruble"
+msgstr "RUB - Russian Ruble"
+
+#: includes/classes/class-settings-container.php:249
+msgid "Russia"
+msgstr "Rusland"
+
+#: includes/classes/class-settings-container.php:335
+msgid "Russian"
+msgstr "Russisch"
+
+#: includes/classes/class-settings-container.php:781
+msgid "RWF - Rwanda Franc"
+msgstr "RWF - Rwanda Franc"
+
+#: templates/admin/dashboard/index.php:39
+msgid "Sales & News"
+msgstr "Verkoop & Nieuws"
+
+#: includes/classes/class-settings-container.php:785
+msgid "SAR - Saudi Riyal"
+msgstr "SAR - Saudi Riyal"
+
+#: templates/front/partials/entity-control.php:32
+msgid "Save"
+msgstr "Opslaan"
+
+#: templates/admin/settings/index.php:14
+#: templates/admin/properties-archive/quick-edit.php:160
+#: templates/admin/properties-archive/quick-edit-bulk.php:111
+#: templates/admin/fields-builder/forms/field-form.php:154
+#: templates/admin/fields-builder/forms/section-form.php:63
+#: templates/admin/data-manager/tabs/units-tab.php:68
+#: templates/front/shortcodes/profile/tabs/profile-form.php:55
+msgid "Save changes"
+msgstr "Wijzigingen opslaan"
+
+#: templates/front/shortcodes/authentication/reset-form.php:41
+msgid "Save new password"
+msgstr "Nieuw wachtwoord opslaan"
+
+#: includes/helper-functions.php:647
+msgid "Save pin location"
+msgstr "Pinlocatie opslaan"
+
+#: templates/front/shortcodes/search/simple.php:53
+#: templates/front/shortcodes/search/simple.php:55
+#: templates/front/shortcodes/search/advanced.php:53
+#: templates/front/shortcodes/search/advanced.php:53
+#: templates/front/shortcodes/search/advanced.php:55
+msgid "Save search"
+msgstr "Zoekopdracht opslaan"
+
+#: includes/classes/shortcodes/class-profile-shortcode.php:27
+msgid "Saved homes"
+msgstr "Opgeslagen huizen"
+
+#: includes/classes/shortcodes/class-profile-shortcode.php:33
+msgid "Saved searches"
+msgstr "Bewaarde zoekopdrachten"
+
+#: includes/classes/class-settings-container.php:791
+msgid "SBD - Solomon Islands Dollar"
+msgstr "SBD - Solomon Islands Dollar"
+
+#: includes/classes/entities/class-property.php:309
+msgid ""
+"Scheduled period of time in which property designated to be open for viewing "
+"by potential clients"
+msgstr ""
+"Scheduled period during which property is designated to be open for viewing "
+"by potential clients"
+
+#: includes/classes/class-settings-container.php:787
+msgid "SCR - Seychelles Rupee"
+msgstr "SCR - Seychelles Rupee"
+
+#: includes/classes/class-settings-container.php:795
+msgid "SDG - Sudanese Pound"
+msgstr "SDG - Sudanese Pound"
+
+#: includes/classes/data-manager/class-locations-creator.php:44
+#: templates/front/shortcodes/search/main.php:50
+#: templates/front/shortcodes/search/main.php:96
+#: templates/front/shortcodes/search/advanced.php:58
+msgid "Search"
+msgstr "Zoekopdracht"
+
+#: includes/classes/widgets/class-search-form-widget.php:116
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:105
+msgid "Search by location"
+msgstr "Zoeken op locatie"
+
+#: templates/admin/properties-archive/filter.php:22
+msgid "Search by title, ID or address"
+msgstr "Zoeken op titel, ID of adres"
+
+#: templates/admin/partials/help.php:8
+msgid "Search our most popular help topics"
+msgstr "Zoek in onze populairste Help-onderwerpen"
+
+#: includes/classes/widgets/class-widget.php:51
+msgid "Search Page"
+msgstr "Zoekpagina"
+
+#: includes/ajax.php:210
+msgid "Search params are empty. Please fill search fields."
+msgstr "Zoekparameters zijn leeg. Vul de zoekvelden in."
+
+#: includes/classes/pages/admin/class-demo-page.php:302
+#: templates/admin/demo/steps/step3.php:43
+#: templates/admin/settings/tabs/listing-search-tab.php:13
+#: templates/front/shortcodes/profile/tabs/saved-searches.php:43
+msgid "Search results"
+msgstr "Zoekresultaten"
+
+#: includes/classes/widgets/class-search-form-widget.php:95
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:98
+msgid "Search results page"
+msgstr "Pagina met zoekresultaten"
+
+#: includes/ajax.php:205
+msgid "Search saved"
+msgstr "Zoekopdracht opgeslagen"
+
+#: templates/admin/fields-builder/forms/field-form.php:138
+msgid "Search support"
+msgstr "Zoek Ondersteuning"
+
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:73
+msgid "Search type"
+msgstr "Zoektype"
+
+#: includes/classes/widgets/class-search-form-widget.php:87
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:78
+msgctxt "search widget"
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: includes/classes/widgets/class-search-form-widget.php:85
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:76
+msgctxt "search widget"
+msgid "Main"
+msgstr "Hoofd"
+
+#: includes/classes/widgets/class-search-form-widget.php:86
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:77
+msgctxt "search widget"
+msgid "Simple"
+msgstr "Simple"
+
+#: templates/admin/settings/tabs/general-tab.php:78
+msgid "Secondary color"
+msgstr "Secundaire kleur"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:466
+msgid "Section didn't saved."
+msgstr "Sectie is niet opgeslagen."
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:370
+msgid "Section machine name is empty."
+msgstr "Sectie machinenaam is leeg."
+
+#: templates/admin/fields-builder/forms/section-form.php:25
+msgid "Section name"
+msgstr "Sectie naam"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:61
+msgid "Section successfully restored."
+msgstr "Sectie succesvol hersteld."
+
+#: templates/admin/fields-builder/forms/field-form.php:87
+msgid "See"
+msgstr "Zie je wel"
+
+#: includes/classes/class-settings-container.php:798
+msgid "SEK - Swedish Krona"
+msgstr "SEK - Swedish Krona"
+
+#: includes/classes/widgets/class-search-form-widget.php:138
+#: includes/classes/widgets/class-search-form-widget.php:157
+#: includes/classes/widgets/class-search-form-widget.php:167
+msgid "Select field"
+msgstr "Selecteer veld"
+
+#: includes/classes/widgets/class-search-form-widget.php:163
+msgid "Select fields"
+msgstr "Selecteer velden"
+
+#: includes/classes/data-manager/class-features-icons-creator.php:59
+#: templates/admin/settings/tabs/map-tab.php:71
+#: templates/admin/settings/tabs/map-tab.php:107
+#: templates/admin/settings/tabs/map-tab.php:132
+#: templates/admin/settings/tabs/map-tab.php:192
+msgid "Select icon"
+msgstr "Selecteer icoon"
+
+#: templates/admin/settings/tabs/sharing-tab.php:19
+msgid "Select options"
+msgstr "selecteer opties"
+
+#: includes/helper-functions.php:449
+msgid "Select page"
+msgstr "Selecteer pagina"
+
+#: includes/classes/widgets/class-widget.php:114
+msgid "Select pages"
+msgstr "Selecteer pagina's"
+
+#: includes/classes/widgets/class-search-form-widget.php:82
+msgid "Select search type"
+msgstr "Selecteer zoektype"
+
+#: templates/admin/properties-archive/bulk-actions.php:5
+#: templates/admin/properties-archive/quick-edit-bulk.php:17
+msgid "selected listings"
+msgstr "geselecteerde aanbiedingen"
+
+#: includes/classes/widgets/class-request-form-widget.php:98
+#: includes/classes/widgets/elementor/class-elementor-request-form-widget.php:129
+msgid "Send Message To"
+msgstr "Stuur bericht naar"
+
+#: templates/front/shortcodes/authentication/reset-form.php:51
+msgid "Send reset link"
+msgstr "Stuur reset-link"
+
+#: templates/admin/settings/tabs/seo-tab.php:1
+msgid "SEO"
+msgstr "SEO"
+
+#: templates/admin/dashboard/index.php:52
+msgid "Services"
+msgstr "Diensten"
+
+#: templates/admin/settings/tabs/map-tab.php:121
+msgid "Set map markers"
+msgstr "Kaartmarkeringen instellen"
+
+#: includes/classes/entities/class-property.php:414
+msgid "Set property price"
+msgstr "Prijs onroerend goed instellen"
+
+#: templates/admin/demo/steps/step2.php:2
+msgid "Set up your Google Maps API Key"
+msgstr "Stel uw Google Maps API-sleutel in"
+
+#: includes/classes/class-admin-menu.php:93
+#: includes/classes/class-admin-menu.php:94
+#: templates/admin/settings/index.php:13
+#: includes/classes/pages/admin/class-dashboard-page.php:212
+msgid "Settings"
+msgstr "Instellingen"
+
+#: includes/classes/pages/admin/class-settings-page.php:149
+msgid "Settings didn\\'t saved. Please, reload the page and try again."
+msgstr ""
+"Instellingen zijn niet opgeslagen. Laad de pagina opnieuw en probeer het "
+"opnieuw."
+
+#: includes/classes/class-settings-container.php:789
+msgid "SGD - Singapore Dollar"
+msgstr "SGD - Singapore Dollar"
+
+#: includes/classes/class-migrations.php:121
+msgid "Shake/Shingle"
+msgstr "Schudden/kiezelen"
+
+#: templates/front/partials/entity-control.php:41
+msgid "Share"
+msgstr "Delen"
+
+#: includes/property-functions.php:218
+msgid "Share this home"
+msgstr "Deel dit huis"
+
+#: templates/front/popup/share.php:34
+msgid "Share with"
+msgstr "Delen met"
+
+#: templates/admin/settings/tabs/sharing-tab.php:1
+msgid "Sharing"
+msgstr "Delen"
+
+#: includes/classes/class-migrations.php:130
+msgid "Shingle"
+msgstr "Dakspaan"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:227
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: templates/admin/settings/tabs/listings-tab.php:175
+msgid "Show agent block on single property page"
+msgstr ""
+"Agentblok op enkele eigendomspagina tonen\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:187
+msgid "Show agent quantity of listing savings"
+msgstr ""
+"Toon de hoeveelheid besparingen in de aanbieding\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:181
+msgid "Show agent quantity of listing views"
+msgstr "Toon agent aantal weergaven van vermeldingen"
+
+#: templates/front/partials/entity-section-content.php:42
+msgid "Show all"
+msgstr "Toon alles"
+
+#: includes/classes/entities/class-property.php:751
+msgid "Show all amenities"
+msgstr "Toon alle voorzieningen"
+
+#: includes/entity-functions.php:74
+msgid "Show all amenities & features"
+msgstr "Toon alle voorzieningen & features"
+
+#: includes/classes/entities/class-property.php:386
+msgid "Show all description"
+msgstr "Toon alle beschrijvingen"
+
+#: includes/classes/entities/class-property.php:771
+msgid "Show all features"
+msgstr "Toon alle functies"
+
+#: templates/admin/settings/tabs/listings-tab.php:170
+msgid "Show date added"
+msgstr "Datum toegevoegd weergeven"
+
+#: templates/admin/settings/tabs/listings-tab.php:145
+msgid "Show description in listing box"
+msgstr "Toon beschrijving in lijstvak"
+
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:117
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:138
+msgid "Show layouts"
+msgstr "Toon layouts"
+
+#: templates/admin/settings/tabs/listings-tab.php:135
+msgid "Show listing address"
+msgstr "Toon aanbieding adres"
+
+#: includes/classes/framework/fields/class-checkboxes-field.php:77
+msgid "Show more"
+msgstr "Laat meer zien"
+
+#: includes/classes/widgets/class-widget.php:109
+msgid "Show on checked page"
+msgstr "Weergeven op aangevinkte pagina"
+
+#: includes/classes/widgets/class-widget.php:106
+msgid "Show on pages"
+msgstr "Weergeven op pagina's"
+
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:105
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:126
+msgid "Show page title"
+msgstr "Paginatitel weergeven"
+
+#: templates/admin/settings/tabs/listings-tab.php:130
+msgid "Show price"
+msgstr "Toon prijs"
+
+#: includes/classes/widgets/class-properties-filter-widget.php:46
+msgid "Show properties"
+msgstr "Eigenschappen weergeven"
+
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:99
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:120
+msgid "Show sorting"
+msgstr "Toon sortering"
+
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:111
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:132
+msgid "Show total"
+msgstr "Toon totaal"
+
+#: includes/classes/class-settings-container.php:782
+msgid "SHP - Saint Helena Pound"
+msgstr "SHP - Saint Helena Pound"
+
+#: templates/admin/data-manager/tabs/units-tab.php:37
+msgid "Sign"
+msgstr "Teken"
+
+#: includes/classes/class-settings-container.php:429
+msgid "Sign in or register"
+msgstr "Log in of registreer"
+
+#: templates/admin/data-manager/tabs/units-tab.php:51
+msgid "Sign position"
+msgstr "Tekenpositie"
+
+#: includes/classes/class-settings-container.php:1072
+#: includes/classes/class-settings-container.php:1081
+#: includes/classes/pages/admin/class-demo-page.php:307
+#: templates/admin/demo/steps/step3.php:46
+#: templates/front/shortcodes/authentication/buyer-register-form.php:68
+msgid "Sign up"
+msgstr "Aanmelden"
+
+#: templates/front/shortcodes/authentication/buyer-register-buttons.php:26
+#, php-format
+msgid "Sign up with %s"
+msgstr "Meld je aan met %s"
+
+#: templates/front/shortcodes/authentication/buyer-register-buttons.php:33
+msgid "Sign up with email"
+msgstr "Aanmelden met e-mail"
+
+#: includes/classes/class-settings-container.php:859
+msgid "Single listing with slider"
+msgstr "Enkele aanbieding met schuifregelaar"
+
+#: templates/admin/demo/steps/step1.php:17
+msgid "Single owner"
+msgstr "Enkele eigenaar"
+
+#: includes/classes/widgets/class-widget.php:47
+msgid "Single Page"
+msgstr ""
+"Enkele pagina\n"
+
+#: includes/classes/class-elementor-property-document.php:67
+msgid "Single Properties"
+msgstr "Enkele onroerend goed"
+
+#: includes/classes/class-elementor-property-document.php:60
+msgid "Single Property"
+msgstr "Enkele onroerend goed"
+
+#: includes/classes/widgets/class-widget.php:48
+msgid "Single Property Page"
+msgstr "Enkele onroerend goed pagina"
+
+#: templates/admin/fields-builder/forms/field-form.php:44
+msgid "Single Property Section"
+msgstr "Enkele sectie onroerend goed"
+
+#: includes/classes/class-migrations.php:122
+#: includes/classes/class-migrations.php:148
+msgid "Slate"
+msgstr "Leisteen"
+
+#: includes/classes/widgets/class-properties-slider-widget.php:75
+msgid "Slides per serving"
+msgstr "Dia's per portie"
+
+#: includes/classes/widgets/elementor/class-elementor-properties-slider-widget.php:91
+msgid "Slides to show"
+msgstr "Dia's om te laten zien"
+
+#: includes/classes/class-settings-container.php:788
+msgid "SLL - Leone"
+msgstr "SLL - Leone"
+
+#: includes/classes/class-migrations.php:192
+msgid "Smoke detector"
+msgstr "Rookdetector"
+
+#: includes/classes/pages/admin/class-demo-page.php:201
+msgid "Social sharing"
+msgstr "Sociaal delen"
+
+#: includes/classes/class-migrations.php:149
+msgid "Softwood"
+msgstr "Naaldhout"
+
+#: includes/classes/class-migrations.php:101
+msgid "Sold"
+msgstr ""
+"Verkocht\n"
+
+#: includes/ajax.php:87 includes/helper-functions.php:637
+msgid "Something wrong. Please contact the support."
+msgstr ""
+"Er is iets mis. Neem dan contact op met de ondersteuning.\n"
+
+#: includes/property-functions.php:242
+#: includes/classes/pages/admin/class-entities-archive-page.php:83
+msgid "Sort by"
+msgstr ""
+"Sorteer op\n"
+
+#: templates/admin/settings/tabs/listings-tab.php:119
+msgid "Sort options"
+msgstr "Sorteeropties"
+
+#: includes/classes/class-settings-container.php:792
+msgid "SOS - Somali Shilling"
+msgstr "SOS - Somali Shilling"
+
+#: includes/classes/widgets/elementor/class-elementor-properties-slider-widget.php:122
+msgid "Space between slides (px)"
+msgstr "Ruimte tussen dia's (px)"
+
+#: includes/classes/widgets/class-properties-slider-widget.php:83
+msgid "Space between slides, px"
+msgstr "Ruimte tussen dia's, px"
+
+#: includes/classes/class-settings-container.php:250
+msgid "Spain"
+msgstr ""
+"Spanje\n"
+
+#: includes/classes/class-settings-container.php:359
+msgid "Spanish"
+msgstr "Spaans"
+
+#: includes/functions.php:62 includes/classes/class-settings-container.php:215
+msgid "sq ft"
+msgstr "vierkante voet"
+
+#: includes/classes/class-settings-container.php:796
+msgid "SRD - Surinam Dollar"
+msgstr "SRD - Surinam Dollar"
+
+#: includes/classes/class-settings-container.php:793
+msgid "SSP - South Sudanese Pound"
+msgstr "SSP - South Sudanese Pound"
+
+#: templates/admin/migration/index.php:29
+msgid "Start migration"
+msgstr "Migratie starten"
+
+#: includes/classes/pages/admin/class-migration-page.php:108
+#, php-format
+msgid "Start migration %s %s."
+msgstr ""
+"Migratie starten %s %s.\n"
+
+#: includes/classes/pages/admin/class-migration-page.php:40
+msgid "Start migration."
+msgstr "Migratie starten."
+
+#: templates/front/shortcodes/profile/tabs/saved-searches.php:55
+#: templates/front/shortcodes/profile/tabs/saved-homes.php:24
+msgid "Start searching for properties to add now."
+msgstr ""
+"Begin nu met zoeken naar eigenschappen om toe te voegen.\n"
+
+#: includes/classes/entities/class-property.php:528
+msgid "State"
+msgstr ""
+"Staat\n"
+
+#: includes/classes/pages/admin/class-data-manager-page.php:47
+msgid "States"
+msgstr ""
+"Staten\n"
+
+#: includes/classes/class-taxonomies.php:87
+#: includes/classes/entities/class-property.php:146
+#: templates/admin/properties-archive/quick-edit.php:99
+#: templates/admin/properties-archive/filter.php:42
+#: templates/admin/properties-archive/quick-edit-bulk.php:87
+#: includes/classes/pages/admin/class-properties-archive-page.php:414
+msgid "Status"
+msgstr ""
+"Toestand\n"
+
+#: includes/classes/class-taxonomies.php:86
+#: includes/classes/pages/admin/class-data-manager-page.php:364
+#: includes/classes/widgets/elementor/class-elementor-query.php:67
+msgid "Statuses"
+msgstr "Statussen"
+
+#: includes/classes/pages/admin/class-fields-builder-page.php:177
+#: includes/classes/pages/admin/class-fields-builder-page.php:194
+msgid "Step"
+msgstr "Stap"
+
+#: includes/classes/class-settings-container.php:784
+msgid "STN - Dobra"
+msgstr "STN - Dobra"
+
+#: includes/classes/class-migrations.php:131
+msgid "Stone"
+msgstr ""
+"Steen\n"
+
+#: includes/classes/class-address-components.php:15
+#: templates/admin/fields-builder/forms/field-form.php:91
+#, fuzzy
+#| msgid "Street address"
+msgid "street_address"
+msgstr ""
+"Adres\n"
+
+#: includes/classes/class-migrations.php:132
+msgid "Stucco"
+msgstr "Stucwerk"
+
+#: includes/classes/class-address-components.php:33
+#: templates/admin/fields-builder/forms/field-form.php:109
+#, fuzzy
+#| msgid "Sub locality"
+msgid "sublocality"
+msgstr "Sublokaal"
+
+#: includes/classes/class-address-components.php:28
+#: templates/admin/fields-builder/forms/field-form.php:104
+msgid "Sublocality level 1"
+msgstr ""
+
+#: includes/classes/class-address-components.php:29
+#: templates/admin/fields-builder/forms/field-form.php:105
+msgid "Sublocality level 2"
+msgstr ""
+
+#: includes/classes/class-address-components.php:30
+#: templates/admin/fields-builder/forms/field-form.php:106
+msgid "Sublocality level 3"
+msgstr ""
+
+#: includes/classes/class-address-components.php:31
+#: templates/admin/fields-builder/forms/field-form.php:107
+msgid "Sublocality level 4"
+msgstr ""
+
+#: includes/classes/class-address-components.php:32
+#: templates/admin/fields-builder/forms/field-form.php:108
+msgid "Sublocality level 5"
+msgstr ""
+
+#: templates/admin/partials/help.php:14
+msgid "Submit a ticket"
+msgstr ""
+"Dien een ticket in\n"
+
+#: templates/admin/partials/help.php:15
+msgid "Submitting some issues with our plugins or themes"
+msgstr "Enkele problemen met onze plugins of thema's indienen"
+
+#: includes/classes/class-address-components.php:35
+#: templates/admin/fields-builder/forms/field-form.php:111
+msgid "subpremise"
+msgstr ""
+
+#: includes/classes/pages/admin/class-demo-page.php:239
+msgid "Subscriptions"
+msgstr ""
+"Abonnementen\n"
+
+#: templates/admin/settings/tabs/auth-tab.php:141
+msgid "Subtitle for agent sign up page"
+msgstr ""
+"Ondertitel voor aanmeldpagina voor agenten\n"
+
+#: templates/admin/settings/tabs/auth-tab.php:114
+msgid "Subtitle for buyer sign up page"
+msgstr ""
+"Ondertitel voor aanmeldpagina voor kopers\n"
+
+#: templates/admin/settings/tabs/auth-tab.php:89
+msgid "Subtitle for sign in page"
+msgstr "Ondertitel voor inlogpagina"
+
+#: includes/ajax.php:233
+msgid "Successfully deleted."
+msgstr "Met succes verwijderd."
+
+#: includes/classes/class-settings-container.php:713
+msgid "SVC - El Salvador Colon"
+msgstr "SVC - El Salvador Colon"
+
+#: includes/classes/class-migrations.php:187
+msgid "Swimming pool"
+msgstr ""
+"Zwembad\n"
+
+#: includes/classes/class-settings-container.php:801
+msgid "SYP - Syrian Pound"
+msgstr "SYP - Syrian Pound"
+
+#: includes/classes/class-settings-container.php:797
+msgid "SZL - Lilangeni"
+msgstr "SZL - Lilangeni"
+
+#: includes/classes/class-taxonomies.php:192
+msgid "Tag"
+msgstr "Tag"
+
+#: includes/classes/class-taxonomies.php:191
+#: includes/classes/pages/admin/class-data-manager-page.php:388
+msgid "Tags"
+msgstr "Tags"
+
+#: includes/classes/data-manager/class-terms-creator.php:196
+#, php-format
+msgid "Taxonomy <b>%s</b> doesn't exist."
+msgstr "Taxonomie <b>%s</b> bestaat niet."
+
+#: includes/classes/pages/admin/class-data-manager-page.php:324
+msgid "Term name is empty"
+msgstr "Term naam is leeg"
+
+#: templates/admin/settings/tabs/terms-tab.php:20
+msgid "Terms & conditions"
+msgstr ""
+"Algemene voorwaarden\n"
+
+#: includes/hooks.php:296
+msgctxt "terms & conditions"
+msgid "REQUEST INFO"
+msgstr "INFORMATIE AANVRAGEN"
+
+#: includes/hooks.php:300
+msgctxt "terms & conditions"
+msgid "SIGN UP"
+msgstr "AANMELDEN"
+
+#: templates/admin/settings/tabs/terms-tab.php:21
+msgid "Terms & conditions page"
+msgstr "Algemene voorwaarden pagina"
+
+#: includes/hooks.php:282
+msgid "Terms of Use"
+msgstr "Gebruiksvoorwaarden"
+
+#: includes/classes/class-migrations.php:190
+msgid "Terrace"
+msgstr ""
+"Terras\n"
+
+#: includes/classes/class-settings-container.php:1064
+msgid "Text"
+msgstr ""
+"Tekst\n"
+
+#: includes/classes/widgets/elementor/class-elementor-request-form-widget.php:111
+msgid "Text color"
+msgstr "Tekst kleur"
+
+#: templates/admin/demo/start.php:13
+msgid ""
+"Thank you for choosing Estatik. Grab your instant 5% OFF for<br> any Estatik "
+"product using coupon code below."
+msgstr ""
+"Bedankt voor het kiezen van Estatik. Grijp direct 5% KORTING voor<br> elk "
+"Estatik-product met de onderstaande couponcode."
+
+#: includes/classes/class-settings-container.php:805
+msgid "THB - Baht"
+msgstr "THB - Baht"
+
+#: includes/classes/class-auth-init.php:130
+msgid "The email address you use has already been registered. Please log in."
+msgstr ""
+"Het e-mailadres dat u gebruikt, is al geregistreerd. Log alsjeblieft in."
+
+#: templates/admin/demo/steps/step1.php:38
+msgid ""
+"The plugin will pick up the language, currency, area dimensions<br> and "
+"other settings of the country you select."
+msgstr ""
+"De plug-in pikt de taal, valuta, gebiedsafmetingen<br> en andere "
+"instellingen van het land dat u selecteert op."
+
+#: templates/admin/data-manager/tabs/units-tab.php:56
+msgid "Thousand separator"
+msgstr "Scheidingsteken voor duizendtallen"
+
+#: includes/classes/class-migrations.php:123
+#: includes/classes/class-migrations.php:150
+msgid "Tile"
+msgstr "Tegel"
+
+#: templates/admin/settings/tabs/general-tab.php:45
+msgid "Time format"
+msgstr "Tijd formaat"
+
+#: includes/classes/class-settings-container.php:1019
+#: includes/classes/entities/class-property.php:374
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:69
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:69
+msgid "Title"
+msgstr "Titel"
+
+#: templates/admin/settings/tabs/auth-tab.php:136
+msgid "Title for agent sign up page"
+msgstr "Titel voor aanmeldpagina voor agenten"
+
+#: templates/admin/settings/tabs/auth-tab.php:109
+msgid "Title for buyer sign up page"
+msgstr "Titel voor koper Aanmeldingspagina"
+
+#: templates/admin/settings/tabs/auth-tab.php:84
+msgid "Title for sign in page"
+msgstr "Titel voor inlogpagina"
+
+#: includes/classes/class-settings-container.php:803
+msgid "TJS - Somoni"
+msgstr "TJS - Somoni"
+
+#: includes/classes/class-settings-container.php:810
+msgid "TMT - Turkmenistan New Manat"
+msgstr "TMT - Turkmenistan New Manat"
+
+#: includes/classes/class-settings-container.php:808
+msgid "TND - Tunisian Dinar"
+msgstr "TND - Tunisian Dinar"
+
+#: templates/admin/demo/steps/step2.php:9
+#, php-format
+msgid ""
+"To load Google Maps correctly you shoud enter Google API key. Read more "
+"information about %s."
+msgstr ""
+"Om Google Maps correct te laden, moet u de Google API-sleutel invoeren. Lees "
+"meer informatie over %s."
+
+#: includes/classes/class-settings-container.php:409
+#: includes/classes/class-settings-container.php:467
+msgid "to save your favourite homes and more"
+msgstr "om je favoriete huizen en meer op te slaan"
+
+#: includes/classes/class-auth-init.php:87
+#, php-format
+msgid "To set your password, visit the following <a href=\"%s\">link</a>."
+msgstr ""
+"Ga naar de volgende <a href=\"%s\">link</a> om uw wachtwoord in te stellen."
+
+#: templates/admin/migration/index.php:12
+msgid ""
+"To update the previous version to major version 4 you need to migrate your "
+"listings \n"
+"                    as the new version of the plugin requires. Before doing "
+"this, please make sure that your version \n"
+"                    of the plugin doesn't have custom changes of the code."
+msgstr ""
+"Om de vorige versie bij te werken naar hoofdversie 4, moet u uw vermeldingen "
+"migreren\n"
+"                     zoals de nieuwe versie van de plug-in vereist. Voordat "
+"u dit doet, moet u ervoor zorgen dat uw versie\n"
+"                     van de plug-in heeft geen aangepaste wijzigingen van de "
+"code."
+
+#: includes/classes/class-settings-container.php:806
+msgid "TOP - Pa’anga"
+msgstr "TOP - Pa’anga"
+
+#: includes/classes/entities/class-property.php:212
+msgid "Total rooms"
+msgstr "Totaal aantal kamers"
+
+#: includes/classes/class-migrations.php:90
+msgid "Townhouses"
+msgstr "Townhouses"
+
+#: includes/classes/class-migrations.php:217
+msgid "Trash compactor"
+msgstr "Afvalverdichter"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:269
+msgid "Trendy Theme"
+msgstr "Trendy Thema"
+
+#: includes/classes/class-settings-container.php:809
+msgid "TRY - Turkish Lira"
+msgstr "TRY - Turkish Lira"
+
+#: includes/classes/class-settings-container.php:807
+msgid "TTD - Trinidad and Tobago Dollar"
+msgstr "TTD - Trinidad and Tobago Dollar"
+
+#: includes/classes/class-settings-container.php:802
+msgid "TWD - New Taiwan Dollar"
+msgstr "TWD - New Taiwan Dollar"
+
+#: includes/classes/class-settings-container.php:851
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/classes/class-taxonomies.php:52
+#: includes/classes/entities/class-property.php:123
+#: templates/admin/properties-archive/quick-edit.php:70
+#: templates/admin/properties-archive/filter.php:68
+#: templates/admin/properties-archive/quick-edit-bulk.php:62
+#: includes/classes/pages/admin/class-properties-archive-page.php:412
+#: templates/admin/settings/tabs/listing-search-tab.php:94
+#: templates/admin/fields-builder/forms/field-form.php:65
+msgid "Type"
+msgstr "Type"
+
+#: includes/classes/class-taxonomies.php:51
+#: includes/classes/pages/admin/class-data-manager-page.php:360
+#: includes/classes/widgets/elementor/class-elementor-query.php:57
+msgid "Types"
+msgstr "Types"
+
+#: includes/classes/class-settings-container.php:804
+msgid "TZS - Tanzanian Shilling"
+msgstr "TZS - Tanzanian Shilling"
+
+#: includes/classes/class-settings-container.php:812
+msgid "UAH - Hryvnia"
+msgstr "UAH - Hryvnia"
+
+#: includes/classes/class-settings-container.php:811
+msgid "UGX - Uganda Shilling"
+msgstr "UGX - Uganda Shilling"
+
+#: includes/classes/class-migrations.php:140
+msgid "Unfinished"
+msgstr "Onvoltooid"
+
+#: includes/classes/pages/admin/class-data-manager-page.php:394
+msgid "Units & Formats"
+msgstr "Eenheden en formaten"
+
+#: includes/classes/entities/class-property.php:287
+#: includes/classes/entities/class-property.php:297
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: includes/classes/pages/admin/class-demo-page.php:196
+msgid "Unlimited download access"
+msgstr ""
+"Onbeperkte downloadtoegang\n"
+
+#: templates/admin/dashboard/index.php:108
+msgid ""
+"Unlock advanced features like PDF flyer, Compare, Frontend Submission, "
+"Agents & Agencies, Subscriptions or one-time payments, CSV/XML import via WP "
+"ALL Import, White Label, Slideshow widgets, and others."
+msgstr ""
+
+#: includes/classes/pages/admin/class-demo-page.php:235
+msgid "Unlocked Fields Builder"
+msgstr "Ontgrendelde Veldenbouwer"
+
+#: includes/classes/pages/admin/class-properties-archive-page.php:330
+msgid "Unpublish"
+msgstr "Publicatie ongedaan maken"
+
+#: includes/classes/class-migrations.php:97
+msgid "Unpublished"
+msgstr ""
+"Niet gepubliceerd\n"
+
+#: templates/front/shortcodes/profile/partials/change-password-form.php:38
+msgid "Update password"
+msgstr "Vernieuw wachtwoord"
+
+#: templates/admin/demo/start.php:73 templates/admin/dashboard/index.php:109
+#: templates/admin/dashboard/index.php:117
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#: includes/classes/entities/class-property.php:709
+msgid "Upload files"
+msgstr "Upload bestanden"
+
+#: includes/classes/framework/fields/class-icon-field.php:74
+msgid "Upload icon"
+msgstr "Pictogram Uploaden"
+
+#: templates/admin/settings/tabs/general-tab.php:66
+msgid "Upload image"
+msgstr "Afbeelding uploaden"
+
+#: includes/classes/entities/class-property.php:727
+msgid "Upload images"
+msgstr "Upload afbeeldingen"
+
+#: includes/classes/framework/fields/class-avatar-field.php:46
+#: templates/front/shortcodes/profile/tabs/profile-form.php:21
+msgid "Upload new photo"
+msgstr "Nieuwe foto uploaden"
+
+#: includes/classes/entities/class-property.php:690
+msgid "Upload photos"
+msgstr "Foto's uploaden"
+
+#: includes/classes/framework/fields/class-avatar-field.php:45
+#: templates/front/shortcodes/profile/tabs/profile-form.php:20
+msgid "Upload profile photo"
+msgstr "Upload profielfoto"
+
+#: includes/helper-functions.php:306
+msgid "Upload video"
+msgstr "Upload video"
+
+#: includes/classes/data-manager/class-features-icons-creator.php:60
+#: includes/classes/framework/fields/class-icon-field.php:75
+msgid "Upload your custom icon"
+msgstr "Upload uw aangepaste pictogram"
+
+#: includes/classes/framework/fields/class-link-field.php:15
+msgid "URL"
+msgstr "URL"
+
+#: includes/classes/class-settings-container.php:251
+msgid "USA"
+msgstr "Verenigde Staten van Amerika"
+
+#: includes/classes/class-settings-container.php:655
+msgid "USD - United States dollar"
+msgstr "USD - United States dollar"
+
+#: templates/admin/data-manager/tabs/parameters-tab.php:30
+msgid "Use icons or check marks for amenities and features"
+msgstr "Gebruik pictogrammen of vinkjes voor voorzieningen en functies"
+
+#: templates/admin/settings/tabs/map-tab.php:96
+msgid "Use single map marker?"
+msgstr "Enkele kaartmarkering gebruiken?"
+
+#: templates/admin/settings/tabs/listing-search-tab.php:51
+msgid "Use the same price list for all categories and types"
+msgstr "Gebruik dezelfde prijslijst voor alle categorieën en typen"
+
+#: includes/classes/class-auth-init.php:304
+msgid "User doesn't exist"
+msgstr "Gebruiker bestaat niet"
+
+#: includes/classes/class-settings-container.php:1366
+msgctxt "user email subject"
+msgid "New listing #{post_id} request submitted"
+msgstr "Verzoek voor nieuwe vermelding #{post_id} ingediend"
+
+#: includes/classes/class-settings-container.php:1350
+msgctxt "user email subject"
+msgid "New user registered"
+msgstr "Nieuwe gebruiker geregistreerd"
+
+#: includes/classes/class-settings-container.php:1358
+msgctxt "user email subject"
+msgid "Password Reset Request"
+msgstr "Verzoek om wachtwoord resetten"
+
+#: includes/classes/class-settings-container.php:1342
+msgctxt "user email subject"
+msgid "Your username and password info"
+msgstr "Uw gebruikersnaam en wachtwoord info"
+
+#: includes/classes/class-auth-init.php:147
+msgid "User is not created. Incorrent user type."
+msgstr "Gebruiker is niet aangemaakt. Onjuist gebruikerstype."
+
+#: includes/classes/class-settings-container.php:814
+msgid "USN - US Dollar (Next day)"
+msgstr "USN - US Dollar (Next day)"
+
+#: includes/classes/class-settings-container.php:815
+msgid "UYI - Uruguay Peso en Unidades Indexadas (URUIURUI)"
+msgstr "UYI - Uruguay Peso en Unidades Indexadas (URUIURUI)"
+
+#: includes/classes/class-settings-container.php:816
+msgid "UYU - Peso Uruguayo"
+msgstr "UYU - Peso Uruguayo"
+
+#: includes/classes/class-settings-container.php:817
+msgid "UZS - Uzbekistan Sum"
+msgstr "UZS - Uzbekistan Sum"
+
+#: includes/classes/class-settings-container.php:819
+msgid "VEF - Bolivar"
+msgstr "VEF - Bolivar"
+
+#: templates/front/shortcodes/profile/partials/change-password-form.php:3
+msgid "Verify current password"
+msgstr "Huidig wachtwoord verifiëren"
+
+#: includes/classes/widgets/elementor/class-elementor-properties-slider-widget.php:80
+msgid "Vertical"
+msgstr "Verticaal"
+
+#: includes/functions.php:290 includes/classes/entities/class-property.php:734
+msgid "Video"
+msgstr "Video"
+
+#: includes/helper-functions.php:283
+msgid "Video URL"
+msgstr "Video URL"
+
+#: includes/classes/shortcodes/class-my-listing-shortcode.php:189
+msgid "View all"
+msgstr ""
+"Bekijk alles\n"
+
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:96
+msgid "View all link name"
+msgstr ""
+"Bekijk alle linknaam\n"
+
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:102
+msgid "View all page"
+msgstr "Bekijk alle pagina"
+
+#: includes/classes/class-migrations.php:133
+msgid "Vinyl"
+msgstr "Vinyl"
+
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:135
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:156
+msgid "Visible fields"
+msgstr "Zichtbare velden"
+
+#: templates/admin/fields-builder/forms/field-form.php:130
+#: templates/admin/fields-builder/forms/section-form.php:41
+msgid "Visible for"
+msgstr "Zichtbaar voor"
+
+#: templates/admin/fields-builder/forms/field-form.php:121
+#: templates/admin/fields-builder/forms/section-form.php:32
+msgid "Visible on frontend"
+msgstr "Zichtbaar op frontend"
+
+#: includes/classes/class-settings-container.php:820
+msgid "VND - Dong"
+msgstr "VND - Dong"
+
+#: includes/classes/class-settings-container.php:818
+msgid "VUV - Vatu"
+msgstr "VUV - Vatu"
+
+#: includes/classes/pages/admin/class-dashboard-page.php:308
+msgid ""
+"We can extend plugin features and customize it to meet your requirements. To "
+"get an estimate, just fill out the form and we will get back to you with a "
+"quote."
+msgstr ""
+
+#: templates/admin/demo/start.php:12
+msgid "Welcome to Estatik"
+msgstr "Welkom bij Estatik"
+
+#: templates/admin/demo/steps/step1.php:37
+msgid "What is your country?"
+msgstr "Wat is jouw land?"
+
+#: includes/classes/entities/class-property.php:149
+msgid "What is your property status?"
+msgstr "Wat is de status van uw onroerend goed?"
+
+#: includes/classes/entities/class-property.php:126
+msgid "What is your property type?"
+msgstr "Wat is uw type onroerend goed?"
+
+#: includes/classes/entities/class-property.php:81
+msgid "What kind of property are you marketing?"
+msgstr "Wat voor soort onroerend goed verkoopt u?"
+
+#: templates/admin/settings/tabs/listings-tab.php:140
+msgid "What to show on the listing preview block?"
+msgstr "Wat moet worden weergegeven in het voorbeeldblok van de aanbieding?"
+
+#: templates/admin/settings/tabs/terms-tab.php:9
+msgid "What to use as accepting Privacy policy & Terms of use?"
+msgstr ""
+"Wat te gebruiken als acceptatie van het privacybeleid en de "
+"gebruiksvoorwaarden?"
+
+#: templates/admin/settings/tabs/map-tab.php:84
+msgid "What to use as map marker?"
+msgstr "Wat te gebruiken als kaartmarkering?"
+
+#: includes/classes/pages/admin/class-demo-page.php:227
+msgid "WhatsApp integration"
+msgstr "WhatsApp-integratie"
+
+#: includes/classes/pages/admin/class-demo-page.php:231
+msgid "White label"
+msgstr "Wit label"
+
+#: templates/admin/demo/steps/step1.php:5
+msgid "Who is your website for?"
+msgstr "Voor wie is uw website bedoeld?"
+
+#: includes/classes/widgets/class-properties-slider-widget.php:55
+msgctxt "widget layout"
+msgid "Horizontal"
+msgstr "Horizontaal"
+
+#: includes/classes/widgets/class-properties-slider-widget.php:56
+msgctxt "widget layout"
+msgid "Vertical"
+msgstr "Verticaal"
+
+#: includes/classes/widgets/elementor/class-elementor-authentication-widget.php:33
+msgctxt "widget name"
+msgid "Estatik Authentication"
+msgstr "Estatik Authenticatie"
+
+#: includes/classes/widgets/elementor/class-elementor-half-map-widget.php:47
+msgctxt "widget name"
+msgid "Estatik Half Map"
+msgstr "Estatik Halve kaart"
+
+#: includes/classes/widgets/class-listings-widget.php:12
+#: includes/classes/widgets/elementor/class-elementor-listings-widget.php:33
+msgctxt "widget name"
+msgid "Estatik Listings"
+msgstr "Estatik-vermeldingen"
+
+#: includes/classes/widgets/class-request-form-widget.php:12
+#: includes/classes/widgets/elementor/class-elementor-request-form-widget.php:33
+msgctxt "widget name"
+msgid "Estatik Request Form"
+msgstr "Estatik-aanvraagformulier"
+
+#: includes/classes/widgets/class-search-form-widget.php:12
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:47
+msgctxt "widget name"
+msgid "Estatik Search"
+msgstr "Estatik zoeken"
+
+#: includes/classes/widgets/class-properties-slider-widget.php:12
+#: includes/classes/widgets/elementor/class-elementor-properties-slider-widget.php:33
+msgctxt "widget name"
+msgid "Estatik Slider"
+msgstr "Estatik-schuifregelaar"
+
+#: includes/classes/class-migrations.php:213
+msgid "Wifi"
+msgstr "Wifi"
+
+#: includes/classes/pages/admin/class-demo-page.php:206
+msgid "Wishlists & Saved searches"
+msgstr "Verlanglijsten en Opgeslagen zoekopdrachten"
+
+#: includes/classes/class-settings-container.php:863
+msgid "With left slider"
+msgstr "Met linker schuifregelaar"
+
+#: includes/classes/class-settings-container.php:861
+msgid "With tiled gallery"
+msgstr "Met betegelde galerij"
+
+#: includes/classes/class-migrations.php:134
+msgid "Wood"
+msgstr "Hout"
+
+#: includes/classes/class-migrations.php:135
+msgid "Wood products"
+msgstr "Houtproducten"
+
+#: templates/admin/demo/steps/step4.php:2
+msgid "Would you like to add demo listings?"
+msgstr "Wilt u demo-aanbiedingen toevoegen?"
+
+#: includes/classes/widgets/elementor/class-elementor-search-form-widget.php:100
+msgid "WP default"
+msgstr "WP standaard"
+
+#: includes/classes/class-settings-container.php:783
+msgid "WST - Tala"
+msgstr "WST - Tala"
+
+#: includes/classes/class-settings-container.php:694
+msgid "XAF - CFA Franc BEAC"
+msgstr "XAF - CFA Franc BEAC"
+
+#: includes/classes/class-settings-container.php:669
+msgid "XCD - East Caribbean Dollar"
+msgstr "XCD - East Caribbean Dollar"
+
+#: includes/classes/class-settings-container.php:732
+msgid "XDR - SDR (Special Drawing Right)"
+msgstr "XDR - SDR (Special Drawing Right)"
+
+#: includes/classes/class-settings-container.php:680
+msgid "XOF - CFA Franc BCEAO"
+msgstr "XOF - CFA Franc BCEAO"
+
+#: includes/classes/class-settings-container.php:718
+msgid "XPF - CFP Franc"
+msgstr "XPF - CFP Franc"
+
+#: includes/classes/class-settings-container.php:790
+msgid "XSU - Sucre"
+msgstr "XSU - Sucre"
+
+#: includes/classes/class-settings-container.php:759
+msgid "XUA - ADB Unit of Account"
+msgstr "XUA - ADB Unit of Account"
+
+#: includes/classes/entities/class-property.php:281
+msgid "Year built"
+msgstr "Bouwjaar"
+
+#: includes/classes/entities/class-property.php:291
+msgid "Year remodeled"
+msgstr "jaar verbouwd"
+
+#: includes/classes/class-settings-container.php:821
+msgid "YER - Yemeni Rial"
+msgstr "YER - Yemeni Rial"
+
+#: includes/classes/class-auth-init.php:124
+#, php-format
+msgid "You already created an account using %s. Please log in instead."
+msgstr ""
+"Je hebt al een account aangemaakt met %s. Gelieve in plaats daarvan in te "
+"loggen."
+
+#: templates/admin/demo/steps/step1.php:18
+msgid "You are a single agent or an owner of your website."
+msgstr "U bent een enkele agent of een eigenaar van uw website."
+
+#: includes/classes/pages/front/class-profile-page.php:81
+#, fuzzy
+#| msgid "You are not authorized for access this page."
+msgid "You are not authorize for access this page."
+msgstr "U bent niet gemachtigd om toegang te krijgen tot deze pagina."
+
+#: includes/classes/class-auth-init.php:165
+msgid ""
+"You are successfully registered. Please check your email for account details."
+msgstr ""
+"U bent succesvol geregistreerd. Controleer uw e-mail voor accountgegevens."
+
+#: templates/admin/demo/steps/step1.php:22
+msgid "You can add multiple agents & agencies."
+msgstr "U kunt meerdere agenten & agentschappen toevoegen."
+
+#: includes/classes/framework/fields/class-icon-field.php:76
+msgid ""
+"You can choose to upload more than one file at a time. Make sure each file "
+"size doesn’t exceed 100 Kb. PNG, SVG are supported."
+msgstr ""
+"U kunt ervoor kiezen om meer dan één bestand tegelijk te uploaden. Zorg "
+"ervoor dat elke bestandsgrootte niet groter is dan 100 Kb. PNG, SVG worden "
+"ondersteund."
+
+#: includes/classes/pages/admin/class-settings-page.php:140
+msgid "You don't have permissions for this action."
+msgstr "U hebt geen machtigingen voor deze actie."
+
+#: templates/admin/fields-builder/partials/fields-tab.php:14
+msgid "You don’t have any fields in this section yet."
+msgstr "U heeft nog geen velden in deze sectie."
+
+#: includes/classes/pages/admin/class-settings-page.php:44
+#, fuzzy
+#| msgid "You have no permissions to do this action"
+msgid "You have no permissions for this action"
+msgstr "U heeft geen rechten om deze actie uit te voeren"
+
+#: templates/front/shortcodes/profile/tabs/saved-homes.php:23
+msgid "You haven’t saved any homes yet."
+msgstr "Je hebt nog geen huizen opgeslagen."
+
+#: templates/front/shortcodes/profile/tabs/saved-searches.php:54
+msgid "You haven’t saved any searches yet."
+msgstr "U heeft nog geen zoekopdrachten opgeslagen."
+
+#: templates/front/shortcodes/profile/tabs/profile-form.php:40
+msgid "You'll use it to sign in, and we'll use it to contact you"
+msgstr ""
+"U gebruikt het om u aan te melden en we gebruiken het om contact met u op te "
+"nemen"
+
+#: templates/front/shortcodes/authentication/buyer-register-form.php:43
+msgid "You'll use it to sign in, and we'll use it to contact you."
+msgstr ""
+"U gebruikt het om u aan te melden en wij gebruiken het om contact met u op "
+"te nemen."
+
+#: templates/admin/demo/start.php:70
+msgid "Your version now"
+msgstr "Jouw versie nu"
+
+#: templates/front/shortcodes/authentication/authentication.php:19
+msgid "You’re already logged in."
+msgstr "Je bent al ingelogd."
+
+#: includes/classes/class-settings-container.php:748
+msgid "ZAR - Rand"
+msgstr "ZAR - Rand"
+
+#: includes/classes/entities/class-property.php:619
+msgid "Zip / Postal Code"
+msgstr "Zip / Postcode"
+
+#: includes/classes/class-settings-container.php:822
+msgid "ZMW - Zambian Kwacha"
+msgstr ""
+"ZMW - Zambian Kwacha\n"
+
+#: includes/classes/class-settings-container.php:823
+msgid "ZWL - Zimbabwe Dollar"
+msgstr "ZWL - Zimbabwe Dollar"
+
+#: templates/admin/demo/steps/step1.php:39
+msgid ""
+"{0} language, {1} currency, {2} and {3} for area and lot sizes.<br>Go to "
+"Settings to change it."
+msgstr ""
+"0} taal, {1} valuta, {2} en {3} voor oppervlakte en kavelgroottes.<br>Ga "
+"naar Instellingen om dit te wijzigen."

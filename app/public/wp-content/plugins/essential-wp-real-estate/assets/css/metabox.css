@@ -1,0 +1,371 @@
+.cl-meta .components-form-token-field__input-container {
+    width: auto;
+}
+
+/* Metabox image */
+
+.cl_mb_placeholder {
+    height: 150px;
+    opacity: 0.1;
+    width: 80px;
+    object-fit: contain;
+}
+
+.single_img img {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+}
+
+.components-responsive-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Metabox button */
+
+.mb_btn {
+    transition: 0.5s;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* Metabox Primary Button */
+
+.mb_btn.primary {
+    color: #fff;
+    background: #2471b1;
+    
+    border: 1px solid #2471b1;
+    box-shadow: inset 0px 0px 0px #2471b1;
+}
+.mb_btn.primary:hover {
+    color: #2471b1;
+    background: #fff;
+}
+
+/* Metabox Upload image Button */
+
+.mb_img_upload_btn {
+    border: 1px solid #0e67cc;
+    background: #fff;
+    color: #0e67cc;
+}
+
+/* Metabox Remove image Button */
+
+.cl_mb_clear_btn {
+    border: 1px solid #cc310e;
+    background: #fff;
+    color: #cc310e;
+}
+
+/* Metabox image button control */
+
+.button_control {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mb_gal__container {
+    margin: 10px 0px;
+}
+
+.mb_gal__container > .button_control {
+    margin-top: 10px;
+}
+
+/* Metabox Remove Single image Button */
+
+.single_img {
+    position: relative;
+    cursor: pointer;
+}
+
+.single_img::before {
+    transition: 0.5s;
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 4px;
+    width: 100%;
+    background: #0005;
+    opacity: 0;
+}
+
+.single_img:hover::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 4px;
+    width: 100%;
+    background: #0005;
+    opacity: 1;
+}
+
+.single_img:hover .cl-remove {
+    opacity: 1;
+}
+
+.cl-remove {
+    transition: 0.5s;
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 0;
+    background: #ff0000;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    opacity: 0;
+}
+
+.cl-remove:hover {
+    background: #ffffff;
+    color: #ff0000;
+}
+
+/* Metabox Single image drag placeholder */
+
+.ui-state-highlight {
+    width: 150px;
+    height: 150px;
+    background-color: #bbbbbb;
+    background-image: url('../img/placeholder.png');
+    background-size: 150px ;
+    background-repeat: no-repeat;
+    background-size: 80px 60px;
+    background-position: center;
+    opacity: 0.1;
+}
+
+/* Metabox field Desc */
+
+.cl-meta .desc {
+    color: #9d9d9d;
+    margin: -6px 0px 6px 0px;
+}
+
+/* Metabox field label */
+
+.cl-meta > .column > label,
+.cl-meta > .column > .cl_mb_clone_single > label
+{
+    font-weight: 600;
+}
+
+/* Metabox field */
+
+.cl-meta input[type="text"].cl-meta-text-input ,
+.cl-meta input[type="number"].cl-meta-number-input ,
+.cl-meta input[type="url"].cl-meta-url-input ,
+.cl-meta select ,
+.cl-meta textarea {
+    width: 100%;
+    padding: 4px 8px;
+    margin: 8px 0px;
+    border-radius: 0px;
+    border: 1px solid #ddd;
+}
+
+/* Metabox Column System */
+
+.cl-meta,
+.cl-group-meta
+{
+    display: flex;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 800px) {
+    .cl-meta .col-1 {
+        width: 6.5%;
+    }
+    .cl-meta .col-2 {
+        width: 15%;
+    }
+    .cl-meta .col-3 {
+        width: 23.5%;
+    }
+    .cl-meta .col-4 {
+        width: 32%;
+    }
+    .cl-meta .col-6 {
+        width: 49%;
+    }
+    .cl-meta .col-8 {
+        width: 66%;
+    }
+    .cl-meta .col-9 {
+        width: 74.5%;
+    }
+    .cl-meta .col-12 {
+        width: 100%;
+    }
+}
+
+.column {
+    width: 100%;
+}
+
+/* Metabox Select2 */
+
+.cl-meta .select2-container {
+    width: 100%!important;
+    margin:8px 0px;
+}
+
+.cl-meta .select2-container--default .select2-selection--multiple,
+.cl-meta .select2-container--default .select2-selection--single 
+{
+    border: 1px solid #ddd;
+    border-radius: 0;
+}
+
+.cl-meta .select2-container--default .select2-selection--multiple .select2-selection__choice__remove,
+.cl-meta .select2-container--default .select2-selection--single .select2-selection__choice__remove 
+{
+    background: #3582c4;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+    height: 100%;
+    border: 0;
+    transition: 0.2s;
+    right: 0;
+    left: unset;
+}
+
+.cl-meta .select2-container--default .select2-selection--multiple .select2-selection__choice,
+.cl-meta .select2-container--default .select2-selection--single .select2-selection__choice 
+{
+    border: none;
+    padding: 2px 32px 2px 20px;
+}
+
+.cl-meta .select2-container--default .select2-selection--multiple
+{
+    padding: 2.5px;
+}
+.cl-meta .select2-container--default .select2-selection--single {
+    height: 38px;
+}
+
+/* Metabox Checkbox & Radio */
+
+.cl_meta_check_list,
+.cl_meta_radio_box
+{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin: 8px 0px;
+}
+
+.cl_meta_check_list input,
+.cl_meta_radio_box input
+{
+    border: 1px solid #ddd;
+    border-radius: 0;
+    margin: 0;
+}
+
+.cl-meta input[type=radio]:checked::before{
+    border-radius: 0px;
+}
+
+.cl_mb_clone_single {
+    position: relative;
+}
+
+.cl_mb_clone_single > .remove_clone_btn {
+    transition: 0.5s;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    border: none;
+    cursor: pointer;
+    color: #c75153;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.cl_mb_clone_single > .remove_clone_btn:hover{
+    color: #ff0000;
+    /* transform: rotate(90deg); */
+    box-shadow: 0px 0px 0px 5px #fde9e9;
+}
+
+.cl_mb_clone_single.mouse_hover > *:not(button) {
+
+    opacity: 0.5;
+    /* filter: blur(1px); */
+}
+
+.cl-group-meta {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    margin: 8px 0px;
+    background: #fbfbfb;
+}
+/* The animation code */
+@keyframes sortable_p {
+  from {
+      height: 0px;
+      background: #fff;
+    }
+  to {
+      height: 20px;
+      background: #ddd;
+    }
+}
+/* Clone Sortable placeholder */
+.sortable-state-highlight {
+    height: 20px;
+    padding: 0;
+    margin-bottom: 5px;
+    border: none;
+    background: #ddd;
+    animation-name: sortable_p;
+    animation-duration: 0.6s;
+}
+
+.cl-meta-sortable:hover > div{
+    cursor: move;
+}
+
+/* Map */
+
+#map {
+    width: 100%;
+}
+
+.map_lat_lon_button {
+    background: white;
+    border: none;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}

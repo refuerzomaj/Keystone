@@ -1,0 +1,399 @@
+/**
+ * Internal dependencices
+ */
+@import './frontend/modal.scss';
+@import './frontend/payment-request-button.scss';
+
+#cl_checkout_form_wrap .cl-card-selector-radio label {
+	display: inline;
+	vertical-align: middle;
+	font-weight: normal;
+	line-height: 24px;
+	font-size: 100%;
+	margin: 0px;
+}
+
+.cl-card-selector-radio .cl-stripe-card-radio-item {
+	width: 100%;
+	font-size: 15px;
+	padding: 8px 12px;
+	border: 1px solid transparent;
+
+	label {
+		line-height: 1;
+		margin: 0;
+		display: flex;
+		align-items: center;
+
+		.add-new-card,
+		.card-label {
+			margin-left: 8px;
+		}
+	}
+}
+
+.cl-card-selector-radio .cl-stripe-card-radio-item.selected {
+	border: 1px solid #f0f0f0;
+	background-color: #fcfcfc;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.cl-card-selector-radio div.card-label {
+	width: 65%;
+	display: inline-block;
+}
+
+.cl-card-selector-radio span.card-is-default {
+	font-style: italic;
+}
+
+.cl-card-selector-radio span.card-expired {
+	color: #ff3333;
+}
+
+.cl-stripe-card-selector + .cl-stripe-new-card {
+	margin-top: 20px;
+}
+
+#cl-stripe-manage-cards .cl-stripe-add-new-card {
+	margin: 20px 0 10px;
+}
+
+#cl-stripe-manage-cards div.cl-stripe-card-item {
+	list-style: none;
+	width: 100%;
+	display: inline-grid;
+	border: 1px solid #f0f0f0;
+	padding: 5px 10px;
+	min-height: 100px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-left: 0px;
+}
+
+.cl-stripe-card-item > span {
+	display: block;
+}
+
+.cl-stripe-card-item .card-meta > span {
+	color: #999;
+	display: block;
+}
+
+.cl-stripe-card-item .card-actions a {
+	text-decoration: none;
+}
+
+.cl-stripe-card-item .card-actions a.delete {
+	color: #ff3333;
+}
+
+.card-actions .cl-loading-ajax {
+	display: inline-block;
+	margin-right: 4px;
+}
+
+.cl-stripe-card-item .card-update-form {
+	display: none;
+}
+
+.cl-stripe-card-item .card-update-form label {
+	font-weight: bold;
+}
+
+.cl-stripe-card-item .card-update-form input {
+	margin-bottom: 3px;
+}
+
+.cl-stripe-card-item .card-update-form select {
+	background: #fff;
+	border: 1px solid #e4e4e4;
+	height: 40px;
+	margin-right: 3px;
+}
+
+.cl-stripe-card-item .card-update-form select:first-of-type {
+	margin-right: 3px;
+}
+
+.cl-stripe-card-item .card-address-fields input,
+.cl-stripe-card-item .card-address-fields select {
+	width: 49%;
+	display: inline-block;
+}
+
+/* Checkout Fields */
+.cl-stripe-add-new-card label {
+	font-weight: bold;
+	display: block;
+	position: relative;
+	line-height: 100%;
+	font-size: 95%;
+	margin: 0 0 5px;
+}
+.cl-stripe-add-new-card label:after {
+	display: block;
+	visibility: hidden;
+	float: none;
+	clear: both;
+	height: 0;
+	text-indent: -9999px;
+	content: ".";
+}
+.cl-stripe-add-new-card span.cl-description {
+	color: #666;
+	font-size: 80%;
+	display: block;
+	margin: 0 0 5px;
+}
+.cl-stripe-add-new-card input.cl-input,
+.cl-stripe-add-new-card textarea.cl-input {
+	display: inline-block;
+	width: 70%;
+}
+.cl-stripe-add-new-card select.cl-select {
+	display: block;
+	width: 60%;
+}
+.cl-stripe-add-new-card select.cl-select.cl-select-small {
+	display: inline;
+	width: auto;
+}
+.cl-stripe-add-new-card input.cl-input.error,
+.cl-stripe-add-new-card textarea.cl-input.error {
+	border-color: #c4554e;
+}
+.cl-stripe-add-new-card > p {
+	margin: 0 0 21px;
+}
+.cl-stripe-add-new-card span.cl-required-indicator {
+	color: #b94a48;
+	display: inline;
+}
+.cl-stripe-add-new-card textarea,
+.cl-stripe-add-new-card input[type="text"],
+.cl-stripe-add-new-card input[type="email"],
+.cl-stripe-add-new-card input[type="password"],
+.cl-stripe-add-new-card input[type="tel"] {
+	padding: 4px 6px;
+}
+.cl-stripe-add-new-card input[type="radio"] {
+	border: none;
+	margin-right: 5px;
+}
+.cl-stripe-add-new-card input[type="checkbox"] {
+	display: inline-block;
+	margin: 0 5px 0 0;
+}
+.cl-stripe-add-new-card input[type="checkbox"] + label,
+.cl-stripe-add-new-card input[type="checkbox"] + label:after {
+	display: inline;
+}
+.cl-stripe-add-new-card .cl-payment-icons {
+	height: 32px;
+	display: block;
+	margin: 0 0 8px;
+}
+.cl-stripe-add-new-card .cl-payment-icons img.payment-icon {
+	max-height: 32px;
+	width: auto;
+	margin: 0 3px 0 0;
+	float: left;
+	background: none;
+	padding: 0;
+	border: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.cl-stripe-add-new-card #cl-payment-mode-wrap label {
+	display: inline-block;
+	margin: 0 20px 0 0;
+}
+.cl-stripe-add-new-card #cl-payment-mode-wrap .cl-payment-mode-label {
+	font-weight: bold;
+	display: inline-block;
+	position: relative;
+	margin-bottom: 5px;
+}
+.cl-stripe-add-new-card fieldset {
+	border: 1px solid #eee;
+	padding: 1.387em;
+	margin: 0 0 21px;
+}
+.cl-stripe-add-new-card #cl_purchase_submit,
+.cl-stripe-add-new-card #cl_discount_code,
+.cl-stripe-add-new-card #cl_register_account_fields {
+	padding: 0;
+	border: none;
+}
+.cl-stripe-add-new-card fieldset fieldset {
+	margin: 0;
+	border: none;
+	padding: 0;
+}
+.cl-stripe-add-new-card #cl-login-account-wrap,
+.cl-stripe-add-new-card #cl-new-account-wrap,
+.cl-stripe-add-new-card #cl_show_discount,
+.cl-stripe-add-new-card .cl-cart-adjustment,
+.cl-stripe-add-new-card #cl_final_total_wrap {
+	background: #fafafa;
+	color: #666;
+	padding: 0.5em 1.387em;
+}
+.cl-stripe-add-new-card #cl-discount-code-wrap,
+.cl-stripe-add-new-card #cl_final_total_wrap,
+.cl-stripe-add-new-card #cl_show_discount {
+	border: 1px solid #eee;
+}
+.cl-stripe-add-new-card .cl-cart-adjustment {
+	padding: 1.387em;
+}
+.cl-stripe-add-new-card .cl-cart-adjustment input.cl-input,
+.cl-stripe-add-new-card .cl-cart-adjustment input.cl-submit {
+	display: inline-block;
+}
+.cl-stripe-add-new-card .cl-cart-adjustment input.cl-submit {
+	padding: 3px 12px;
+	margin-bottom: 2px;
+}
+.cl-stripe-add-new-card #cl-discount-error-wrap {
+	width: 100%;
+	display: inline-block;
+	margin: 1em 0 0;
+}
+.cl-stripe-add-new-card #cl-new-account-wrap,
+.cl-stripe-add-new-card #cl-login-account-wrap {
+	margin: -1.387em -1.387em 21px;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+.cl-stripe-add-new-card #cl_payment_mode_select {
+	margin-bottom: 21px;
+}
+.cl-stripe-add-new-card fieldset#cl_register_fields #cl_checkout_user_info {
+	margin-bottom: 21px;
+}
+.cl-stripe-add-new-card fieldset#cl_register_account_fields legend {
+	padding-top: 11px;
+}
+.cl-stripe-add-new-card fieldset#cl_register_account_fields p.cl_register_password,
+.cl-stripe-add-new-card fieldset#cl_register_account_fields p.cl_login_password {
+	margin: 0;
+}
+.cl-stripe-add-new-card fieldset#cl_cc_fields {
+	border: 1px solid #f0f0f0;
+	background: #f9f9f9;
+	position: relative;
+}
+.cl-stripe-add-new-card fieldset#cl_cc_fields legend {
+	border: none;
+	padding: 0;
+}
+.cl-stripe-add-new-card fieldset p:last-child {
+	margin-bottom: 0;
+}
+#cl_secure_site_wrapper {
+	padding: 4px 4px 4px 0;
+	font-weight: bold;
+}
+.cl-stripe-add-new-card span.exp-divider {
+	display: inline;
+}
+
+/**
+ * Stripe Elements - Card
+ */
+.cl-stripe-card-element.StripeElement,
+.cl-stripe-card-exp-element.StripeElement,
+.cl-stripe-card-cvc-element.StripeElement {
+	box-sizing: border-box;
+	padding: 10px 12px;
+	border: 1px solid #ccc;
+	background-color: white;
+}
+
+.cl-stripe-card-element.StripeElement--invalid {
+	border-color: #c4554e !important;
+}
+
+#cl-stripe-card-errors:not(:empty) {
+	margin: 20px 0 0;
+}
+
+#cl-card-wrap {
+	position: relative;
+}
+
+#cl-card-details-wrap {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+#cl-card-details-wrap p:empty {
+	width: 100%;
+}
+
+#cl-card-exp-wrap,
+#cl-card-cvv-wrap {
+	width: 48%;
+}
+
+#cl-stripe-card-element-wrapper {
+	position: relative;
+}
+
+#cl_checkout_form_wrap .cl-stripe-new-card span.card-type {
+	background-size: 32px 24px !important;
+	width: 32px;
+	height: 24px;
+	top: 50%;
+	transform: translate3d(0, -50%, 0);
+	right: 10px;
+}
+
+/**
+ * "Buy Now" modal.
+ */
+.cls-buy-now-modal {
+	width: 500px;
+
+	.cls-modal__close {
+		padding: 0.5rem;
+	}
+
+	#cl_checkout_form_wrap {
+
+		input.cl-input,
+		textarea.cl-input {
+			width: 100%;
+		}
+
+		#cl_purchase_submit {
+			margin-top: 1.5rem;
+			margin-bottom: 0;
+		}
+	}
+
+	.cls-field-spacer-shim {
+		margin-bottom: 1rem;
+	}
+
+	.cl-alert-error {
+		margin: 20px 0;
+	}
+
+	#cl-stripe-card-errors:not(:empty) {
+		margin-bottom: 20px;
+		
+		.cl-alert-error {
+			margin: 0;
+		}
+	}
+}

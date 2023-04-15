@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/*
+Theme Name: Real Estate Builder
+Author: TheMagnifico52
+Theme URI: https://www.themagnifico.net/themes/free-estate-builder-wordpress-theme/
+Author URI: https://www.themagnifico.net/
+Description: The Real Estate Builder WordPress theme is the perfect solution for anyone looking to create a professional and modern website for their real estate business. The theme has a sleek and intuitive design and makes it easy to create a website that will capture the attention of potential clients. Whether you're a real estate agent, broker, or developer, this theme is designed to help you showcase your properties and services in the best possible way. The theme is fully responsive, meaning that it will look great on any device, from desktop computers to mobile phones and tablets. It comes with various functions and features to help your website reach a larger crowd. Furthermore, this theme can be used for multiple purposes. It can be used for creating a blog website, a portfolio, an online store, etc. The theme comes with various features like user-friendliness, SEO-friendliness, cross-browser compatibility, optimized codes, and much more. Moreover, it includes sections like a homepage, an about us section, a testimonials section, and a newsletter section to make navigation easy for the users. The theme is also customizable and comes with various customization options to help you make the perfect website you want. Overall, the Real Estate Builder WordPress theme is a powerful and flexible tool for anyone in the real estate industry looking to create a stunning and functional website. With its intuitive design, powerful features, and easy customization options, this theme is sure to help you stand out from the competition and attract more clients to your business.
+Version: 0.1
+Tested up to: 6.1
+Requires PHP: 7.2
+Requires at least: 5.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: real-estate-management
+Text Domain: real-estate-builder
+Tags: custom-logo, one-column, two-columns, wide-blocks, block-styles, editor-style, sticky-post, custom-background, custom-colors, custom-header, custom-menu, featured-images, flexible-header, full-width-template, threaded-comments, theme-options, rtl-language-support, left-sidebar, right-sidebar, grid-layout, news, photography, portfolio
+
+Real Estate Builder WordPress Theme has been created by TheMagnifico52(themagnifico.net), 2023.
+Real Estate Builder WordPress Theme is released under the terms of GNU GPL
+*/
+
+.sidebar h5,#button,.sidebar input[type="submit"], .sidebar button[type="submit"],.sidebar .tagcloud a:hover,#colophon,.main-navigation .sub-menu,.main-navigation .menu > li > a:hover,.post-navigation .nav-previous a:hover, .post-navigation .nav-next a:hover, .posts-navigation .nav-previous a:hover, .posts-navigation .nav-next a:hover,.comment-respond input#submit,.woocommerce-account .woocommerce-MyAccount-navigation ul li,.woocommerce .woocommerce-ordering select,.pro-button a, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,.top-btn a,#top-slider .owl-nav i,.slider-box-btn a{
+    background: #ffcc00;
+}
+
+.post-navigation .nav-previous a:hover, .post-navigation .nav-next a:hover, .posts-navigation .nav-previous a:hover, .posts-navigation .nav-next a:hover,.woocommerce-message, .woocommerce-info{
+    border-color: #ffcc00;
+}
+
+.wp-block-quote, .wp-block-quote:not(.is-large):not(.is-style-large), .wp-block-pullquote{
+    border-color: #ffcc00 !important;
+}
+
+a,.article-box a,span.flat-rent,.flat-meta i,.sidebar ul li a:hover,p.price, .woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price,.woocommerce-message::before, .woocommerce-info::before,.top-btn a:hover,.slider-box-btn a:hover,.latest-project h6{
+   color: #ffcc00;
+}
+
+.main-navigation .sub-menu > li > a:hover, .main-navigation .sub-menu > li > a:focus{
+    background: #000;
+}
+
+.main-navigation .menu > li > a:hover{
+    color: #000;
+}
+
+.latest-services h6 {
+    font-size: 20px;
+    color: #ffcc00;
+    font-weight: 500;
+}
+.latest-services .box:hover i{
+	color: #ffcc00;
+}
+.latest-services .box:hover p a{
+	background-color: #ffcc00;
+	color: #000;
+}
+.latest-services .box:hover hr{
+	border-top-color: #ffcc00;
+}
+.latest-services .box:hover{
+	background-color: #fff;
+
+}
+.latest-services h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.latest-services  .box i {
+    font-size: 50px;
+    color: #000;
+}
+.latest-services .box {
+    background: #ffcc00;
+    padding: 45px 40px;
+    box-shadow: 0 0 13px 5px rgb(145 138 138 / 40%);
+}
+.latest-services .box p{
+	color: #000;
+}
+.latest-services .box p a {
+    color: #fff;
+    background: #000;
+    padding: 6px 15px;
+}
+.latest-services .box h4 a {
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+}
+.latest-services .box hr {
+    width: 21%;
+    height: 0px;
+    border-top: 2px solid #000;
+    margin-top: 8px !important;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 720px){
+   
+}
+@media screen and (max-width: 1000px){
+
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+    
+}

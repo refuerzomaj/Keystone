@@ -1,0 +1,73 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ere-similar-properties\n"
+"POT-Creation-Date: 2019-02-22 15:03+0700\n"
+"PO-Revision-Date: 2017-07-04 15:35+0700\n"
+"Last-Translator: \n"
+"Language-Team: G5Theme <g5plus@outlook.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;"
+"_n_noop:1,2;_nx_noop:1,2,3c;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ere-similar-properties.php:44 ere-similar-properties.php:51
+#: ere-similar-properties.php:147
+msgid "Similar Properties"
+msgstr ""
+
+#: ere-similar-properties.php:50
+msgid "Heading Title"
+msgstr ""
+
+#: ere-similar-properties.php:56
+msgid "Similar Type"
+msgstr ""
+
+#: ere-similar-properties.php:57
+msgid "Select type for similar properties"
+msgstr ""
+
+#: ere-similar-properties.php:59
+msgid "Status"
+msgstr ""
+
+#: ere-similar-properties.php:60
+msgid "Type"
+msgstr ""
+
+#: ere-similar-properties.php:61
+msgid "City / Town"
+msgstr ""
+
+#: ere-similar-properties.php:62
+msgid "Neighborhood"
+msgstr ""
+
+#: ere-similar-properties.php:63
+msgid "Label"
+msgstr ""
+
+#: ere-similar-properties.php:74
+msgid "Layout Style"
+msgstr ""
+
+#: ere-similar-properties.php:77
+msgid "Grid"
+msgstr ""
+
+#: ere-similar-properties.php:78
+msgid "List"
+msgstr ""
+
+#: ere-similar-properties.php:84
+msgid "Items Amount"
+msgstr ""

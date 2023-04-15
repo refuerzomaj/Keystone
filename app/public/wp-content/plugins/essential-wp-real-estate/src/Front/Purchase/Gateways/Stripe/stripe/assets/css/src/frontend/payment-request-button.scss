@@ -1,0 +1,83 @@
+.cls-prb {
+	margin: 15px 0;
+	display: none;
+
+	&__or {
+		font-size: 90%;
+		text-align: center;
+		margin: 15px 0;
+		overflow: hidden;
+
+		&::before,
+		&::after {
+			background-color: rgba(0, 0, 0, .10);
+			content: "";
+			display: inline-block;
+			height: 1px;
+			position: relative;
+			vertical-align: middle;
+			width: 50%;
+		}
+
+		&::before {
+			right: 0.5em;
+			margin-left: -50%;
+		}
+
+		&::after {
+			left: 0.5em;
+			margin-right: -50%;
+		}
+	}
+}
+
+@mixin loadingState {
+
+	&.loading {
+		position: relative;
+
+		&::after {
+			content: "";
+			position: absolute;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			z-index: 100;
+		}
+
+		> * {
+			opacity: 0.65;
+		}
+	}
+}
+
+/**
+ * Purchase link loading state.
+ *
+ * Disables interaction while redirecting.
+ */
+.cl_listing_purchase_form {
+
+	@include loadingState;
+}
+
+/**
+ * Checkout
+ */
+#cl_checkout_form_wrap {
+
+	@include loadingState;
+
+	&:not(.cl-prb--is-active) #cl-payment-mode-wrap #cl-gateway-option-stripe-prb {
+		display: none !important;
+	}
+
+	.cls-prb {
+		margin-bottom: 0;
+	}
+
+	.cls-prb__or {
+		display: none;
+	}
+}
