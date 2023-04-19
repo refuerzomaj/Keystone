@@ -1,0 +1,118 @@
+.blog-page{
+    margin:0;
+    z-index: 1;
+    background-color: #F6F7F9;
+}
+
+/*
+First Section CSS
+*/
+.blog-page .first-section{
+    background-color:#EAB830;
+    padding:41px 0 104px 0;
+    z-index: -1;
+}
+.blog-page .first-section .box{
+    width: 1600px;
+    margin: 0 auto;
+}
+.blog-page .first-section .box p{
+    padding:0;
+    margin:0;
+}
+.blog-page .first-section .box p,
+.blog-page .first-section .box a{
+    color:white; 
+    font-family:poppins; 
+    font-weight:400; 
+    font-size:15px;
+}
+
+/*
+Second Section CSS
+*/
+.blog-page .second-section{
+    padding: 0;
+    margin: -66px auto -92px auto;
+    z-index: 2;
+    border-radius: 15px;
+    width: 1348px;
+    position: relative;
+    background-color: white;
+}
+.blog-page .second-section .box{
+    width: 1348px;
+    padding: 96px 75px 60px 75px;
+}
+.blog-page .second-section .box .title-box h2{
+    color: #0A2546;
+    font-family: Source Serif Pro;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 0 0 30px 0;
+}
+.blog-page .box .first-blog-box .left-box .img-post{
+    width: 539px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.blog-page .box .first-blog-box .left-box,
+.blog-page .box .first-blog-box .right-box{
+    display: inline-block;
+    width: 560px;
+    vertical-align: middle;
+}
+.blog-page .box .first-blog-box .right-box{
+    margin-left: 40px;
+}
+.blog-page .box .first-blog-box .right-box h3{
+    font-family: source serif pro;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    padding-bottom: 20px;
+}
+.blog-page .box .first-blog-box .right-box p{
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.blog-page .box .second-blog-box .blog-box{
+    width: 352px;
+    display: inline-block;
+    vertical-align: top;
+}
+.blog-page .box .second-blog-box .blog-box .img-post{
+    width: 352px;
+    height: 253px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 90px auto 30px auto;
+}
+.blog-page .box .second-blog-box .blog-box h3{
+    color: black;
+    font-family: source serif pro;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+}
+.blog-page .box .second-blog-box .blog-box p{
+    color: black;
+    font-family: source serif pro;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+/*
+Third Section CSS
+*/
+.third-section{
+    background-color: #122D4D;
+    height: 210px;
+    z-index: -1;
+}

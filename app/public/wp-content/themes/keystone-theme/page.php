@@ -5,8 +5,8 @@ while(have_posts()){
 }
 
 //Display Homepage 
-the_content(); 
 if(is_page('Homepage')){
+    the_content(); 
     ?>
     <div class="home-page">
         <!-- Seventh Section -->
@@ -22,20 +22,66 @@ if(is_page('Homepage')){
         </div>-->
 
         <div class="second-section">
-            <div class="title">
-                <h2>Available Properties</h2>
+            <div class="filter-box">
+                <div class="title">
+                    <h2>Available Properties</h2>
+                </div>
                 <div class="filters">
+                    <!-- Property Type -->
                     <div class="property-type" id="property-type">
-                        <select>
-                            <option>
-                                <img src="http://keystone.local/wp-content/uploads/2023/03/Property-icon.png">
-                                Property Type
-                            </option>
-                            <option></option>
-                            <option></option>
-                            <option></option>
-                        </select>
-                    
+                        <div class="dropbtn">
+                            <img src="http://keystone.local/wp-content/uploads/2023/03/Property-icon.png">
+                            <p>Property Type</p>
+                            <i class="fas fa-chevron-down" style="display:inline-block; width:auto;"></i>
+                        </div>
+                        <div class="dropdown-content">
+                            <a href="">
+                                Type 1
+                            </a>
+                            <a href="">
+                                Type 2
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Price Range -->
+                    <div class="property-price-range" id="propert-price-range">
+                        <div class="dropbtn">
+                            <img src="http://keystone.local/wp-content/uploads/2023/03/Pound.png">
+                            <p>Price Range</p>
+                            <i class="fas fa-chevron-down" style="display:inline-block; width:auto;"></i>
+                        </div>
+                        <div class="dropdown-content">
+                            <a href="">
+                                Type 1
+                            </a>
+                            <a href="">
+                                Type 2
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Bed Rooms -->
+                    <div class="property-bed-room" id="property-bed-room">
+                        <div class="dropbtn">
+                            <img src="http://keystone.local/wp-content/uploads/2023/03/Bed-icon.png">
+                            <p>Bedrooms</p>
+                            <i class="fas fa-chevron-down" style="display:inline-block; width:auto;"></i>
+                        </div>
+                        <div class="dropdown-content">
+                            <a href="">
+                                Type 1
+                            </a>
+                            <a href="">
+                                Type 2
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Search button -->
+                    <div class="property-search-btn" id="property-search-btn">
+                        <button>Search <img src=""></button>
+                    </div>
+                    <!-- More View Button -->
+                    <div class="property-more-btn" id="property-more-btn">
+                        <button>More Filters</button>
                     </div>
                 </div>
             </div>
@@ -160,11 +206,15 @@ if(is_page('Homepage')){
         <!-- end -->
         <!-- Eight Section -->
         <div class="eight-section">
-            <div class="box">
-                <h2 class="title">Blog</h2>
-            </div>
             <div class="blog-box">
+                <h2 class="title">Blog</h2>
                 <?php 
+
+                    $arrayBlogImageUrl = array();
+                    $arrayBlogTitle = array();
+                    $arrayBlogDate = array();
+                    $arrayBlogDescription = array();
+                    $arrayBlogPermalink = array();
                     $args2 = array(
                         'post_type' => 'post',
                         'post-status' => 'publish',
@@ -172,61 +222,183 @@ if(is_page('Homepage')){
                     );
                         
                     $post_query = new WP_Query( $args2 );
-                    $x = 1;
+
                     if ( $post_query->have_posts() ) {
                         while ( $post_query->have_posts() ) {
                             $post_query->the_post();
-                            if($x == 1){
-                                if( has_post_thumbnail() ){
-                                    $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'medium');
-                    ?>
-                <div class="box-left">
-                    <div class="first-blog-img" style="background-image: url('<?php echo $featured_img_url; ?>'); width: 666px; height: 396px; background-repeat: no-repeat; background-size: cover; border-radius:10px;" alt=" <?php the_title(); ?> ">
-                        <?php  
-                                }
-                        ?>
-                        <p class="blog-date" style="color:white; padding: 5px 23px 8px 31px; background-color:#EF9600;"><?php echo get_the_date(); ?></p>
-                    </div>
-                </div>
-                <?php 
+
+                            if( has_post_thumbnail() ){
+                                $arrayBlogImageUrl[] = get_the_post_thumbnail_url(get_the_ID(),'medium');
+                                $arrayBlogTitle[] = get_the_title();
+                                $arrayBlogDate[] = get_the_date();
+                                $arrayBlogDescription[] = get_the_content();
+                                $arrayBlogPermalink[] = get_permalink();
                             }
-                            else if($x >=1 && $x <=1){ 
-                ?>
-                <div class="box-right"></div>
-                <?php 
-                            }
-                            $x++;
                         }
                         wp_reset_postdata();
                     }
-                ?>
-                
+                    ?>
+                <div class="box-left">
+                    <div class="blog">
+                        <a href="<?php echo $arrayBlogPermalink[3]; ?>">
+                            <div class="first-blog-img" style="background-image: url('<?php echo $arrayBlogImageUrl[3]; ?>'); " alt=" ">
+                                <p class="blog-date"><?php echo $arrayBlogDate[3]; ?></p>
+                            </div>
+                            <div class="first-blog-title">
+                                <h2>
+                                    <?php echo $arrayBlogTitle[3]; ?>
+                                </h2>
+                                <p>
+                                    Nullam rutrum maximus lacus. Nunc at aliquet massa, id molestie urna. Vestibulum leo ex, porttitor at eros non, vehicula hendrerit justo. Nulla volutpat ex id quam cursus, eget tincidunt diam laoreet. Quisque sagittis pharetra lacus ac scelerisque.
+                                </p>
+                            </div>
+                        </a>
+                    </div>    
+                </div>
+                <div class="box-right">
+                    <a href="<?php echo $arrayBlogPermalink[2]; ?>">
+                        <div class="blog">
+                            <div class="blog-image">
+                                <img src="<?php echo $arrayBlogImageUrl[2]; ?>" alt="<?php echo $arrayBlogTitle[2]; ?>">
+                            </div>
+                            <div class="blog-content">
+                                <h2>
+                                    <?php echo $arrayBlogTitle[2]; ?>
+                                </h2>
+                                <p>
+                                    Aliquam quis fringilla quam. Praesent vitae ex sit amet velit interdum malesuada vitae a dui. Nullam rutrum maximus lacus. 
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="<?php echo $arrayBlogPermalink[1]; ?>">
+                        <div class="blog">
+                            <div class="blog-image">
+                                <img src="<?php echo $arrayBlogImageUrl[1]; ?>" alt="<?php echo $arrayBlogTitle[1]; ?>">
+                            </div>
+                            <div class="blog-content">
+                                <h2>
+                                    <?php echo $arrayBlogTitle[1]; ?>
+                                </h2>
+                                <p>
+                                    Cras in dui turpis. Quisque neque justo, eleifend et nunc nec, interdum laoreet massa. Aenean euismod est velit, sed congue turpis euismod at. 
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="<?php echo $arrayBlogPermalink[0]; ?>">
+                        <div class="blog">
+                            <div class="blog-image">
+                                <img src="<?php echo $arrayBlogImageUrl[0]; ?>" alt="<?php echo $arrayBlogTitle[0]; ?>">
+                            </div>
+                            <div class="blog-content">
+                            <h2>
+                                    <?php echo $arrayBlogTitle[0]; ?>
+                                </h2>
+                                <p>
+                                Vivamus vitae metus scelerisque, tristique est sit amet, faucibus quam. Integer et facilisis nibh. Aenean vel arcu felis. Ut quis erat eget sapien pharetra fringilla. 
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="blog-view-more">
+                    <a href="http://keystone.local/blog">View more articles >> </a>
+                </div>
             </div>
         </div>
         <!-- end -->
-        <?php
-$args = array(
-    'post_type' => 'post',
-    'post_status' => 'publish',
-    'posts_per_page' => -1
-);
-$query = new WP_Query( $args );
- 
-if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
- 
-    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-    <?php if ( has_post_thumbnail() ) : ?>
-        <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'medium' ); ?></a>
-    <?php endif; ?>
-    <p><?php the_excerpt(); ?></p>
- 
-<?php endwhile; endif; wp_reset_postdata(); ?>
-    </div>
+     
     <?php
 }
+
 //Display BMV Properties
-if(is_page('BMV')){
-    //echo '<script>alert("BMV Page")</script>';
+if(is_page('Blog Page')){
+
+        $arrayBlogImageUrl = array();
+        $arrayBlogTitle = array();
+        $arrayBlogDate = array();
+        $arrayBlogDescription = array();
+        $arrayBlogPermalink = array();
+        $numOfBlogPost = 0;
+        $args2 = array(
+            'post_type' => 'post',
+            'post-status' => 'publish',
+            'posts_per_page' => -1
+        );
+                        
+        $post_query = new WP_Query( $args2 );
+        if ( $post_query->have_posts() ) {
+            while ( $post_query->have_posts() ) {
+                $post_query->the_post();
+
+                if( has_post_thumbnail() ){
+                    $arrayBlogImageUrl[] = get_the_post_thumbnail_url(get_the_ID(),'medium');
+                    $arrayBlogTitle[] = get_the_title();
+                    $arrayBlogDate[] = get_the_date();
+                    $arrayBlogDescription[] = get_the_content();
+                    $arrayBlogPermalink[] = get_permalink();
+                }
+                $numOfBlogPost++;
+            }
+            wp_reset_postdata();
+        }
+    ?>
+        <div class="blog-page">
+            <!-- First Section Section -->
+            <div class="first-section">
+                <div class="box">
+                    <p><a href="http://keystone.local/homepage" style="padding:0;margin:0; text-decoration:none; color:white;">Home</a> > Blogs</p>
+                </div>
+            </div>
+            <!-- Second Section -->
+            <div class="second-section">
+                <div class="box">
+                    <div class="title-box">
+                        <h2>Latest Blog</h2>
+                    </div>
+                    <div class="first-blog-box">
+                        <div class="left-box">
+                            <div class="img-post" style="background-image:url('<?php echo $arrayBlogImageUrl[0]; ?>');" alt="<?php echo $arrayBlogTitle[0];?>"></div>
+                        </div>
+                        <div class="right-box">
+                            <h3><?php echo $arrayBlogTitle[0]; ?></h3>
+                            <p><?php echo $arrayBlogDescription[0]; ?></p>
+                        </div>
+                    </div>
+                    <div class="second-blog-box">
+                        <?php 
+                            for($x = 1; $x < $numOfBlogPost; $x++){
+                                if($x % 2 === 0){
+                        ?>
+                        <div class="blog-box" style="margin:0 62px;">
+                            <div class="img-post" style="background-image:url('<?php echo $arrayBlogImageUrl[$x]; ?>');" alt="<?php echo $arrayBlogTitle[$x];?>"></div>
+                            <h3><?php echo $arrayBlogTitle[$x]; ?></h3>
+                            <p><?php echo $arrayBlogDescription[$x]; ?></p>
+                        </div>
+                        <?php 
+                                }
+                                else{
+                                    ?>
+                        <div class="blog-box">
+                            <div class="img-post" style="background-image:url('<?php echo $arrayBlogImageUrl[$x]; ?>');" alt="<?php echo $arrayBlogTitle[$x];?>"></div>
+                            <h3><?php echo $arrayBlogTitle[$x]; ?></h3>
+                            <p><?php echo $arrayBlogDescription[$x]; ?></p>
+                        </div>
+                        <?php 
+
+                                }
+                            }
+                        ?>
+                    </div>
+                </div>
+            </div>
+            <!-- Third Section -->
+            <div class="third-section">
+            </div>
+        </div>
+    <?php
+    the_content(); 
 }
 get_footer();//call the footer
 ?>

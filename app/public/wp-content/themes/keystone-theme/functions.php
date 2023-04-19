@@ -8,8 +8,14 @@ function my_enqueue_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'my_enqueue_scripts' );
 
-/*Style CSS*/
+/*Homepage CSS*/
 function add_style_css(){
     wp_enqueue_style( 'keystone-stylesheet' , get_stylesheet_directory_uri() . '/style.css' );
 }
 add_action( 'wp_enqueue_scripts', 'add_style_css' );
+
+/*Blog Page CSS*/
+function add_blogpage_style_css(){
+    wp_enqueue_style( 'keystone-stylesheet-2' , get_stylesheet_directory_uri() . '/blogpage-style.css' );
+}
+add_action( 'wp_enqueue_scripts', 'add_blogpage_style_css' );
