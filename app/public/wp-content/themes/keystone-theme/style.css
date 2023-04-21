@@ -60,7 +60,13 @@ Version: 1.0
 .home-page .second-section .filter-box .filters .property-bed-room,
 .home-page .second-section .filter-box .filters .property-search-btn,
 .home-page .second-section .filter-box .filters .property-more-btn{
+    cursor: pointer;
     display: inline-block;
+}
+.home-page .second-section .filter-box .filters .property-type:hover .dropdown-content,
+.home-page .second-section .filter-box .filters .property-price-range:hover .dropdown-content,
+.home-page .second-section .filter-box .filters .property-bed-room:hover .dropdown-content{
+    display: block;
 }
 .home-page .second-section .filter-box .filters .property-search-btn button,
 .home-page .second-section .filter-box .filters .property-more-btn button{
@@ -105,6 +111,7 @@ Version: 1.0
     display: inline-block;
     color: white;
     padding: 10px 0 0 0;
+    float:right;
 }
 .home-page .second-section .filter-box .filters .dropbtn img,
 .home-page .second-section .filter-box .filters .dropbtn p{
@@ -117,19 +124,22 @@ Version: 1.0
     margin: 0 10px;
 }
 .home-page .second-section .filter-box .filters .dropdown-content{
-    
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 219px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 219px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 .home-page .second-section .filter-box .filters .dropdown-content a{
     text-align: center;
     display: block;
     color:black;
-  padding: 10px 0;
-  text-decoration: none;
+    padding: 05px 0;
+    text-decoration: none;
+}
+.home-page .second-section .filter-box .filters .dropdown-content a:hover{
+    background-color: #c2c2c2;
 }
 
 
@@ -162,6 +172,10 @@ Version: 1.0
     height:399px; 
     background-color:#EBE9E9; 
     border-radius:18px;
+}
+.home-page .fourth-section .properties-section .property-box .filter-error-message{
+    margin: 165px 0 0 0;
+    vertical-align: middle;
 }
 .home-page .fourth-section .properties-section .property-box a{
     text-decoration:none;

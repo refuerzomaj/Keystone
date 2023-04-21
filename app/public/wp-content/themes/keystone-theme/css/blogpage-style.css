@@ -51,12 +51,16 @@ Second Section CSS
     font-weight: 600;
     padding: 0 0 30px 0;
 }
+.blog-page .box .first-blog-box a{
+    text-decoration: none;
+}
 .blog-page .box .first-blog-box .left-box .img-post{
     width: 539px;
     height: 320px;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
+    padding: 31px 0 0 0;
 }
 .blog-page .box .first-blog-box .left-box,
 .blog-page .box .first-blog-box .right-box{
@@ -73,12 +77,14 @@ Second Section CSS
     font-weight: 600;
     line-height: 40px;
     padding-bottom: 20px;
+    color: black;
 }
 .blog-page .box .first-blog-box .right-box p{
     font-family: poppins;
     font-size: 15px;
     font-weight: 400;
     line-height: 20px;
+    color: black;
 }
 .blog-page .box .second-blog-box .blog-box{
     width: 352px;
@@ -93,6 +99,18 @@ Second Section CSS
     background-repeat: no-repeat;
     border-radius: 10px;
     margin: 90px auto 30px auto;
+    padding: 31px 0 0 0;
+}
+.blog-page .second-section .box .first-blog-box .blog-date,
+.blog-page .second-section .box .second-blog-box .blog-date{
+    width: 169px;
+    color:white;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 23px 8px 31px;
+    background-color: #EF9600;
+    border-radius: 0 5px 5px 0;
 }
 .blog-page .box .second-blog-box .blog-box h3{
     color: black;
