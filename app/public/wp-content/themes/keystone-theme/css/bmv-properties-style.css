@@ -56,7 +56,8 @@
     font-family: poppins;
     border-color:white!important;
 }
-.bmv-properties .second-section .filter-box .filters .property-searchfield-box #property-searchfield:focus{
+.bmv-properties .second-section .filter-box .filters .property-searchfield-box #property-searchfield:focus,
+.bmv-properties .second-section .filter-box .filters .property-searchfield-box input#property-searchfield:focus{
     border-color:white!important;
 }
 .bmv-properties .second-section .filter-box .filters .property-searchfield-box{
@@ -68,10 +69,12 @@
     background: none;
     border: none;
 }
-.bmv-properties .second-section .filter-box .filters .property-type:hover .dropdown-content,
+/*.bmv-properties .second-section .filter-box .filters .property-type:hover .dropdown-content,
 .bmv-properties .second-section .filter-box .filters .property-price-range:hover .dropdown-content,
 .bmv-properties .second-section .filter-box .filters .property-bed-room:hover .dropdown-content{
-    display: block;
+*/
+.showDropdown{
+    display: block!important;
 }
 .bmv-properties .second-section .filter-box .filters .property-search-btn button,
 .bmv-properties .second-section .filter-box .filters .property-more-btn button{
@@ -88,6 +91,14 @@
 }
 .bmv-properties .second-section .filter-box .filters .property-more-btn button{
     background-color: #EF9600;
+    padding: 5px 13px;
+}
+.bmv-properties .second-section .filter-box .filters .property-search-btn button:hover{
+    background-color: #fdc837;
+    padding: 5px 14px;
+}
+.bmv-properties .second-section .filter-box .filters .property-more-btn button:hover{
+    background-color: #ffa201;
     padding: 5px 13px;
 }
 .bmv-properties .second-section .filter-box .filters .dropbtn{
@@ -179,6 +190,9 @@ Third Section CSS
     background-color: white;
     padding: 20px;
 }
+.bmv-properties .fourth-section .properties-section .property-box:hover{
+    background-color:#d6d5d5;
+}
 .bmv-properties .fourth-section .properties-section .property-box a{
     text-decoration: none;
 }
@@ -193,10 +207,25 @@ Third Section CSS
     width: 649px;
     height: 339px;
     object-fit: cover;
+    /*filter: grayscale(100%);*/
+}
+.bmv-properties .fourth-section .properties-section .property-box .img-box .property-img-sold{
+    filter: grayscale(100%);
 }
 .bmv-properties .fourth-section .properties-section .property-box .info-box{
     width: 590px;
-    margin: 0 0 0 40px;
+    padding: 0 0 0 40px;
+}
+/*for property status sold*/
+.bmv-properties .fourth-section .properties-section .property-box .property-status{
+    background-color: #a23a3c;
+    color: white;
+    font-family: poppins;
+    width: 94px;
+    text-align: center;
+    float: right;
+    font-size: 18px;
+    font-weight: 500;
 }
 /*for property title*/
 .bmv-properties .fourth-section .properties-section .property-box .property-title{
@@ -224,42 +253,50 @@ Third Section CSS
 }
 /*for property info containers*/
 .bmv-properties .fourth-section .properties-section .property-box .property-current-value,
-.bmv-properties .fourth-section .properties-section .property-box .property-available-for-you{
-    width:144px;
+.bmv-properties .fourth-section .properties-section .property-box .property-available-for-you,
+.bmv-properties .fourth-section .properties-section .property-box .property-instant-equity,
+.bmv-properties .fourth-section .properties-section .property-box .property-rental-yield{
+    width:132px;
     vertical-align: top;
     display: inline-block;
 }
 /*For property label*/
 .bmv-properties .fourth-section .properties-section .property-box .property-current-value p,
 .bmv-properties .fourth-section .properties-section .property-box .property-available-for-you p,
+.bmv-properties .fourth-section .properties-section .property-box .property-instant-equity p,
+.bmv-properties .fourth-section .properties-section .property-box .property-rental-yield p,
 .bmv-properties .fourth-section .properties-section .property-box .property-bedrooms p,
-.bmv-properties .fourth-section .properties-section .property-box .property-bathrooms p,
-.bmv-properties .fourth-section .properties-section .property-box .property-floor-area p{
+.bmv-properties .fourth-section .properties-section .property-box .property-type p,
+.bmv-properties .fourth-section .properties-section .property-box .property-percentage p{
     color:#A1A1A1;
     font-family: poppins;
     font-size: 12px;
     font-weight: 500;
     padding: 0 0 5px 0;
 }
-.bmv-properties .fourth-section .properties-section .property-box .property-current-value p span{
-    color:#FBBC05;
+.bmv-properties .fourth-section .properties-section .property-box span{
     font-family: poppins;
     font-size: 25px;
     font-weight: 600;
     padding: 0 0 5px 0;
+}
+.bmv-properties .fourth-section .properties-section .property-box .property-current-value span{
+    color:#FBBC05;
 }
 .bmv-properties .fourth-section .properties-section .property-box .property-available-for-you span{
     color:#34A853;
-    font-family: poppins;
-    font-size: 25px;
-    font-weight: 600;
-    padding: 0 0 5px 0;
+}
+.bmv-properties .fourth-section .properties-section .property-box .property-instant-equity span{
+    color:#478eff;
+}
+.bmv-properties .fourth-section .properties-section .property-box .property-rental-yield span{
+    color:#df4444;
 }
 /*for property bedrooms, bathrooms and floor area containers*/
 .bmv-properties .fourth-section .properties-section .property-box .property-bedrooms,
-.bmv-properties .fourth-section .properties-section .property-box .property-bathrooms,
-.bmv-properties .fourth-section .properties-section .property-box .property-floor-area{
-    width:134px;
+.bmv-properties .fourth-section .properties-section .property-box .property-type,
+.bmv-properties .fourth-section .properties-section .property-box .property-percentage{
+    width:120px;
     vertical-align: top;
     display: inline-block;
 }
@@ -273,11 +310,6 @@ Third Section CSS
     display: inline-block;
     padding:0;
     border-radius: 0;
-}
-.bmv-properties .fourth-section .properties-section .property-box .property-bedrooms div p,
-.bmv-properties .fourth-section .properties-section .property-box .property-bathrooms div p,
-.bmv-properties .fourth-section .properties-section .property-box .property-floor-area div p{
-    font-size: 25px;
 }
 /*for property buttons*/
 .bmv-properties .fourth-section .properties-section .property-box .property-buttons{
@@ -300,4 +332,10 @@ Third Section CSS
 .bmv-properties .fourth-section .properties-section .property-box .property-buttons #call-us-button{
     background-color: #4285F4;
     margin:0 0 0 20px;
+}
+.bmv-properties .fourth-section .properties-section .property-box .property-buttons #view-more-button:hover{
+    background-color: #ffc935;
+}
+.bmv-properties .fourth-section .properties-section .property-box .property-buttons #call-us-button:hover{
+    background-color: #478eff;
 }

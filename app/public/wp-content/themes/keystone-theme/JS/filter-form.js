@@ -2,11 +2,27 @@
     jQuery('#').submit();
 });*/
 jQuery(document).ready(function($) {
-    var typeVal,minVal,maxVal,priceRangeVal,bedroomVal;
+    var typeVal,priceRangeVal,bedroomVal;
     function setMinMaxVal(min,max){
         $("#min-price").val(min);
         $("#max-price").val(max);
     }
+    $("#property-type").click(function() {
+        $("#property-type #dropdown-content").toggleClass('showDropdown');
+        $("#property-price-range #dropdown-content, #property-bed-room #dropdown-content").removeClass('showDropdown');
+    });
+    $("#property-price-range").click(function(e){
+        $("#property-price-range #dropdown-content").toggleClass('showDropdown');
+        $("#property-type #dropdown-content, #property-bed-room #dropdown-content").removeClass("showDropdown");
+    });
+    $("#property-bed-room").click(function(e){
+        $("#property-bed-room #dropdown-content").toggleClass('showDropdown');
+        $("#property-type #dropdown-content, #property-price-range #dropdown-content").removeClass('showDropdown');
+    });
+    $(".property-searchfield-box #property-searchfield").click(function(e){
+        $("#property-price-range #dropdown-content, #property-type #dropdown-content, #property-price-range #dropdown-content").removeClass('showDropdown');
+    });
+    //For Property Type
     $("#property-type .dropdown-content a").click(function(e){
         typeVal = $(this).attr('id');
         if(typeVal == "default"){
@@ -16,6 +32,7 @@ jQuery(document).ready(function($) {
         }
         $("#property-type-value").val(typeVal);
     });
+    //For Property Price Range
     $("#property-price-range .dropdown-content a").click(function(e){
         priceRangeVal = $(this).attr('id');
         switch(priceRangeVal){
@@ -74,6 +91,7 @@ jQuery(document).ready(function($) {
         }
         $("#property-type-value").val(typeVal);
     });
+    //For Property Bedroom
     $("#property-bed-room .dropdown-content a").click(function(e){
         bedroomVal = $(this).attr('id');
         if(bedroomVal == "default"){
@@ -87,4 +105,5 @@ jQuery(document).ready(function($) {
         //alert(click);
         $("#filter-form").submit();
     });
+    //This function toggle the dropdown
 });

@@ -8,6 +8,12 @@ Version: 1.0
     margin: 0;
     padding: 0;
 }
+input:focus,
+input:active {
+    outline: none;
+    border-color: transparent;
+    box-shadow: none;
+}
 /* Preloader CSS*/
 /*Homepage CSS*/
 
@@ -63,10 +69,15 @@ Version: 1.0
     cursor: pointer;
     display: inline-block;
 }
-.home-page .second-section .filter-box .filters .property-type:hover .dropdown-content,
+.home-page .second-section .filter-box .filters .dropbtn:hover{
+    background-color:#0d2e57;
+}
+/*.home-page .second-section .filter-box .filters .property-type:hover .dropdown-content,
 .home-page .second-section .filter-box .filters .property-price-range:hover .dropdown-content,
-.home-page .second-section .filter-box .filters .property-bed-room:hover .dropdown-content{
-    display: block;
+.home-page .second-section .filter-box .filters .property-bed-room:hover .dropdown-content
+*/
+.showDropdown{
+    display: block!important;
 }
 .home-page .second-section .filter-box .filters .property-search-btn button,
 .home-page .second-section .filter-box .filters .property-more-btn button{
@@ -83,6 +94,14 @@ Version: 1.0
 }
 .home-page .second-section .filter-box .filters .property-more-btn button{
     background-color: #EF9600;
+    padding: 5px 13px;
+}
+.home-page .second-section .filter-box .filters .property-search-btn button:hover{
+    background-color: #fdc837;
+    padding: 5px 14px;
+}
+.home-page .second-section .filter-box .filters .property-more-btn button:hover{
+    background-color: #ffa201;
     padding: 5px 13px;
 }
 .home-page .second-section .filter-box .filters .dropbtn{
@@ -124,12 +143,12 @@ Version: 1.0
     margin: 0 10px;
 }
 .home-page .second-section .filter-box .filters .dropdown-content{
-    display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 219px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    display: none;
 }
 .home-page .second-section .filter-box .filters .dropdown-content a{
     text-align: center;
@@ -173,6 +192,9 @@ Version: 1.0
     background-color:#EBE9E9; 
     border-radius:18px;
 }
+.home-page .fourth-section .properties-section .property-box:hover{
+    background-color: #d6d5d5;
+}
 .home-page .fourth-section .properties-section .property-box .filter-error-message{
     margin: 165px 0 0 0;
     vertical-align: middle;
@@ -192,8 +214,8 @@ Version: 1.0
     font-family:Source Serif Pro; 
     font-weight:600; 
     font-size:20px; 
-    margin:17px 0 13px 27px; 
-    padding:0;
+    padding:17px 0 13px 27px; 
+    margin:0;
 }
 .home-page .fourth-section .properties-section .property-box .link-2{
     font-family:Source Serif Pro; 
@@ -268,6 +290,9 @@ Version: 1.0
     background: #EF9600; 
     border-radius: 10px;  
     padding:5px 14px;
+}
+.home-page .fifth-section .box-section .box-left a:hover{
+    background: #ffa200; 
 }
 
 /*Sixth Section*/
@@ -383,6 +408,9 @@ Version: 1.0
     background: #EF9600; 
     border-radius: 10px;  
     padding:8px 16px;
+}
+.home-page .seventh-section .box a:hover{
+    background: #ffa200; 
 }
 
 /*Eight Section*/

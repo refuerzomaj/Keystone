@@ -1,0 +1,31 @@
+0303.672 (1) Opened log file at time: Wed, 26 Apr 2023 05:44:53 +0000 on http://keystone.local
+0303.678 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.3 WP: 6.2 PHP: 8.1.9 (cgi-fcgi, Windows NT DESKTOP-OK62G8A 10.0 build 19045 (Windows 10) AMD64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: en_US Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9.8M | 12M) multisite: N openssl: OpenSSL 1.1.1q  5 Jul 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0303.685 (1) Free space on disk containing Updraft's temporary directory: 164853.9 MB
+0303.692 (1) Requesting backup semaphore lock (b855582aee10)
+0303.706 (1) [Debug] Lock option (updraft_lock_b855582aee10, wp_options) was created in the database
+0303.712 (1) [Info] Lock (updraft_lock_b855582aee10, wp_options) acquired after initialising the database
+0303.725 (1) Backup run: resumption=1, nonce=b855582aee10, file_nonce=b855582aee10 begun at=1682487589 (304s ago), job type=backup, previous check-in=192.75s
+0303.738 (1) Scheduling a resumption (2) after 300 seconds (1682488193) in case this run gets aborted
+0303.751 (1) Checking if we have a zip executable available
+0303.758 (1) Creation of backups of directories: already finished
+0303.764 (1) Saving backup status to database (elements: 8)
+0303.777 (1) Database dump (WordPress DB): Creation was completed already
+0303.783 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0303.797 (1) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2866, C:\Users\User\Local Sites\keystone\app\public\wp-content\plugins\updraftplus\backup.php)
+0303.803 (1) backup_2023-04-26-0539_Keystone_b855582aee10-plugins.zip: plugins: This file has already been successfully uploaded
+0303.812 (1) backup_2023-04-26-0539_Keystone_b855582aee10-themes.zip: themes: This file has already been successfully uploaded
+0303.821 (1) backup_2023-04-26-0539_Keystone_b855582aee10-uploads.zip: uploads: Note: This file was not marked as successfully uploaded, but does not exist on the local filesystem; now marking as uploaded (C:\Users\User\Local Sites\keystone\app\public/wp-content/updraft/backup_2023-04-26-0539_Keystone_b855582aee10-uploads.zip)
+0303.827 (1) Recording as successfully uploaded: backup_2023-04-26-0539_Keystone_b855582aee10-uploads.zip
+0303.842 (1) backup_2023-04-26-0539_Keystone_b855582aee10-others.zip: others: This file has already been successfully uploaded
+0303.849 (1) backup_2023-04-26-0539_Keystone_b855582aee10-db.gz: db: This file has already been successfully uploaded
+0303.855 (1) Saving backup history. Total backup size: Unknown
+0303.869 (1) Resume backup (b855582aee10, 1): finish run
+0303.882 (1) There were no more files that needed uploading
+0303.891 (1) [Info] Lock option (updraft_lock_b855582aee10, wp_options) released
+0303.903 (1) There were no errors in the uploads, so the 'resume' event (2) is being unscheduled
+0303.924 (1) Deleting zip manifest (backup_2023-04-26-0539_Keystone_b855582aee10-plugins.zip.list.tmp)
+0303.931 (1) Deleting zip manifest (backup_2023-04-26-0539_Keystone_b855582aee10-themes.zip.list.tmp)
+0303.937 (1) Deleting zip manifest (backup_2023-04-26-0539_Keystone_b855582aee10-uploads.zip.list.tmp)
+0303.944 (1) Deleting zip manifest (backup_2023-04-26-0539_Keystone_b855582aee10-others.zip.list.tmp)
+0303.953 (1) No email will be sent - this backup set was empty.
+0303.960 (1) The backup apparently succeeded and is now complete

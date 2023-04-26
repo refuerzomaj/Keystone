@@ -8,23 +8,15 @@ function my_enqueue_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'my_enqueue_scripts' );
 
-/*Homepage CSS*/
+
+//This Function is for CSS
 function add_style_css(){
-    wp_enqueue_style( 'keystone-stylesheet' , get_stylesheet_directory_uri() . '/style.css' );
+    wp_enqueue_style( 'keystone-stylesheet' , get_stylesheet_directory_uri() . '/style.css' );/*Homepage CSS*/
+    wp_enqueue_style( 'keystone-stylesheet-2' , get_stylesheet_directory_uri() . '/css/blogpage-style.css' );/*Blog Page CSS*/
+    wp_enqueue_style( 'keystone-stylesheet-3' , get_stylesheet_directory_uri() . '/css/bmv-properties-style.css' );/*BMV Properties CSS*/
+    wp_enqueue_style( 'keystone-stylesheet-4' , get_stylesheet_directory_uri() . '/css/single-property-style.css' );/*Single Property CSS */
 }
 add_action( 'wp_enqueue_scripts', 'add_style_css' );
-
-/*Blog Page CSS*/
-function add_blogpage_style_css(){
-    wp_enqueue_style( 'keystone-stylesheet-2' , get_stylesheet_directory_uri() . '/css/blogpage-style.css' );
-}
-add_action( 'wp_enqueue_scripts', 'add_blogpage_style_css' );
-
-/*BMV Properties CSS*/
-function add_bmvproperties_style_css(){
-    wp_enqueue_style( 'keystone-stylesheet-3' , get_stylesheet_directory_uri() . '/css/bmv-properties-style.css' );
-}
-add_action( 'wp_enqueue_scripts', 'add_bmvproperties_style_css' );
 
 /*Preloader function*/
 function add_keystone_preloader(){
@@ -40,3 +32,19 @@ function add_filter_script(){
     wp_enqueue_script('filter-form-script', get_stylesheet_directory_uri() . '/JS/filter-form.js', array('jquery'), '', true);
 }
 add_action( 'wp_enqueue_scripts', 'add_filter_script' );
+
+/* Display all meta query data */
+function display_meta_query_values( $query ) {
+    if( $query->is_main_query() && is_archive() ) {
+        $meta_query = $query->get('meta_query');
+        if( !empty($meta_query) ) {
+            foreach( $meta_query as $meta ) {
+                $key = $meta['key'];
+                $value = $meta['value'];
+                $compare = $meta['compare'];
+                echo "Key: $key, Value: $value, Compare: $compare <br>";
+            }
+        }
+    }
+}
+add_action('pre_get_posts', 'display_meta_query_values');

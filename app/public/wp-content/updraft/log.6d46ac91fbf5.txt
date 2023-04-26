@@ -1,0 +1,563 @@
+0000.001 (0) Opened log file at time: Fri, 21 Apr 2023 05:53:27 +0000 on http://keystone.local
+0000.007 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.3 WP: 6.2 PHP: 8.1.9 (cgi-fcgi, Windows NT DESKTOP-OK62G8A 10.0 build 19045 (Windows 10) AMD64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: en_US Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 11.1M | 12M) multisite: N openssl: OpenSSL 1.1.1q  5 Jul 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.013 (0) Free space on disk containing Updraft's temporary directory: 202893.3 MB
+0000.020 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB: 1 (schedule: weekly)
+0000.033 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.056 (0) Set semaphore last lock (fd) time to 2023-04-21 05:53:27
+0000.062 (0) Semaphore lock (fd) complete
+0000.081 (0) Backup run: resumption=0, nonce=6d46ac91fbf5, file_nonce=6d46ac91fbf5 begun at=1682056407 (0s ago), job type=backup
+0000.093 (0) Scheduling a resumption (1) after 300 seconds (1682056707) in case this run gets aborted
+0000.106 (0) Checking if we have a zip executable available
+0000.118 (0) Creation of backups of directories: beginning
+0000.141 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0004.884 (0) Total entities for the zip file: 2612 directories, 11846 files (0 skipped as non-modified), 212.5 MB
+0004.900 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0005.082 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 100 files added (on-disk size: 491.5 KB)
+0005.145 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 200 files added (on-disk size: 491.5 KB)
+0005.203 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 300 files added (on-disk size: 491.5 KB)
+0005.263 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 400 files added (on-disk size: 491.5 KB)
+0005.341 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 500 files added (on-disk size: 491.5 KB)
+0005.416 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 600 files added (on-disk size: 491.5 KB)
+0005.475 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.8 MB, 11846 files batched, 699 (700) added so far); re-opening (prior size: 491.5 KB)
+0015.167 (0) A useful amount of data was added after this amount of zip processing: 10.7 s (normalised: 10.3 s, rate: 2474.4 KB/s)
+0015.182 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 700 files added (on-disk size: 11437.3 KB)
+0015.257 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 800 files added (on-disk size: 11437.3 KB)
+0015.313 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 900 files added (on-disk size: 11437.3 KB)
+0015.369 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 1000 files added (on-disk size: 11437.3 KB)
+0015.429 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 1100 files added (on-disk size: 11437.3 KB)
+0015.488 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 1200 files added (on-disk size: 11437.3 KB)
+0015.546 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 1300 files added (on-disk size: 11437.3 KB)
+0015.603 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 1400 files added (on-disk size: 11437.3 KB)
+0015.637 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.4 MB, 11846 files batched, 754 (1454) added so far); re-opening (prior size: 11437.3 KB)
+0024.902 (0) A useful amount of data was added after this amount of zip processing: 10.4 s (normalised: 10.2 s, rate: 2498.5 KB/s)
+0024.967 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 1500 files added (on-disk size: 19085.6 KB)
+0025.023 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 1600 files added (on-disk size: 19085.6 KB)
+0025.085 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 1700 files added (on-disk size: 19085.6 KB)
+0025.143 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 1800 files added (on-disk size: 19085.6 KB)
+0025.200 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 1900 files added (on-disk size: 19085.6 KB)
+0025.263 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 2000 files added (on-disk size: 19085.6 KB)
+0025.322 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 2100 files added (on-disk size: 19085.6 KB)
+0025.377 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 2200 files added (on-disk size: 19085.6 KB)
+0025.434 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 2300 files added (on-disk size: 19085.6 KB)
+0025.492 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 2400 files added (on-disk size: 19085.6 KB)
+0025.526 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (19.5 MB, 11846 files batched, 1001 (2455) added so far); re-opening (prior size: 19085.6 KB)
+0039.730 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 2500 files added (on-disk size: 23548 KB)
+0039.791 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 2600 files added (on-disk size: 23548 KB)
+0039.847 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 2700 files added (on-disk size: 23548 KB)
+0039.907 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 2800 files added (on-disk size: 23548 KB)
+0039.965 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 2900 files added (on-disk size: 23548 KB)
+0040.024 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 3000 files added (on-disk size: 23548 KB)
+0040.084 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 3100 files added (on-disk size: 23548 KB)
+0040.140 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 3200 files added (on-disk size: 23548 KB)
+0040.196 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 3300 files added (on-disk size: 23548 KB)
+0040.252 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 3400 files added (on-disk size: 23548 KB)
+0040.286 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (20.3 MB, 11846 files batched, 1001 (3456) added so far); re-opening (prior size: 23548 KB)
+0057.564 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 3500 files added (on-disk size: 29366.2 KB)
+0057.623 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 3600 files added (on-disk size: 29366.2 KB)
+0057.681 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 3700 files added (on-disk size: 29366.2 KB)
+0057.738 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 3800 files added (on-disk size: 29366.2 KB)
+0057.796 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 3900 files added (on-disk size: 29366.2 KB)
+0057.853 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 4000 files added (on-disk size: 29366.2 KB)
+0057.912 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 4100 files added (on-disk size: 29366.2 KB)
+0057.967 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 4200 files added (on-disk size: 29366.2 KB)
+0058.025 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 4300 files added (on-disk size: 29366.2 KB)
+0058.081 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 4400 files added (on-disk size: 29366.2 KB)
+0058.118 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.4 MB, 11846 files batched, 1001 (4457) added so far); re-opening (prior size: 29366.2 KB)
+0074.856 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 4500 files added (on-disk size: 34228.8 KB)
+0074.919 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 4600 files added (on-disk size: 34228.8 KB)
+0074.978 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 4700 files added (on-disk size: 34228.8 KB)
+0075.036 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 4800 files added (on-disk size: 34228.8 KB)
+0075.097 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 4900 files added (on-disk size: 34228.8 KB)
+0075.158 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 5000 files added (on-disk size: 34228.8 KB)
+0075.216 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 5100 files added (on-disk size: 34228.8 KB)
+0075.272 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 5200 files added (on-disk size: 34228.8 KB)
+0075.328 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 5300 files added (on-disk size: 34228.8 KB)
+0075.385 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 5400 files added (on-disk size: 34228.8 KB)
+0075.425 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6 MB, 11846 files batched, 1001 (5458) added so far); re-opening (prior size: 34228.8 KB)
+0088.219 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 5500 files added (on-disk size: 36311.8 KB)
+0088.277 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 5600 files added (on-disk size: 36311.8 KB)
+0088.336 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 5700 files added (on-disk size: 36311.8 KB)
+0088.394 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 5800 files added (on-disk size: 36311.8 KB)
+0088.455 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 5900 files added (on-disk size: 36311.8 KB)
+0088.513 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 6000 files added (on-disk size: 36311.8 KB)
+0088.571 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 6100 files added (on-disk size: 36311.8 KB)
+0088.626 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 6200 files added (on-disk size: 36311.8 KB)
+0088.686 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 6300 files added (on-disk size: 36311.8 KB)
+0088.745 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 6400 files added (on-disk size: 36311.8 KB)
+0088.778 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.2 MB, 11846 files batched, 992 (6450) added so far); re-opening (prior size: 36311.8 KB)
+0098.544 (0) A useful amount of data was added after this amount of zip processing: 11 s (normalised: 11 s, rate: 2335.2 KB/s)
+0098.645 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 6500 files added (on-disk size: 54102.8 KB)
+0098.700 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 6600 files added (on-disk size: 54102.8 KB)
+0098.763 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 6700 files added (on-disk size: 54102.8 KB)
+0098.826 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 6800 files added (on-disk size: 54102.8 KB)
+0098.885 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 6900 files added (on-disk size: 54102.8 KB)
+0098.943 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 7000 files added (on-disk size: 54102.8 KB)
+0099.002 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 7100 files added (on-disk size: 54102.8 KB)
+0099.059 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 7200 files added (on-disk size: 54102.8 KB)
+0099.113 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 7300 files added (on-disk size: 54102.8 KB)
+0099.176 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 7400 files added (on-disk size: 54102.8 KB)
+0099.211 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.1 MB, 11846 files batched, 1001 (7451) added so far); re-opening (prior size: 54102.8 KB)
+0111.877 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 7500 files added (on-disk size: 57037.5 KB)
+0111.932 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 7600 files added (on-disk size: 57037.5 KB)
+0111.998 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 7700 files added (on-disk size: 57037.5 KB)
+0112.059 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 7800 files added (on-disk size: 57037.5 KB)
+0112.117 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 7900 files added (on-disk size: 57037.5 KB)
+0112.174 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 8000 files added (on-disk size: 57037.5 KB)
+0112.228 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 8100 files added (on-disk size: 57037.5 KB)
+0112.282 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 8200 files added (on-disk size: 57037.5 KB)
+0112.334 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 8300 files added (on-disk size: 57037.5 KB)
+0112.385 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 8400 files added (on-disk size: 57037.5 KB)
+0112.415 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (17.5 MB, 11846 files batched, 1001 (8452) added so far); re-opening (prior size: 57037.5 KB)
+0123.876 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 8500 files added (on-disk size: 63571.5 KB)
+0123.932 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 8600 files added (on-disk size: 63571.5 KB)
+0123.991 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 8700 files added (on-disk size: 63571.5 KB)
+0124.050 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 8800 files added (on-disk size: 63571.5 KB)
+0124.110 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 8900 files added (on-disk size: 63571.5 KB)
+0124.168 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 9000 files added (on-disk size: 63571.5 KB)
+0124.231 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 9100 files added (on-disk size: 63571.5 KB)
+0124.285 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 9200 files added (on-disk size: 63571.5 KB)
+0124.339 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 9300 files added (on-disk size: 63571.5 KB)
+0124.396 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 9400 files added (on-disk size: 63571.5 KB)
+0124.430 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.4 MB, 11846 files batched, 1001 (9453) added so far); re-opening (prior size: 63571.5 KB)
+0137.364 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 9500 files added (on-disk size: 66291.9 KB)
+0137.419 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 9600 files added (on-disk size: 66291.9 KB)
+0137.481 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 9700 files added (on-disk size: 66291.9 KB)
+0137.540 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 9800 files added (on-disk size: 66291.9 KB)
+0137.603 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 9900 files added (on-disk size: 66291.9 KB)
+0137.661 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 10000 files added (on-disk size: 66291.9 KB)
+0137.719 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 10100 files added (on-disk size: 66291.9 KB)
+0137.778 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 10200 files added (on-disk size: 66291.9 KB)
+0137.836 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 10300 files added (on-disk size: 66291.9 KB)
+0137.893 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 10400 files added (on-disk size: 66291.9 KB)
+0137.927 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.9 MB, 11846 files batched, 1001 (10454) added so far); re-opening (prior size: 66291.9 KB)
+0150.230 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 10500 files added (on-disk size: 72073.6 KB)
+0150.287 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 10600 files added (on-disk size: 72073.6 KB)
+0150.345 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 10700 files added (on-disk size: 72073.6 KB)
+0150.402 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 10800 files added (on-disk size: 72073.6 KB)
+0150.460 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 10900 files added (on-disk size: 72073.6 KB)
+0150.518 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 11000 files added (on-disk size: 72073.6 KB)
+0150.575 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 11100 files added (on-disk size: 72073.6 KB)
+0150.632 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 11200 files added (on-disk size: 72073.6 KB)
+0150.689 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 11300 files added (on-disk size: 72073.6 KB)
+0150.747 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 11400 files added (on-disk size: 72073.6 KB)
+0150.782 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (23.2 MB, 11846 files batched, 1001 (11455) added so far); re-opening (prior size: 72073.6 KB)
+0163.265 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 11500 files added (on-disk size: 78833.4 KB)
+0163.321 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 11600 files added (on-disk size: 78833.4 KB)
+0163.377 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 11700 files added (on-disk size: 78833.4 KB)
+0163.436 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.tmp: 11800 files added (on-disk size: 78833.4 KB)
+0167.685 (0) Creating zip file manifest (backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.list-temp.tmp)
+0167.758 (0) Successfully created zip file manifest (size: 1033278)
+0168.477 (0) Created plugins zip (0) - 80913.1 KB in 168.3 s (480.7 KB/s) (sha1: 87a7934d69e91ae80c011fdde55cbba9f2f24c59, sha256: d583863f3691a1d7375ed16125f56d1bb7d7fd3d853be7d1db5fc25b1312a1bc)
+0168.507 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0168.513 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-63d9209f7875c4602f0e5ce2879643fc)
+0170.665 (0) Google Drive: quota usage: used=10601.6 MB, total=15360 MB, available=4758.4 MB
+0170.675 (0) Google Drive: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip: Attempting to upload to Google Drive (into folder id: 1j95G29pOMih9fVKRgKO0v0rEpaRJWZ3Y)
+0171.620 (0) Googledrive chunked upload: 1.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 13.6 / 18)
+0172.001 (0) Googledrive chunked upload: 3.8 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 13.6 / 18)
+0172.583 (0) Googledrive chunked upload: 8.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 13.6 / 18)
+0173.549 (0) Googledrive chunked upload: 19 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 13.6 / 18)
+0175.205 (0) Googledrive chunked upload: 39.2 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 13.6 / 18)
+0178.338 (0) Googledrive chunked upload: 79.7 % uploaded (66060288)
+0181.836 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0181.856 (0) Google Drive: OK: Archive backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip uploaded in 11.17 seconds
+0181.863 (0) Recording as successfully uploaded: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip
+0181.882 (0) Deleting local file: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip: OK
+0181.910 (0) Beginning creation of dump of themes (split every: 400 MB)
+0182.292 (0) Total entities for the zip file: 343 directories, 835 files (0 skipped as non-modified), 29.8 MB
+0182.356 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0182.420 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0182.482 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0182.551 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0182.614 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0182.675 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0182.735 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.2 MB, 835 files batched, 697 (697) added so far); re-opening (prior size: 0 KB)
+0191.944 (0) A useful amount of data was added after this amount of zip processing: 10.4 s (normalised: 10.4 s, rate: 2472.2 KB/s)
+0191.965 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-themes.zip.tmp: 700 files added (on-disk size: 7424.8 KB)
+0192.019 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-themes.zip.tmp: 800 files added (on-disk size: 7424.8 KB)
+0194.508 (0) Creating zip file manifest (backup_2023-04-21-0553_Keystone_6d46ac91fbf5-themes.zip.list-temp.tmp)
+0194.520 (0) Successfully created zip file manifest (size: 71482)
+0194.637 (0) Created themes zip (0) - 10171.2 KB in 12.7 s (800.1 KB/s) (sha1: 183af0bf48c547c29f51cec855b890b1c2393e34, sha256: d3dec7e767c846e579a0d3cf125cb0864e0424c4d226324d3fe30094f2ed5862)
+0194.659 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0194.665 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-63d9209f7875c4602f0e5ce2879643fc)
+0195.107 (0) Google Drive: quota usage: used=10680.6 MB, total=15360 MB, available=4679.4 MB
+0195.115 (0) Google Drive: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-themes.zip: Attempting to upload to Google Drive (into folder id: 1j95G29pOMih9fVKRgKO0v0rEpaRJWZ3Y)
+0196.059 (0) Googledrive chunked upload: 10.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 11.8 / 16)
+0196.475 (0) Googledrive chunked upload: 30.2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 11.8 / 16)
+0197.043 (0) Googledrive chunked upload: 70.5 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 11.8 / 16)
+0198.990 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0199.017 (0) Google Drive: OK: Archive backup_2023-04-21-0553_Keystone_6d46ac91fbf5-themes.zip uploaded in 3.9 seconds
+0199.022 (0) Recording as successfully uploaded: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-themes.zip
+0199.038 (0) Deleting local file: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-themes.zip: OK
+0199.059 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0199.065 (0) Looking for candidates to backup in: C:\Users\User\Local Sites\keystone\app\public/wp-content/uploads
+0199.071 (0) finding files: 2023: adding to list (1)
+0199.077 (0) finding files: 8866a759668274f49c3c59a6fd8c3a95-cl-debug.log: adding to list (2)
+0199.083 (0) finding files: cl: adding to list (3)
+0199.088 (0) finding files: elementor: adding to list (4)
+0199.094 (0) finding files: essential-addons-elementor: adding to list (5)
+0199.100 (0) finding files: uag-plugin: adding to list (6)
+0199.106 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0199.210 (0) Total entities for the zip file: 10 directories, 277 files (0 skipped as non-modified), 94.4 MB
+0199.240 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 277 files batched, 41 (41) added so far); re-opening (prior size: 0 KB)
+0199.344 (0) A useful amount of data was added after this amount of zip processing: 0.8 s (normalised: 0.8 s, rate: 30539.1 KB/s)
+0199.357 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.83961391448975, normalised_time=0.83826900795225, max_time=199.34962701797, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0199.485 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-uploads.zip.tmp: 100 files added (on-disk size: 25650 KB)
+0199.541 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-uploads.zip.tmp: 200 files added (on-disk size: 25650 KB)
+0200.141 (0) Creating zip file manifest (backup_2023-04-21-0553_Keystone_6d46ac91fbf5-uploads.zip.list-temp.tmp)
+0200.151 (0) Successfully created zip file manifest (size: 17100)
+0201.082 (0) Created uploads zip (0) - 95386.4 KB in 2 s (48667.5 KB/s) (sha1: c6c5b8ad3dffff1eb9bc43b1f247dbd6b5b2ac1c, sha256: 1009a1b7a57414bbd41987b0a03d15714304aac75ed5c9777c82182528086735)
+0201.103 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0201.109 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-63d9209f7875c4602f0e5ce2879643fc)
+0201.499 (0) Google Drive: quota usage: used=10690.5 MB, total=15360 MB, available=4669.5 MB
+0201.506 (0) Google Drive: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-uploads.zip: Attempting to upload to Google Drive (into folder id: 1j95G29pOMih9fVKRgKO0v0rEpaRJWZ3Y)
+0202.477 (0) Googledrive chunked upload: 1.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 11.7 / 16)
+0202.866 (0) Googledrive chunked upload: 3.2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 11.7 / 16)
+0203.438 (0) Googledrive chunked upload: 7.5 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 11.7 / 16)
+0204.372 (0) Googledrive chunked upload: 16.1 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 11.7 / 16)
+0206.021 (0) Googledrive chunked upload: 33.3 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 11.7 / 16)
+0209.153 (0) Googledrive chunked upload: 67.6 % uploaded (66060288)
+0213.450 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0213.470 (0) Google Drive: OK: Archive backup_2023-04-21-0553_Keystone_6d46ac91fbf5-uploads.zip uploaded in 11.96 seconds
+0213.476 (0) Recording as successfully uploaded: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-uploads.zip
+0213.498 (0) Deleting local file: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-uploads.zip: OK
+0213.521 (0) Beginning backup of other directories found in the content directory (index: 0)
+0213.526 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0213.532 (0) Looking for candidates to backup in: C:\Users\User\Local Sites\keystone\app\public/wp-content
+0213.538 (0) finding files: fonts: adding to list (1)
+0213.544 (0) finding files: index.php: adding to list (2)
+0213.552 (0) finding files: mu-plugins: adding to list (3)
+0213.557 (0) finding files: plugins: skipping: this is the plugins directory
+0213.563 (0) finding files: themes: skipping: this is the themes directory
+0213.569 (0) finding files: updraft: skipping: this is the updraft directory
+0213.575 (0) finding files: upgrade: skipping: excluded by options
+0213.585 (0) finding files: uploads: skipping: this is the uploads directory
+0213.659 (0) Total entities for the zip file: 5 directories, 178 files (0 skipped as non-modified), 2.6 MB
+0213.722 (0) Zip: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0214.702 (0) Creating zip file manifest (backup_2023-04-21-0553_Keystone_6d46ac91fbf5-others.zip.list-temp.tmp)
+0214.712 (0) Successfully created zip file manifest (size: 11405)
+0214.766 (0) Created others zip (0) - 2515.3 KB in 1.2 s (2160.5 KB/s) (sha1: a5a568a113692611b61ba6365606a4dc99d30a0d, sha256: b348f0ce25b3ccba23c81c01a0948abf56de523e25427ffc159c879da0ba64c0)
+0214.786 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0214.792 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-63d9209f7875c4602f0e5ce2879643fc)
+0215.190 (0) Google Drive: quota usage: used=10783.7 MB, total=15360 MB, available=4576.3 MB
+0215.197 (0) Google Drive: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-others.zip: Attempting to upload to Google Drive (into folder id: 1j95G29pOMih9fVKRgKO0v0rEpaRJWZ3Y)
+0216.155 (0) Googledrive chunked upload: 40.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 11.7 / 16)
+0217.814 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0217.834 (0) Google Drive: OK: Archive backup_2023-04-21-0553_Keystone_6d46ac91fbf5-others.zip uploaded in 2.63 seconds
+0217.839 (0) Recording as successfully uploaded: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-others.zip
+0217.852 (0) Deleting local file: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-others.zip: OK
+0217.885 (0) Saving backup status to database (elements: 8)
+0217.900 (0) Beginning creation of database dump (WordPress DB)
+0217.906 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0217.974 (0) Table wp_options: Total expected rows (via COUNT): 755
+0218.119 (0) Table wp_options: Rows added in this batch (next record: 17313): 751 (uncompressed bytes in this segment=5065653) in 0.18 seconds
+0218.148 (0) Table wp_options: finishing file(s) (2, 760.1 KB)
+0218.167 (0) Table wp_users: Total expected rows (via COUNT): 3
+0218.173 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0218.187 (0) Table wp_users: Rows added in this batch (next record: 4): 3 (uncompressed bytes in this segment=1759) in 0.02 seconds
+0218.211 (0) Table wp_users: finishing file(s) (2, 0.8 KB)
+0218.235 (0) Table wp_usermeta: Total expected rows (via COUNT): 95
+0218.241 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0218.255 (0) Table wp_usermeta: Rows added in this batch (next record: 109): 95 (uncompressed bytes in this segment=9545) in 0.03 seconds
+0218.286 (0) Table wp_usermeta: finishing file(s) (2, 2.9 KB)
+0218.313 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 27
+0218.319 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0218.334 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 789): 27 (uncompressed bytes in this segment=13821) in 0.03 seconds
+0218.369 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.6 KB)
+0218.386 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0218.400 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.02 seconds
+0218.423 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0218.440 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0218.447 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0218.460 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=708) in 0.02 seconds
+0218.484 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0218.500 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 73
+0218.506 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0218.525 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 73): 73 (uncompressed bytes in this segment=8581) in 0.03 seconds
+0218.549 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 1.2 KB)
+0218.574 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0218.587 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=702) in 0.02 seconds
+0218.620 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0218.656 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0218.662 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0218.674 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2152) in 0.02 seconds
+0218.694 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0218.707 (0) Table wp_links: Total expected rows (via COUNT): 0
+0218.714 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.01 seconds
+0218.726 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0219.449 (0) Table wp_postmeta: Total expected rows (approximate): 15376
+0221.765 (0) Table wp_postmeta: Rows added in this batch (next record: 20011): 16030 (uncompressed bytes in this segment=67429597) in 3.01 seconds
+0221.799 (0) Table wp_postmeta: finishing file(s) (2, 5352.4 KB)
+0221.898 (0) Table wp_posts: Total expected rows (approximate): 2046
+0222.042 (0) Table wp_posts: Rows added in this batch (next record: 2278): 2030 (uncompressed bytes in this segment=9003226) in 0.22 seconds
+0222.077 (0) Table wp_posts: finishing file(s) (2, 204 KB)
+0222.094 (0) Table wp_term_relationships: Total expected rows (approximate): 170
+0222.113 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 190 (uncompressed bytes in this segment=3717) in 0.02 seconds
+0222.137 (0) Table wp_term_relationships: finishing file(s) (2, 0.9 KB)
+0222.164 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 124
+0222.170 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0222.183 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 127): 124 (uncompressed bytes in this segment=5466) in 0.03 seconds
+0222.214 (0) Table wp_term_taxonomy: finishing file(s) (2, 1.3 KB)
+0222.237 (0) Table wp_termmeta: Total expected rows (via COUNT): 60
+0222.243 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0222.256 (0) Table wp_termmeta: Rows added in this batch (next record: 64): 60 (uncompressed bytes in this segment=5481) in 0.03 seconds
+0222.286 (0) Table wp_termmeta: finishing file(s) (2, 1.2 KB)
+0222.302 (0) Table wp_terms: Total expected rows (via COUNT): 124
+0222.309 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0222.322 (0) Table wp_terms: Rows added in this batch (next record: 127): 124 (uncompressed bytes in this segment=5101) in 0.02 seconds
+0222.346 (0) Table wp_terms: finishing file(s) (2, 1.9 KB)
+0222.373 (0) Table wp_cl_customermeta: Total expected rows (via COUNT): 0
+0222.386 (0) Table wp_cl_customermeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=581) in 0.02 seconds
+0222.420 (0) Table wp_cl_customermeta: finishing file(s) (2, 0.3 KB)
+0222.444 (0) Table wp_cl_customers: Total expected rows (via COUNT): 0
+0222.456 (0) Table wp_cl_customers: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=716) in 0.02 seconds
+0222.488 (0) Table wp_cl_customers: finishing file(s) (2, 0.4 KB)
+0222.510 (0) Table wp_e_events: Total expected rows (via COUNT): 10
+0222.516 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0222.529 (0) Table wp_e_events: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=2534) in 0.02 seconds
+0222.555 (0) Table wp_e_events: finishing file(s) (2, 0.7 KB)
+0222.573 (0) Table wp_e_submissions: Total expected rows (via COUNT): 0
+0222.587 (0) Table wp_e_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2282) in 0.02 seconds
+0222.610 (0) Table wp_e_submissions: finishing file(s) (2, 0.7 KB)
+0222.626 (0) Table wp_e_submissions_actions_log: Total expected rows (via COUNT): 0
+0222.633 (0) Table wp_e_submissions_actions_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1251) in 0.01 seconds
+0222.678 (0) Table wp_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0222.718 (0) Table wp_e_submissions_values: Total expected rows (via COUNT): 0
+0222.724 (0) Table wp_e_submissions_values: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=724) in 0.02 seconds
+0222.754 (0) Table wp_e_submissions_values: finishing file(s) (2, 0.4 KB)
+0222.771 (0) Table wp_enquiry_message: Total expected rows (via COUNT): 0
+0222.780 (0) Table wp_enquiry_message: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=799) in 0.01 seconds
+0222.806 (0) Table wp_enquiry_message: finishing file(s) (2, 0.4 KB)
+0222.830 (0) Table wp_ere_save_search: Total expected rows (via COUNT): 0
+0222.836 (0) Table wp_ere_save_search: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=829) in 0.02 seconds
+0222.866 (0) Table wp_ere_save_search: finishing file(s) (2, 0.4 KB)
+0222.886 (0) Table wp_ered_email_download: Total expected rows (via COUNT): 0
+0222.892 (0) Table wp_ered_email_download: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=693) in 0.01 seconds
+0222.916 (0) Table wp_ered_email_download: finishing file(s) (2, 0.4 KB)
+0222.934 (0) Table wp_estatik_fb_fields: Total expected rows (via COUNT): 0
+0222.940 (0) Table wp_estatik_fb_fields: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1468) in 0.01 seconds
+0222.965 (0) Table wp_estatik_fb_fields: finishing file(s) (2, 0.5 KB)
+0222.982 (0) Table wp_estatik_fb_sections: Total expected rows (via COUNT): 0
+0222.989 (0) Table wp_estatik_fb_sections: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=878) in 0.01 seconds
+0223.013 (0) Table wp_estatik_fb_sections: finishing file(s) (2, 0.4 KB)
+0223.031 (0) Table wp_litespeed_url: Total expected rows (via COUNT): 0
+0223.037 (0) Table wp_litespeed_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=639) in 0.01 seconds
+0223.064 (0) Table wp_litespeed_url: finishing file(s) (2, 0.4 KB)
+0223.082 (0) Table wp_litespeed_url_file: Total expected rows (via COUNT): 0
+0223.089 (0) Table wp_litespeed_url_file: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1111) in 0.01 seconds
+0223.113 (0) Table wp_litespeed_url_file: finishing file(s) (2, 0.5 KB)
+0223.131 (0) Table wp_rank_math_internal_links: Total expected rows (via COUNT): 0
+0223.140 (0) Table wp_rank_math_internal_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=755) in 0.01 seconds
+0223.166 (0) Table wp_rank_math_internal_links: finishing file(s) (2, 0.4 KB)
+0223.185 (0) Table wp_rank_math_internal_meta: Total expected rows (via COUNT): 0
+0223.199 (0) Table wp_rank_math_internal_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=653) in 0.02 seconds
+0223.224 (0) Table wp_rank_math_internal_meta: finishing file(s) (2, 0.3 KB)
+0223.244 (0) Table wp_ulisting_attribute: Total expected rows (via COUNT): 0
+0223.258 (0) Table wp_ulisting_attribute: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=862) in 0.02 seconds
+0223.284 (0) Table wp_ulisting_attribute: finishing file(s) (2, 0.4 KB)
+0223.303 (0) Table wp_ulisting_attribute_relationsh_meta: Total expected rows (via COUNT): 0
+0223.320 (0) Table wp_ulisting_attribute_relationsh_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=989) in 0.02 seconds
+0223.351 (0) Table wp_ulisting_attribute_relationsh_meta: finishing file(s) (2, 0.4 KB)
+0223.374 (0) Table wp_ulisting_attribute_term_relationships: Total expected rows (via COUNT): 0
+0223.389 (0) Table wp_ulisting_attribute_term_relationships: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=943) in 0.02 seconds
+0223.413 (0) Table wp_ulisting_attribute_term_relationships: finishing file(s) (2, 0.4 KB)
+0223.429 (0) Table wp_ulisting_listing_attribute_relationships: Total expected rows (via COUNT): 0
+0223.433 (0) Table wp_ulisting_listing_attribute_relationships: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1157) in 0.01 seconds
+0223.451 (0) Table wp_ulisting_listing_attribute_relationships: finishing file(s) (2, 0.5 KB)
+0223.466 (0) Table wp_ulisting_listing_plan: Total expected rows (via COUNT): 0
+0223.471 (0) Table wp_ulisting_listing_plan: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1182) in 0.01 seconds
+0223.490 (0) Table wp_ulisting_listing_plan: finishing file(s) (2, 0.5 KB)
+0223.506 (0) Table wp_ulisting_listing_type_relationships: Total expected rows (via COUNT): 0
+0223.514 (0) Table wp_ulisting_listing_type_relationships: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=769) in 0.01 seconds
+0223.537 (0) Table wp_ulisting_listing_type_relationships: finishing file(s) (2, 0.3 KB)
+0223.554 (0) Table wp_ulisting_listing_user_relations: Total expected rows (via COUNT): 0
+0223.560 (0) Table wp_ulisting_listing_user_relations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1100) in 0.01 seconds
+0223.584 (0) Table wp_ulisting_listing_user_relations: finishing file(s) (2, 0.5 KB)
+0223.602 (0) Table wp_ulisting_page_statistics: Total expected rows (via COUNT): 0
+0223.608 (0) Table wp_ulisting_page_statistics: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=712) in 0.01 seconds
+0223.637 (0) Table wp_ulisting_page_statistics: finishing file(s) (2, 0.4 KB)
+0223.724 (0) Table wp_ulisting_page_statistics_meta: Total expected rows (via COUNT): 0
+0223.738 (0) Table wp_ulisting_page_statistics_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=946) in 0.03 seconds
+0223.764 (0) Table wp_ulisting_page_statistics_meta: finishing file(s) (2, 0.4 KB)
+0223.780 (0) Table wp_ulisting_payment: Total expected rows (via COUNT): 0
+0223.793 (0) Table wp_ulisting_payment: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=900) in 0.02 seconds
+0223.818 (0) Table wp_ulisting_payment: finishing file(s) (2, 0.4 KB)
+0223.844 (0) Table wp_ulisting_payment_meta: Total expected rows (via COUNT): 0
+0223.856 (0) Table wp_ulisting_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=856) in 0.02 seconds
+0223.890 (0) Table wp_ulisting_payment_meta: finishing file(s) (2, 0.4 KB)
+0223.906 (0) Table wp_ulisting_search: Total expected rows (via COUNT): 0
+0223.919 (0) Table wp_ulisting_search: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=827) in 0.01 seconds
+0223.942 (0) Table wp_ulisting_search: finishing file(s) (2, 0.4 KB)
+0223.958 (0) Table wp_ulisting_user_plan: Total expected rows (via COUNT): 0
+0223.964 (0) Table wp_ulisting_user_plan: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1076) in 0.01 seconds
+0223.989 (0) Table wp_ulisting_user_plan: finishing file(s) (2, 0.4 KB)
+0224.012 (0) Table wp_ulisting_user_plan_meta: Total expected rows (via COUNT): 0
+0224.024 (0) Table wp_ulisting_user_plan_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=884) in 0.02 seconds
+0224.053 (0) Table wp_ulisting_user_plan_meta: finishing file(s) (2, 0.4 KB)
+0224.059 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\Users\User\Local Sites\keystone\app\public/wp-content/updraft/backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db.gz (line 1924, C:\Users\User\Local Sites\keystone\app\public\wp-content\plugins\updraftplus\backup.php)
+0224.067 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_options.table.tmpr17314.gz (1/45/fopen): adding to final database dump
+0224.094 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_options.table.gz (2/45/fopen): adding to final database dump
+0224.100 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_users.table.tmpr5.gz (3/45/fopen): adding to final database dump
+0224.106 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_users.table.gz (4/45/fopen): adding to final database dump
+0224.112 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_usermeta.table.tmpr110.gz (5/45/fopen): adding to final database dump
+0224.118 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_usermeta.table.gz (6/45/fopen): adding to final database dump
+0224.126 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_actionscheduler_actions.table.tmpr790.gz (7/45/fopen): adding to final database dump
+0224.132 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_actionscheduler_actions.table.gz (8/45/fopen): adding to final database dump
+0224.138 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/45/fopen): adding to final database dump
+0224.143 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_actionscheduler_claims.table.gz (10/45/fopen): adding to final database dump
+0224.149 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/45/fopen): adding to final database dump
+0224.155 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_actionscheduler_groups.table.gz (12/45/fopen): adding to final database dump
+0224.161 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_actionscheduler_logs.table.tmpr74.gz (13/45/fopen): adding to final database dump
+0224.167 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_actionscheduler_logs.table.gz (14/45/fopen): adding to final database dump
+0224.173 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_commentmeta.table.tmpr0.gz (15/45/fopen): adding to final database dump
+0224.179 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_commentmeta.table.gz (16/45/fopen): adding to final database dump
+0224.185 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_comments.table.tmpr2.gz (17/45/fopen): adding to final database dump
+0224.191 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_comments.table.gz (18/45/fopen): adding to final database dump
+0224.198 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_links.table.tmpr0.gz (19/45/fopen): adding to final database dump
+0224.204 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_links.table.gz (20/45/fopen): adding to final database dump
+0224.210 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_postmeta.table.tmpr20012.gz (21/45/fopen): adding to final database dump
+0224.365 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_postmeta.table.gz (22/45/fopen): adding to final database dump
+0224.372 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_posts.table.tmpr2279.gz (23/45/fopen): adding to final database dump
+0224.385 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_posts.table.gz (24/45/fopen): adding to final database dump
+0224.391 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_term_relationships.table.tmpr100001.gz (25/45/fopen): adding to final database dump
+0224.397 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_term_relationships.table.gz (26/45/fopen): adding to final database dump
+0224.403 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_term_taxonomy.table.tmpr128.gz (27/45/fopen): adding to final database dump
+0224.409 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_term_taxonomy.table.gz (28/45/fopen): adding to final database dump
+0224.415 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_termmeta.table.tmpr65.gz (29/45/fopen): adding to final database dump
+0224.424 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_termmeta.table.gz (30/45/fopen): adding to final database dump
+0224.430 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_terms.table.tmpr128.gz (31/45/fopen): adding to final database dump
+0224.436 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_terms.table.gz (32/45/fopen): adding to final database dump
+0224.441 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_cl_customermeta.table.tmpr0.gz (33/45/fopen): adding to final database dump
+0224.447 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_cl_customermeta.table.gz (34/45/fopen): adding to final database dump
+0224.453 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_cl_customers.table.tmpr0.gz (35/45/fopen): adding to final database dump
+0224.459 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_cl_customers.table.gz (36/45/fopen): adding to final database dump
+0224.465 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_e_events.table.tmpr11.gz (37/45/fopen): adding to final database dump
+0224.473 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_e_events.table.gz (38/45/fopen): adding to final database dump
+0224.479 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_e_submissions.table.tmpr0.gz (39/45/fopen): adding to final database dump
+0224.485 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_e_submissions.table.gz (40/45/fopen): adding to final database dump
+0224.491 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_e_submissions_actions_log.table.tmpr0.gz (41/45/fopen): adding to final database dump
+0224.497 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_e_submissions_actions_log.table.gz (42/45/fopen): adding to final database dump
+0224.503 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_e_submissions_values.table.tmpr0.gz (43/45/fopen): adding to final database dump
+0224.509 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_e_submissions_values.table.gz (44/45/fopen): adding to final database dump
+0224.515 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_enquiry_message.table.tmpr0.gz (45/45/fopen): adding to final database dump
+0224.521 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_enquiry_message.table.gz (46/45/fopen): adding to final database dump
+0224.527 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ere_save_search.table.tmpr0.gz (47/45/fopen): adding to final database dump
+0224.533 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ere_save_search.table.gz (48/45/fopen): adding to final database dump
+0224.539 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ered_email_download.table.tmpr0.gz (49/45/fopen): adding to final database dump
+0224.545 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ered_email_download.table.gz (50/45/fopen): adding to final database dump
+0224.551 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_estatik_fb_fields.table.tmpr0.gz (51/45/fopen): adding to final database dump
+0224.557 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_estatik_fb_fields.table.gz (52/45/fopen): adding to final database dump
+0224.563 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_estatik_fb_sections.table.tmpr0.gz (53/45/fopen): adding to final database dump
+0224.569 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_estatik_fb_sections.table.gz (54/45/fopen): adding to final database dump
+0224.575 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_litespeed_url.table.tmpr0.gz (55/45/fopen): adding to final database dump
+0224.581 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_litespeed_url.table.gz (56/45/fopen): adding to final database dump
+0224.587 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_litespeed_url_file.table.tmpr0.gz (57/45/fopen): adding to final database dump
+0224.593 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_litespeed_url_file.table.gz (58/45/fopen): adding to final database dump
+0224.598 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_rank_math_internal_links.table.tmpr0.gz (59/45/fopen): adding to final database dump
+0224.605 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_rank_math_internal_links.table.gz (60/45/fopen): adding to final database dump
+0224.610 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_rank_math_internal_meta.table.tmpr0.gz (61/45/fopen): adding to final database dump
+0224.617 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_rank_math_internal_meta.table.gz (62/45/fopen): adding to final database dump
+0224.623 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_attribute.table.tmpr0.gz (63/45/fopen): adding to final database dump
+0224.629 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_attribute.table.gz (64/45/fopen): adding to final database dump
+0224.636 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_attribute_relationsh_meta.table.tmpr0.gz (65/45/fopen): adding to final database dump
+0224.642 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_attribute_relationsh_meta.table.gz (66/45/fopen): adding to final database dump
+0224.647 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_attribute_term_relationships.table.tmpr0.gz (67/45/fopen): adding to final database dump
+0224.653 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_attribute_term_relationships.table.gz (68/45/fopen): adding to final database dump
+0224.659 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_listing_attribute_relationships.table.tmpr0.gz (69/45/fopen): adding to final database dump
+0224.674 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_listing_attribute_relationships.table.gz (70/45/fopen): adding to final database dump
+0224.698 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_listing_plan.table.tmpr0.gz (71/45/fopen): adding to final database dump
+0224.706 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_listing_plan.table.gz (72/45/fopen): adding to final database dump
+0224.712 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_listing_type_relationships.table.tmpr0.gz (73/45/fopen): adding to final database dump
+0224.718 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_listing_type_relationships.table.gz (74/45/fopen): adding to final database dump
+0224.725 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_listing_user_relations.table.tmpr0.gz (75/45/fopen): adding to final database dump
+0224.731 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_listing_user_relations.table.gz (76/45/fopen): adding to final database dump
+0224.738 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_page_statistics.table.tmpr0.gz (77/45/fopen): adding to final database dump
+0224.744 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_page_statistics.table.gz (78/45/fopen): adding to final database dump
+0224.750 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_page_statistics_meta.table.tmpr0.gz (79/45/fopen): adding to final database dump
+0224.756 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_page_statistics_meta.table.gz (80/45/fopen): adding to final database dump
+0224.762 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_payment.table.tmpr0.gz (81/45/fopen): adding to final database dump
+0224.768 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_payment.table.gz (82/45/fopen): adding to final database dump
+0224.774 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_payment_meta.table.tmpr0.gz (83/45/fopen): adding to final database dump
+0224.781 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_payment_meta.table.gz (84/45/fopen): adding to final database dump
+0224.787 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_search.table.tmpr0.gz (85/45/fopen): adding to final database dump
+0224.795 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_search.table.gz (86/45/fopen): adding to final database dump
+0224.801 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_user_plan.table.tmpr0.gz (87/45/fopen): adding to final database dump
+0224.810 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_user_plan.table.gz (88/45/fopen): adding to final database dump
+0224.816 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_user_plan_meta.table.tmpr0.gz (89/45/fopen): adding to final database dump
+0224.823 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db-table-wp_ulisting_user_plan_meta.table.gz (90/45/fopen): adding to final database dump
+0224.834 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db.gz: finished writing out complete database file (6342.9 KB)
+0224.938 (0) Total database tables backed up: 45 (backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db.gz, size: 6495239, sha1: 1297d952bd3aef92c6e1356bc48f526406e109cd, sha256: c5790dc6cbab9607905f0f264432a8cc3f54348856f2c7e98c74669e13a8565d)
+0224.960 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2866, C:\Users\User\Local Sites\keystone\app\public\wp-content\plugins\updraftplus\backup.php)
+0224.974 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip: plugins: This file has already been successfully uploaded
+0224.981 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-themes.zip: themes: This file has already been successfully uploaded
+0224.987 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-uploads.zip: uploads: This file has already been successfully uploaded
+0224.993 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-others.zip: others: This file has already been successfully uploaded
+0224.999 (0) backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db.gz: db: This file has not yet been successfully uploaded: will queue
+0225.005 (0) Saving backup history. Total backup size: 190.8 MB
+0225.022 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0225.043 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0225.050 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-63d9209f7875c4602f0e5ce2879643fc)
+0225.429 (0) Google Drive: quota usage: used=10786.1 MB, total=15360 MB, available=4573.9 MB
+0225.436 (0) Google Drive: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db.gz: Attempting to upload to Google Drive (into folder id: 1j95G29pOMih9fVKRgKO0v0rEpaRJWZ3Y)
+0226.420 (0) Googledrive chunked upload: 16.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 11.7 / 66)
+0226.834 (0) Googledrive chunked upload: 48.4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 11.8 / 66)
+0228.498 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0228.522 (0) Google Drive: OK: Archive backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db.gz uploaded in 3.08 seconds
+0228.528 (0) Recording as successfully uploaded: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db.gz
+0228.541 (0) Deleting local file: backup_2023-04-21-0553_Keystone_6d46ac91fbf5-db.gz: OK
+0228.554 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=4, retain_db=4
+0228.561 (0) Number of backup sets in history: 5; groups (db): 1
+0228.566 (0) Examining (for databases) backup set with group_id=0, nonce=6d46ac91fbf5, datestamp=1682056407 (Apr 21 2023 05:53:27)
+0228.572 (0) This backup set is the backup set just made, so will not be deleted.
+0228.572 (0) Examining (for databases) backup set with group_id=0, nonce=aafe0b58d5f2, datestamp=1682036508 (Apr 21 2023 00:21:48)
+0228.572 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0228.578 (0) Examining (for databases) backup set with group_id=0, nonce=60e2beee1af0, datestamp=1681723821 (Apr 17 2023 09:30:21)
+0228.578 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0228.578 (0) Examining (for databases) backup set with group_id=0, nonce=fc5d12107bc0, datestamp=1681439257 (Apr 14 2023 02:27:37)
+0228.578 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0228.578 (0) Examining (for databases) backup set with group_id=0, nonce=f55323cb4e34, datestamp=1681169875 (Apr 10 2023 23:37:55)
+0228.578 (0) 1681169875: db: this set includes a database (backup_2023-04-10-2337_Keystone_f55323cb4e34-db.gz); db count is now 4
+0228.578 (0) 1681169875: db: over retain limit (4); will delete this database
+0228.578 (0) Delete file: backup_2023-04-10-2337_Keystone_f55323cb4e34-db.gz, service=googledrive
+0230.991 (0) Google Drive: backup_2023-04-10-2337_Keystone_f55323cb4e34-db.gz: Deletion successful
+0231.005 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0231.012 (0) Number of backup sets in history: 5; groups (files): 1
+0231.018 (0) Examining (for files) backup set with nonce=6d46ac91fbf5, datestamp=1682056407 (Apr 21 2023 05:53:27)
+0231.018 (0) This backup set is the backup set just made, so will not be deleted.
+0231.026 (0) This backup set is the backup set just made, so will not be deleted.
+0231.026 (0) This backup set is the backup set just made, so will not be deleted.
+0231.026 (0) This backup set is the backup set just made, so will not be deleted.
+0231.026 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0231.032 (0) Examining (for files) backup set with nonce=aafe0b58d5f2, datestamp=1682036508 (Apr 21 2023 00:21:48)
+0231.033 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0231.033 (0) Examining (for files) backup set with nonce=60e2beee1af0, datestamp=1681723821 (Apr 17 2023 09:30:21)
+0231.033 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0231.033 (0) Examining (for files) backup set with nonce=fc5d12107bc0, datestamp=1681439257 (Apr 14 2023 02:27:37)
+0231.033 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0231.033 (0) Examining (for files) backup set with nonce=f55323cb4e34, datestamp=1681169875 (Apr 10 2023 23:37:55)
+0231.033 (0) plugins: over retain limit (4); will delete this file entity
+0231.033 (0) themes: over retain limit (4); will delete this file entity
+0231.033 (0) uploads: over retain limit (4); will delete this file entity
+0231.033 (0) others: over retain limit (4); will delete this file entity
+0231.033 (0) Delete file: backup_2023-04-10-2337_Keystone_f55323cb4e34-plugins.zip, service=googledrive
+0231.039 (0) Delete file: backup_2023-04-10-2337_Keystone_f55323cb4e34-themes.zip, service=googledrive
+0231.046 (0) Delete file: backup_2023-04-10-2337_Keystone_f55323cb4e34-uploads.zip, service=googledrive
+0231.052 (0) Delete file: backup_2023-04-10-2337_Keystone_f55323cb4e34-others.zip, service=googledrive
+0232.418 (0) Google Drive: backup_2023-04-10-2337_Keystone_f55323cb4e34-others.zip: Deletion successful
+0233.540 (0) Google Drive: backup_2023-04-10-2337_Keystone_f55323cb4e34-uploads.zip: Deletion successful
+0234.659 (0) Google Drive: backup_2023-04-10-2337_Keystone_f55323cb4e34-themes.zip: Deletion successful
+0235.516 (0) Google Drive: backup_2023-04-10-2337_Keystone_f55323cb4e34-plugins.zip: Deletion successful
+0235.531 (0) This backup set is now empty; will remove from history
+0235.538 (0) Deleting log file (log.f55323cb4e34.txt)
+0235.544 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0235.564 (0) Resume backup (6d46ac91fbf5, 0): finish run
+0235.581 (0) Decremented the semaphore (fd) by 1
+0235.593 (0) Semaphore (fd) unlocked
+0235.599 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0235.618 (0) Deleting zip manifest (backup_2023-04-21-0553_Keystone_6d46ac91fbf5-plugins.zip.list.tmp)
+0235.624 (0) Deleting zip manifest (backup_2023-04-21-0553_Keystone_6d46ac91fbf5-themes.zip.list.tmp)
+0235.631 (0) Deleting zip manifest (backup_2023-04-21-0553_Keystone_6d46ac91fbf5-uploads.zip.list.tmp)
+0235.637 (0) Deleting zip manifest (backup_2023-04-21-0553_Keystone_6d46ac91fbf5-others.zip.list.tmp)
+0235.643 (0) Fetching RSS news feed
+0235.659 (0) Fetched RSS news feed; result is a: SimplePie
+0235.747 (0) Sending email ('Files and database (Full backup)') report (attachments: 0, size: 0 KB) to: dev-e...
+0235.820 (0) The backup apparently succeeded and is now complete

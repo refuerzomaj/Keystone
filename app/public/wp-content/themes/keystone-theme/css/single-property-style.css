@@ -1,0 +1,73 @@
+/*
+For Single Property
+*/
+.single-property{
+    margin: 0;
+    padding: 0;
+    background-color: #F6F2F2;
+}
+.single-property .breadcrumbs-section{
+    background-color: #EAB830;
+    padding: 41px 0 104px 0;
+}
+.single-property .breadcrumbs-container{
+    width: 1600px;
+    margin: 0 auto;
+    color: white;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 15px;
+}
+.single-property .property-section{
+    background-color: white;
+    width: 1348px;
+    height: 969px;
+    border-radius: 15px;
+    margin: -86px auto -70px auto;
+    z-index: 10;
+}
+.single-property .property-box{
+    padding: 56px 0 0 0;
+    margin: 0 auto;
+    width: 1171px;
+}
+.single-property .images-box{
+    margin: 25px 0 0 0;
+}
+.single-property .main-image img{
+    width: 529px;
+    height:334px;
+    border-radius: 10px;
+}
+.single-property .other-image{
+    margin-left: 19px;
+}
+.single-property .other-image img{
+    width:156px;
+    border-radius: 10px;
+}
+.single-property .other-image .thumb2{
+    margin: 19px 0; 
+}
+.single-property .main-image,.other-image,.location-box{
+    display: inline-block;
+    vertical-align: top;
+}
+.single-property .location-box{
+    margin: 0 0 0 20px;
+}
+.single-property .map{
+    background-color: gray;
+    width:435px;
+    height:334px;
+    border-radius: 10px;
+}
+.single-property .address-box{
+    margin: 25px 0 0 0;
+    padding: 0 0 32px 0;
+    font-family: poppins;
+    font-size: 25px;
+    color: #273B4A;
+    font-weight: 400;
+    border-bottom:1px solid #EBE9E9;
+}

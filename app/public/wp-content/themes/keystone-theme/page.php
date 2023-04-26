@@ -1,12 +1,13 @@
 <?php
 get_header();//call the header
-get_template_part('preloader');//call the preloader function
+//get_template_part('preloader');//call the preloader function
 while(have_posts()){
     the_post();
 }
 //background-image: url(<?php echo get_theme_file_uri('/file-directory/image.png') 
 //Display Homepage 
 if(is_page('Homepage')){
+    
     the_content(); 
     ?>
     <div class="home-page">
@@ -37,7 +38,7 @@ if(is_page('Homepage')){
                             <p>Property Type</p>
                             <i class="fas fa-chevron-down" style="display:inline-block; width:auto;float:right;"></i>
                         </div>
-                        <div class="dropdown-content">
+                        <div class="dropdown-content" id="dropdown-content">
                             <a id="default">
                                 Select Type
                             </a>
@@ -69,7 +70,7 @@ if(is_page('Homepage')){
                             <p>Price Range</p>
                             <i class="fas fa-chevron-down" style="display:inline-block; width:auto;"></i>
                         </div>
-                        <div class="dropdown-content">
+                        <div class="dropdown-content" id="dropdown-content">
                             <a id="default">
                                 Select Price Range
                             </a>
@@ -120,7 +121,7 @@ if(is_page('Homepage')){
                             <p>Bedrooms</p>
                             <i class="fas fa-chevron-down" style="display:inline-block; width:auto;"></i>
                         </div>
-                        <div class="dropdown-content">
+                        <div class="dropdown-content" id="dropdown-content">
                             <a id="default">
                                 Select Bedrooms
                             </a>
@@ -177,58 +178,78 @@ if(is_page('Homepage')){
             <div class="properties-section">
 
             <?php
+                $numberOfProperties = 0; 
                 $property_type_value = ISSET( $_GET['property-type-value'] ) ? sanitize_text_field( $_GET['property-type-value'] ) : '';
                 $property_bedrooms_value = ISSET( $_GET['property-bedrooms-value'] ) ? sanitize_text_field( $_GET['property-bedrooms-value'] ) : '';
-                $min_price = isset($_GET['min-price']) ? $_GET['min-price'] : '';
-                $max_price = isset($_GET['max-price']) ? $_GET['max-price'] : '';
-                echo $property_type_value;
+                $min_price = ISSET($_GET['min-price']) ? $_GET['min-price'] : '';
+                $max_price = ISSET($_GET['max-price']) ? $_GET['max-price'] : '';
+                //echo $property_type_value;
                 if(ISSET($_GET['search-btn'])){//check filter form button if click
-                $args = array( 
-                    'post_type' => 'property', 
-                    'post_per_page' => -1,
-                    'meta_query' => array(
-                        'relation' => 'OR',
-                        array(
+                    $args = array( 
+                        'post_type' => 'property', 
+                        'post_per_page' => -1,
+                        'meta_query' => array(
+                            'relation' => 'AND',
+                        ),
+                    );
+                    if ( ! empty( $property_type_value) ) {
+                        $args['meta_query'][] = array(
+                            'key' => 'property_type',
+                            'value' => $property_type_value,
+                            'compare' => 'LIKE',
+                        );
+                    }
+                    if ( ! empty( $property_bedrooms_value ) ) {
+                        $args['meta_query'][] = array(
                             'key' => 'bedrooms',
                             'value' => $property_bedrooms_value,
                             'compare' => '=',
-                        ),
-                        array(
+                        );
+                    }
+                    if ( ! empty( $min_price ) && ! empty( $max_price ) ) {
+                        $args['meta_query'][] = array(
                             'key' => 'current_price',
                             'value' => array( $min_price, $max_price ),
                             'type' => 'numeric',
                             'compare' => 'BETWEEN',
-                        ),
-                    ),
-                );
-                }else{//if not click the filter form button
+                        );
+                    }
+                }
+                else{//if not click the filter form button
                     $args = array( 
                         'post_type' => 'property', 
-                        'post_per_page' => -1
+                        'post_per_page' => -1,
                     );
                 }
-
+                $args['orderby']  = 'meta_value';
+                $args['meta_key'] = 'property_status';
+                $args['order']    = 'ASC';
                 $properties_query = new WP_Query( $args );
 
                 if( $properties_query->have_posts() ){
                     while( $properties_query->have_posts() ){
-
                         $properties_query->the_post();
                         $custom_fields = get_post_custom();//for custom fields
                         
-                        $thumbnail_url = get_the_post_thumbnail_url( get_the_ID() );//get the image thumnail url
+                        $thumbnail_url = get_field( 'property_image_1' );//get the image thumnail url
                         $property_link = get_permalink( get_the_ID() );//get the post link
                         $property_price = get_post_meta( get_the_ID(), 'current_price', true);//get post field
                         $property_price_for_you = get_post_meta( get_the_ID(), 'available_value', true);//get post field
                         $property_equity= get_post_meta( get_the_ID(), 'instant_equity', true);//get post field
                         $property_type = get_post_meta( get_the_ID(), 'property_type', true);
+                        $property_status = get_post_meta( get_the_ID(), 'property_status', true);
+                        $property_status = implode(', ', (array) $property_status);
+                        if($numberOfProperties == 6 && $property_status == "Sold"){
+                            break;
+                        }
+                        $numberOfProperties = $numberOfProperties+1;
                         ?>
                         <!--Property Box-->
                         <div class="property-box">
                             <a href="<?php echo $property_link; ?>">
 
                                 <!-- Property Image -->
-                                <img src="<?php echo $thumbnail_url; ?>">
+                                <img src="<?php echo $thumbnail_url['url']; ?>" alt="<?php echo $thumbnail_url['alt']; ?>" />
 
                                 <!-- Property Title -->
                                 <h2 class="property-title"> 
@@ -252,7 +273,7 @@ if(is_page('Homepage')){
 
 
                             </a>
-                            <a class="link-2" href="http://keystone.local/bmv-properties/">More Properties</a>
+                            <a class="link-2" href="http://keystone.local/bmv/">More Properties</a>
                         </div>
                         <!-- end -->
                         <?php
@@ -262,9 +283,9 @@ if(is_page('Homepage')){
                 else{
                     //echo esc_html__( 'No properties found', 'text-domain' );
                     ?>
-                    <div style="margin-left:auto; margin-right:auto;">
+                    <div style="margin-left:auto; margin-right:auto; width:100%; height:165px;">
                         <center>
-                            <h3 class="filter-error-message">
+                            <h3 class="filter-error-message" style="color:white;">
                                 No Properties Found
                             </h3>
                         </center>
@@ -280,6 +301,7 @@ if(is_page('Homepage')){
                     echo '<li>' . $key . '</li>';
                 }
                 echo '</ul>';*/
+                
             ?>
             </div>
         </div>
@@ -290,7 +312,7 @@ if(is_page('Homepage')){
                     <h3 class="title">Below Market Value BMV Property</h3>
                     <p class="content1">At Keystone Invest, we offer property investors a complete BMV property investment solution. Simply select from any of the <span style="text-decoration:underline;">BMV properties</span> we currently have available, and we help you with the property completion. Investing in BMV property with us is a straight forward way to build your property investments.</p>
                     <p class="content2">We have built a reputation for sourcing some of the best BMV deals around. Our completion rate is high because we do our research correctly.</p>
-                    <a href="http://keystone.local/bmv-properties">More BMV Properties here</a>
+                    <a href="http://keystone.local/bmv">More BMV Properties here</a>
                 </div>
                 <div class="box-right">
                      <img src="http://keystone.local/wp-content/uploads/2023/03/e54693bc4dfb295bfc27f12c04088390.png" style="width:645px;height:416px;" alt="bmv_property_image">
@@ -437,7 +459,8 @@ if(is_page('Homepage')){
      
     <?php
 }
-
+if(is_page('property')){
+}
 //Display Blog Page
 if(is_page('Blog Page')){
     if(is_page_template('archive-page.php')){
@@ -558,278 +581,6 @@ if(is_page('Blog Page')){
         </div>
     <?php
     the_content(); 
-}
-//Display BMV Properties
-if(is_page('BMV')){
-    the_content();
-    ?>
-    <div class="bmv-properties">
-        <div class="second-section">
-            <div class="filter-box">
-                <div class="filters">
-                    <!-- Property Search Field -->
-                    <div class="property-searchfield-box">
-                        <img src="http://keystone.local/wp-content/uploads/2023/04/Search-Normal.png">
-                        <input type="text" id="property-searchfield" placeholder="Enter Keyword">
-                    </div>
-                    <!-- Property Type -->
-                    <div class="property-type" id="property-type">
-                        <div class="dropbtn">
-                            <img src="http://keystone.local/wp-content/uploads/2023/03/Property-icon.png">
-                            <p>Property Type</p>
-                            <i class="fas fa-chevron-down" style="display:inline-block; width:auto;float:right;"></i>
-                        </div>
-                        <div class="dropdown-content">
-                            <a href="" id="apartments">
-                                Apartments
-                            </a>
-                            <a href="">
-                                Bungalows
-                            </a>
-                            <a href="">
-                                Garages
-                            </a>
-                            <a href="">
-                                Lands
-                            </a>
-                            <a href="">
-                                Offices
-                            </a>
-                            <a href="">
-                                Villas
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Price Range -->
-                    <div class="property-price-range" id="propert-price-range">
-                        <div class="dropbtn">
-                            <img src="http://keystone.local/wp-content/uploads/2023/03/Pound.png">
-                            <p>Price Range</p>
-                            <i class="fas fa-chevron-down" style="display:inline-block; width:auto;"></i>
-                        </div>
-                        <div class="dropdown-content">
-                            <a href="">
-                               £0 - £10,000
-                            </a>
-                            <a href="">
-                               £20,000 - £50,000
-                            </a>
-                            <a href="">
-                               £60,000 - £100,000
-                            </a>
-                            <a href="">
-                               £110,000 - £150,000
-                            </a>
-                            <a href="">
-                               £160,000 - £200,000
-                            </a>
-                            <a href="">
-                               £210,000 - £250,000
-                            </a>
-                            <a href="">
-                               £260,000 - £300,000
-                            </a>
-                            <a href="">
-                               £310,000 - £350,000
-                            </a>
-                            <a href="">
-                               £360,000 - £400,000
-                            </a>
-                            <a href="">
-                               £410,000 - £450,000
-                            </a>
-                            <a href="">
-                               £460,000 - £500,000
-                            </a>
-                            <a href="">
-                               £510,000 - £560,000
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Bed Rooms -->
-                    <div class="property-bed-room" id="property-bed-room">
-                        <div class="dropbtn">
-                            <img src="http://keystone.local/wp-content/uploads/2023/03/Bed-icon.png">
-                            <p>Bedrooms</p>
-                            <i class="fas fa-chevron-down" style="display:inline-block; width:auto;"></i>
-                        </div>
-                        <div class="dropdown-content">
-                            <a href="">
-                                1
-                            </a>
-                            <a href="">
-                                2
-                            </a>
-                            <a href="">
-                                3
-                            </a>
-                            <a href="">
-                                4
-                            </a>
-                            <a href="">
-                                5
-                            </a>
-                            <a href="">
-                                6
-                            </a>
-                            <a href="">
-                                7
-                            </a>
-                            <a href="">
-                                8
-                            </a>
-                            <a href="">
-                                9
-                            </a>
-                            <a href="">
-                                10
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Search button -->
-                    <div class="property-search-btn" id="property-search-btn">
-                        <button>Search <img src=""></button>
-                    </div>
-                    <!-- More View Button -->
-                    <div class="property-more-btn" id="property-more-btn">
-                        <button>More Filters</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- First Section Section -->
-        <div class="third-section">
-            <div class="box">
-                <p>
-                    <a href="http://keystone.local/homepage" style="padding:0;margin:0; text-decoration:none; color:white;">Home</a> > BMV Properties
-                </p>
-            </div>
-         </div>
-         <div class="fourth-section">
-            <div class="properties-section">
-            <?php
-            $args = array( 
-                'post_type' => 'property', 
-                'post_per_pae' => -1,
-            );
-
-            $properties_query = new WP_Query( $args );
-
-            if( $properties_query->have_posts() ){
-                while( $properties_query->have_posts() ){
-
-                $properties_query->the_post();
-                $custom_fields = get_post_custom();//for custom fields
-
-                $property_location = get_post_meta( get_the_ID(), 'property_address', true);//get post field
-                $property_description = get_post_meta( get_the_ID(), 'property_description', true);//get post field
-                $thumbnail_url = get_the_post_thumbnail_url( get_the_ID() );//get the image thumnail url
-                $property_link = get_permalink( get_the_ID() );//get the post link
-                $property_price = get_post_meta( get_the_ID(), 'current_price', true);//get post field
-                $property_price_for_you = get_post_meta( get_the_ID(), 'available_value', true);//get post field
-                $property_bedrooms = get_post_meta( get_the_ID(), 'bedrooms', true);
-                $property_bathrooms = get_post_meta( get_the_ID(), 'bathrooms', true);
-                $property_floor_area = get_post_meta( get_the_ID(), 'floor_area', true);
-                $property_equity= get_post_meta( get_the_ID(), 'instant_equity', true);//get post field
-                ?>
-                <!--Property Box-->
-                <div class="property-box">
-                    <a href="<?php echo $property_link; ?>">
-
-                        <!-- Property Image -->
-                        <div class="img-box">
-                            <img class="property-img" src="<?php echo $thumbnail_url; ?>">
-                        </div>
-                        
-                        <div class="info-box">
-                            <!-- Property Title -->
-                            <h2 class="property-title"> 
-                                <?php echo get_the_title();//function that get page or post title ?>
-                            </h2>
-
-                            <!-- Property Location -->
-                            <p class="property-location"> 
-                                <?php echo $property_location;//variable that get property location ?>
-                            </p>
-
-                            <!-- Property Description  -->
-                            <p class="property-description"> 
-                                <?php echo $property_description;//variable that get property price ?>
-                            </p>
-
-                            <!-- Property Current Value -->
-                            <div class="property-current-value">
-                                <p>
-                                    Current Value: <br><span>£<?php echo $property_price;//variable that get current price ?></span>
-                                </p>
-                            </div>
-
-                            <!-- Property available-for-you  -->
-                            <div class="property-available-for-you">
-                                <p>
-                                Avalable to you for: <br><span>£<?php echo $property_price_for_you;//variable that get available price ?></span>
-                                </p>
-                            </div>
-
-                            <!-- this is a break -->
-                            <br>
-
-                            <!-- Bedrooms -->
-                            <div class="property-bedrooms">
-                                <p>Bedrooms</p>
-                                <div>
-                                    <img src="http://keystone.local/wp-content/uploads/2023/03/1d1f0f0731a48358435c23c8cfa04fe1-1.png" alt="" style="width:20px;height:20px;"/>
-                                    <p>
-                                        <?php echo $property_bedrooms;//variable that get bedrooms ?>
-                                    </p>
-                                </div>
-                            </div>
-
-                            <!-- Bathrooms -->
-                            <div class="property-bathrooms">
-                                <p>Bathrooms</p>
-                                <div>
-                                    <img src="http://keystone.local/wp-content/uploads/2023/03/bathroom-1.png" alt="" style="width:20px;height:20px;"/>
-                                    <p>
-                                        <?php echo $property_bedrooms;//variable that get bedrooms ?>
-                                    </p>
-                                </div>
-                            </div>
-
-                            <!-- Property Equity -->
-                            <div class="property-floor-area">
-                                <p>Floor Area</p>
-                                <div>
-                                    <img src="http://keystone.local/wp-content/uploads/2023/03/area-1.png" alt="" style="width:20px;height:20px;"/>
-                                    <p>
-                                        <?php echo $property_floor_area;//variable that get floor area ?> m²
-                                    </p>
-                                </div>
-                            </div>
-
-                            <!-- this is a break -->
-                            <br>
-
-                            <div class="property-buttons">
-                                <a href="#" id="view-more-button">View More</a>
-                                <a href="http://keystone.local/contact-us/" id="call-us-button"><i class="fas fa-phone-alt"></i>&nbsp Call Us</a>
-                            </div>
-                        </div>
-                    </a>
-                    
-                </div>
-                <!-- end -->
-                <?php
-            
-                }wp_reset_postdata();
-            }
-            else{
-                echo esc_html__( 'No properties found', 'text-domain' );
-            } 
-        ?>
-        </div>
-    </div>
-    <?php
 }
 if(is_page('Contact Us')){
     the_content();
